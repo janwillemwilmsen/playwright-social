@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Social preview</h1>
+    
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://essent.nl">essent.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://essent.nl">essent.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://toertocht.be">toertocht.be</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://socialsharepreview.com">socialsharepreview.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.heymeta.com">heymeta.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.opengraph.xyz/">opengraph.xyz</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.essent.nl/kennisbank/stroom-en-gas/energierekening/wat-is-duurder-gas-stroom">essent.nl/kennisbank/stroom-en-gas/energierekening/wat-is-duurder-gas-stroom</a><br><br>
+
+    Proxy test image:<br>
+    <img src="/proxy?url=https://www.essent.nl/-/media/images-v3/stroom_of_gas_goedkoper.ashx?h=600&iar=0&w=2560&hash=1B4A05F8F389B9EDA85A6B1B9784994A" width="150">
+
+
+    <br><br>
+
+    Url to check:<br>
+    <form  method="get" action="/index.html">
+        <input type="text" name="url" id="url" placeholder="url">
+        <input type="submit" value="Go">
+    </form>
+
+    <h2>results</h2>
+    <div class="flex" style="background-color: bisque;"> 
+        <div>Meta description:</div>
+        <ul id="metadata"></ul>
+    </div>
+    <div class="flex" style="background-color: aquamarine;">
+        <div>Meta title:</div>
+        <div id="metatitel"></div>
+    </div>
+    <div class="flex" style="background-color: chocolate;">
+        <div>Meta robots: </div>
+        <div id="robots"></div>
+    </div>
+    <br><br>
+
+    
+    <div id="ogurl"></div>
+    <div id="ogtitle"></div>
+    <div id="ogdescription"></div>
+   
+
+    <div class="flex" style="background-color: darkcyan;">
+        <div>OG img url</div>
+        <div id="ogimage"></div>
+        
+    </div>
+    <div class="flex" style="background-color: darksalmon;">
+
+        <div id="ogimsrc"></div>
+        Width of the defined og:image = <span id="ogimsrcwidth"></span><span id="ogimsrcwidthunits"></span><br>
+        Height of the defined og:image = <span id="ogimsrcheight"></span><span id="ogimsrcheightunits"></span><br>
+        Aspectratio: <span id="aspectog"></span>
+        Type = <span id="ogimsrctype"></span>
+        <!-- <span id="ogimsrcurl"></span>
+        <span id="ogimsrcxqz"></span>
+        <span id="ogimsrcabc"></span> -->
+
+    </div>
+
+
+    <h2>Images on the page:</h2>
+    <ul id="imagelist"></ul>
+
+    <br><br>
+    <div id="json"></div>
+
+    <!-- Fetched URL
+    Link Preview
+    og:url
+    og:title
+    og:description -->
+
+
+
+<script>
+
+    let params = (new URL(document.location)).searchParams;
+    let query = params.get('url');
+    console.log(query)
+    // let sitemapapiurl = 'https://urlsitemaptool.vercel.app/?xmlsitemap='
+
+    document.getElementById('url').value = query;
+
+    const jsonData = ''
+
+    searchShow(query)
+
+    async function searchShow(query) {
+        // showSpinner();
+        const domainUrl = `${query}`
+        console.log('DomainUrl', domainUrl)
+        // Trim evt
+        // /sitemap is GET url in Express
+    
+        // const apiUrl = '/api?url=/proxy?url='
+        const apiUrl = '/api?url='
+        // const apiUrl = 'http://localhost:8080/api?url='
+        // const apiUrl = 'https://sitemap-detector-kykti36joa-nw.a.run.app/sitemap?url='
+
+        
+// API aanpassing bij metaData.push({            'ogi': 'ogi',               openGraphImageDetails
+// Alleen essent.json lokaal aangepast
+
+
+        // Dynamische url OF test JSON file.
+        const url = apiUrl + domainUrl;
+        // const url  = '/test/toertocht.json'
+        // const url  = '/test/essent.json'
+        // const url  = '/test/opengraph.json'
+
+        console.log(url)
+        const response = await fetch(url)
+        .then(response => response.json() )
+        .then((jsonData) => {
+            // console.log(data)
+            console.log('jsonData = ', jsonData)
+            console.log('we got data');
+            const results = jsonData.map(element => element )
+            console.log('Results van api = ', results)
+
+        //     const list = document.getElementById('sitemaps')
+        //     list.innerHTML = ("");
+        //     results.forEach(result => {
+        //     const element = document.createElement('li')
+        //     element.innerText = result.desc + ' ' + result.value;
+        //     list.appendChild(element);
+        // })
+
+
+        /////////////////PRESENT JSON
+        document.getElementById("json").textContent = JSON.stringify(results, undefined, 2);
+      
+
+        // { "type": "image", "imgsrc": "https://toertocht.be/icons/whatsapp.svg", "imgDetails": { "width": 2500, "height": 2489, "type": "svg", "mime": "image/svg+xml", "wUnits": "px", "hUnits": "px", "length": 4873, "url": "https://toertocht.be/icons/whatsapp.svg" }
+
+        /////////////////IMAGE LIST
+        const imagelist = document.getElementById('imagelist')
+
+        const allImages = results.filter(function (item){
+            return item.type === 'image' 
+            // return item.type === 'svg'
+        });
+        console.log('All normal images', allImages)
+
+
+  
+
+
+        allImages.forEach(image => {
+            console.log('for Each element', image)
+            const listItem = document.createElement('li')
+
+
+            //// If image is smaller 200px
+            const minWidth = image.imgDetails.height
+            if(minWidth < 200) {
+                listItem.style.display = 'none'
+            }
+
+
+            
+            const imagePop = document.createElement('img')
+            const imgLink = document.createElement('a')
+
+            imagePop.setAttribute('src', image.imgsrc)
+
+
+            const altText = 'Image height: ' + image.imgDetails.height + ' ...and... ' + 'Image width:' + image.imgDetails.width
+            
+
+            imagePop.setAttribute('alt', altText)
+            imagePop.setAttribute('title', altText)
+            imagePop.setAttribute('width', '80')
+            imagePop.style.background = 'gray'
+            // listItem.innerText = image.imgsrc
+
+            // update src og img placeholder
+            // const ogimsrc = document.getElementById('preview')
+
+            imagePop.addEventListener('click', event => {
+                // ogimsrc.src ='image.imgsrc';
+                // ogimsrc.setAttribute('src', image.imgsrc)
+                // document.getElementById('preview').textContent = `Click count: ${event.detail}`;
+                // document.getElementById('preview').style.width = `560px`;
+                document.getElementById('preview').src = image.imgsrc;
+
+                // Uitgezet omdat als er wel een OG image is dit een error geeft.
+                // document.getElementById('NoOGimageFound').style.display = 'none';
+            });
+
+            // imgLink.setAttribute('href', image.imgsrc)
+            // imgLink.setAttribute('onclick', 'javascript:document.getElementById("ogimsrc").src=' + `${image.imgsrc}`)
+            // imgLink.setAttribute('onclick', updateSrc())
+
+         
+
+            // imgLink.setAttribute('target', 'preview')
+            listItem.append(imgLink)
+            imgLink.append(imagePop)
+            imagelist.appendChild(listItem);
+        });
+
+
+        //////////////////// OG Details //////////////////////////////////////////////////////////////////////////////////
+
+
+
+        // function isOGDetails(value) {
+        //     return value === 'openGraphImageDetails'
+        // }
+
+
+            // const ogDetails11 = results.find(results = 'openGraphImageDetails')
+            
+            const ogDetails12 = results.filter(function (item){
+                return item.ogi === 'ogi';
+            })
+            
+            // console.log('Nieuw poging om details uit los json element op te halen', ogDetails11)
+            console.log('OGI OGI OGI = ', ogDetails12)
+    
+
+            // console.log('Item OGI', ogDetails12.openGraphImageDetails.width)
+            // const user = ogDetails12[1]
+            // console.log('usersss', user)
+            // const [ ogi, {  width, height, type, mime, wUnits, hUnits, length, url }] = user;
+            // console.log('Width van OG IMAGE = ', width)
+
+
+            ///// Desctructure Array en Objects.......................... getest waarom het met inline json wel werkte, niet met ingeladen json. In inspector kwamen de console logs terug met melding dat het om een Object ging (wel te desctureren) en om een Array. 
+      
+
+            // const user = { "ogi": "ogi", "openGraphImageDetails": { "width": 135, "height": 72, "type": "png", "mime": "image/png", "wUnits": "px", "hUnits": "px", "length": 3137, "url": "https://static.essent.nl/online/img/logo-essent.png" }}     
+            // console.log('USER USER USER = ', user)  
+            // const {openGraphImageDetails: {wUnits}} = user;
+            // console.log('Waarom wel van inline json object = ', wUnits); //prints: Masters
+
+
+            // const obj = Object.fromEntries(ogDetails12);
+            // console.log('Object from OG details', obj);
+            
+            const [{openGraphImageDetails: {width, height, type, wUnits, hUnits, url}}] = ogDetails12;
+            console.log('en niet vanaf json array?', hUnits);
+            console.log('width', width);
+
+
+
+        const eleMentogimsrcwidth = document.getElementById('ogimsrcwidth')
+        eleMentogimsrcwidth.innerText = width
+        const eleMentogimsrcheight = document.getElementById('ogimsrcheight')
+        eleMentogimsrcheight.innerText = height
+        const eleMentogimsrcwidthunits = document.getElementById('ogimsrcwidthunits')
+        eleMentogimsrcwidthunits.innerText = wUnits
+        const eleMentogimsrcheightunits = document.getElementById('ogimsrcheightunits')
+        eleMentogimsrcheightunits.innerText = hUnits
+        const eleMentogimsrctype = document.getElementById('ogimsrctype')
+        eleMentogimsrctype.innerText = type
+
+        function gcd (a, b) {
+            return (b == 0) ? a : gcd (b, a%b);
+        }
+        var w = width;
+        var h = height;
+        var r = gcd (w, h);
+        var left =  w/r
+        var right = h/r
+        console.log('widthOGimage', w )
+        console.log('heightOGimage', h)
+        console.log('common demonitor', r)
+        console.log('Left', left )
+        console.log('Right', right )
+        
+
+       const aspectog = document.getElementById('aspectog')
+       const innerValues = document.createElement('span')
+       innerValues.innerHTML = left + ':' + right
+    //    innerValues.innerText = 'heey'
+       aspectog.appendChild(innerValues)
+
+      
+        ////////////////////////////////////////PRESENT OGimage /////////////////////////////////////
+        const ogImageElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:image';
+        })
+
+        // const ogImageElement = results.filter(function (item){
+        //     return item === 'openGraphImageDetails';
+        // })
+
+        // const ogImageElement = results.openGraphImageDetails
+        // const ogImageElement = results.query
+        
+        
+      
+
+        console.log('OPEN Graph IMAGE = ', ogImageElement)
+
+        if(ogImageElement.length === 0 ){
+            const ogimage = document.getElementById('ogimage')
+            ogimage.innerHTML = `
+                <img src="" id="preview" style="background:gray;width:270px;">
+                <div id="NoOGimageFound">
+                    No <strong>og:image</strong> found - 
+                    Facebook will use any other image used on your page. <br>
+                    Click on any of the images below to see how it would look if they were used as the image.
+                    </div>`
+        }
+        else{
+            console.log('OG:image element = ', ogImageElement)
+            // const data = metaElements
+            const ogimage = document.getElementById('ogimage')
+            const src = ogImageElement[0].metaElementContent
+            ogimage.innerText = src
+
+            // const OGwidth = ogImageElement[0].
+
+
+            const ogimsrc = document.getElementById('ogimsrc')
+            const image = document.createElement('img')
+            image.setAttribute('src', src)
+            image.setAttribute('id', 'preview')
+            image.style.background = 'yellow'
+            image.style.width = '350px'
+            image.style.height = '100%'
+            ogimsrc.appendChild(image)
+        }
+
+
+
+          /////PRESENT OGDescription
+          const ogDescriptionElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:description';
+        })
+
+        if(ogDescriptionElement.length === 0 ){
+            const ogdescription = document.getElementById('ogdescription')
+            ogdescription.innerText = 'No og:discription found'
+        }
+        else{
+            console.log('OG:Description element = ', ogDescriptionElement)
+            // const data = metaElements
+            const ogdescription = document.getElementById('ogdescription')
+            ogdescription.innerText = ogDescriptionElement[0].metaElementContent
+        }
+
+
+
+
+
+        /////PRESENT OGurl
+        const ogUrlElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:url';
+        })
+
+        if(ogUrlElement.length === 0 ){
+            const ogurl = document.getElementById('ogurl')
+            const noValue = document.createElement('div')
+            noValue.style.background = 'lightblue'
+            // noValue.style.background = 'gray'
+            noValue.innerHTML = `No <strong>og:url</strong> found. <br> 
+                                 Fallback to url : ${query}`
+            ogurl.appendChild(noValue)
+        }
+        else{
+            console.log('OG:url element =', ogUrlElement)
+            // const data = metaElements
+            const ogurl = document.getElementById('ogurl')
+            ogurl.innerText = ogUrlElement[0].metaElementContent
+        }
+
+
+        /////PRESENT OGTITLE
+        const ogTitleElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:title';
+        })
+
+        if(ogTitleElement.length === 0 ){
+            const ogtitle = document.getElementById('ogtitle')
+            const noOgTitle = document.createElement('div')
+            noOgTitle.style.background = 'pink'
+            noOgTitle.innerHTML= `No <strong>og:title</strong> found. Falling back to title : ${results[0].paginatitel}`
+            ogtitle.appendChild(noOgTitle);
+        }
+        else{
+            console.log('OG:title element =', ogTitleElement)
+            // const data = metaElements
+            const ogtitle = document.getElementById('ogtitle')
+            ogtitle.innerText = ogTitleElement[0].metaElementContent
+        }
+
+
+
+
+        /////////////////PRESENT Meta Title
+        const seotitle = document.getElementById('metatitel')
+        if(results[0].paginatitel === undefined){
+            seotitle.innerText = 'There is no title element in the html of the page'
+        }
+        else {
+            seotitle.innerText = results[0].paginatitel
+        }
+
+
+
+
+        ////////////////PRESENT ROBOTS value
+        const metaElements = results.filter(function (item){
+            return item.metaElement === 'robots';
+        })
+
+        if(metaElements.length === 0 ){
+            const rbt = document.getElementById('robots');
+        rbt.innerText = 'No robots text found'
+        }
+        else{
+            console.log('Meta element Filter Robots', metaElements)
+            // const data = metaElements
+            const rbt = document.getElementById('robots');
+            rbt.innerText = metaElements[0].metaElementContent
+        }
+
+
+
+        }) 
+        // return response.json()
+        return jsonData;
+    }
+
+</script>
+
+    
+</body>
+</html>

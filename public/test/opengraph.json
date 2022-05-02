@@ -1,0 +1,164 @@
+[
+	{
+		"paginatitel": "OpenGraph - Preview Social Media Share and Generate Metatags"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": null,
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "viewport",
+		"metaElementContent": "width=device-width,initial-scale=1",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "msapplication-TileColor",
+		"metaElementContent": "#ffffff",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "msapplication-TileImage",
+		"metaElementContent": "/ms-icon-144x144.png",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "theme-color",
+		"metaElementContent": "#ffffff",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "description",
+		"metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "OpenGraph - Preview Social Media Share and Generate Metatags",
+		"metaElementProperty": "og:title"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
+		"metaElementProperty": "og:description"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.opengraph.xyz/og-opengraph-v2.png",
+		"metaElementProperty": "og:image"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "website",
+		"metaElementProperty": "og:type"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "OpenGraph",
+		"metaElementProperty": "og:site_name"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.opengraph.xyz/",
+		"metaElementProperty": "og:url"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "en",
+		"metaElementProperty": "og:locale"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "OpenGraph - Preview Social Media Share and Generate Metatags",
+		"metaElementProperty": "twitter:title"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
+		"metaElementProperty": "twitter:description"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.opengraph.xyz/og-opengraph-v2.png",
+		"metaElementProperty": "twitter:image"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "summary_large_image",
+		"metaElementProperty": "twitter:card"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.opengraph.xyz/",
+		"metaElementProperty": "twitter:url"
+	},
+	{
+		"metaElement": "mobile-web-app-capable",
+		"metaElementContent": "yes",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "apple-mobile-web-app-title",
+		"metaElementContent": "social-design",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "author",
+		"metaElementContent": "Yuyu",
+		"metaElementProperty": null
+	},
+	{
+		"openGraphImageDetails": {
+			"width": 1200,
+			"height": 630,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 240877,
+			"url": "https://www.opengraph.xyz/og-opengraph-v2.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png",
+		"imgDetails": {
+			"width": 61,
+			"height": 40,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1722,
+			"url": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png",
+		"imgDetails": {
+			"width": 61,
+			"height": 40,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1722,
+			"url": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.opengraph.xyz/_nuxt/image/4a579b.jpg",
+		"imgDetails": {
+			"width": 90,
+			"height": 90,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 2435,
+			"url": "https://www.opengraph.xyz/_nuxt/image/4a579b.jpg"
+		}
+	}
+]
