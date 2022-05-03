@@ -52,11 +52,20 @@
 		"metaElementContent": "article",
 		"metaElementProperty": "og:type"
 	},
-	
+	{
+		"metaElement": null,
+		"metaElementContent": "",
+		"metaElementProperty": "og:title"
+	},
 	{
 		"metaElement": null,
 		"metaElementContent": "https://static.essent.nl/online/img/logo-essent.png",
 		"metaElementProperty": "og:image"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.essent.nl/content/particulier/index.html",
+		"metaElementProperty": "og:url"
 	},
 	{
 		"ogi": "ogi",

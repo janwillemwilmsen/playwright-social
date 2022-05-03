@@ -45,7 +45,8 @@ app.use(function (req, res, next) {
 		const url = req.query.url || 'https://essent.nl';
         const baseUrl = getBaseUrl(url)
 
-        const context = await browser.newContext({ deviceScaleFactor: 1 });
+        // const context = await browser.newContext({ deviceScaleFactor: 1 });
+        const context = await browser.newContext({bypassCSP: true});
         const page = await context.newPage();
 
 
@@ -140,8 +141,7 @@ app.use(function (req, res, next) {
           })
 
           if (result.length > 0){
-
-            
+           
             // OG image gefilerd:
             console.log('Dit is de OGimage array', result)
             // console.log(JSON.stringify(result))
@@ -153,32 +153,73 @@ app.use(function (req, res, next) {
             // const [{ meta, metaElement, metaElementContent, metaElementProperty}] = user;
             
             console.log('String image url:', metaElementContent)
-            
-            // const data = result
-            // const [{metaElementContent}] = data;
-            // console.log('String image url:', data)
-            // const ogimagedetails = result
-            
-            let openGraphImageDetails = await probe(metaElementContent);
-            console.log(openGraphImageDetails);
-            
-            metaData.push({
-              'ogi': 'ogi', 
-              openGraphImageDetails
-              // width: 1200,
-              // height: 630,
-              // type: 'jpg',
-              // mime: 'image/jpeg',
-              // wUnits: 'px',
-              // hUnits: 'px',
-              // length: 428769,
-              // url: 'https://social
-            })
+
+
+            if(metaElementContent === ''){ 
+              // String image url is empty / null
+               // Niet ideaal. fake OG image als er geen echte OG image gevonden wordt.
+                          console.log('No open grapgh image found')
+                          metaData.push({
+                            'ogi': 'ogi', 
+                            openGraphImageDetails: { width:  0,
+                            height: 0,
+                            type: ' Not found',
+                            mime: '',
+                            wUnits: ' Not found',
+                            hUnits: ' Not found',
+                            length: 0,
+                            url: 'https://via.placeholder.com/1'}
+                          })
+
+            }
+            else {
+              // 
+          
+                                  let openGraphImageDetails = await probe(metaElementContent);
+                                  console.log(openGraphImageDetails);
+                                  
+                                  metaData.push({
+                                    'ogi': 'ogi', 
+                                    openGraphImageDetails
+                                    // width: 1200,
+                                    // height: 630,
+                                    // type: 'jpg',
+                                    // mime: 'image/jpeg',
+                                    // wUnits: 'px',
+                                    // hUnits: 'px',
+                                    // length: 428769,
+                                    // url: 'https://social
+                                  })
+
+                    }
+
+
           }
           else{
+            // Niet ideaal. fake OG image als er geen echte OG image gevonden wordt.
             console.log('No open grapgh image found')
+            metaData.push({
+              'ogi': 'ogi', 
+              openGraphImageDetails: { width:  0,
+              height: 0,
+              type: ' Not found',
+              mime: '',
+              wUnits: ' Not found',
+              hUnits: ' Not found',
+              length: 0,
+              url: 'https://via.placeholder.com/1'}
+            })
           }
             
+
+
+
+
+
+
+
+
+
           // sizeOf(result, function (err, dimensions) {
           //   console.log(dimensions.width, dimensions.height)
           // })
@@ -197,40 +238,57 @@ app.use(function (req, res, next) {
           const href = await images[i].getAttribute('src');
           console.log('HREF = ', href)
 
-
-          // if HREF begint met data:image dan negeren
-          var RegEx = new RegExp('^data:image');
-          href2 = ''
-          if (RegEx.test(href)) {
-            console.log('DATA image gevonden')
+          if(href === null){
+            console.log('HREF NOT FOUND OR FILLED')
             var href2 = 'https://via.placeholder.com/1'
           }
+           else{
 
-          else {
+                        // if HREF begint met data:image dan negeren
+                        var RegEx = new RegExp('^data:image');
+                        href2 = ''
+                        if (RegEx.test(href)) {
+                          console.log('DATA image gevonden')
+                          var href2 = 'https://via.placeholder.com/1'
+                        }
+                        else {
+                          // else Dan nieuwe Regex die checkt of url absoluut of relatief is.
+                          
+                          var RgExp = new RegExp('^(?:[a-z]+:)?//', 'i');
 
-            // else Dan nieuwe Regex die checkt of url absoluut of relatief is.
-            var RgExp = new RegExp('^(?:[a-z]+:)?//', 'i');
-            href2 = ''
-            if (RgExp.test(href)) {
-              console.log ( "This is Absolute URL.")
-              var href2 = href
-            } else {
-              console.log(  "This is Relative URL.")
+                          href2 = ''
+                          if (RgExp.test(href)) {
+                            // console.log ( "This is Absolute URL.")
+                            var href2 = href
+                            console.log('Absolute Url', href2)
+                          } 
+                          else 
+                            {
+                            // console.log(  "This is Relative URL.")
 
-              var RegexS = new RegExp(/^\/[a-z0-9]+$/i);
+                                  var RegexS = new RegExp(/^\/[a-z0-9]+$/i);
 
-              if (RegexS.test(href)){
-                console.log('image url start with slash BOVEN')
-                var href2 = 'https://' + baseUrl + href
-              } else {
-                console.log('image url start with slash ONDER')
-                var href2 = 'https://' + baseUrl + '/' + href
+                                  if (RegexS.test(href2)){
+                                    // if(href2.indexOf("/") > -1) {
+                                    var href2 = 'https://' + baseUrl  + href
+                                    console.log('image url start with slash BOVEN', href2)
+                                  } else {
+                                    var href2 = 'https://' + baseUrl + '/' + href
+                                    console.log('image url start with slash ONDER', href2)
+                                    
 
-              }
+                                  }
 
-            }
-            
-          }
+                          }
+                          
+                        }
+
+                      }      
+
+
+                      // https://www.google.nl/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
+                      // https://google.nl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+
           // probe(src [, options|keepOpen]) -> Promise
           // probe('', {})
 
@@ -434,7 +492,7 @@ res.send(metaData);
 
     }
     // }     /////end van Async 
-    ///// test wat
+
     
     });
       

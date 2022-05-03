@@ -83,16 +83,15 @@
 		"metaElementProperty": null
 	},
 	{
-		"type": "image",
-		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
+		"ogi": "ogi",
+		"openGraphImageDetails": {
+			"width": 0,
+			"height": 0,
+			"type": " Not found",
+			"mime": "",
+			"wUnits": " Not found",
+			"hUnits": " Not found",
+			"length": 0,
 			"url": "https://via.placeholder.com/1"
 		}
 	},
@@ -112,7 +111,21 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be/_nuxt/img/c08a61e.jpg",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": {
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://toertocht.be//_nuxt/img/c08a61e.jpg",
 		"imgDetails": {
 			"width": 535,
 			"height": 123,
@@ -126,7 +139,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be/_nuxt/img/c08a61e.jpg",
+		"imgsrc": "https://toertocht.be//_nuxt/img/c08a61e.jpg",
 		"imgDetails": {
 			"width": 535,
 			"height": 123,
@@ -140,7 +153,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be/_nuxt/img/c08a61e.jpg",
+		"imgsrc": "https://toertocht.be//_nuxt/img/c08a61e.jpg",
 		"imgDetails": {
 			"width": 535,
 			"height": 123,
@@ -168,7 +181,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be/install-experience/ios_share.svg",
+		"imgsrc": "https://toertocht.be//install-experience/ios_share.svg",
 		"imgDetails": {
 			"width": 48,
 			"height": 48,
@@ -182,7 +195,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be/icons/facebook.svg?data",
+		"imgsrc": "https://toertocht.be//icons/facebook.svg?data",
 		"imgDetails": {
 			"width": 191.6,
 			"height": 191.6,
@@ -196,7 +209,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be/icons/twitter.svg",
+		"imgsrc": "https://toertocht.be//icons/twitter.svg",
 		"imgDetails": {
 			"width": 249.9,
 			"height": 203.2,
@@ -210,7 +223,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be/icons/whatsapp.svg",
+		"imgsrc": "https://toertocht.be//icons/whatsapp.svg",
 		"imgDetails": {
 			"width": 2500,
 			"height": 2489,

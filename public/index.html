@@ -16,11 +16,14 @@
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://socialsharepreview.com">socialsharepreview.com</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.heymeta.com">heymeta.com</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.opengraph.xyz/">opengraph.xyz</a><br>
-    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.essent.nl/kennisbank/stroom-en-gas/energierekening/wat-is-duurder-gas-stroom">essent.nl/kennisbank/stroom-en-gas/energierekening/wat-is-duurder-gas-stroom</a><br><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://ing.nl/">ing.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://google.nl/">google.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://amazon.com/">amazon.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://facebook.com/">facebook.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://jumbo.com/">jumbo.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen">https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen</a><br><br>
 
-    Proxy test image:<br>
-    <img src="/proxy?url=https://www.essent.nl/-/media/images-v3/stroom_of_gas_goedkoper.ashx?h=600&iar=0&w=2560&hash=1B4A05F8F389B9EDA85A6B1B9784994A" width="150">
-
+     
 
     <br><br>
 
@@ -33,7 +36,7 @@
     <h2>results</h2>
     <div class="flex" style="background-color: bisque;"> 
         <div>Meta description:</div>
-        <ul id="metadata"></ul>
+        <div id="metadescription"></div>
     </div>
     <div class="flex" style="background-color: aquamarine;">
         <div>Meta title:</div>
@@ -52,7 +55,7 @@
    
 
     <div class="flex" style="background-color: darkcyan;">
-        <div>OG img url</div>
+        <div>OG img url:</div>
         <div id="ogimage"></div>
         
     </div>
@@ -115,8 +118,8 @@
 
 
         // Dynamische url OF test JSON file.
-        const url = apiUrl + domainUrl;
-        // const url  = '/test/toertocht.json'
+        // const url = apiUrl + domainUrl;
+        const url  = '/test/toertocht.json'
         // const url  = '/test/essent.json'
         // const url  = '/test/opengraph.json'
 
@@ -308,9 +311,10 @@
         console.log('OPEN Graph IMAGE = ', ogImageElement)
 
         if(ogImageElement.length === 0 ){
+            console.log('ogImageElement.length === 0')
             const ogimage = document.getElementById('ogimage')
             ogimage.innerHTML = `
-                <img src="" id="preview" style="background:gray;width:270px;">
+                <img src="" id="preview" style="background:gray;width:270px;height:200px;">
                 <div id="NoOGimageFound">
                     No <strong>og:image</strong> found - 
                     Facebook will use any other image used on your page. <br>
@@ -318,6 +322,7 @@
                     </div>`
         }
         else{
+            console.log('ogImageElement.length === 11111111111111111111111111111111111111111')
             console.log('OG:image element = ', ogImageElement)
             // const data = metaElements
             const ogimage = document.getElementById('ogimage')
@@ -339,22 +344,9 @@
 
 
 
-          /////PRESENT OGDescription
-          const ogDescriptionElement = results.filter(function (item){
-            return item.metaElementProperty === 'og:description';
-        })
 
-        if(ogDescriptionElement.length === 0 ){
-            const ogdescription = document.getElementById('ogdescription')
-            ogdescription.innerText = 'No og:discription found'
-        }
-        else{
-            console.log('OG:Description element = ', ogDescriptionElement)
-            // const data = metaElements
-            const ogdescription = document.getElementById('ogdescription')
-            ogdescription.innerText = ogDescriptionElement[0].metaElementContent
-        }
 
+      
 
 
 
@@ -390,7 +382,7 @@
             const ogtitle = document.getElementById('ogtitle')
             const noOgTitle = document.createElement('div')
             noOgTitle.style.background = 'pink'
-            noOgTitle.innerHTML= `No <strong>og:title</strong> found. Falling back to title : ${results[0].paginatitel}`
+            noOgTitle.innerHTML= `No <strong>og:title</strong> found.<br> Falling back to title : ${results[0].paginatitel}`
             ogtitle.appendChild(noOgTitle);
         }
         else{
@@ -399,6 +391,48 @@
             const ogtitle = document.getElementById('ogtitle')
             ogtitle.innerText = ogTitleElement[0].metaElementContent
         }
+
+
+
+        
+/// PRESENT META DESCRIPTION
+
+            const metaDescriptionJson = results.filter(function (item){
+                return item.metaElement === 'description'
+            })
+            console.log('META META META', metaDescriptionJson)
+            console.log('META META META', metaDescriptionJson[0].metaElementContent)
+       
+            if(metaDescriptionJson[0].metaElementContent === undefined) {
+                const metaDescriptionMarker = document.getElementById('metadescription')
+                metaDescriptionMarker.innerText = 'Meta description not provided'
+            }
+            else{
+                const metaDescriptionMarker = document.getElementById('metadescription')
+                metaDescriptionMarker.innerText = metaDescriptionJson[0].metaElementContent
+
+            }
+
+
+
+
+                /////PRESENT OGDescription
+          const ogDescriptionElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:description';
+        })
+
+        if(ogDescriptionElement.length === 0 ){
+            const ogdescription = document.getElementById('ogdescription')
+            ogdescription.innerHTML = `No <strong>og:description</strong> found.<br> 
+            Fallback to meta-description. ${metaDescriptionJson[0].metaElementContent} `
+        }
+        else{
+            console.log('OG:Description element = ', ogDescriptionElement)
+            // const data = metaElements
+            const ogdescription = document.getElementById('ogdescription')
+            ogdescription.innerText = ogDescriptionElement[0].metaElementContent
+        }
+
 
 
 

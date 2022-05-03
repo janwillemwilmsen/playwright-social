@@ -108,6 +108,7 @@
 		"metaElementProperty": null
 	},
 	{
+		"ogi": "ogi",
 		"openGraphImageDetails": {
 			"width": 1200,
 			"height": 630,
@@ -121,7 +122,35 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png",
+		"imgsrc": "https://cdn4.buysellads.net/uu/1/100164/1632765721-logo_250x100_white_-_nativecpc.png",
+		"imgDetails": {
+			"width": 250,
+			"height": 100,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 4113,
+			"url": "https://cdn4.buysellads.net/uu/1/100164/1632765721-logo_250x100_white_-_nativecpc.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://924-img.c3tag.com/v.gif?cid=924&c3=N349404.3227239CARBONADS-333486785-169401709&creative=169401709&redirect=~%7Bhttps://ad.doubleclick.net/ddm/trackimp/N349404.3227239CARBONADS/B10404391.333486785;dc_trk_aid=525809674;dc_trk_cid=169401709;ord=1651517031;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=?%7D~",
+		"imgDetails": {
+			"width": 1,
+			"height": 1,
+			"type": "gif",
+			"mime": "image/gif",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 42,
+			"url": "https://ad.doubleclick.net/ddm/trackimp/N349404.3227239CARBONADS/B10404391.333486785;dc_trk_aid=525809674;dc_trk_cid=169401709;ord=1651517031;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=?"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.opengraph.xyz//_nuxt/image/c7bef4.png",
 		"imgDetails": {
 			"width": 61,
 			"height": 40,
@@ -130,12 +159,12 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 1722,
-			"url": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png"
+			"url": "https://www.opengraph.xyz//_nuxt/image/c7bef4.png"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png",
+		"imgsrc": "https://www.opengraph.xyz//_nuxt/image/c7bef4.png",
 		"imgDetails": {
 			"width": 61,
 			"height": 40,
@@ -144,12 +173,12 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 1722,
-			"url": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png"
+			"url": "https://www.opengraph.xyz//_nuxt/image/c7bef4.png"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://www.opengraph.xyz/_nuxt/image/4a579b.jpg",
+		"imgsrc": "https://www.opengraph.xyz//_nuxt/image/4a579b.jpg",
 		"imgDetails": {
 			"width": 90,
 			"height": 90,
@@ -158,7 +187,7 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 2435,
-			"url": "https://www.opengraph.xyz/_nuxt/image/4a579b.jpg"
+			"url": "https://www.opengraph.xyz//_nuxt/image/4a579b.jpg"
 		}
 	}
 ]
