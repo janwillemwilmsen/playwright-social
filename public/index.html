@@ -16,7 +16,7 @@
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://socialsharepreview.com">socialsharepreview.com</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.heymeta.com">heymeta.com</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.opengraph.xyz/">opengraph.xyz</a><br>
-    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://ing.nl/">ing.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.ing.nl/particulier/index.html">ing.nl</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://google.nl/">google.nl</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://amazon.com/">amazon.com</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://facebook.com/">facebook.com</a><br>
@@ -118,8 +118,8 @@
 
 
         // Dynamische url OF test JSON file.
-        // const url = apiUrl + domainUrl;
-        const url  = '/test/toertocht.json'
+        const url = apiUrl + domainUrl;
+        // const url  = '/test/toertocht.json'
         // const url  = '/test/essent.json'
         // const url  = '/test/opengraph.json'
 
@@ -167,7 +167,7 @@
 
 
             //// If image is smaller 200px
-            const minWidth = image.imgDetails.height
+            const minWidth = image.imgDetails.width
             if(minWidth < 200) {
                 listItem.style.display = 'none'
             }
@@ -177,7 +177,11 @@
             const imagePop = document.createElement('img')
             const imgLink = document.createElement('a')
 
-            imagePop.setAttribute('src', image.imgsrc)
+
+            // const proxiedUrl = '/proxy?url=' + image.imgsrc
+            const proxiedUrl = image.imgsrc
+
+            imagePop.setAttribute('src', proxiedUrl)
 
 
             const altText = 'Image height: ' + image.imgDetails.height + ' ...and... ' + 'Image width:' + image.imgDetails.width
@@ -314,7 +318,7 @@
             console.log('ogImageElement.length === 0')
             const ogimage = document.getElementById('ogimage')
             ogimage.innerHTML = `
-                <img src="" id="preview" style="background:gray;width:270px;height:200px;">
+                <img src="https://via.placeholder.com/1" id="preview" style="background:gray;width:270px;height:200px;">
                 <div id="NoOGimageFound">
                     No <strong>og:image</strong> found - 
                     Facebook will use any other image used on your page. <br>

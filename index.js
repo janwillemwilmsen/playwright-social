@@ -1,23 +1,32 @@
  
 const {chromium} = require('playwright-chromium');
 const express = require('express');
-const cors = require('cors')
+var cors = require('cors')
 const { getBaseUrl } = require("get-base-url");
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const probe = require('probe-image-size');
 
-const proxy = require('pass-cors')
+// voor Hostname opzoeken
+const { parse } = require('tldts');
+
 
 // https://www.npmjs.com/package/pass-cors
 
 const PORT = process.env.PORT || 8080;
 
 
+// ProxyMiddleware
+// const jsonPlaceholderProxy = createProxyMiddleware({
+//   target: 'http://jsonplaceholder.typicode.com/users',
+//   changeOrigin: true, // for vhosted sites, changes host header to match to target's host
+//   logger: console,
+// });
+
 const app = express();
 
 app.use(express.static('public'))
 app.use(cors())
-app.use('/proxy', proxy);
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -26,7 +35,7 @@ app.use(function (req, res, next) {
     next();
   });
   
-  
+
 
 
   let browser;
@@ -34,6 +43,8 @@ app.use(function (req, res, next) {
   app.get('/', (req, res) => {
     res.send('Hello World is this Live ??');
     console.log('what is this running on... ')
+    // console.log(JSON.stringify(req.headers));
+
    });
 
    app.get('/api/', async (req, res, next) => {
@@ -44,6 +55,18 @@ app.use(function (req, res, next) {
 	try {
 		const url = req.query.url || 'https://essent.nl';
         const baseUrl = getBaseUrl(url)
+        console.log('BaseUrl =', baseUrl)
+        
+        
+        let hostNameElement = parse(url)
+        console.log('HostnameElement =', hostNameElement)
+
+        let hostname = hostNameElement.hostname
+
+        const u = new URL(url)
+        // u.protocol = 'https';
+        console.log('BaseHref incl Protocol',u);
+        const origin = u.origin
 
         // const context = await browser.newContext({ deviceScaleFactor: 1 });
         const context = await browser.newContext({bypassCSP: true});
@@ -55,31 +78,28 @@ app.use(function (req, res, next) {
       // });
 
 
-      // page.route('**/*', (route, request) => {
-      //   const images = route.request().resourceType() === 'image'
-      // //  console.log(request.url())
-      //  console.log(images)
-      //  return route.continue();
-      // });
+                // page.route('**/*', (route, request) => {
+                //   const images = route.request().resourceType() === 'image'
+                // //  console.log(request.url())
+                //  console.log(images)
+                //  return route.continue();
+                // });
 
-        // Log and continue all network requests
-
-
-  // await page.route('**', route => {
-  //   const request = route.request()
-  //   request.resourceType() === 'image'
-  //   console.log(request.url());
-  //   return route.continue();
-  // });
+                  // Log and continue all network requests
 
 
+            // await page.route('**', route => {
+            //   const request = route.request()
+            //   request.resourceType() === 'image'
+            //   console.log(request.url());
+            //   return route.continue();
+            // });
 
-      // page.route.continue();
+                // page.route.continue();
 
-
-                      //       def handle_response(response):
-                      // if (response.ok and response.request.resource_type == "image"):
-                      // print("<<", response.status, response.url)
+                //       def handle_response(response):
+                                // if (response.ok and response.request.resource_type == "image"):
+                                // print("<<", response.status, response.url)
 
 
 
@@ -95,7 +115,7 @@ app.use(function (req, res, next) {
           metaData = []
 
 
-          const htmlTitle = await (await page.$('title')).innerText()
+          const htmlTitle = await (await page.$('title')).textContent()
           // console.log('htmltitleelement = ', htmlTitle)
           metaData.push({
             'paginatitel': htmlTitle
@@ -130,11 +150,7 @@ app.use(function (req, res, next) {
 
           // result = []
 
-
-
           /// OP BASIS van 1 element wat hierboven opgehaald wordt (og image) onderstaande actie verder uitgevoerd. Volgorde kan niet andersom.
-
-
 
           let result = metaData.filter(obj => {
             return obj.metaElementProperty === 'og:image'
@@ -212,14 +228,6 @@ app.use(function (req, res, next) {
           }
             
 
-
-
-
-
-
-
-
-
           // sizeOf(result, function (err, dimensions) {
           //   console.log(dimensions.width, dimensions.height)
           // })
@@ -238,13 +246,24 @@ app.use(function (req, res, next) {
           const href = await images[i].getAttribute('src');
           console.log('HREF = ', href)
 
-          if(href === null){
+          /// Lege HREF dan fake image. -OF- Geen hostname in url van image (voor ads etc) dan klein image gebruiken. 
+          // relatieve afbeelding bevat geen hostname.
+
+          // const hostnameImg = parse(href)
+          // const hostnameImgdomain = hostnameImg.domain 
+          // console.log('HostnameImg = ', hostnameImg)
+          // console.log('Host name image domain = ', hostnameImgdomain)
+          // console.log('hostname van query-url', hostName)
+
+          // if(href === null && href.toLowerCase().indexOf(hostName) === -1){
+            // if(hostnameImgdomain === null || hostnameImg.toLowerCase().indexOf(hostName) === -1){
+            if(href === null ){
             console.log('HREF NOT FOUND OR FILLED')
             var href2 = 'https://via.placeholder.com/1'
           }
-           else{
+              else{
 
-                        // if HREF begint met data:image dan negeren
+                        // if HREF begint met data:image dan leeg image neerplotten
                         var RegEx = new RegExp('^data:image');
                         href2 = ''
                         if (RegEx.test(href)) {
@@ -252,32 +271,57 @@ app.use(function (req, res, next) {
                           var href2 = 'https://via.placeholder.com/1'
                         }
                         else {
-                          // else Dan nieuwe Regex die checkt of url absoluut of relatief is.
-                          
-                          var RgExp = new RegExp('^(?:[a-z]+:)?//', 'i');
+                              
+                              // else Dan nieuwe Regex die checkt of url absoluut of relatief is.
+                                        
+                                        var RgExp = new RegExp('^(?:[a-z]+:)?//', 'i');
 
-                          href2 = ''
-                          if (RgExp.test(href)) {
-                            // console.log ( "This is Absolute URL.")
-                            var href2 = href
-                            console.log('Absolute Url', href2)
-                          } 
-                          else 
-                            {
-                            // console.log(  "This is Relative URL.")
+                                        // href2 = ''
+                                        if (RgExp.test(href)) {
+                                    // If dat het een ABsolute url is.
 
-                                  var RegexS = new RegExp(/^\/[a-z0-9]+$/i);
+                                          console.log ( "This is Absolute URL.")
+                                          var href2 = href
+                                          console.log('Absolute Url', href2)
+                                        } 
+                                        else 
+                                          {
+                                            // ELSE = RELATIEVE URL
+                                          console.log(  "This is Relative URL.")
 
-                                  if (RegexS.test(href2)){
-                                    // if(href2.indexOf("/") > -1) {
-                                    var href2 = 'https://' + baseUrl  + href
-                                    console.log('image url start with slash BOVEN', href2)
-                                  } else {
-                                    var href2 = 'https://' + baseUrl + '/' + href
-                                    console.log('image url start with slash ONDER', href2)
-                                    
+                                              // TEST IF urlstring met een SLASH of NIET.
 
-                                  }
+                                                              var RegexS = new RegExp('^\/');
+                                                              // var RegexS = new RegExp('/^\//i');
+                                                              // var RegexS = new RegExp('/^\/[a-z0-9]+$/i');
+                                                  
+                                                      if (RegexS.test(href)){                                                   
+                                                              console.log(  "This is Relative URL. String starts with slash")
+
+                                                          // Need to check if image is on www or on non-www
+
+
+
+                                                              // var href2 = 'https://www.' + baseUrl  + href
+                                                              var href2 = origin + href
+                                                              console.log('image url start with slash BOVEN', href2)
+                                                    
+                                                    
+                                                    
+                                                      } else {
+                                                              console.log(  "This is Relative URL. String starts without Slash")
+
+
+
+
+                                                              // var href2 = 'https://www.' + baseUrl + '/' + href
+                                                              // var href2 = u + '/' + href
+                                                              var href2 = origin + '/' + href
+                                                              console.log('image url start with slash ONDER', href2)
+                                                    
+
+
+                                                            }
 
                           }
                           
@@ -296,7 +340,16 @@ app.use(function (req, res, next) {
           // https://github.com/nodeca/probe-image-size/issues/7
           // async method (with callback or promise) if you need to get image info by url.
 
-          let imagedetails2 = await probe(href2);
+          let imagedetails2 = await probe(href2, { rejectUnauthorized: true })
+          .then((res) => {
+            console.log("...succeded");
+            return res;
+          })
+          .catch((err) => {
+            console.log("...failed");
+            console.error(err);
+            return 0;
+          });
           //   let imagedetails2 = await probe(href2, function(err, result) {
           //   // console.log(result);
           //   if(err) reject(err);
