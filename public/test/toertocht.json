@@ -13,6 +13,11 @@
 		"metaElementProperty": null
 	},
 	{
+		"metaElement": null,
+		"metaElementContent": "https://static.essent.nl/online/img/logo-essent.png",
+		"metaElementProperty": "og:image"
+	},
+	{
 		"metaElement": "viewport",
 		"metaElementContent": "width=device-width,initial-scale=1",
 		"metaElementProperty": null
@@ -125,7 +130,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be//_nuxt/img/c08a61e.jpg",
+		"imgsrc": "https://toertocht.be/_nuxt/img/c08a61e.jpg",
 		"imgDetails": {
 			"width": 535,
 			"height": 123,
@@ -139,7 +144,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be//_nuxt/img/c08a61e.jpg",
+		"imgsrc": "https://toertocht.be/_nuxt/img/c08a61e.jpg",
 		"imgDetails": {
 			"width": 535,
 			"height": 123,
@@ -153,7 +158,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be//_nuxt/img/c08a61e.jpg",
+		"imgsrc": "https://toertocht.be/_nuxt/img/c08a61e.jpg",
 		"imgDetails": {
 			"width": 535,
 			"height": 123,
@@ -181,58 +186,58 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be//install-experience/ios_share.svg",
+		"imgsrc": "https://via.placeholder.com/1",
 		"imgDetails": {
-			"width": 48,
-			"height": 48,
-			"type": "svg",
-			"mime": "image/svg+xml",
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
 			"wUnits": "px",
 			"hUnits": "px",
-			"length": 346,
-			"url": "https://toertocht.be/install-experience/ios_share.svg"
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be//icons/facebook.svg?data",
+		"imgsrc": "https://via.placeholder.com/1",
 		"imgDetails": {
-			"width": 191.6,
-			"height": 191.6,
-			"type": "svg",
-			"mime": "image/svg+xml",
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
 			"wUnits": "px",
 			"hUnits": "px",
-			"length": 454,
-			"url": "https://toertocht.be/icons/facebook.svg?data"
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be//icons/twitter.svg",
+		"imgsrc": "https://via.placeholder.com/1",
 		"imgDetails": {
-			"width": 249.9,
-			"height": 203.2,
-			"type": "svg",
-			"mime": "image/svg+xml",
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
 			"wUnits": "px",
 			"hUnits": "px",
-			"length": 3213,
-			"url": "https://toertocht.be/icons/twitter.svg"
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://toertocht.be//icons/whatsapp.svg",
+		"imgsrc": "https://via.placeholder.com/1",
 		"imgDetails": {
-			"width": 2500,
-			"height": 2489,
-			"type": "svg",
-			"mime": "image/svg+xml",
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
 			"wUnits": "px",
 			"hUnits": "px",
-			"length": 4873,
-			"url": "https://toertocht.be/icons/whatsapp.svg"
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
 		}
 	}
 ]

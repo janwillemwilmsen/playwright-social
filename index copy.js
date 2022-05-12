@@ -125,21 +125,6 @@ app.use(function (req, res, next) {
             'paginatitel': htmlTitle
           })
 
-          if (await page.$("link[rel='canonical']")){
-
-            const kanon = await (await page.$("link[rel='canonical']")).getAttribute('href')
-            console.log(kanon)
-            metaData.push({
-              'canonurl': kanon
-            })
-          }
-          else{
-            const canonempty = 'there is no canonical url in the html'
-            metaData.push({
-              'canonurl': canonempty
-            })
-          }
-
           const metas = await page.$$('meta')
 
           for( i = 0; i < metas.length; i++){

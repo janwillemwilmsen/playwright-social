@@ -1,0 +1,320 @@
+[
+	{
+		"paginatitel": "ING - Particulier"
+	},
+	{
+		"canonurl": "hiercanon"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "IE=edge,chrome=1",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "viewport",
+		"metaElementContent": "width=device-width,initial-scale=1.0",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "text/html; charset=utf-8",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "no",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "fragment",
+		"metaElementContent": "!",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "description",
+		"metaElementContent": "Bij ING regelt u zonder gedoe al uw dagelijkse bankzaken. Met oog voor later. Altijd.",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "Particulier",
+		"metaElementProperty": "og:title"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "Bij ING regelt u zonder gedoe al uw dagelijkse bankzaken. Met oog voor later. Altijd.",
+		"metaElementProperty": "og:description"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.ing.nl/particulier/index.html",
+		"metaElementProperty": "og:url"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.kpn.com/upload_mm/4/7/3/5936196_1650549616260_iPhone_13_Green_Smartpakker_swipe.png",
+		"metaElementProperty": "og:image"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "ING Website",
+		"metaElementProperty": "og:site_name"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "website",
+		"metaElementProperty": "og:type"
+	},
+	{
+		"metaElement": "twitter:card",
+		"metaElementContent": "summary_large_image",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:site",
+		"metaElementContent": "@ingnl",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:creator",
+		"metaElementContent": "@ingnl",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:url",
+		"metaElementContent": "",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:title",
+		"metaElementContent": "sad",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:description",
+		"metaElementContent": "Bij ING regelt u zonder gedoe al uw dagelijkse bankzaken. Met oog voor later. Altijd.",
+		"metaElementProperty": null
+	},
+ 
+	{
+		"metaElement": "msapplication-config",
+		"metaElementContent": "/assets/cds/icons/browserconfig.xml",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "theme-color",
+		"metaElementContent": "#ff6200",
+		"metaElementProperty": null
+	},
+	{
+		"ogi": "ogi",
+		"openGraphImageDetails": {
+			"width": 512,
+			"height": 512,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 19071,
+			"url": "https://www.ing.nl/media/android-chrome-512x512_tcm162-26158.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/198X94_KR_zelf-doen_tcm162-206835.jpg",
+		"imgDetails": {
+			"width": 198,
+			"height": 94,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 26643,
+			"url": "https://www.ing.nl/media/198X94_KR_zelf-doen_tcm162-206835.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/ING_0244_SAVINGS_VS_INVESTMENTS-04-05_tcm162-123713.png",
+		"imgDetails": {
+			"width": 199,
+			"height": 95,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 19663,
+			"url": "https://www.ing.nl/media/ING_0244_SAVINGS_VS_INVESTMENTS-04-05_tcm162-123713.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/INGnl_Level-2_Overzichtspagina_2022-campagne_EB_220x120_tcm162-197877.jpg",
+		"imgDetails": {
+			"width": 220,
+			"height": 97,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 10140,
+			"url": "https://www.ing.nl/media/INGnl_Level-2_Overzichtspagina_2022-campagne_EB_220x120_tcm162-197877.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/Topnav_hyp_tcm162-168447.jpg",
+		"imgDetails": {
+			"width": 198,
+			"height": 94,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 5679,
+			"url": "https://www.ing.nl/media/Topnav_hyp_tcm162-168447.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/Leenwijzer-topnav_tcm162-62663.jpg",
+		"imgDetails": {
+			"width": 198,
+			"height": 94,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 9073,
+			"url": "https://www.ing.nl/media/Leenwijzer-topnav_tcm162-62663.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/198x94-woon_tcm162-214938.jpg",
+		"imgDetails": {
+			"width": 198,
+			"height": 94,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 8363,
+			"url": "https://www.ing.nl/media/198x94-woon_tcm162-214938.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/ING_Blog_Afbeelding%20topnivagatie_196_96.png_tcm162-104552.jpg",
+		"imgDetails": {
+			"width": 196,
+			"height": 96,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 7123,
+			"url": "https://www.ing.nl/media/ING_Blog_Afbeelding%20topnivagatie_196_96.png_tcm162-104552.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/Prod.menu.%20Recycled%20Cards%20wk%2019%20en%2021-min_tcm162-242335.jpg",
+		"imgDetails": {
+			"width": 432,
+			"height": 250,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 31610,
+			"url": "https://www.ing.nl/media/Prod.menu.%20Recycled%20Cards%20wk%2019%20en%2021-min_tcm162-242335.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/img_tile_meerdansparennav_tcm162-208838.jpg",
+		"imgDetails": {
+			"width": 425,
+			"height": 250,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"orientation": 1,
+			"length": 46528,
+			"url": "https://www.ing.nl/media/img_tile_meerdansparennav_tcm162-208838.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/INGnl_Tegelafbeelding_2022-campagne_EB_720x384_tcm162-241583.png",
+		"imgDetails": {
+			"width": 720,
+			"height": 384,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 11116,
+			"url": "https://www.ing.nl/media/INGnl_Tegelafbeelding_2022-campagne_EB_720x384_tcm162-241583.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": {
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/Young_man_with_curly_red_hair_checks_his_mobile_phone_while_waiting_with_his_skateboard_720x384_tcm162-241585.jpg",
+		"imgDetails": {
+			"width": 720,
+			"height": 384,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"orientation": 1,
+			"length": 53885,
+			"url": "https://www.ing.nl/media/Young_man_with_curly_red_hair_checks_his_mobile_phone_while_waiting_with_his_skateboard_720x384_tcm162-241585.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": {
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.ing.nl/media/motorcyclist_on_highway_720x384_tcm162-241796.jpg",
+		"imgDetails": {
+			"width": 720,
+			"height": 384,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 125427,
+			"url": "https://www.ing.nl/media/motorcyclist_on_highway_720x384_tcm162-241796.jpg"
+		}
+	}
+]

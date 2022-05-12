@@ -76,40 +76,6 @@ app.use(function (req, res, next) {
         const context = await browser.newContext({bypassCSP: true});
         const page = await context.newPage();
 
-
-      //   page.on('response', resp => {
-      //     console.log(resp.request().allHeaders());
-      // });
-
-
-                // page.route('**/*', (route, request) => {
-                //   const images = route.request().resourceType() === 'image'
-                // //  console.log(request.url())
-                //  console.log(images)
-                //  return route.continue();
-                // });
-
-                  // Log and continue all network requests
-
-
-            // await page.route('**', route => {
-            //   const request = route.request()
-            //   request.resourceType() === 'image'
-            //   console.log(request.url());
-            //   return route.continue();
-            // });
-
-                // page.route.continue();
-
-                //       def handle_response(response):
-                                // if (response.ok and response.request.resource_type == "image"):
-                                // print("<<", response.status, response.url)
-
-
-
-// const imageRoutes = await page.route('**/*.{png,jpg,jpeg}', route => route.fulfill())
-// console.log(imageRoutes)
-
         await page.goto(url, {
             waitUntil: "networkidle"
           });
@@ -124,21 +90,6 @@ app.use(function (req, res, next) {
           metaData.push({
             'paginatitel': htmlTitle
           })
-
-          if (await page.$("link[rel='canonical']")){
-
-            const kanon = await (await page.$("link[rel='canonical']")).getAttribute('href')
-            console.log(kanon)
-            metaData.push({
-              'canonurl': kanon
-            })
-          }
-          else{
-            const canonempty = 'there is no canonical url in the html'
-            metaData.push({
-              'canonurl': canonempty
-            })
-          }
 
           const metas = await page.$$('meta')
 
@@ -208,8 +159,7 @@ app.use(function (req, res, next) {
 
             }
             else {
-              // 
-          
+
                                   let openGraphImageDetails = await probe(metaElementContent);
                                   console.log(openGraphImageDetails);
                                   
@@ -254,7 +204,11 @@ app.use(function (req, res, next) {
            // Log and continue all network requests
   
         const images = await page.$$('img')
-        // console.log(images)
+        console.log('IMAGES ARRAY = ', images)
+        
+       const imgz = JSON.stringify(images);
+      console.log('IMGZ',imgz)
+
 
         allImages = []
         
@@ -264,6 +218,24 @@ app.use(function (req, res, next) {
         for (i = 0; i < images.length; i++){
           const href = await images[i].getAttribute('src');
           console.log('HREF = ', href)
+
+          if(href === null){
+            console.log('HREF NOT FOUND OR FILLED')
+            var href2 = 'https://via.placeholder.com/1'
+          }
+          else {
+
+         
+// Href starts With //website.com/pffff.html
+var RegExSlash = new RegExp('^//');
+href2 = ''
+if(RegExSlash.test(href)) {
+
+  console.log('HREF starts with //')
+  var href2 = 'https://=' + href
+}
+else {
+
 
           /// Lege HREF dan fake image. -OF- Geen hostname in url van image (voor ads etc) dan klein image gebruiken. 
           // relatieve afbeelding bevat geen hostname.
@@ -276,103 +248,74 @@ app.use(function (req, res, next) {
 
           // if(href === null && href.toLowerCase().indexOf(hostName) === -1){
             // if(hostnameImgdomain === null || hostnameImg.toLowerCase().indexOf(hostName) === -1){
-              if(href === null){
-                console.log('HREF NOT FOUND OR FILLED')
-                var href2 = 'https://via.placeholder.com/1'
-              }
-              else {
-    
-             
-    // Href starts With //website.com/pffff.html
-    var RegExSlash = new RegExp('^//');
-    href2 = ''
-    if(RegExSlash.test(href)) {
-    
-      console.log('HREF starts with //')
-      var href2 = 'https://=' + href
-    }
-    else {
-    
-    
-              /// Lege HREF dan fake image. -OF- Geen hostname in url van image (voor ads etc) dan klein image gebruiken. 
-              // relatieve afbeelding bevat geen hostname.
-    
-              // const hostnameImg = parse(href)
-              // const hostnameImgdomain = hostnameImg.domain 
-              // console.log('HostnameImg = ', hostnameImg)
-              // console.log('Host name image domain = ', hostnameImgdomain)
-              // console.log('hostname van query-url', hostName)
-    
-              // if(href === null && href.toLowerCase().indexOf(hostName) === -1){
-                // if(hostnameImgdomain === null || hostnameImg.toLowerCase().indexOf(hostName) === -1){
-                if(href.includes(".svg")){
-              
-    
-                console.log('HREF IS SVG - remove...')
-                var href2 = 'https://via.placeholder.com/1'
-              }
-                  else{
-    
-                            // if HREF begint met data:image dan leeg image neerplotten
-                            var RegEx = new RegExp('^data:image');
-                            href2 = ''
-                            if (RegEx.test(href)) {
-                              // console.log('DATA image gevonden')
-                              var href2 = 'https://via.placeholder.com/1'
-                            }
-                            else {
-                                  
-                                  // else Dan nieuwe Regex die checkt of url absoluut of relatief is.
-                                            
-                                            var RgExp = new RegExp('^(?:[a-z]+:)?//', 'i');
-    
-                                            // href2 = ''
-                                            if (RgExp.test(href)) {
-                                            // If dat het een ABsolute url is.
-    
-                                              console.log ( "This is Absolute URL.")
-                                              var href2 = href
-                                              console.log('Absolute Url', href2)
-                                       
-                                            } 
-                                            else 
-                                              {
-                                                // ELSE = RELATIEVE URL
-                                              console.log(  "This is Relative URL.")
-                                                  // TEST IF urlstring met een SLASH of NIET.
-    
-                                                                  var RegexS = new RegExp('^\/');
-                                                                  // var RegexS = new RegExp('/^\//i');
-                                                                  // var RegexS = new RegExp('/^\/[a-z0-9]+$/i');
-                                                      
-                                                          if (RegexS.test(href)){                                                   
-                                                                  console.log(  "This is Relative URL. String starts with slash")
-    
-                                                                  // Need to check if image is on www or on non-www
-                                                                  // var href2 = 'https://www.' + baseUrl  + href
-                                                                  var href2 = origin + href
-                                                                  console.log('image url start with slash BOVEN', href2)
-                                                        
-                                                        
-                                                          } else {
-                                                                  console.log(  "This is Relative URL. String starts without Slash")
-    
-                                                                  // var href2 = 'https://www.' + baseUrl + '/' + href
-                                                                  // var href2 = u + '/' + href
-                                                                  var href2 = origin + '/' + href
-                                                                  console.log('image url start with slash ONDER', href2)
-                                                        
-                                                                }
-    
-                              }
+            if(href.includes(".svg")){
+          
+
+            console.log('HREF IS SVG - remove...')
+            var href2 = 'https://via.placeholder.com/1'
+          }
+              else{
+
+                        // if HREF begint met data:image dan leeg image neerplotten
+                        var RegEx = new RegExp('^data:image');
+                        href2 = ''
+                        if (RegEx.test(href)) {
+                          // console.log('DATA image gevonden')
+                          var href2 = 'https://via.placeholder.com/1'
+                        }
+                        else {
                               
-                            }   // DICHT ELSE DATA:url
-    
-                          }  // DICHT ELSE VAN SVG   
-    
-                        } // DICHT ELSE van StartsWithSlashSlash
-    
-                      } // DICHT ELSE VAN NoHREF     
+                              // else Dan nieuwe Regex die checkt of url absoluut of relatief is.
+                                        
+                                        var RgExp = new RegExp('^(?:[a-z]+:)?//', 'i');
+
+                                        // href2 = ''
+                                        if (RgExp.test(href)) {
+                                        // If dat het een ABsolute url is.
+
+                                          console.log ( "This is Absolute URL.")
+                                          var href2 = href
+                                          console.log('Absolute Url', href2)
+                                   
+                                        } 
+                                        else 
+                                          {
+                                            // ELSE = RELATIEVE URL
+                                          console.log(  "This is Relative URL.")
+                                              // TEST IF urlstring met een SLASH of NIET.
+
+                                                              var RegexS = new RegExp('^\/');
+                                                              // var RegexS = new RegExp('/^\//i');
+                                                              // var RegexS = new RegExp('/^\/[a-z0-9]+$/i');
+                                                  
+                                                      if (RegexS.test(href)){                                                   
+                                                              console.log(  "This is Relative URL. String starts with slash")
+
+                                                              // Need to check if image is on www or on non-www
+                                                              // var href2 = 'https://www.' + baseUrl  + href
+                                                              var href2 = origin + href
+                                                              console.log('image url start with slash BOVEN', href2)
+                                                    
+                                                    
+                                                      } else {
+                                                              console.log(  "This is Relative URL. String starts without Slash")
+
+                                                              // var href2 = 'https://www.' + baseUrl + '/' + href
+                                                              // var href2 = u + '/' + href
+                                                              var href2 = origin + '/' + href
+                                                              console.log('image url start with slash ONDER', href2)
+                                                    
+                                                            }
+
+                          }
+                          
+                        }   // DICHT ELSE DATA:url
+
+                      }  // DICHT ELSE VAN SVG   
+
+                    } // DICHT ELSE van StartsWithSlashSlash
+
+                  } // DICHT ELSE VAN NoHREF 
 
 
                       // https://www.google.nl/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
@@ -399,7 +342,7 @@ app.use(function (req, res, next) {
           //   // console.log(result);
           //   if(err) reject(err);
           // });
-          console.log(imagedetails2);
+          // console.log(imagedetails2);
           let type = 'image'
 
           metaData.push({
@@ -573,7 +516,7 @@ app.use(function (req, res, next) {
 // totalArray= linkDetails.concat(imgDetails).concat(headingDetails).concat(formDetails).concat(tableDetails);
 // ///////////////////////////////////OLD OLD OLD
 
-console.log(metaData)
+// console.log(metaData)
 
 res.send(metaData);
   // res.send('jsonnn');

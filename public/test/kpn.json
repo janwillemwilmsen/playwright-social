@@ -1,0 +1,514 @@
+[
+	{
+		"paginatitel": "Internet, mobiel, TV, entertainment en meer. Hussel zelf | KPN"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": null,
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "IE=edge",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "viewport",
+		"metaElementContent": "user-scalable=1, width=device-width, initial-scale=1.0",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "description",
+		"metaElementContent": "Met KPN Hussel stel je al jouw thuis en mobiele abonnementen zelf samen. Internet, mobiel, TV, entertainment en meer. Via het netwerk van Nederland.",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "keywords",
+		"metaElementContent": "telecommunicatie,tv,internet,bellen,ict,service,aansluiten,kpn,interactieve tv,mobiel bellen,mobiel abonnement",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "page-market",
+		"metaElementContent": "cm",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "content-type",
+		"metaElementContent": "home",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "msapplication-TileImage",
+		"metaElementContent": "//static.kpn.com/images/favicon/png/favicon-150x150.png",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "msapplication-config",
+		"metaElementContent": "//static.kpn.com/browserconfig.xml",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "apple-mobile-web-app-title",
+		"metaElementContent": "KPN.com",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "application-name",
+		"metaElementContent": "KPN.com",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "msapplication-TileColor",
+		"metaElementContent": "#0077CC",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "theme-color",
+		"metaElementContent": "#0077CC",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "nl_NL",
+		"metaElementProperty": "og:locale"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "website",
+		"metaElementProperty": "og:type"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "Internet, mobiel, TV, entertainment en meer. Hussel zelf | KPN",
+		"metaElementProperty": "og:title"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "Met KPN Hussel stel je al jouw thuis en mobiele abonnementen zelf samen. Internet, mobiel, TV, entertainment en meer. Via het netwerk van Nederland.",
+		"metaElementProperty": "og:description"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.kpn.com/prive.htm",
+		"metaElementProperty": "og:url"
+	},
+	{
+		"ogi": "ogi",
+		"openGraphImageDetails": {
+			"width": 0,
+			"height": 0,
+			"type": " Not found",
+			"mime": "",
+			"wUnits": " Not found",
+			"hUnits": " Not found",
+			"length": 0,
+			"url": "https://via.placeholder.com/1"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://static.kpn.com/images/logo/logo.svg",
+		"imgDetails": {
+			"width": 401.2,
+			"height": 182.9,
+			"type": "svg",
+			"mime": "image/svg+xml",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3277,
+			"url": "https://static.kpn.com/images/logo/logo.svg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": {
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": {
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/4/7/3/5936196_1650549616260_iPhone_13_Green_Smartpakker_swipe.png",
+		"imgDetails": {
+			"width": 200,
+			"height": 250,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 11617,
+			"url": "https://www.kpn.com/upload_mm/4/7/3/5936196_1650549616260_iPhone_13_Green_Smartpakker_swipe.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/a/8/f/5946538_1651129168498_SamsungGalaxyS22.png",
+		"imgDetails": {
+			"width": 200,
+			"height": 250,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 23115,
+			"url": "https://www.kpn.com/upload_mm/a/8/f/5946538_1651129168498_SamsungGalaxyS22.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/d/3/0/5946563_1651129304688_MotorolaEdge20Lite.png",
+		"imgDetails": {
+			"width": 200,
+			"height": 250,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 12373,
+			"url": "https://www.kpn.com/upload_mm/d/3/0/5946563_1651129304688_MotorolaEdge20Lite.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/8/0/4/5869747_1648724482229_SAMSUNGA53_SWIPE.png",
+		"imgDetails": {
+			"width": 200,
+			"height": 250,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 19070,
+			"url": "https://www.kpn.com/upload_mm/8/0/4/5869747_1648724482229_SAMSUNGA53_SWIPE.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/9/1/2/5869821_1648724748282_IPHONE12_SWIPE.png",
+		"imgDetails": {
+			"width": 200,
+			"height": 250,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 12487,
+			"url": "https://www.kpn.com/upload_mm/9/1/2/5869821_1648724748282_IPHONE12_SWIPE.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/0/7/3/5924206_1650356399711_Apple.png",
+		"imgDetails": {
+			"width": 328,
+			"height": 210,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 9925,
+			"url": "https://www.kpn.com/upload_mm/0/7/3/5924206_1650356399711_Apple.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/8/0/3/5924207_1650356406485_Samsung.png",
+		"imgDetails": {
+			"width": 328,
+			"height": 210,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 14584,
+			"url": "https://www.kpn.com/upload_mm/8/0/3/5924207_1650356406485_Samsung.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/5/8/6/5924208_1650356414840_Oppo.png",
+		"imgDetails": {
+			"width": 328,
+			"height": 210,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 14421,
+			"url": "https://www.kpn.com/upload_mm/5/8/6/5924208_1650356414840_Oppo.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/e/8/1/5924209_1650356420788_Xiaomi.png",
+		"imgDetails": {
+			"width": 328,
+			"height": 210,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 10806,
+			"url": "https://www.kpn.com/upload_mm/e/8/1/5924209_1650356420788_Xiaomi.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/9/8/5/5924210_1650356427880_Nokia.png",
+		"imgDetails": {
+			"width": 328,
+			"height": 210,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 11190,
+			"url": "https://www.kpn.com/upload_mm/9/8/5/5924210_1650356427880_Nokia.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/0/9/f/5924211_1650356436017_Motorola.png",
+		"imgDetails": {
+			"width": 328,
+			"height": 210,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 13326,
+			"url": "https://www.kpn.com/upload_mm/0/9/f/5924211_1650356436017_Motorola.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/3/c/d/50909_1651826016171_DragonsDen_992x451_Branded.jpg",
+		"imgDetails": {
+			"width": 992,
+			"height": 451,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 96559,
+			"url": "https://www.kpn.com/upload_mm/3/c/d/50909_1651826016171_DragonsDen_992x451_Branded.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/6/2/3/50899_1651744255820_tvzonderkabelTABLET.png",
+		"imgDetails": {
+			"width": 991,
+			"height": 452,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 89205,
+			"url": "https://www.kpn.com/upload_mm/6/2/3/50899_1651744255820_tvzonderkabelTABLET.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/1/6/4/50908_1651818288108_Banner_1_992x451_Branded_zonder_text.png",
+		"imgDetails": {
+			"width": 992,
+			"height": 451,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 479089,
+			"url": "https://www.kpn.com/upload_mm/1/6/4/50908_1651818288108_Banner_1_992x451_Branded_zonder_text.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/4/1/1/50904_1651752322102_ZoekenoptelefoonnummerTABLET.png",
+		"imgDetails": {
+			"width": 991,
+			"height": 452,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 211327,
+			"url": "https://www.kpn.com/upload_mm/4/1/1/50904_1651752322102_ZoekenoptelefoonnummerTABLET.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/a/f/5/50910_1651828673939_992x451.png",
+		"imgDetails": {
+			"width": 992,
+			"height": 451,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1114627,
+			"url": "https://www.kpn.com/upload_mm/a/f/5/50910_1651828673939_992x451.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/3/c/d/50909_1651826016171_DragonsDen_992x451_Branded.jpg",
+		"imgDetails": {
+			"width": 992,
+			"height": 451,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 96559,
+			"url": "https://www.kpn.com/upload_mm/3/c/d/50909_1651826016171_DragonsDen_992x451_Branded.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/6/2/3/50899_1651744255820_tvzonderkabelTABLET.png",
+		"imgDetails": {
+			"width": 991,
+			"height": 452,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 89205,
+			"url": "https://www.kpn.com/upload_mm/6/2/3/50899_1651744255820_tvzonderkabelTABLET.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/1/6/4/50908_1651818288108_Banner_1_992x451_Branded_zonder_text.png",
+		"imgDetails": {
+			"width": 992,
+			"height": 451,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 479089,
+			"url": "https://www.kpn.com/upload_mm/1/6/4/50908_1651818288108_Banner_1_992x451_Branded_zonder_text.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/4/1/1/50904_1651752322102_ZoekenoptelefoonnummerTABLET.png",
+		"imgDetails": {
+			"width": 991,
+			"height": 452,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 211327,
+			"url": "https://www.kpn.com/upload_mm/4/1/1/50904_1651752322102_ZoekenoptelefoonnummerTABLET.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/a/f/5/50910_1651828673939_992x451.png",
+		"imgDetails": {
+			"width": 992,
+			"height": 451,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1114627,
+			"url": "https://www.kpn.com/upload_mm/a/f/5/50910_1651828673939_992x451.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/3/c/d/50909_1651826016171_DragonsDen_992x451_Branded.jpg",
+		"imgDetails": {
+			"width": 992,
+			"height": 451,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 96559,
+			"url": "https://www.kpn.com/upload_mm/3/c/d/50909_1651826016171_DragonsDen_992x451_Branded.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/5/c/3/3715571_1585146678114_icoon-settings-297x80px.png",
+		"imgDetails": {
+			"width": 297,
+			"height": 80,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 2423,
+			"url": "https://www.kpn.com/upload_mm/5/c/3/3715571_1585146678114_icoon-settings-297x80px.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/7/9/2/30006_fullimage_180920-homepage-visuals-297x80px-3-fullimage-icoon-vindeenwinkel.png",
+		"imgDetails": {
+			"width": 297,
+			"height": 80,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3353,
+			"url": "https://www.kpn.com/upload_mm/7/9/2/30006_fullimage_180920-homepage-visuals-297x80px-3-fullimage-icoon-vindeenwinkel.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/upload_mm/9/c/1/3715570_1585146633785_30004_fullimage_180920-homepage-visuals-297x80px-1-fullimage-icoon-huipnodig.png",
+		"imgDetails": {
+			"width": 297,
+			"height": 80,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3654,
+			"url": "https://www.kpn.com/upload_mm/9/c/1/3715570_1585146633785_30004_fullimage_180920-homepage-visuals-297x80px-1-fullimage-icoon-huipnodig.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://www.kpn.com/public/images/footer/kpn-logo.png",
+		"imgDetails": {
+			"width": 80,
+			"height": 40,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1347,
+			"url": "https://www.kpn.com/public/images/footer/kpn-logo.png"
+		}
+	}
+]

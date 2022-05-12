@@ -1,10 +1,10 @@
 [
 	{
-		"paginatitel": "Energie van je betrouwbare energieleverancier | Essent"
+		"paginatitel": "paginatitel"
 	},
 	{
 		"metaElement": null,
-		"metaElementContent": "IE=edge",
+		"metaElementContent": "HALLOAIE=edge",
 		"metaElementProperty": null
 	},
 	{
@@ -14,57 +14,54 @@
 	},
 	{
 		"metaElement": "viewport",
-		"metaElementContent": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+		"metaElementContent": "HALLOAwidth=device-width, initial-scale=1.0, minimum-scale=1.0",
 		"metaElementProperty": null
 	},
 	{
 		"metaElement": "pageTcm",
-		"metaElementContent": "tcm:301-219900-64",
+		"metaElementContent": "HALLOAtcm:301-219900-64",
 		"metaElementProperty": null
 	},
 	{
 		"metaElement": "description",
-		"metaElementContent": "Essent maakt thuis nog voordeliger, makkelijker en leuker. We leveren al energie aan 2,5 miljoen klanten en helpen je energie besparen.",
+		"metaElementContent": "HALLOAboe",
 		"metaElementProperty": null
 	},
 	{
 		"metaElement": "keywords",
-		"metaElementContent": "",
+		"metaElementContent": "HALLOA",
 		"metaElementProperty": null
 	},
 	{
 		"metaElement": "author",
-		"metaElementContent": "Essent Online",
+		"metaElementContent": "HALLOAEssent Online",
 		"metaElementProperty": null
 	},
 	{
 		"metaElement": "robots",
-		"metaElementContent": "INDEX, FOLLOW",
+		"metaElementContent": "HALLOAINDEX, FOLLOW",
 		"metaElementProperty": null
 	},
+	
 	{
 		"metaElement": null,
-		"metaElementContent": "www.essent.nl",
-		"metaElementProperty": "og:site_name"
+		"metaElementContent": "HALLOAarticle",
+		"metaElementProperty": "og:description"
 	},
-	{
+    {
 		"metaElement": null,
-		"metaElementContent": "article",
-		"metaElementProperty": "og:type"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "",
+		"metaElementContent": "HALLOAarticle",
 		"metaElementProperty": "og:title"
 	},
+	 
 	{
 		"metaElement": null,
-		"metaElementContent": "https://static.essent.nl/online/img/logo-essent.png",
+		"metaElementContent": "HALLOAhttps://static.essent.nl/online/img/logo-essent.png",
 		"metaElementProperty": "og:image"
 	},
 	{
 		"metaElement": null,
-		"metaElementContent": "https://www.essent.nl/content/particulier/index.html",
+		"metaElementContent": "HALLOA",
 		"metaElementProperty": "og:url"
 	},
 	{
@@ -110,7 +107,7 @@
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://essent.nl//content/Images/217488_HUB_SenG_Index.jpg",
+		"imgsrc": "https://essent.nl/content/Images/217488_HUB_SenG_Index.jpg",
 		"imgDetails": {
 			"width": 600,
 			"height": 338,
@@ -119,12 +116,12 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 107417,
-			"url": "https://www.essent.nl//content/Images/217488_HUB_SenG_Index.jpg"
+			"url": "https://www.essent.nl/content/Images/217488_HUB_SenG_Index.jpg"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://essent.nl//content/Images/217650_HUB_Energieproducten_Index.jpg",
+		"imgsrc": "https://essent.nl/content/Images/217650_HUB_Energieproducten_Index.jpg",
 		"imgDetails": {
 			"width": 600,
 			"height": 338,
@@ -133,12 +130,12 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 108961,
-			"url": "https://www.essent.nl//content/Images/217650_HUB_Energieproducten_Index.jpg"
+			"url": "https://www.essent.nl/content/Images/217650_HUB_Energieproducten_Index.jpg"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://essent.nl//content/Images/217651_HUB_Speciaal-voor-Klanten_Index.jpg",
+		"imgsrc": "https://essent.nl/content/Images/217651_HUB_Speciaal-voor-Klanten_Index.jpg",
 		"imgDetails": {
 			"width": 600,
 			"height": 338,
@@ -147,12 +144,12 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 86992,
-			"url": "https://www.essent.nl//content/Images/217651_HUB_Speciaal-voor-Klanten_Index.jpg"
+			"url": "https://www.essent.nl/content/Images/217651_HUB_Speciaal-voor-Klanten_Index.jpg"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://essent.nl//content/Images/217267_KlantenVertellenLogo.png",
+		"imgsrc": "https://essent.nl/content/Images/217267_KlantenVertellenLogo.png",
 		"imgDetails": {
 			"width": 100,
 			"height": 50,
@@ -161,12 +158,12 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 1996,
-			"url": "https://www.essent.nl//content/Images/217267_KlantenVertellenLogo.png"
+			"url": "https://www.essent.nl/content/Images/217267_KlantenVertellenLogo.png"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://essent.nl//content/Images/195608_2.png",
+		"imgsrc": "https://essent.nl/content/Images/195608_2.png",
 		"imgDetails": {
 			"width": 56,
 			"height": 56,
@@ -175,12 +172,12 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 4965,
-			"url": "https://www.essent.nl//content/Images/195608_2.png"
+			"url": "https://www.essent.nl/content/Images/195608_2.png"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://essent.nl//content/Images/195607_1.png",
+		"imgsrc": "https://essent.nl/content/Images/195607_1.png",
 		"imgDetails": {
 			"width": 56,
 			"height": 56,
@@ -189,12 +186,12 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 4641,
-			"url": "https://www.essent.nl//content/Images/195607_1.png"
+			"url": "https://www.essent.nl/content/Images/195607_1.png"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://essent.nl//content/Images/202624_Verblijsfunctie.png",
+		"imgsrc": "https://essent.nl/content/Images/202624_Verblijsfunctie.png",
 		"imgDetails": {
 			"width": 56,
 			"height": 56,
@@ -203,21 +200,21 @@
 			"wUnits": "px",
 			"hUnits": "px",
 			"length": 1168,
-			"url": "https://www.essent.nl//content/Images/202624_Verblijsfunctie.png"
+			"url": "https://www.essent.nl/content/Images/202624_Verblijsfunctie.png"
 		}
 	},
 	{
 		"type": "image",
-		"imgsrc": "https://static.essent.nl/online/img/logo-essent_white.svg",
+		"imgsrc": "https://via.placeholder.com/1",
 		"imgDetails": {
-			"width": 100,
-			"height": 53.3,
-			"type": "svg",
-			"mime": "image/svg+xml",
+			"width": 1,
+			"height": 1,
+			"type": "png",
+			"mime": "image/png",
 			"wUnits": "px",
 			"hUnits": "px",
-			"length": 1527,
-			"url": "https://static.essent.nl/online/img/logo-essent_white.svg"
+			"length": 106,
+			"url": "https://via.placeholder.com/1"
 		}
 	},
 	{

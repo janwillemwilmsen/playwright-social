@@ -11,6 +11,10 @@
     <h1>Social preview</h1>
     
     Localhost : server testurl <a href="http://localhost:8080/api?url=https://essent.nl">essent.nl</a><br>
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen">essent.nl kennisbank</a><br>
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://jumbo.com">jumbo.com - api</a><br>
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://amazon.com">amazon.com - api</a><br>
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://www.ing.nl/particulier/index.html">ing.nl - api</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://essent.nl">essent.nl</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://toertocht.be">toertocht.be</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://socialsharepreview.com">socialsharepreview.com</a><br>
@@ -23,7 +27,7 @@
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://jumbo.com/">jumbo.com</a><br>
     Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen">https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen</a><br><br>
 
-     
+     <!-- <iframe src="https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen" width="150" height="250"></iframe> -->
 
     <br><br>
 
@@ -33,7 +37,40 @@
         <input type="submit" value="Go">
     </form>
 
-    <h2>results</h2>
+
+    <h2>Linkedin</h2>
+    <div id="linkedinimage"></div>
+    <div id="linkedintitle"></div>
+    <div id="linkedinurl"></div>
+    og:image
+    Title
+    og:url 
+    
+
+
+<h2>Twitter</h2>
+
+<!-- // "metaElement": "twitter:card"
+//  // "metaElementContent": "summary_large_image"
+// "metaElement": "twitter:site"
+// "metaElement": "twitter:creator"
+// "metaElement": "twitter:url"
+// "metaElement": "twitter:title"
+// "metaElement": "twitter:description"
+// "metaElement": "twitter:image" -->
+
+
+<div id="twittercard"></div>
+<div id="twitter-site"></div>
+<div id="twitter-creator"></div>
+<div id="twitter-url"></div>
+<div id="twitter-title"></div>
+<div id="twitter-description"></div>
+<div id="twitter-image"></div>
+
+<hr>
+
+    <h2>Facebook</h2>
     <div class="flex" style="background-color: bisque;"> 
         <div>Meta description:</div>
         <div id="metadescription"></div>
@@ -48,13 +85,21 @@
     </div>
     <br><br>
 
-    
+    <h3>OG url</h3>
     <div id="ogurl"></div>
+    <h3>OG title</h3>
     <div id="ogtitle"></div>
+
+    <h3>OG DESC</h3>
     <div id="ogdescription"></div>
-   
+    <h3>Canonical url</h3>
+    <div id="canonurl"></div>
+ 
+    <br><br>
+
 
     <div class="flex" style="background-color: darkcyan;">
+        
         <div>OG img url:</div>
         <div id="ogimage"></div>
         
@@ -78,12 +123,7 @@
 
     <br><br>
     <div id="json"></div>
-
-    <!-- Fetched URL
-    Link Preview
-    og:url
-    og:title
-    og:description -->
+ 
 
 
 
@@ -113,15 +153,17 @@
         // const apiUrl = 'https://sitemap-detector-kykti36joa-nw.a.run.app/sitemap?url='
 
         
-// API aanpassing bij metaData.push({            'ogi': 'ogi',               openGraphImageDetails
-// Alleen essent.json lokaal aangepast
+        // API aanpassing bij metaData.push({            'ogi': 'ogi',               openGraphImageDetails
+      // Alleen essent.json lokaal aangepast
 
 
         // Dynamische url OF test JSON file.
         const url = apiUrl + domainUrl;
         // const url  = '/test/toertocht.json'
+        // const url  = '/test/ing.json'
         // const url  = '/test/essent.json'
         // const url  = '/test/opengraph.json'
+        // const url  = '/test/kpn.json'
 
         console.log(url)
         const response = await fetch(url)
@@ -131,6 +173,7 @@
             console.log('jsonData = ', jsonData)
             console.log('we got data');
             const results = jsonData.map(element => element )
+            // const results = jsonData
             console.log('Results van api = ', results)
 
         //     const list = document.getElementById('sitemaps')
@@ -142,13 +185,24 @@
         // })
 
 
-        /////////////////PRESENT JSON
+
+
+
+
+
+
+
+
+
+        /////////////////////////////FACEBOOK
+
+        /////////////////////////////PRESENT JSON
         document.getElementById("json").textContent = JSON.stringify(results, undefined, 2);
       
 
         // { "type": "image", "imgsrc": "https://toertocht.be/icons/whatsapp.svg", "imgDetails": { "width": 2500, "height": 2489, "type": "svg", "mime": "image/svg+xml", "wUnits": "px", "hUnits": "px", "length": 4873, "url": "https://toertocht.be/icons/whatsapp.svg" }
 
-        /////////////////IMAGE LIST
+        /////////////////////////////IMAGE LIST
         const imagelist = document.getElementById('imagelist')
 
         const allImages = results.filter(function (item){
@@ -166,7 +220,7 @@
             const listItem = document.createElement('li')
 
 
-            //// If image is smaller 200px
+            ///////////////////////////// If image is smaller 200px
             const minWidth = image.imgDetails.width
             if(minWidth < 200) {
                 listItem.style.display = 'none'
@@ -177,8 +231,10 @@
             const imagePop = document.createElement('img')
             const imgLink = document.createElement('a')
 
+            // const prxy = 'https://caravaggio-kykti36joa-ey.a.run.app/o:auto?image='
 
             // const proxiedUrl = '/proxy?url=' + image.imgsrc
+            // const proxiedUrl = prxy + image.imgsrc
             const proxiedUrl = image.imgsrc
 
             imagePop.setAttribute('src', proxiedUrl)
@@ -201,6 +257,9 @@
                 // ogimsrc.setAttribute('src', image.imgsrc)
                 // document.getElementById('preview').textContent = `Click count: ${event.detail}`;
                 // document.getElementById('preview').style.width = `560px`;
+                
+                
+                // document.getElementById('preview').src = prxy + image.imgsrc;
                 document.getElementById('preview').src = image.imgsrc;
 
                 // Uitgezet omdat als er wel een OG image is dit een error geeft.
@@ -293,41 +352,53 @@
        const aspectog = document.getElementById('aspectog')
        const innerValues = document.createElement('span')
        innerValues.innerHTML = left + ':' + right
-    //    innerValues.innerText = 'heey'
+        //    innerValues.innerText = 'heey'
        aspectog.appendChild(innerValues)
 
       
         ////////////////////////////////////////PRESENT OGimage /////////////////////////////////////
+
+ 
         const ogImageElement = results.filter(function (item){
             return item.metaElementProperty === 'og:image';
         })
-
+        console.log('OPEN Graph IMAGE = ', ogImageElement)
+        console.log(typeof ogImageElement)
         // const ogImageElement = results.filter(function (item){
         //     return item === 'openGraphImageDetails';
         // })
 
         // const ogImageElement = results.openGraphImageDetails
         // const ogImageElement = results.query
-        
-        
+    { // START  OF OG image block
+
+   
+        // {"metaElement":null,"metaElementContent":"","metaElementProperty":"og:image"}
+        // {"metaElement":null,"metaElementContent":"https://static.essent.nl/online/img/logo-essent.png","metaElementProperty":"og:image"}
+        // {"metaElement":null,"metaElementContent":"https://www.ing.nl/media/android-chrome-512x512_tcm162-26158.png","metaElementProperty":"og:image"}
+
       
 
-        console.log('OPEN Graph IMAGE = ', ogImageElement)
+       
 
         if(ogImageElement.length === 0 ){
-            console.log('ogImageElement.length === 0')
+            console.log('Checking If OG image is there .... metaElementContent === ""')
             const ogimage = document.getElementById('ogimage')
             ogimage.innerHTML = `
                 <img src="https://via.placeholder.com/1" id="preview" style="background:gray;width:270px;height:200px;">
                 <div id="NoOGimageFound">
                     No <strong>og:image</strong> found - 
-                    Facebook will use any other image used on your page. <br>
+                    Facebook can use any other image used on your page.  <br>
                     Click on any of the images below to see how it would look if they were used as the image.
                     </div>`
         }
         else{
-            console.log('ogImageElement.length === 11111111111111111111111111111111111111111')
-            console.log('OG:image element = ', ogImageElement)
+
+            var [{metaElement, metaElementContent, metaElementProperty}] = ogImageElement;
+            console.log('DESTRUCTURED Array OG IMG', metaElementContent )
+            
+            console.log('Checking If OG image is there .... metaElementContent === "some url"')
+            // console.log('OG:image element = ', ogImageElement)
             // const data = metaElements
             const ogimage = document.getElementById('ogimage')
             const src = ogImageElement[0].metaElementContent
@@ -346,7 +417,7 @@
             ogimsrc.appendChild(image)
         }
 
-
+    } // END OF OG image block
 
 
 
@@ -373,14 +444,30 @@
             console.log('OG:url element =', ogUrlElement)
             // const data = metaElements
             const ogurl = document.getElementById('ogurl')
-            ogurl.innerText = ogUrlElement[0].metaElementContent
+            const ogUrlMarker = ogUrlElement[0].metaElementContent
+
+            if(ogUrlMarker.length > 0){
+                ogurl.innerText = ogUrlMarker
+            }
+            else{
+                ogurl.innerText = 'OG:url element is found but it has no value. og:url is empty.'
+            }
+
+            
         }
+
+
+
+
 
 
         /////PRESENT OGTITLE
         const ogTitleElement = results.filter(function (item){
             return item.metaElementProperty === 'og:title';
         })
+
+        // var [{metaElement, metaElementContent, metaElementProperty}] = ogTitleElement;
+        // console.log('DESTRUCTURED OG titel array', metaElementContent)
 
         if(ogTitleElement.length === 0 ){
             const ogtitle = document.getElementById('ogtitle')
@@ -390,33 +477,77 @@
             ogtitle.appendChild(noOgTitle);
         }
         else{
-            console.log('OG:title element =', ogTitleElement)
-            // const data = metaElements
-            const ogtitle = document.getElementById('ogtitle')
-            ogtitle.innerText = ogTitleElement[0].metaElementContent
+            
+                        // if(metaElementContent === ''){
+                        //     const ogtitle = document.getElementById('ogtitle')
+                        //     ogtitle.innerText = 'The og:title is configured but the value is empty'
+
+                        // }
+                        // else{
+
+                    
+                                        console.log('OG:title element =', ogTitleElement)
+                                        // const data = metaElements
+                                        const ogtitlewel = document.getElementById('ogtitle')
+                                        const waarde = ogTitleElement[0].metaElementContent
+
+                                        if(waarde.length > 0){
+                                            // const innerTekst = document.createElement('div')
+                                            ogtitlewel.innerText = waarde
+
+                                            // const innerWaarde = document.createElement('span')
+                                            // innerWaarde.innerText = ogTitleElement[0].metaElementContent
+
+                                            // innerTekst.appendChild(innerWaarde)
+                                            // ogtitlewel.appendChild(innerTekst)
+                                        }
+                                        else{
+                        
+                                            const ogtitle = document.getElementById('ogtitle')
+                                            ogtitle.innerText = 'The og:title is configured but the value is empty'
+
+
+                                        }
+                                       
+                        // }
         }
 
 
-
+       
         
-/// PRESENT META DESCRIPTION
+                /// PRESENT META DESCRIPTION
 
-            const metaDescriptionJson = results.filter(function (item){
-                return item.metaElement === 'description'
+            const metaDescriptionJson = results.filter(function (zaak){
+                return zaak.metaElement === 'description';
             })
             console.log('META META META', metaDescriptionJson)
-            console.log('META META META', metaDescriptionJson[0].metaElementContent)
-       
-            if(metaDescriptionJson[0].metaElementContent === undefined) {
+            console.log(typeof metaDescriptionJson)
+            // console.log('META META META', metaDescriptionJson[0].metaElementContent)
+            // const metdescriptionValue = metaDescriptionJson[0].metaElementContent
+            // console.log('metdescriptionValue',metdescriptionValue)
+
+{
+            if(metaDescriptionJson.length === 0) {
                 const metaDescriptionMarker = document.getElementById('metadescription')
-                metaDescriptionMarker.innerText = 'Meta description not provided'
+                metaDescriptionMarker.innerText = 'Meta description tag not provided, no meta-description available'
             }
+          
+          
             else{
-                const metaDescriptionMarker = document.getElementById('metadescription')
-                metaDescriptionMarker.innerText = metaDescriptionJson[0].metaElementContent
+                               const metaDescriptionMarker = document.getElementById('metadescription')
+                               const metaValue = metaDescriptionJson[0].metaElementContent
+                                
+                                if(metaValue.length > 0){
+                                    metaDescriptionMarker.innerText = metaValue
+                                }
+                                else{
+                                    metaDescriptionMarker.innerText = 'Meta description tag found. But it has no value, its empty.'
+                                }
+               
+                
 
             }
-
+        } //END OF META DESC BLOCK
 
 
 
@@ -425,29 +556,69 @@
             return item.metaElementProperty === 'og:description';
         })
 
-        if(ogDescriptionElement.length === 0 ){
-            const ogdescription = document.getElementById('ogdescription')
-            ogdescription.innerHTML = `No <strong>og:description</strong> found.<br> 
-            Fallback to meta-description. ${metaDescriptionJson[0].metaElementContent} `
+        {
+            
+            if(ogDescriptionElement.length === 0 ){
+
+                if(metaDescriptionJson.length === 0){
+                    const mdesc = '...Hmmnn no meta description found...'
+                    const ogdescription = document.getElementById('ogdescription')
+                    ogdescription.innerHTML = `No <strong>og:description</strong> found.<br> 
+                    Fallback to meta-description. 
+                ${mdesc}`
+
+                }
+                else{
+                    const mdesc = metaDescriptionJson[0].metaElementContent
+               
+                
+                const ogdescription = document.getElementById('ogdescription')
+                ogdescription.innerHTML = `No <strong>og:description</strong> found.<br> 
+                    Fallback to meta-description. 
+                ${mdesc}`
+
+
+            }
+
         }
         else{
             console.log('OG:Description element = ', ogDescriptionElement)
-            // const data = metaElements
             const ogdescription = document.getElementById('ogdescription')
-            ogdescription.innerText = ogDescriptionElement[0].metaElementContent
+            const ogdescriptionMarker = ogDescriptionElement[0].metaElementContent
+            
+            if(ogdescriptionMarker.length > 0){
+                ogdescription.innerText = ogDescriptionElement[0].metaElementContent
+            }
+            else{
+                ogdescription.innerText = 'OG:description element found, but it has no value. Its empty.'
+            }
+
+            // const data = metaElements
+           
         }
+        
+}
 
 
 
 
-
-        /////////////////PRESENT Meta Title
+        /////////////////PRESENT 
         const seotitle = document.getElementById('metatitel')
+
         if(results[0].paginatitel === undefined){
             seotitle.innerText = 'There is no title element in the html of the page'
         }
         else {
-            seotitle.innerText = results[0].paginatitel
+
+            const seoTitleMarker = results[0].paginatitel
+
+            if(seoTitleMarker.length > 0){
+                seotitle.innerText = seoTitleMarker
+            }
+            else{
+                seotitle.innerText = 'There is an empty title element on the page'
+            }
+
         }
 
 
@@ -460,7 +631,7 @@
 
         if(metaElements.length === 0 ){
             const rbt = document.getElementById('robots');
-        rbt.innerText = 'No robots text found'
+            rbt.innerText = 'No robots text found'
         }
         else{
             console.log('Meta element Filter Robots', metaElements)
@@ -471,6 +642,291 @@
 
 
 
+////////////Present canonical url
+
+// const canonicalUrl = results.filter(function (item){
+//     return item.canonurl
+// })
+
+// Bovenstaand is Object. Onderstaand is String.
+
+const canonicalUrl = results[1].canonurl
+
+console.log('canonicalUrl canonicalUrl', canonicalUrl )
+const canonElement = document.getElementById('canonurl')
+ 
+                if(canonicalUrl === undefined ){
+                  
+                                  canonElement.innerText = 'There is no canonical element in the html.'
+                
+                }
+                else{
+                                console.log('IF1  canonicalUrl canonicalUrl', canonicalUrl )
+
+                                if(canonicalUrl.length > 0){
+                                    console.log('If2 canonicalUrl canonicalUrl', canonicalUrl )
+
+                                    canonElement.innerText = canonicalUrl
+                                }
+                                else{
+                                    console.log('Else3 canonicalUrl canonicalUrl', canonicalUrl )
+
+                                    canonElement.innerText = 'There is a canonical element in the html. But is has no value, its empty.'
+
+                                }
+                
+                }
+
+
+
+/////////////////////////////////TWITTER
+const twitterValueCard = results.filter(function(item){
+    return item.metaElement === 'twitter:card'
+})
+
+console.log(typeof twitterValueCard) // Object
+console.log('TwitterValuesCard',twitterValueCard)
+
+// {metaElement: 'twitter:card', metaElementContent: 'summary_large_image', metaElementProperty: null}
+
+////// KAN je 2 keer desctructeren op zelfde variabelen.??????????????????????????????????????????????
+{
+        const twitterElementCard = document.getElementById('twittercard')
+
+        if(twitterValueCard.length === 0 ){
+            twitterElementCard.innerText = 'No Twitter Card in source'
+        }
+        else {
+            const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueCard
+            console.log('twitterValueCardValueHIER',metaElementContent)
+            if(metaElementContent){
+                twitterElementCard.innerText = metaElementContent
+            }
+            else{
+                twitterElementCard.innerText = 'No value for Twitter Card'
+            }
+        }
+} // End van lege huls voor desctructure twittercard
+
+
+const twitterValueSite = results.filter(function(item){
+    return item.metaElement === 'twitter:site'
+})
+
+
+{
+    const twitterElementSite = document.getElementById('twitter-site')
+
+    if(twitterValueSite.length === 0){
+        twitterElementSite.innerText = 'No Twitter Site in source'
+    }
+    else{
+        const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueSite
+        console.log('metaElementContent SITE',metaElementContent)
+
+        if(metaElementContent){
+            twitterElementSite.innerText = metaElementContent
+        }
+        else{
+            twitterElementSite.innerText = 'No value for Twitter Site'
+        }
+
+    }
+
+
+}
+
+
+const twitterValueCreator = results.filter(function(item){
+    return item.metaElement === 'twitter:creator'
+})
+
+
+{
+    const twitterElementCreator = document.getElementById('twitter-creator')
+
+    if(twitterValueCreator.length === 0){
+        twitterElementCreator.innerText = 'No Twitter:creator element in source'
+    }
+    else{
+
+        // desctructure twitterCreator node
+        const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueCreator
+
+        if(metaElementContent){
+            twitterElementCreator.innerText = metaElementContent
+        }
+        else{
+            twitterElementCreator.innerText = 'Twitter:creator element found. But is has no value, the element is empty.'
+        }
+
+    }
+
+}
+
+
+
+
+const twitterValueUrl = results.filter(function(item){
+    return item.metaElement === 'twitter:url'
+})
+
+const twitterElementUrl = document.getElementById('twitter-url')
+
+if(twitterValueUrl.length === 0){
+    twitterElementUrl.innerText = 'No twitter:url found in the html of the page.'
+}
+else{
+    const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueUrl
+
+    if(metaElementContent){
+        twitterElementUrl.innerText =  metaElementContent
+    }
+    else{
+        const twitterUrlFallback = results[1].canonurl 
+    //    console.log('twitterUrlFallbacktwitterUrssssssssssssssssssssssssssssssssssssslFallbacktwitterUrlFallback', twitterUrlFallback)
+
+        twitterElementUrl.innerText = `twitter:url found in the html of the page. But is has no value. Fallback to canonical url ${twitterUrlFallback}`
+    }
+
+}
+
+
+const twitterValueTitle = results.filter(function(item){
+    return item.metaElement === 'twitter:title'
+})
+console.log('twitterValueTitle twitterValueTitle', twitterValueTitle.length)
+console.log('twitterValueTitle twitterValueTitle', twitterValueTitle)
+console.log(typeof twitterValueTitle)
+
+const twitterElementTitle = document.getElementById('twitter-title')
+
+
+            if(twitterValueTitle.length === 0){
+                // No twitter:title in html
+                twitterElementTitle.innerText = 'There is no twitter:title in the html.'
+            }
+            else{
+                const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueTitle
+                if(metaElementContent === ''){
+                    // empty
+                    twitterElementTitle.innerText = 'nooo'
+                }
+                else{
+                    twitterElementTitle.innerText = metaElementContent
+                }
+            }
+
+
+
+
+
+const twitterValueDescription = results.filter(function(item){
+    return item.metaElement === 'twitter:description'
+})
+console.log('TW DESC',twitterValueDescription)
+
+const twitterElementDesciption = document.getElementById('twitter-description')
+
+if(twitterValueDescription.length === 0 ){
+    twitterElementDesciption.innerText = 'There is no twitter:description in the html'
+}
+else{
+
+        const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueDescription
+
+        console.log('metaElementContent metaElementContentmetaElementContentmetaElementContentmetaElementContent',metaElementContent)
+        console.log(typeof metaElementContent)
+        console.log(metaElementContent.length)
+
+        if(metaElementContent.length > 0){
+            twitterElementDesciption.innerText = metaElementContent
+        }
+        else{
+            twitterElementDesciption.innerText = 'There is a twitter:description in the html, but the value is empty.'
+        }
+
+
+}
+
+
+
+const twitterValueImage = results.filter(function(item){
+    return item.metaElement === 'twitter:image'
+})
+
+{
+console.log('twitterValueImage',twitterValueImage)
+console.log(typeof twitterValueImage)
+console.log(twitterValueImage.length)
+
+console.log('OPEN Graph IMAGE For Twitter Fallback = ', ogImageElement)
+
+
+
+const twitterElementImage = document.getElementById('twitter-image')
+
+        if(twitterValueImage.length === 0 ){
+
+
+            const [{metaElement, metaElementContent, metaElementProperty}] = ogImageElement
+            console.log('OG image for Twitter', metaElementContent)
+
+
+            const twitImageSubTxt = document.createElement('div')
+            twitImageSubTxt.innerText = `No twitter:image available. Fallback to OG:Image, if available (${metaElementContent}).`
+
+                    const twShareImg = document.createElement('img')
+                    twShareImg.style.width = '150px'
+                    twShareImg.setAttribute('src', metaElementContent)
+                    twShareImg.setAttribute('alt', 'Fallback og:image - twitter:image is not provided')
+                    // twitterElementImage.innerText =  metaElementContent
+                    twitterElementImage.appendChild(twShareImg)
+                    twitterElementImage.append(twitImageSubTxt)
+
+
+        }
+        else{
+            // desctructur to get innervalue
+          
+        {
+
+            const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueImage
+            
+            if(metaElementContent.length > 0){
+                const twShareImg = document.createElement('img')
+                twShareImg.style.width = '150px'
+                twShareImg.setAttribute('src', metaElementContent)
+                // twitterElementImage.innerText =  metaElementContent
+                twitterElementImage.appendChild(twShareImg)
+                
+                
+                
+            }
+            else{
+                twitterElementImage.innerText = 'the twitter:image element is in the html. but is has no value, its empty '
+            }
+            
+        }
+
+           
+        }
+
+    } // END OF TWITTER IMAGE BLOCK
+
+
+
+    /////////////////////LINKEDIN
+
+    // document.getElementByID('linkedinimage')
+    // document.getElementByID('linkedintitle')
+    // document.getElementByID('linkedinurl')
+    
+
+    console.log('LINKEDIN VERSION OG IMAGE', ogImageElement)
+
+    console.log('LINKEDIN VERSION OGurl', ogUrlElement)
+    console.log('LINKEDIN VERSION OGTitle', ogTitleElement)
         }) 
         // return response.json()
         return jsonData;
