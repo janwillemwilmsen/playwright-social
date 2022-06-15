@@ -1,0 +1,2952 @@
+<!-- DEZE IS VOOR DAT ik half opnieuw begon, met  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Social Media Share tester</title>
+    <script src="js/aspector.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Jumbotron -->
+    <div class="p-6 bg-gray-100 rounded-lg">
+        <a href="/">
+            <h1 class="mb-5 text-3xl font-semibold">Social Media Share tester</h1>
+        </a>
+        <p>
+            Simple tester for checking how your site looks on Facebook, Twitter or LinkedIn. Make sure you have the markup needed for perfect sharing on social media.
+        </p>
+
+
+
+        <!-- Cloud Run: <a href="https://sitemap-detector-kykti36joa-nw.a.run.app/?url=toertocht.be">get toertocht.be sitemap</a><br> -->
+        <span class="text-sm italic">
+                    
+                      Testurls: <br>
+                      <div class="flex flex-row flex-wrap">
+                        <!-- https://www.websiteplanet.com/ twitterCard small -->
+                     
+<a class="inline-block pr-2 " href="/api?url=https://essent.nl">essent.nl</a><br>
+<a class="inline-block pr-2 " href="/api?url=https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen">essent.nl/kennisbank</a>
+<a class="inline-block pr-2 " href="/api?url=https://jumbo.com">jumbo.com - api</a><br>
+<a class="inline-block pr-2 " href="/api?url=https://amazon.com">amazon.com - api</a><br>
+<a class="inline-block pr-2 " href="/api?url=https://www.ing.nl/particulier/index.html">ing.nl - api</a>
+<a class="inline-block pr-2 " href="/?url=https://essent.nl">essent.nl</a>
+<a class="inline-block pr-2 " href="/?url=https://toertocht.be">toertocht.be</a>
+<a class="inline-block pr-2 " href="/?url=https://vpro.nl">vpro.be</a>
+<a class="inline-block pr-2 " href="/?url=https://socialsharepreview.com">socialsharepreview.com</a>
+<a class="inline-block pr-2 " href="/?url=https://www.heymeta.com">heymeta.com</a><br>
+<a class="inline-block pr-2 " href="/?url=https://psv.nl">psv.nl</a><br>
+<a class="inline-block pr-2 " href="/?url=https://xs4all.nl">xs4all.nl</a>
+<a class="inline-block pr-2 " href="/?url=https://beslist.nl">beslist.nl</a>
+<a class="inline-block pr-2 " href="/?url=https://omoda.nl">omoda.nl</a>
+<!-- <a class="inline-block pr-2 " href="/?url=https://www.websiteplanet.com/">websiteplanet.com</a> -->
+<a class="inline-block pr-2 " href="/?url=https://overheid.nl">overheid.nl</a>
+<a class="inline-block pr-2 " href="/?url=https://www.philips.nl">philips.nl</a>
+<a class="inline-block pr-2 " href="/?url=https://asml.com">asml.com</a>
+<a class="inline-block pr-2 " href="/?url=https://www.opengraph.xyz/">opengraph.xyz</a>
+<a class="inline-block pr-2 " href="/?url=https://www.ing.nl/particulier/index.html">ing.nl</a>
+<a class="inline-block pr-2 " href="/?url=https://google.nl/">google.nl</a>
+<a class="inline-block pr-2 " href="/?url=https://github.com">github.com</a>
+<a class="inline-block pr-2 " href="/?url=https://amazon.com/">amazon.com</a>
+<a class="inline-block pr-2 " href="/?url=https://facebook.com/">facebook.com</a>
+<a class="inline-block pr-2 " href="/?url=https://jumbo.com/">jumbo.com</a>
+<a class="inline-block pr-2 " href="/?url=https://www.vgz.nl">vgz.nl</a>
+<a class="inline-block pr-2 " href="/?url=https://linkedin.com/">linkedin.com/</a>
+<a class="inline-block pr-2 " href="/?url=https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen">/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen</a>
+<a class="inline-block pr-2 " href="/?url=https://www.dokx.nl">dokx.nl</a>
+                     
+</div>
+</span>
+    </div>
+
+    <div class="sticky top-0 z-40 w-full text-gray-700 bg-gray-100 shadow-lg">
+        <div class="flex flex-row justify-center mx-auto text-center">
+            <div><a class="mx-2 text-sm" href="#metadata">Meta data</a></div>
+            <div><a class="mx-2 text-sm" href="#facebook">Facebook</a></div>
+            <div><a class="mx-2 text-sm" href="#twitter">Twitter</a></div>
+            <div><a class="mx-2 text-sm" href="#linkedin">LinkedIn</a></div>
+            <div><a class="mx-2 text-sm" href="#whatsapp">WhatsApp</a></div>
+
+        </div>
+    </div>
+    <a name="results"></a>
+
+
+    <!-- <form method="get"  id="my_form"  action="/#results"> -->
+    <form method="get" action="/index.html">
+
+        <!-- <form method="get"  id="my_form" action="" onsubmit="searchShow(query);"> -->
+
+
+
+        <div class="container px-6 mx-auto my-24">
+            <section class="text-center text-gray-800 ">
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-full px-3 grow-0 shrink-0 flex-basis lg:w-6/12">
+                        <div class="flex-row md:flex">
+                            <input type="text" name="url" id="url" nplaceholder="url" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                            />
+                            <!-- <input type="submit" value="Go" data-mdb-ripple="true" data-mdb-ripple-color="success" class="inline-block px-6 py-2.5 bg-blue-800 text-gray-100 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"/> -->
+
+
+                            <button type="submit" class="ml-2 inline-block px-6 py-2.5 bg-blue-800 text-gray-100 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">Submit</button>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </form>
+
+
+    <!-- https://developers.facebook.com/docs/sharing/webmasters/images
+    https://ahrefs.com/blog/open-graph-meta-tags/ -->
+
+
+
+
+    <!-- <iframe src="https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen" width="150" height="250"></iframe> -->
+
+    <br><br>
+    <div class="px-6" id="resultList">
+
+
+        <a name="metadata"></a>
+        <div class="w-1 h-5"></div>
+        <h3 class="mt-8 text-2xl font-medium leading-tight text-blue-600"> Meta data </h3>
+        <p class="mb-2 text-sm">Meta data in the page.</p>
+
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">Meta description:</div>
+            <div id="metadescription"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">Meta title:</div>
+            <div id="metatitle"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">Meta robots: </div>
+            <div id="robots"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">Canonical url: </div>
+            <div id="canonurl"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">Base url: </div>
+            <div id="baseurl"></div>
+        </div>
+        <!-- end metadata -->
+        <a name="facebook"></a>
+        <h3 class="mt-8 text-2xl font-medium leading-tight text-blue-600">Facebook</h3>
+        <p class="mb-2 text-sm">Facebook uses open graph data for sharing pages on Facebook.</p>
+
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:url</div>
+            <div id="previewogurl"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:site_name</div>
+            <div id="og-sitename"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:locale</div>
+            <div id="og-locale"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:audio</div>
+            <div id="og-audio"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:video</div>
+            <div id="og-video"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:type</div>
+            <div id="og-type"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:description</div>
+            <div id="og-description"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:title</div>
+            <div id="og-title"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:image</div>
+            <div id="og-image"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:image:alt</div>
+            <div id="og-image-alt"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:image:type</div>
+            <div id="og-image-type"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:image:width(in html source)</div>
+            <div id="og-image-width"></div>
+            <div class="h-5 pr-2">og:image:width(based on actual image)</div>
+            <div id="og-image-width-real"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:image:height(in html source)</div>
+            <div id="og-image-height"></div>
+            <div class="h-5 pr-2">og:image:height(based on actual image)</div>
+            <div id="og-image-height-real"></div>
+        </div>
+
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:image aspect ratio</div>
+            <div>
+                <span id="aspect-left"></span> <span class="mx-2">:</span> <span id="aspect-right"></span>
+            </div>
+        </div>
+
+
+        <div id="fbpreviewcontainer">
+            The minimum allowed image dimension is 200 x 200 pixels. The size of the image file must not exceed 8 MB. Use images that are at least 1200 x 630 pixels for the best display on high resolution devices. At the minimum, you should use images that are 600
+            x 315 pixels to display link page posts with larger images. If your image is smaller than 600 x 315 px, it will still display in the link page post, but the size will be much smaller. Try to keep your images as close to 1.91:1 aspect ratio
+            for images. So they are the same across desktop and mobile Feed. Use og:image:width and og:image:height, it will specify the image dimensions to the facebook crawler so that it can render the image immediately without having to asynchronously
+            download and process it.
+
+            <div id="fbpreviewimage"></div>
+            <div id="fbpreviewtitle"></div>
+            <div id="fbpreviewdescription"></div>
+            <div id="fbNoogpreviewimage"></div>
+            <div id="fbNoogpreviewimageContainer"></div>
+            <ul id="imagelist"></ul>
+        </div>
+
+
+
+        <a name="twitter"></a>
+        <div class="w-1 h-5"></div>
+        <h3 class="mt-8 text-2xl font-medium leading-tight text-blue-600">Twitter</h3>
+        <p class="mb-2 text-sm">Twitter meta data in the page.</p>
+
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">twitter:title</div>
+            <div id="twitter-Title"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">twitter:description</div>
+            <div id="twitter-Description"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">twitter:url</div>
+            <div id="twitter-Url"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">twitter:img</div>
+            <div id="twitter-Image"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">twitter:img:src</div>
+            <div id="twitter-ImageSrc"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">Twitter:site</div>
+            <div id="twitter-Site"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">Twitter:creator </div>
+            <div id="twitter-Creator"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">Type of twitter:card </div>
+            <div id="twitter-Card"></div>
+        </div>
+
+        <div id="twpreviewimage"></div>
+
+
+
+        <a name="linkedin"></a>
+        <div class="w-1 h-5"></div>
+        <h3 class="mt-8 text-2xl font-medium leading-tight text-blue-600">LinkedIn</h3>
+        <p class="mb-2 text-sm">LinkedIn uses oEmbeds and/or Open Graph Protocol (OGP) and other data from the page to show shared pages in the feed. The Linkedin Post Inspector does not always show the right preview. Have tested many websites in it, and checked the results
+            in the LinkedIn app. So we cannot be sure about what will shared when the oEmbed or Open Graph data isn't available. The developer documentation is lacking information about the lenght of descriptions and and wether or not they are shown,
+            or what the fallback value will be. The documentation only states that you should use :</p>
+        <ul class="mb-2 text-sm">
+            <li>'og:title</li>
+            <li>'og:image' --> Max file size: 5 MB // Minimum image dimensions: 1200 (w) x 627 (h) pixels // Recommended ratio: 1.91:1</li>
+            <li>'og:description'</li>
+            <li>'og:url'</li>
+        </ul>
+        <p class="mb-2 text-sm">
+            If the image isn't visable when shared that might be because of server security settings, which prohibit embedding data and resources on other platforms. Also when pages with a small og:images is shared, the image is on the left of the post(small) instead
+            of the top of the post(large).
+        </p>
+
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:title</div>
+            <div id="linkedin-Title"></div>
+
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:title - fallback</div>
+
+            <div id="linkedin-TitleFallback"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:type</div>
+            <div id="linkedin-Type"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:type - fallback</div>
+            <div id="linkedin-TypeFallback">"og:type = article" is the default value for this property. Not providing og:type in html has no impact.</div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:author</div>
+            <div id="linkedin-Author"></div>
+            <div id="linkedin-AuthorFallback">No alternatives possible</div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:publishdate </div>
+            <div id="linkedin-Publishdate"></div>
+            <div id="linkedin-PublishdateFallback">No alternatives possible</div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:image</div>
+            <div id="linkedin-Image"></div>
+            <div>
+                <span id="og-image-width-real-li"></span>
+                <span id="og-image-height-real-li"></span>
+            </div>
+
+        </div>
+        <div class="flex flex-row">
+            <div id="linkedin-ImageFallback"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:description</div>
+            <div id="linkedin-Description"></div>
+
+        </div>
+
+        <div class="flex flex-row">
+            <div id="linkedin-DescriptionFallback"></div>
+        </div>
+
+
+        <div id="lipreviewimage"></div>
+        <div id="lipreviewimageContainer"></div>
+        <ul id="imagelistForLinkedin"></ul>
+
+
+
+
+        <a name="whatsapp"></a>
+        <div class="w-1 h-5"></div>
+        <h3 class="mt-8 text-2xl font-medium leading-tight text-blue-600">WhatsApp</h3>
+        <p class="mb-2 text-sm">WhatsApp uses open graph and other data from the page to show shared pages in the feed. If og:image is squared, Whatsapp will show larger square image. og:image also needs to be below 300kb (but I cannot test image filesize yet, am only using
+            height and width....). Other unoffical documentation states: the image needed to be under 300kb in size and 256x256px but not larger than 400x400px.<br><br> Note : it is possible to add multiple og:images to a website or page. Besides the
+            second 'og:image' you need to add 'og:image:type', 'og:image:width', and 'og:image:height' attributes for both og:images.</p>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:title</div>
+            <div id="whatsapp-Title"></div>
+        </div>
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:description</div>
+            <div id="whatsapp-Description"></div>
+        </div>
+
+
+
+        <div class="flex flex-row">
+            <div class="h-5 pr-2">og:image</div>
+            <div id="whatsapp-ImageTxt"></div>
+
+
+            <div>
+                <span id="og-image-width-real-wa"></span>
+                <span id="og-image-height-real-wa"></span>
+
+            </div>
+
+        </div>
+        <img id="whatsapp-Image">
+        <span id="og-image-is-sqaure"></span>
+        <span id="og-image-within-bounderies"></span>
+
+        <div id="whatsapp-ImageFallback"></div>
+        <div id="whatsapp-preview"></div>
+
+
+    </div>
+    <!--  END TABLE -->
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+    <br><br>
+    <div id="json"></div>
+
+
+
+
+    <script>
+        let params = (new URL(document.location)).searchParams;
+        let query = params.get('url');
+        console.log(query)
+
+        document.getElementById('url').value = query;
+
+        const jsonData = ''
+
+        searchShow(query)
+
+        async function searchShow(query) {
+            const domainUrl = `${query}`
+            console.log('DomainUrl', domainUrl)
+
+            // const apiUrl = '/api?url=/proxy?url='
+            const apiUrl = '/api?url='
+
+
+
+
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            // Dynamische url OF test JSON file.
+            const url = apiUrl + domainUrl;
+            // const url = '/test/websiteplanet.json'
+            // const url  = '/test/facebook.json'
+            // const url = '/test/xs4all.json'
+            // const url  = '/test/omoda.json'
+            // const url  = '/test/li.json'
+            // const url  = '/test/psv.json'
+            // const url  = '/test/github.json'
+            // const url  = '/test/vgz.json'
+            // const url  = '/test/toertocht.json'
+            // const url  = '/test/socialshare.json'
+            // const url  = '/test/ing.json'
+            // const url  = '/test/essent.json'
+            // const url  = '/test/jumbo.json'
+            // const url = '/test/opengraph.json'
+            // const url = '/test/kpn.json'
+
+            console.log(url)
+            const response = await fetch(url)
+                .then(response => response.json())
+                .then((jsonData) => {
+                    const results = jsonData.map(element => element)
+                    console.log('Results van api = ', results)
+
+                    /////////////////////////////PRESENT JSON
+                    document.getElementById("json").textContent = JSON.stringify(results, undefined, 2);
+                    ////////////////////////////////
+
+                    // const aspectImage = results.filter(function (item){
+                    //     return item.type === 'image' 
+                    // });
+                    // console.log('aspectImageaspectImageaspectImageaspectImageaspectImage',aspectImage)
+                    //  const aspectImg = aspectImage.imgDetails
+                    // console.log('aspectImageaspectImageaspectImageaspectImageaspectImage',aspectImage)
+
+                    // // // for(i = 0; i < allImages.length; i++ ){
+                    // //     for (const image in allImages){
+                    //     aspectImg.forEach(image => {
+                    // async function gcd2 (a2, b2) {
+                    //   return (b2 == 0) ? a2 : gcd2 (b2, a2%b2);
+                    // }
+                    // var w2 = image.width;
+                    // var h2 = image.height;
+                    // var r2 = gcd2 (w2, h2);
+                    // var left2 =  w2/r2
+                    // var right2 = h2/r2
+                    // console.log('ASPECT MFFCKKRR ', left2)
+                    // // console.log('ASPECT MFFCKKRR', left2, right2)
+                    // return;
+
+
+                    // })
+
+
+
+
+                    /////////////////////////////IMAGE LIST
+                    const imagelist = document.getElementById('imagelist')
+
+                    const allImages = results.filter(function(item) {
+                        return item.type === 'image'
+                    });
+                    console.log('All normal images', allImages) /// START OLD
+                    console.log('All normal images', typeof allImages) /// START OLD
+                    console.log('All normal images', allImages.length) /// START OLD
+
+
+
+
+
+
+                    allImages.forEach(image => {
+                        console.log('for Each element', image)
+                        const listItem = document.createElement('li')
+                        listItem.className = 'inline-block'
+                            ///////////////////////////// If image is smaller 200px
+                        const minWidth = image.imgDetails.width
+                        if (minWidth < 50) {
+                            listItem.style.display = 'none'
+                        }
+
+
+
+                        // imgDetails = 0
+                        const ignoreImg = image.imgDetails
+                            // console.log(ignoreImg.length)
+
+
+                        // WEGGEHAALD VANWEGE svg bestanden. Kan een logo bevatten.
+                        // if(ignoreImg.length === undefined){
+                        //     listItem.style.display = 'none'
+                        // }
+                        if (ignoreImg.imgDetails === 0) {
+                            listItem.style.display = 'none'
+                        }
+
+
+
+                        const imagePop = document.createElement('img')
+                        const imgLink = document.createElement('a')
+
+                        // const prxy = 'https://caravaggio-kykti36joa-ey.a.run.app/o:auto?image='
+                        // const proxiedUrl = '/proxy?url=' + image.imgsrc
+                        // const proxiedUrl = prxy + image.imgsrc
+                        const proxiedUrl = image.imgsrc
+
+                        imagePop.setAttribute('src', proxiedUrl)
+
+
+                        // var w2 = ''
+                        // var h2 = ''
+                        // var r2 = ''
+                        // var left2 =  ''
+                        // var right2 = ''
+
+                        ///// Function to calculate aspect ratio of each image. Get erro max callstack size exceeded.
+                        //      function gcd2 (a2, b2) {
+                        //          return (b2 == 0) ? a2 : gcd2 (b2, a2%b2);
+                        // }
+                        // var w2 = image.imgDetails.width;
+                        // var h2 = image.imgDetails.height;
+                        // var r2 = gcd2 (w2, h2);
+                        // var left2 =  w2/r2
+                        // var righ2t = h2/r2
+
+                        ///// VOOR aspecter-node-module - gives object error.....
+                        // var w2 = image.imgDetails.width;
+                        // var h2 = image.imgDetails.height;
+                        // const aspecterResult = aspecter(w2, h2)
+                        // console.log('aspecter',aspecterResult)
+
+
+                        // const count = allImages.push('cows');
+
+                        // const altText = 'Image height: ' + image.imgDetails.height + ' ...and... ' + 'Image width:' + image.imgDetails.width + 'aspect ratio' + aspecterResult
+                        const altText = 'Image height: ' + image.imgDetails.height + ' ...and... ' + 'Image width:' + image.imgDetails.width
+
+
+                        imagePop.setAttribute('alt', altText)
+                        imagePop.setAttribute('title', altText)
+                        imagePop.setAttribute('width', '80')
+                        imagePop.style.background = 'gray'
+                            // listItem.innerText = image.imgsrc
+                            // update src og img placeholder
+                            // const ogimsrc = document.getElementById('preview')
+
+                        imagePop.addEventListener('click', event => {
+                            // ogimsrc.src ='image.imgsrc';
+                            // ogimsrc.setAttribute('src', image.imgsrc)
+                            // document.getElementById('preview').textContent = `Click count: ${event.detail}`;
+                            // document.getElementById('preview').style.width = `560px`;            
+                            // document.getElementById('preview').src = prxy + image.imgsrc;
+
+                            // deze is voor changing source of img met het ID=preview. Gebruik nu background image in css....
+                            // document.getElementById('preview').src = image.imgsrc;
+                            // document.getElementById('preview').style.backgroundImage = image.imgsrc;
+
+                            const bgimageForTest = image.imgsrc;
+
+                            document.getElementById('preview').style.backgroundImage = `url("${bgimageForTest}")`;
+                            document.getElementById('previewpreview').style.backgroundImage = `url("${bgimageForTest}")`;
+
+                            // document.getElementById('preview').style.display = 'none';
+
+
+
+
+                            // Uitgezet omdat als er wel een OG image is dit een error geeft.
+                            // document.getElementById('NoOGimageFound').style.display = 'none';
+                        });
+
+                        // imgLink.setAttribute('href', image.imgsrc)
+                        // imgLink.setAttribute('onclick', 'javascript:document.getElementById("ogimsrc").src=' + `${image.imgsrc}`)
+                        // imgLink.setAttribute('onclick', updateSrc())
+                        // imgLink.setAttribute('target', 'preview')
+                        listItem.append(imgLink)
+                        imgLink.append(imagePop)
+                        imagelist.appendChild(listItem);
+
+
+
+                    });
+
+
+
+
+                    const useImage = document.createElement('div')
+                    useImage.className = 'text-center p-4'
+                    useImage.innerHTML = `Click on any of the images below to see how it would look if Facebook selects that image. 
+            Hoover over the image to see width and hight of the image. `
+
+                    imagelist.prepend(useImage); ///// This should only show when no:image is defined. So hiding than, in facebook code block below 
+                    ////////////////// END OLD
+                    // //////////////////// START NEW
+                    // console.log('All normal images', allImages)
+
+                    // // allImages.forEach(image => {
+
+                    //     for(let image in allImages ) {
+                    //     console.log('for Each element', image)
+                    //     const listItem = document.createElement('li')
+
+                    //             ///////////////////////////// If image is smaller 200px
+                    //             const minWidth = image.imgDetails.width
+                    //             if(minWidth < 200) {
+                    //                 listItem.style.display = 'none'
+                    //             }
+
+                    //             const imagePop = document.createElement('img')
+                    //             const imgLink = document.createElement('a')
+
+                    //             // const prxy = 'https://caravaggio-kykti36joa-ey.a.run.app/o:auto?image='
+                    //             // const proxiedUrl = '/proxy?url=' + image.imgsrc
+                    //             // const proxiedUrl = prxy + image.imgsrc
+                    //             const proxiedUrl = image.imgsrc
+
+                    //             imagePop.setAttribute('src', proxiedUrl)            
+
+
+
+                    //             ///// Function to calculate aspect ratio of each image. Get erro max callstack size exceeded.
+                    //              function gcd2 (a2, b2) {
+                    //                  return (b2 == 0) ? a2 : gcd2 (b2, a2%b2);
+                    //         }
+                    //         var w2 = image.imgDetails.width;
+                    //         var h2 = image.imgDetails.height;
+                    //         var r2 = gcd2 (w2, h2);
+                    //         var left2 =  w2/r2
+                    //         var righ2t = h2/r2
+
+
+                    //             // const altText = 'Image height: ' + image.imgDetails.height + ' ...and... ' + 'Image width:' + image.imgDetails.width + 'aspect ratio' + r
+                    //             const altText = 'Image height: ' + image.imgDetails.height + ' ...and... ' + 'Image width:' + image.imgDetails.width
+
+                    // console.log('image etc')
+                    //             imagePop.setAttribute('alt', altText)
+                    //             imagePop.setAttribute('title', altText)
+                    //             imagePop.setAttribute('width', '80')
+                    //             imagePop.style.background = 'gray'
+                    //             // listItem.innerText = image.imgsrc
+                    //             // update src og img placeholder
+                    //             // const ogimsrc = document.getElementById('preview')
+
+                    //             imagePop.addEventListener('click', event => {
+                    //             // ogimsrc.src ='image.imgsrc';
+                    //             // ogimsrc.setAttribute('src', image.imgsrc)
+                    //             // document.getElementById('preview').textContent = `Click count: ${event.detail}`;
+                    //             // document.getElementById('preview').style.width = `560px`;            
+                    //             // document.getElementById('preview').src = prxy + image.imgsrc;
+                    //             document.getElementById('preview').src = image.imgsrc;
+
+                    //             // Uitgezet omdat als er wel een OG image is dit een error geeft.
+                    //             // document.getElementById('NoOGimageFound').style.display = 'none';
+                    //         });  // endEventListener............
+
+                    //             // imgLink.setAttribute('href', image.imgsrc)
+                    //             // imgLink.setAttribute('onclick', 'javascript:document.getElementById("ogimsrc").src=' + `${image.imgsrc}`)
+                    //             // imgLink.setAttribute('onclick', updateSrc())
+                    //             // imgLink.setAttribute('target', 'preview')
+                    //             listItem.append(imgLink)
+                    //             imgLink.append(imagePop)
+                    //             imagelist.appendChild(listItem);
+
+                    //         };
+                    // ///////////// end new - but stopped because cannot get it to work.
+
+                    ////////////////////// og:image details
+                    const ogDetails = results.filter(function(item) {
+                        return item.ogi === 'ogi';
+                    })
+
+                    // console.log('og:image-url = ', ogDetails12)
+                    // console.log('og:image-url.lenght = ', ogDetails12.length)
+                    // only to be used for og-image-details. not for present og:image. 
+
+                    const [{
+                        openGraphImageDetails: {
+                            width,
+                            height,
+                            type,
+                            wUnits,
+                            hUnits,
+                            url
+                        }
+                    }] = ogDetails;
+                    // console.log(typeof width)
+
+                    if (typeof width === 'undefined') {
+                        console.log('og:image-url is undefined')
+                    } else {
+
+                        // Calculate aspect ratio og:image
+                        function gcd(a, b) {
+                            return (b == 0) ? a : gcd(b, a % b);
+                        }
+                        var w = width;
+                        var h = height;
+                        var r = gcd(w, h);
+                        var left = w / r
+                        var right = h / r
+                        console.log('og:image-url width', w)
+                        console.log('og:image-url height', h)
+                        console.log('og:image-url common demonitor', r)
+                        console.log('og:image-url AspectLeft', left)
+                        console.log('og:image-url AspectRight', right)
+
+                        // turned off - adding html later. only to be 
+                        // const eleMentogimsrcwidth = document.getElementById('ogimsrcwidth')
+                        // eleMentogimsrcwidth.innerText = width
+                        // const eleMentogimsrcheight = document.getElementById('ogimsrcheight')
+                        // eleMentogimsrcheight.innerText = height
+                        // const eleMentogimsrcwidthunits = document.getElementById('ogimsrcwidthunits')
+                        // eleMentogimsrcwidthunits.innerText = wUnits
+                        // const eleMentogimsrcheightunits = document.getElementById('ogimsrcheightunits')
+                        // eleMentogimsrcheightunits.innerText = hUnits
+                        // const eleMentogimsrctype = document.getElementById('ogimsrctype')
+                        // eleMentogimsrctype.innerText = type
+
+                        // const aspectog = document.getElementById('aspectog')
+                        // const innerValues = document.createElement('span')
+                        // innerValues.innerHTML = left + ':' + right
+                        // aspectog.appendChild(innerValues)
+                    }
+
+
+                    ///////////////////////// BASEURL
+
+                    const homeBaseUrl = results.filter(function(item) {
+                        return item.realBase
+                    })
+                    if (homeBaseUrl.length > 0) {
+                        const [{
+                            realBase
+                        }] = homeBaseUrl
+                        var baseUrlecht = realBase
+                    } else {
+                        var baseUrlecht = 'Base url not available.'
+                    }
+
+                    console.log('@@@ base url:', baseUrlecht)
+
+
+                    ////////////////////////// meta description
+                    var metaDescriptionElement = results.filter(function(item) {
+                        return item.metaElement === 'description'
+                    })
+                    if (metaDescriptionElement.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = metaDescriptionElement
+                        var metaDescriptionValue = metaElementContent
+                        if (metaDescriptionValue === '') {
+                            var metaDescriptionValue = 'description in source, but is has no value'
+                        }
+                    }
+
+
+
+                    if (metaDescriptionElement.length === 0) {
+                        var metaDescriptionElement = results.filter(function(item) {
+                            return item.metaElementProperty === 'description'
+                        })
+                        if (metaDescriptionElement.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = metaDescriptionElement
+                            var metaDescriptionValue = metaElementContent
+                            if (metaDescriptionValue === '') {
+                                var metaDescriptionValue = 'description in source, but is has no value'
+                            }
+                        } else {
+                            var metaDescriptionValue = `No 'description' in source.`
+                                //    var metaDescriptionValue = `No 'description' in source. Fallback to 'title', ${seoTitleMarker}.`
+                        }
+
+
+                    }
+
+                    console.log('@@@ description:', metaDescriptionValue)
+
+
+
+
+
+
+                    /////////////////////////////PRESENT TITLE
+
+                    if (results[0].paginatitel === undefined) {
+                        var seoTitleMarker = 'There is no title element in the html of the page'
+                    } else {
+
+                        var seoTitleMarker = results[0].paginatitel
+
+                        if (seoTitleMarker.length > 0) {} else {
+                            var seoTitleMarker = 'There is an empty title element on the page'
+                                // console.log('@@@ seo title for page:',seoTitleMarker)
+                        }
+
+                    }
+                    console.log('@@@ title : ', seoTitleMarker)
+                        ////////////////////////// Canonical url
+
+                    var canonValue = results[1].canonurl
+                    if (canonValue === undefined) {
+                        var canonValue = 'There is no canonical element in the html.'
+
+
+                    } else {
+                        if (canonValue.length > 0) {
+                            var canonValue = results[1].canonurl
+                        } else {
+                            var canonValue = 'There is a canonical element in the html. But is has no value, its empty.'
+                        }
+                    }
+
+                    console.log('@@@ canonicalurl: ', canonValue)
+                        //////////////////////////////////
+
+
+                    //////////////////robots
+
+
+                    ////////////////PRESENT ROBOTS value
+                    const metaElements = results.filter(function(item) {
+                        return item.metaElement === 'robots';
+                    })
+
+                    if (metaElements.length === 0) {
+                        // const rbt = document.getElementById('robots');
+                        // rbt.innerText = 'No robots text found'
+                        var robotsValue = 'No robots text found'
+                    } else {
+                        console.log('Meta element Filter Robots', metaElements)
+                            // const data = metaElements
+                            // const rbt = document.getElementById('robots');
+                            // rbt.innerText = metaElements[0].metaElementContent
+                        var robotsValue = metaElements[0].metaElementContent
+                    }
+                    console.log('@@@ robots:', robotsValue)
+
+                    ///////////////author
+                    var metaAuthorFilter = results.filter(function(item) {
+                        return item.metaElement === 'author'
+                    })
+                    if (metaAuthorFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = metaAuthorFilter
+                        var metaAuthorValue = metaElementContent
+                        if (metaAuthorValue === '') {
+                            var metaAuthorValue = 'author in source, but is has no value'
+                        }
+                    }
+
+
+                    if (metaAuthorFilter.length === 0) {
+                        var metaAuthorFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'author'
+                        })
+                        if (metaAuthorFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = metaAuthorFilter
+                            var metaAuthorValue = metaElementContent
+                            if (metaAuthorValue === '') {
+                                var metaAuthorValue = 'author in source, but is has no value'
+                            }
+                        } else {
+
+                            var metaAuthorValue = `No 'author' in source.`
+                        }
+                    }
+
+                    console.log('@@@ author :', metaAuthorValue)
+
+
+                    ////////////////// OG url
+
+                    var ogUrlFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:url'
+                    })
+                    if (ogUrlFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogUrlFilter
+                        var ogValueUrl = metaElementContent
+                        if (ogValueUrl === '') {
+                            var ogValueUrl = 'og:url in source, but is has no value'
+                        }
+                    }
+
+
+                    if (ogUrlFilter.length === 0) {
+                        var ogUrlFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:url'
+                        })
+                        if (ogUrlFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogUrlFilter
+                            var ogValueUrl = metaElementContent
+                            if (ogValueUrl === '') {
+                                var ogValueUrl = 'og:url in source, but is has no value'
+                            }
+                        } else {
+
+                            // var ogValueUrl = `No 'og:url' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogValueUrl = `No 'og:url' in source. Fallback to canonical-url,  canonical   `
+                        }
+                    }
+
+                    console.log('@@@ og:url :', ogValueUrl)
+                        ////////////////////////////////////////////////
+                        //////////////// OG SITE_NAME
+                    var ogSiteNameFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:site_name'
+                    })
+                    if (ogSiteNameFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogSiteNameFilter
+                        var ogSiteNameValue = metaElementContent
+                        if (ogSiteNameValue === '') {
+                            var ogSiteNameValue = 'og:site_name in source, but is has no value'
+                        }
+                    }
+
+
+                    if (ogSiteNameFilter.length === 0) {
+                        var ogSiteNameFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:site_name'
+                        })
+                        if (ogSiteNameFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogSiteNameFilter
+                            var ogSiteNameValue = metaElementContent
+                            if (ogSiteNameValue === '') {
+                                var ogSiteNameValue = 'og:site_name in source, but is has no value'
+                            }
+                        } else {
+
+                            // var ogSiteNameValue = `No 'og:site_name' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogSiteNameValue = `No 'og:site_name' in source. If your object is part of a larger web site, the name which should be displayed for the overall site.(ogp.me)`
+                        }
+                    }
+
+                    console.log('@@@ og:site_name :', ogSiteNameValue)
+                        ////////////////////////////////////////////////
+
+                    ////////////// og:locale
+                    var ogLocaleFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:locale'
+                    })
+                    if (ogLocaleFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogLocaleFilter
+                        var ogLocaleValue = metaElementContent
+                        if (ogLocaleValue === '') {
+                            var ogLocaleValue = 'og:locale in source, but is has no value.'
+                        }
+                    }
+
+
+                    if (ogLocaleFilter.length === 0) {
+                        var ogLocaleFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:locale'
+                        })
+                        if (ogLocaleFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogLocaleFilter
+                            var ogLocaleValue = metaElementContent
+                            if (ogLocaleValue === '') {
+                                var ogLocaleValue = 'og:locale in source, but is has no value.'
+                            }
+                        } else {
+
+                            // var ogLocaleValue = `No 'og:locale' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogLocaleValue = `No 'og:locale' in source. If no og:locale is specified, fallback to 'en_US'.`
+                        }
+                    }
+
+                    console.log('@@@ og:locale :', ogLocaleValue)
+                        ////////////////////////////////////////////////
+                        ////////////// og:audio // A URL to an audio file to accompany this object.
+                    var ogAudioFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:audio'
+                    })
+                    if (ogAudioFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogAudioFilter
+                        var ogAudioValue = metaElementContent
+                        if (ogAudioValue === '') {
+                            var ogAudioValue = 'og:audio in source, but is has no value.'
+                        }
+                    }
+
+
+                    if (ogAudioFilter.length === 0) {
+                        var ogAudioFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:audio'
+                        })
+                        if (ogAudioFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogAudioFilter
+                            var ogAudioValue = metaElementContent
+                            if (ogAudioValue === '') {
+                                var ogAudioValue = 'og:audio in source, but is has no value.'
+                            }
+                        } else {
+
+                            // var ogAudioValue = `No 'og:audio' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogAudioValue = `No 'og:audio' in source.`
+                        }
+                    }
+
+                    console.log('@@@ og:audio  :', ogAudioValue)
+                        ////////////////////////////////////////////////
+                        /////////////og:video
+
+                    var ogVideoFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:video'
+                    })
+                    if (ogVideoFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogVideoFilter
+                        var ogVideoValue = metaElementContent
+                        if (ogVideoValue === '') {
+                            var ogVideoValue = 'og:video in source, but is has no value.'
+                        }
+                    }
+
+
+                    if (ogVideoFilter.length === 0) {
+                        var ogVideoFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:video'
+                        })
+                        if (ogVideoFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogVideoFilter
+                            var ogVideoValue = metaElementContent
+                            if (ogVideoValue === '') {
+                                var ogVideoValue = 'og:video in source, but is has no value.'
+                            }
+                        } else {
+
+                            // var ogVideoValue = `No 'og:video' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogVideoValue = `No 'og:video' in source.`
+                        }
+                    }
+
+                    console.log('@@@ og:video :', ogVideoValue)
+                        ////////////////////////////////////////////////
+
+
+                    //////////////////OG TYPE
+                    var ogTypeFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:type'
+                    })
+                    if (ogTypeFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogTypeFilter
+                        var ogValueType = metaElementContent
+                        if (ogValueType === '') {
+                            var ogValueType = 'og:type in source, but is has no value.'
+                        }
+                    }
+
+
+                    if (ogTypeFilter.length === 0) {
+                        var ogTypeFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:type'
+                        })
+                        if (ogTypeFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogTypeFilter
+                            var ogValueType = metaElementContent
+                            if (ogValueType === '') {
+                                var ogValueType = 'og:type in source, but is has no value.'
+                            }
+                        } else {
+
+                            // var ogValueType = `No 'og:type' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogValueType = `No 'og:type' in source. Default to 'og:type = website'`
+                        }
+                    }
+
+                    console.log('@@@ og:type :', ogValueType)
+                        ////////////////////////////////////////////////
+
+                    ///////////////////////////// OG:description
+
+                    var ogDescriptionElement = results.filter(function(item) {
+                        return item.metaElement === 'og:description'
+                    })
+                    if (ogDescriptionElement.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogDescriptionElement
+                        var ogValueDescription = metaElementContent
+                        var ogValueDescriptionForLinkedIn = metaElementContent
+                        if (ogValueDescription === '') {
+                            var ogValueDescription = "No 'og:description' in source."
+                            var ogValueDescriptionForLinkedIn = `No og:description`
+                        }
+                    }
+
+
+
+                    if (ogDescriptionElement.length === 0) {
+                        var ogDescriptionElement = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:description'
+                        })
+                        if (ogDescriptionElement.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogDescriptionElement
+                            var ogValueDescription = metaElementContent
+                            var ogValueDescriptionForLinkedIn = metaElementContent
+                            if (ogValueDescription === '') {
+                                var ogValueDescription = "No 'og:description' in source."
+                                var ogValueDescriptionForLinkedIn = `No og:description`
+                            }
+                        } else {
+                            var ogValueDescription = `No 'og:description' in source.`
+                            var ogValueDescriptionForLinkedIn = `No og:description`
+
+                        }
+
+
+                    }
+
+                    console.log('@@@ og:description:', ogValueDescription)
+                    console.log('@@@ og:description for Linkedin:', ogValueDescriptionForLinkedIn)
+
+                    /////////////// OG:TITLE
+
+
+                    var ogTitleElement = results.filter(function(item) {
+                        return item.metaElement === 'og:title'
+                    })
+                    if (ogTitleElement.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogTitleElement
+                        var ogValueTitle = metaElementContent
+                        var ogValueTitleForLinkedin = metaElementContent
+                        if (ogValueTitle === '') {
+                            var ogValueTitle = 'og:title in source, but is has no value'
+                            var ogValueTitleForLinkedin = `No og:title`
+                        }
+                    }
+
+
+
+                    if (ogTitleElement.length === 0) {
+                        var ogTitleElement = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:title'
+                        })
+                        if (ogTitleElement.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogTitleElement
+                            var ogValueTitle = metaElementContent
+                            var ogValueTitleForLinkedin = metaElementContent
+                            if (ogValueTitle === '') {
+                                var ogValueTitle = 'og:title in source, but is has no value'
+                                var ogValueTitleForLinkedin = `No og:title`
+                            }
+                        } else {
+                            var ogValueTitle = `No 'og:title' in source.`
+                                //    var ogValueTitle = `No 'og:title' in source. Fallback to 'title', ${seoTitleMarker}.`
+                            var ogValueTitleForLinkedin = `No og:title`
+                        }
+
+
+                    }
+
+                    console.log('@@@ og:title:', ogValueTitle)
+                    console.log('@@@ og:title for Linkedin:', ogValueTitleForLinkedin)
+                        ////////////////////////
+                        ///////////////og:image
+                    var ogImageFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:image'
+                    })
+                    if (ogImageFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogImageFilter
+                        var ogImageValue = metaElementContent
+                        if (ogImageValue === '') {
+                            var ogImageValue = 'og:image in source, but is has no value'
+                        }
+                    }
+
+
+                    if (ogImageFilter.length === 0) {
+                        var ogImageFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:image'
+                        })
+                        if (ogImageFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogImageFilter
+                            var ogImageValue = metaElementContent
+                            if (ogImageValue === '') {
+                                var ogImageValue = 'og:image in source, but is has no value'
+                            }
+                        } else {
+
+                            // var ogImageValue = `No 'og:image' in source. Fallback to og:description, ${ogValueTitle}`
+                            //// NIET AANPASSEN WANT DAN VALT PREVIEW om....
+                            var ogImageValue = `No 'og:image' in source.`
+                        }
+                    }
+
+                    console.log('@@@ og:image :', ogImageValue)
+
+                    ///////////////////// og:image:alt
+
+                    var ogImageAltFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:image:alt'
+                    })
+                    if (ogImageAltFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogImageAltFilter
+                        var ogImageAltValue = metaElementContent
+                        if (ogImageAltValue === '') {
+                            var ogImageAltValue = 'og:image:alt in source, but is has no value'
+                        }
+                    }
+
+
+                    if (ogImageAltFilter.length === 0) {
+                        var ogImageAltFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:image:alt'
+                        })
+                        if (ogImageAltFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogImageAltFilter
+                            var ogImageAltValue = metaElementContent
+                            if (ogImageAltValue === '') {
+                                var ogImageAltValue = 'og:image:alt in source, but is has no value'
+                            }
+                        } else {
+
+                            // var ogImageAltValue = `No 'og:image:alt' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogImageAltValue = `No 'og:image:alt' in source. There should be one. see : https://ogp.me/`
+                        }
+                    }
+
+                    console.log('@@@ og:image:alt :', ogImageAltValue)
+                        ////////////////////////////////////////////////
+
+
+
+
+                    /////////////////////// og:image:type
+                    var ogImageTypeFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:image:type'
+                    })
+                    if (ogImageTypeFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogImageTypeFilter
+                        var ogImageTypeValue = metaElementContent
+                        if (ogImageTypeValue === '') {
+                            var ogImageTypeValue = 'og:image:type in source, but is has no value'
+                        }
+                    }
+
+
+                    if (ogImageTypeFilter.length === 0) {
+                        var ogImageTypeFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:image:type'
+                        })
+                        if (ogImageTypeFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogImageTypeFilter
+                            var ogImageTypeValue = metaElementContent
+                            if (ogImageTypeValue === '') {
+                                var ogImageTypeValue = 'og:image:type in source, but is has no value'
+                            }
+                        } else {
+
+                            // var ogImageTypeValue = `No 'og:image:type' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogImageTypeValue = `No 'og:image:type' in source.`
+                        }
+                    }
+
+                    console.log('@@@ og:image:type (MIME type):', ogImageTypeValue)
+                        ////////////////////////////////////////////////
+                        ///////////////// og:image:width
+                    var ogImageWidthFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:image:width'
+                    })
+                    if (ogImageWidthFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogImageWidthFilter
+                        var ogImageWidthValue = metaElementContent
+                        if (ogImageWidthValue === '') {
+                            var ogImageWidthValue = 'og:image:width in source, but is has no value'
+                        }
+                    }
+
+
+                    if (ogImageWidthFilter.length === 0) {
+                        var ogImageWidthFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:image:width'
+                        })
+                        if (ogImageWidthFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogImageWidthFilter
+                            var ogImageWidthValue = metaElementContent
+                            if (ogImageWidthValue === '') {
+                                var ogImageWidthValue = 'og:image:width in source, but is has no value'
+                            }
+                        } else {
+
+                            // var ogImageWidthValue = `No 'og:image:width' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogImageWidthValue = `No 'og:image:width' in source.`
+                        }
+                    }
+
+                    console.log('@@@ og:image:width :', ogImageWidthValue)
+                        ////////////////////////////////////////////////
+                        //////////////////og:image:height
+
+                    var ogImageHeightFilter = results.filter(function(item) {
+                        return item.metaElement === 'og:image:height'
+                    })
+                    if (ogImageHeightFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = ogImageHeightFilter
+                        var ogImageHeightValue = metaElementContent
+                        if (ogImageHeightValue === '') {
+                            var ogImageHeightValue = 'og:image:height in source, but is has no value'
+                        }
+                    }
+
+
+                    if (ogImageHeightFilter.length === 0) {
+                        var ogImageHeightFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'og:image:height'
+                        })
+                        if (ogImageHeightFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = ogImageHeightFilter
+                            var ogImageHeightValue = metaElementContent
+                            if (ogImageHeightValue === '') {
+                                var ogImageHeightValue = 'og:image:height in source, but is has no value'
+                            }
+                        } else {
+
+                            // var ogImageHeightValue = `No 'og:image:height' in source. Fallback to og:description, ${ogValueTitle}`
+                            var ogImageHeightValue = `No 'og:image:height' in source.`
+                        }
+                    }
+
+                    console.log('@@@ og:image:height :', ogImageHeightValue)
+                        ////////////////////////////////////////////////
+
+                    ////////////////////////////////////////////////
+                    ///////////////////////////// PRESENT TWITTER
+
+                    // { "metaElement": null, "metaElementContent": "summary_large_image", "metaElementProperty": "twitter:card" }
+                    // metaElement OR metaElementProperty = CARD 
+
+                    var twitterUrlFilter = results.filter(function(item) {
+                        return item.metaElement === 'twitter:url'
+                    })
+                    if (twitterUrlFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = twitterUrlFilter
+                        var twitterUrlValue = metaElementContent
+                        if (twitterUrlValue === '') {
+                            var twitterUrlValue = 'twitter:url in source, but is has no value'
+                        }
+                    }
+
+
+                    if (twitterUrlFilter.length === 0) {
+                        var twitterUrlFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'twitter:url'
+                        })
+                        if (twitterUrlFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = twitterUrlFilter
+                            var twitterUrlValue = metaElementContent
+                            if (twitterUrlValue === '') {
+                                var twitterUrlValue = 'twitter:url in source, but is has no value'
+                            }
+                        } else {
+
+                            // var twitterUrlValue = `No 'twitter:url' in source. Fallback to og:description, ${ogValueTitle}`
+                            var twitterUrlValue = `No 'twitter:url' in source.`
+                        }
+                    }
+
+                    console.log('@@@ twitter:url :', twitterUrlValue)
+                        ////////////////////////////////////////////////
+                        ///////////TWITTER IMAGE
+                    var twitterImageFilter = results.filter(function(item) {
+                        return item.metaElement === 'twitter:image'
+                    })
+                    if (twitterImageFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = twitterImageFilter
+                        var twitterImageValue = metaElementContent
+                        if (twitterImageValue === '') {
+                            var twitterImageValue = 'twitter:image in source, but is has no value'
+                        }
+                    }
+
+
+                    if (twitterImageFilter.length === 0) {
+                        var twitterImageFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'twitter:image'
+                        })
+                        if (twitterImageFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = twitterImageFilter
+                            var twitterImageValue = metaElementContent
+                            if (twitterImageValue === '') {
+                                var twitterImageValue = 'twitter:image in source, but is has no value'
+                            }
+                        } else {
+
+                            // var twitterImageValue = `No 'twitter:image' in source. Fallback to og:description, ${ogValueTitle}`
+                            var twitterImageValue = `No 'twitter:image' in source. Might fallback to og:image.`
+                        }
+                    }
+
+                    console.log('@@@ twitter:image :', twitterImageValue)
+                        ////////////////////////////////////////////////
+
+                    //////////twitter image SRC
+                    var twitterSrcImageSrcFilter = results.filter(function(item) {
+                        return item.metaElement === 'twitter:image:src'
+                    })
+                    if (twitterSrcImageSrcFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = twitterSrcImageSrcFilter
+                        var twitterSrcImageValue = metaElementContent
+                        if (twitterSrcImageValue === '') {
+                            var twitterSrcImageValue = 'twitter:image:src in source, but is has no value'
+                        }
+                    }
+
+
+                    if (twitterSrcImageSrcFilter.length === 0) {
+                        var twitterSrcImageSrcFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'twitter:image:src'
+                        })
+                        if (twitterSrcImageSrcFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = twitterSrcImageSrcFilter
+                            var twitterSrcImageValue = metaElementContent
+                            if (twitterSrcImageValue === '') {
+                                var twitterSrcImageValue = 'twitter:image:src in source, but is has no value'
+                            }
+                        } else {
+
+                            // var twitterSrcImageValue = `No 'twitter:image:src' in source. Fallback to og:description, ${ogValueTitle}`
+                            var twitterSrcImageValue = `No 'twitter:image:src' in source.`
+                        }
+                    }
+
+                    console.log('@@@ twitter:image:src :', twitterSrcImageValue)
+                        ////////////////////////////////////////////////
+
+                    ////////////////////// TWITTER DESCRIPTION
+
+                    var twitterValueDescriptionFilter = results.filter(function(item) {
+                        return item.metaElement === 'twitter:description'
+                    })
+                    if (twitterValueDescriptionFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = twitterValueDescriptionFilter
+                        var twitterValueDescription = metaElementContent
+                        if (twitterValueDescription === '') {
+                            var twitterValueDescription = 'twitter:description in source, but is has no value'
+                        }
+                    }
+
+
+                    if (twitterValueDescriptionFilter.length === 0) {
+                        var twitterValueDescriptionFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'twitter:description'
+                        })
+                        if (twitterValueDescriptionFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = twitterValueDescriptionFilter
+                            var twitterValueDescription = metaElementContent
+                            if (twitterValueDescription === '') {
+                                var twitterValueDescription = 'twitter:description in source, but is has no value'
+                            }
+                        } else {
+
+                            var twitterValueDescription = `No 'twitter:description' in source. Fallback to og:description, ${ogValueDescription}`
+                                // var twitterValueDescription = `No 'twitter:description' in source. Fallback to og:description.................`
+                        }
+                    }
+
+                    console.log('@@@ twitter:description:', twitterValueDescription)
+                        ////////////////////////////////////////////////
+
+
+                    ////////////////////////////////// TWITTER CARD
+
+                    var twitterValueCardFilter = results.filter(function(item) {
+                        return item.metaElement === 'twitter:card'
+                    })
+                    if (twitterValueCardFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = twitterValueCardFilter
+                        var twitterValueCard = metaElementContent
+                        if (twitterValueCard === '') {
+                            var twitterValueCard = 'twitter:card in source, but is has no value'
+                        }
+                    }
+
+
+
+                    if (twitterValueCardFilter.length === 0) {
+                        var twitterValueCardFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'twitter:card'
+                        })
+                        if (twitterValueCardFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = twitterValueCardFilter
+                            var twitterValueCard = metaElementContent
+                            if (twitterValueCard === '') {
+                                var twitterValueCard = 'twitter:card in source, but is has no value'
+                            }
+                        } else {
+                            var twitterValueCard = "No 'twitter:card' in source. If og:type, og:title and og:description are available, a summary card may be rendered."
+                        }
+
+
+                    }
+
+                    console.log('@@@ twitter:card:', twitterValueCard)
+                        ///////////////////////////////////////////
+                    var twitterSiteFilter = results.filter(function(item) {
+                        return item.metaElement === 'twitter:site'
+                    })
+                    if (twitterSiteFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = twitterSiteFilter
+                        var twitterSiteValue = metaElementContent
+                        if (twitterSiteValue === '') {
+                            var twitterSiteValue = 'twitter:site in source, but is has no value'
+                        }
+                    }
+
+
+                    if (twitterSiteFilter.length === 0) {
+                        var twitterSiteFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'twitter:site'
+                        })
+                        if (twitterSiteFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = twitterSiteFilter
+                            var twitterSiteValue = metaElementContent
+                            if (twitterSiteValue === '') {
+                                var twitterSiteValue = 'twitter:site in source, but is has no value'
+                            }
+                        } else {
+
+                            // var twitterSiteValue = `No 'twitter:site' in source. Fallback to og:description, ${ogValueTitle}`
+                            var twitterSiteValue = `No 'twitter:site' in source.`
+                        }
+                    }
+
+                    console.log('@@@ twitter:site :', twitterSiteValue)
+                        //////////////////////////////////////////////// twitter:creator
+                    var twitterCreatorFilter = results.filter(function(item) {
+                        return item.metaElement === 'twitter:creator'
+                    })
+                    if (twitterCreatorFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = twitterCreatorFilter
+                        var twitterCreatorValue = metaElementContent
+                        if (twitterCreatorValue === '') {
+                            var twitterCreatorValue = 'twitter:creator in source, but is has no value'
+                        }
+                    }
+
+
+                    if (twitterCreatorFilter.length === 0) {
+                        var twitterCreatorFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'twitter:creator'
+                        })
+                        if (twitterCreatorFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = twitterCreatorFilter
+                            var twitterCreatorValue = metaElementContent
+                            if (twitterCreatorValue === '') {
+                                var twitterCreatorValue = 'twitter:creator in source, but is has no value'
+                            }
+                        } else {
+
+                            // var twitterCreatorValue = `No 'twitter:creator' in source. Fallback to og:description, ${ogValueTitle}`
+                            var twitterCreatorValue = `No 'twitter:creator' in source.`
+                        }
+                    }
+
+                    console.log('@@@ twitter:creator :', twitterCreatorValue)
+                        ////////////////////////////////////////////////
+
+
+                    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    // TWITTER TITLE
+
+                    var twitterTitleFilter = results.filter(function(item) {
+                        return item.metaElement === 'twitter:title'
+                    })
+                    if (twitterTitleFilter.length > 0) {
+                        var [{
+                            metaElement,
+                            metaElementContent,
+                            metaElementProperty
+                        }] = twitterTitleFilter
+                        var twitterTitleValue = metaElementContent
+                        if (twitterTitleValue === '') {
+                            var twitterTitleValue = 'twitter:card in source, but is has no value'
+                        }
+                    }
+
+
+                    if (twitterTitleFilter.length === 0) {
+                        var twitterTitleFilter = results.filter(function(item) {
+                            return item.metaElementProperty === 'twitter:title'
+                        })
+                        if (twitterTitleFilter.length > 0) {
+                            var [{
+                                metaElement,
+                                metaElementContent,
+                                metaElementProperty
+                            }] = twitterTitleFilter
+                            var twitterTitleValue = metaElementContent
+                            if (twitterTitleValue === '') {
+                                var twitterTitleValue = 'twitter:card in source, but is has no value'
+                            }
+                        } else {
+
+                            var twitterTitleValue = `No 'twitter:title' in source. Fallback to og:title, ${ogValueTitle}`
+                        }
+
+
+                    }
+
+                    console.log('@@@ twitter:title:', twitterTitleValue)
+                        ////////////////////////////////////////////////
+                        // h1's
+
+                    let headingOnes = results.filter(function(item) {
+                        return item.typeElement === 'H1'
+                    })
+                    console.log('HEADING ONES', headingOnes)
+                    console.log('HEADING ONES', typeof headingOnes)
+                        // console.log('HEADING ONES[]' , headingOnes[0].headingTxt)
+
+                    if (headingOnes.length > 0) {
+                        const firstHeadingOne = headingOnes[0].headingTxt
+                        console.log('HEADING ONES[0]', firstHeadingOne)
+                        console.log('HEADING ONES[0]', firstHeadingOne.length)
+                    }
+
+                    // For Linkedin fallback
+                    let headingOnesMax = headingOnes.slice(0, 1)
+                    console.log('HEADING maxed ONES', headingOnesMax)
+                    console.log('HEADING maxed ONES', typeof headingOnesMax)
+
+                    headingOnes.forEach(heading1 => {
+                        console.log(heading1.headingTxt)
+                    });
+
+
+
+
+                    // h2's
+                    let headingTwos = results.filter(function(item) {
+                        return item.typeElement === 'H2'
+                    })
+                    console.log('HEADING TWOs', headingTwos)
+
+                    if (headingTwos.length > 0) {
+                        let firstHeadingTwo = headingTwos[0].headingTxt
+                        console.log('HEADING TWOS[0]', firstHeadingTwo)
+                    }
+
+                    // For LinkedIn title fallback
+                    let headingTwosMax = headingTwos.slice(0, 2)
+
+                    headingTwos.forEach(heading2 => {
+                        console.log(heading2.headingTxt)
+
+                    });
+
+
+
+
+
+                    // paragraphs
+
+                    const paragraphTxts = results.filter(function(item) {
+                        return item.typeElement === 'P'
+                    })
+
+                    paragraphTxts.forEach(paragraph => {
+                        console.log(paragraph.headingTxt)
+                    });
+
+
+
+
+
+
+                    ///////////////
+                    const author = metaAuthorValue
+                    const ogImageUrlWidth = w
+                    const ogImageUrlHeight = h
+                    const ogImageUrlCommon = r
+                    const ogImageUrlAspectLeft = left
+                    const ogImageUrlAspectRight = right
+                    const baseurl = baseUrlecht
+                    const seotitle = seoTitleMarker
+                    const robots = robotsValue
+                    const metaDescription = metaDescriptionValue
+                    const canonicalUrl = canonValue
+                    const ogUrl = ogValueUrl
+                    const ogSiteName = ogSiteNameValue
+                    const ogLocale = ogLocaleValue
+                    const ogAudio = ogAudioValue
+                    const ogVideo = ogVideoValue
+                    const ogType = ogValueType
+                    const ogDescription = ogValueDescription
+                    const ogTitle = ogValueTitle
+                    const ogImage = ogImageValue
+                    const ogImageAlt = ogImageAltValue
+                    const ogImageType = ogImageTypeValue
+                    const ogImageWidth = ogImageWidthValue
+                    const ogImageHeight = ogImageHeightValue
+                    const twitterUrl = twitterUrlValue
+                    const twitterImage = twitterImageValue
+                    const twitterImageSrc = twitterSrcImageValue
+                    const twitterDescription = twitterValueDescription
+                    const twitterCard = twitterValueCard
+                    const twitterSite = twitterSiteValue
+                    const twitterCreator = twitterCreatorValue
+                    const twitterTitle = twitterTitleValue
+
+
+                    console.log(author)
+                    console.log(ogImageUrlWidth)
+                    console.log(ogImageUrlHeight)
+                    console.log(ogImageUrlCommon)
+                    console.log(ogImageUrlAspectLeft)
+                    console.log(ogImageUrlAspectRight)
+                    console.log(baseurl)
+                    console.log(seotitle)
+                    console.log(robots)
+                    console.log(metaDescription)
+                    console.log(canonicalUrl)
+                    console.log(ogUrl)
+                    console.log(ogSiteName)
+                    console.log(ogLocale)
+                    console.log(ogAudio)
+                    console.log(ogVideo)
+                    console.log(ogType)
+                    console.log(ogDescription)
+                    console.log(ogTitle)
+                    console.log(ogImage)
+                    console.log(ogImageAlt)
+                    console.log(ogImageType)
+                    console.log(ogImageWidth)
+                    console.log(ogImageHeight)
+                    console.log(twitterUrl)
+                    console.log(twitterImage)
+                    console.log(twitterImageSrc)
+                    console.log(twitterDescription)
+                    console.log(twitterCard)
+                    console.log(twitterSite)
+                    console.log(twitterCreator)
+                    console.log(twitterTitle)
+
+                    const md = document.getElementById('metadescription')
+                    md.innerText = metaDescription
+                    const mt = document.getElementById('metatitle')
+                    mt.innerText = seotitle
+                    const rbt = document.getElementById('robots')
+                    rbt.innerText = robots
+                    const canon = document.getElementById('canonurl')
+                    canon.innerText = canonicalUrl
+                    const bu = document.getElementById('baseurl')
+                    bu.innerText = baseurl
+
+
+
+                    const ogPreviewurl = document.getElementById('previewogurl')
+                    ogPreviewurl.innerText = ogUrl
+                    const ogPreviewsite_name = document.getElementById('og-sitename')
+                    ogPreviewsite_name.innerText = ogSiteName
+                    const ogPreviewlocale = document.getElementById('og-locale')
+                    ogPreviewlocale.innerText = ogLocale
+                    const ogPreviewaudio = document.getElementById('og-audio')
+                    ogPreviewaudio.innerText = ogAudio
+                    const ogPreviewvideo = document.getElementById('og-video')
+                    ogPreviewvideo.innerText = ogVideo
+                    const ogPreviewtype = document.getElementById('og-type')
+                    ogPreviewtype.innerText = ogType
+                    const ogPreviewdescription = document.getElementById('og-description')
+                    ogPreviewdescription.innerText = ogDescription
+                    const ogPreviewtitle = document.getElementById('og-title')
+                    ogPreviewtitle.innerText = ogTitle
+                    const ogPreviewimage = document.getElementById('og-image')
+                    ogPreviewimage.innerText = ogImage
+                    console.log('Lenght of og:image', ogImage.length)
+                    const ogPreviewimagealt = document.getElementById('og-image-alt')
+                    ogPreviewimagealt.innerText = ogImageAlt
+                    const ogPreviewimagetype = document.getElementById('og-image-type')
+                    ogPreviewimagetype.innerText = ogImageType
+
+                    const ogPreviewimagewidthinhtmlsource = document.getElementById('og-image-width')
+                    ogPreviewimagewidthinhtmlsource.innerText = ogImageWidth
+
+                    const ogPreviewimagewidthbasedonactualimage = document.getElementById('og-image-width-real')
+                    ogPreviewimagewidthbasedonactualimage.innerText = ogImageUrlWidth
+
+                    const ogPreviewimageheightinhtmlsource = document.getElementById('og-image-height')
+                    ogPreviewimageheightinhtmlsource.innerText = ogImageHeight
+
+                    const ogPreviewimageheightbasedonactualimage = document.getElementById('og-image-height-real')
+                    ogPreviewimageheightbasedonactualimage.innerText = ogImageUrlHeight
+
+                    const ogPreviewimageaspectratioleft = document.getElementById('aspect-left')
+                    ogPreviewimageaspectratioleft.innerText = ogImageUrlAspectLeft
+                    const ogPreviewimageaspectratioright = document.getElementById('aspect-right')
+                    ogPreviewimageaspectratioright.innerText = ogImageUrlAspectRight
+
+
+
+
+
+                    if (ogImage === "No 'og:image' in source.") {
+                        const noOgPreviewForFacebook = document.getElementById('fbNoogpreviewimage')
+                        noOgPreviewForFacebook.innerText = 'No og:image defined. Facebook may use any image on the page in the feed.'
+
+                        const imageContainerFB = document.getElementById('fbNoogpreviewimageContainer')
+                        imageContainerFB.innerHTML = `
+    <div class="z-30 flex justify-center bg-blue-50">
+    <div class="flex flex-col lg:flex-row">
+        <div class="relative m-2 bg-white border-2 border-gray-200 " style="width: 540px;height: 540px;"> 
+            <!-- inner -->
+            <div class="flex flex-row mt-4" >
+                <div class="ml-4 mr-2 bg-gray-400 image w-14 h-14"></div>
+                <div class="block p-0 -mt-1 from">
+                       <span class="text-sm font-semibold text-blue-900 name"> Sample news page</span> <span class="text-sm font-normal sharedAlink">shared a <span class="text-sm font-normal text-blue-900">link</span> </span>
+                        <br><span class="text-sm font-normal time">2 minutes ago</span>
+                </div>
+            </div>
+            <hr class="mx-4 my-4">
+
+            <div class="flex flex-col mx-4 ">
+                
+                
+                <div class="py-2 text-base font-medium text-gray-700 introtext">
+                    This is an example of a shared page. Enjoy ;-)
+                </div>
+                <style>
+                    div.item:hover {background: #eaeaed;}
+                </style>
+                <div class="flex flex-row border border-gray-200 item">
+                    <!-- <img src="https://picsum.photos/500/250" width="" height=""> -->
+                    <div class="image" id="preview" style="background:url(https://picsum.photos/150/150);background-size:cover;width: 158px; height: 158px; min-width: 158px;"></div>
+                    <div class="w-full p-2 bg-gray-100 bg-opacity-50 subtxt">  
+                        <span class="uppercase" style="color: #606770;font-size: 12px;">${baseurl}</span><br>
+                            <span class="" style="font-weight: 600;font-size: 16px;line-height: 20px;margin: 3px 0 0;padding-top: 2px;">Test post</span><br> 
+                            <div class="linkurl line-clamp-3" style="color: #606770;font-size: 14px;line-height: 20px; word-break: break-word;">description sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription s</div>   
+                        </div>
+                </div>
+
+            </div>
+
+            <div class="absolute inset-x-0 bottom-0 block p-2 mx-2 mt-4 mb-2 text-sm font-semibold text-blue-900 align-bottom footer bg-blue-50 ">
+                Like - Comment - Share
+            </div>
+
+
+
+        </div> <!---LINKS RECHTS-->
+        <div class="relative m-2 bg-white border-2 border-gray-200 " style="width: 540px;height: 540px;"> 
+ 
+            <!-- inner -->
+            <div class="flex flex-row mt-4" >
+                <div class="ml-4 mr-2 bg-gray-400 image w-14 h-14"></div>
+                <div class="block p-0 -mt-1 from">
+                       <span class="text-sm font-semibold text-blue-900 name"> Sample news page</span> <span class="text-sm font-normal sharedAlink">shared a <span class="text-sm font-normal text-blue-900">link</span> </span>
+                        <br><span class="text-sm font-normal time">2 minutes ago</span>
+                </div>
+            </div>
+            <hr class="mx-4 my-4">
+
+            <div class="flex flex-col mx-4 ">
+                <div class="py-2 text-base font-medium text-gray-700 introtext">
+                    This is an example of a shared page. Enjoy ;-)
+                </div>
+                
+                <div class="border border-gray-200">
+                    <!-- <img src="https://picsum.photos/500/250" width="" height=""> -->
+                    <div class="image" id="previewpreview" style="background:url(https://picsum.photos/520/250);background-size:cover;width: 502px; height: 250px;"></div>
+                    <div class="p-2 bg-gray-100 bg-opacity-50 subtxt"> 
+                        <span class="uppercase" style="color: #606770;font-size: 12px;">${baseurl}</span><br>
+                        <span class="" style="font-weight: 600;font-size: 16px;line-height: 20px;margin: 3px 0 0;padding-top: 2px;">VPRO</span><br> 
+                        <div class="linkurl line-clamp-1" style="color: #606770;font-size: 14px;line-height: 20px; word-break: break-word;">description sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription s</div>   
+                     </div>
+                </div>
+
+            </div>
+
+            <div class="absolute inset-x-0 bottom-0 block p-2 mx-2 mt-4 mb-2 text-sm font-semibold text-blue-900 align-bottom footer bg-blue-50 ">
+                Like - Comment - Share
+            </div>
+ 
+
+        </div>
+        
+    </div>    
+</div>   
+    `
+
+                    } else {
+                        // there is a og:image. now filter on width and hight.
+                        console.log('there is a og:image. now filter on width and hight.')
+
+                        // if kleiner dan 600 x 315 px dan small 
+
+
+
+
+                        if (ogImageUrlWidth < 600 || ogImageUrlHeight < 315) {
+                            console.log('noooo kleiner dan w600xh315 smallLinkPost')
+                            const hideImageList = document.getElementById('imagelist')
+                            hideImageList.style.display = 'none'
+
+                            const noOgPreviewForFacebook = document.getElementById('fbNoogpreviewimage')
+                            noOgPreviewForFacebook.innerText = 'Defined og:image is smaller than 600px or 315px. Showing small linkpost.'
+
+
+                            const imageContainerFB = document.getElementById('fbNoogpreviewimageContainer')
+                            imageContainerFB.innerHTML = `<div class="z-30 flex justify-center bg-blue-50">
+    <div class="z-30 flex flex-col lg:flex-row">
+        <div class="relative m-2 bg-white border-2 border-gray-200 " style="width: 540px;height: 540px;"> 
+            <!-- inner -->
+            <div class="flex flex-row mt-4" >
+                <div class="ml-4 mr-2 bg-gray-400 image w-14 h-14"></div>
+                <div class="block p-0 -mt-1 from">
+                       <span class="text-sm font-semibold text-blue-900 name"> Sample news page</span> <span class="text-sm font-normal sharedAlink">shared a <span class="text-sm font-normal text-blue-900">link</span> </span>
+                        <br><span class="text-sm font-normal time">2 minutes ago</span>
+                </div>
+            </div>
+            <hr class="mx-4 my-4">
+
+            <div class="flex flex-col mx-4 ">
+                
+                
+                <div class="py-2 text-base font-medium text-gray-700 introtext">
+                    This is an example of a shared page. Enjoy ;-)
+                </div>
+                <style>
+                    div.item:hover {background: #eaeaed;}
+                </style>
+                <div class="flex flex-row border border-gray-200 item">
+                    <!-- <img src="https://picsum.photos/500/250" width="" height=""> -->
+                    <div class="image" id="preview" style="background:url(https://picsum.photos/150/150);background-size:cover;width: 158px; height: 158px; min-width: 158px;"></div>
+                    <div class="w-full p-2 bg-gray-100 bg-opacity-50 subtxt">  
+                        <span class="uppercase" style="color: #606770;font-size: 12px;">${baseurl}</span><br>
+                            <span class="" style="font-weight: 600;font-size: 16px;line-height: 20px;margin: 3px 0 0;padding-top: 2px;">Test post</span><br> 
+                            <div class="linkurl line-clamp-3" style="color: #606770;font-size: 14px;line-height: 20px; word-break: break-word;">description sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription s</div>   
+                        </div>
+                </div>
+
+            </div>
+
+            <div class="absolute inset-x-0 bottom-0 block p-2 mx-2 mt-4 mb-2 text-sm font-semibold text-blue-900 align-bottom footer bg-blue-50 ">
+                Like - Comment - Share
+            </div>
+
+
+
+                    </div> <!---LINKS RECHTS-->
+                        
+                </div>    
+            </div>
+            ` /// Let Op backtick
+
+
+                        } else {
+                            console.log('yeahhh groter dan 600 x 315 -> dan LargeLink post')
+                            const hideImageList = document.getElementById('imagelist')
+                            hideImageList.style.display = 'none'
+
+                            const noOgPreviewForFacebook = document.getElementById('fbNoogpreviewimage')
+                            noOgPreviewForFacebook.innerText = 'Defined og:image is bigger than 600px or 315px. Showing large linkpost.'
+
+
+                            const imageContainerFB = document.getElementById('fbNoogpreviewimageContainer')
+                            imageContainerFB.innerHTML = `
+    <div class="z-30 flex justify-center bg-blue-50">
+    <div class="flex flex-col lg:flex-row">
+       
+
+        <div class="relative m-2 bg-white border-2 border-gray-200 " style="width: 540px;height: 540px;"> 
+ 
+            <!-- inner -->
+            <div class="flex flex-row mt-4" >
+                <div class="ml-4 mr-2 bg-gray-400 image w-14 h-14"></div>
+                <div class="block p-0 -mt-1 from">
+                       <span class="text-sm font-semibold text-blue-900 name"> Sample news page</span> <span class="text-sm font-normal sharedAlink">shared a <span class="text-sm font-normal text-blue-900">link</span> </span>
+                        <br><span class="text-sm font-normal time">2 minutes ago</span>
+                </div>
+            </div>
+            <hr class="mx-4 my-4">
+
+            <div class="flex flex-col mx-4 ">
+                <div class="py-2 text-base font-medium text-gray-700 introtext">
+                    This is an example of a shared page. Enjoy ;-)
+                </div>
+                
+                <div class="border border-gray-200">
+                    <!-- <img src="https://picsum.photos/500/250" width="" height=""> -->
+                    <div class="image" id="previewpreview" style="background:url(https://picsum.photos/520/250);background-size:cover;width: 502px; height: 250px;"></div>
+                    <div class="p-2 bg-gray-100 bg-opacity-50 subtxt"> 
+                        <span class="uppercase" style="color: #606770;font-size: 12px;">${baseurl}</span><br>
+                        <span class="" style="font-weight: 600;font-size: 16px;line-height: 20px;margin: 3px 0 0;padding-top: 2px;">VPRO</span><br> 
+                        <div class="linkurl line-clamp-1" style="color: #606770;font-size: 14px;line-height: 20px; word-break: break-word;">description sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription ssdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription sdescription s</div>   
+                     </div>
+                </div>
+
+            </div>
+
+            <div class="absolute inset-x-0 bottom-0 block p-2 mx-2 mt-4 mb-2 text-sm font-semibold text-blue-900 align-bottom footer bg-blue-50 ">
+                Like - Comment - Share
+            </div>
+         </div>     
+    </div>    
+</div>
+    `
+
+                        } // End Else van Kleiner of Groter dan 600x315
+
+
+                    } // END ELSE van herkenning og:image (buitenste)
+
+                    // twitter
+
+                    const twitterTitlePreview = document.getElementById('twitter-Title')
+                    twitterTitlePreview.innerText = twitterTitle
+                    const twitterDescriptionPreview = document.getElementById('twitter-Description')
+                    twitterDescriptionPreview.innerText = twitterDescription
+                    const twitterUrlPreview = document.getElementById('twitter-Url')
+                    twitterUrlPreview.innerText = twitterUrl
+                    const twitterImagePreview = document.getElementById('twitter-Image')
+                    twitterImagePreview.innerText = twitterImage
+                    const twitterImageSrcPreview = document.getElementById('twitter-ImageSrc')
+                    twitterImageSrcPreview.innerText = twitterImageSrc
+
+
+
+                    const twitterCardPreview = document.getElementById('twitter-Card')
+                    twitterCardPreview.innerText = twitterCard
+                    const twitterSitePreview = document.getElementById('twitter-Site')
+                    twitterSitePreview.innerText = twitterSite
+                    const twitterCreatorPreview = document.getElementById('twitter-Creator')
+                    twitterCreatorPreview.innerText = twitterCreator
+
+                    if (twitterImage === "No 'twitter:image' in source. Might fallback to og:image.") {
+                        var twitterImageR = twitterImageSrc
+                    } else {
+                        var twitterImageR = twitterImage
+                    }
+
+
+
+
+                    if (twitterCard === 'summary_large_image') {
+
+
+
+                        console.log('Large twitter image')
+                        const prev = document.getElementById('twpreviewimage')
+                        prev.innerHTML = `
+ <div class="z-30 flex justify-center bg-blue-50">
+    <div class="flex flex-col lg:flex-row ">
+        <div class="relative m-2 bg-white border border-gray-300 rounded-md " style="width: 506px;height: 435px;"> 
+            <!-- inner -->
+            <div class="flex flex-row mt-4 " >
+                <img class="ml-4 mr-2 rounded-md w-7 h-7" src="/img/isabelle.jpg" alt="">
+                <div class="block p-0 -mt-1 from">
+                       <span class="font-semibold tracking-tight text-black name" style="font-size: 15px;">Isa Smith</span> <span style="font-size: 13px;color: #999;" class="font-sans text-xs font-normal text-gray-500 sharedAlink">@isasmth999 </span>
+                       
+                </div>
+            </div>
+           
+
+            <div class="flex flex-col mx-4 ">
+                
+                
+                <div class="pt-0 pb-2 text-base font-normal tracking-tight text-gray-900 introtext ml-9" style="font-size: 15px;">
+                    This is an example of a large summary card on Twitter. Enjoy ;-)
+                </div>
+                <style>
+                    /* div.subtxt:hover {background: #F5F8FA;} */
+                </style>
+                <div class="flex flex-col itemTw ml-9" style="width: 438px; ">
+                    <!-- <img src="https://picsum.photos/438/220" width="" height=""> -->
+                    <div class="border-t border-gray-300 image rounded-t-xl border-x" id="preview" style="background:url(${twitterImageR});background-size:cover;width: 438px; height: 220px; min-width: 438px;"></div>
+                    
+                        <div class="w-full px-4 py-2 bg-opacity-75 border border-gray-300 subtxt hover:bg-gray-100 rounded-b-xl bg-gray-50">  
+                            <div class="tracking-tight line-clamp-1" style="font-weight: 600;font-size: 16px;line-height: 20px;margin: 3px 0 0;padding-top: 2px;">
+                                ${twitterTitle}
+                                </div> 
+                            <div class="text-gray-800 linkurl line-clamp-2" style="font-size: 15px;line-height: 20px; word-break: break-word;">
+                                ${twitterDescription}
+                                </div>   
+                            <span class="" style="color: #606770;font-size: 12px;">${baseurl}</span><br>
+                        </div>
+                </div>
+            </div>
+        </div> <!---LINKS RECHTS-->              
+    </div>    
+</div>
+`
+
+
+
+                    }
+                    if (twitterCard === 'summary') {
+                        console.log('Small twitter image')
+                        const prev = document.getElementById('twpreviewimage')
+                        prev.innerHTML = `
+    <!-- twitter small card -->
+<div class="z-30 flex justify-center bg-blue-50">
+    <div class="flex flex-col lg:flex-row ">
+        <div class="relative m-2 bg-white border border-gray-300 rounded-md " style="width: 506px;height: 435px;"> 
+            <!-- inner -->
+            <div class="flex flex-row mt-4 " >
+                <img class="ml-4 mr-2 rounded-md w-7 h-7" src="/img/isabelle.jpg" alt="">
+                <div class="block p-0 -mt-1 from">
+                       <span class="font-semibold tracking-tight text-black name" style="font-size: 15px;">Isa Smith</span> <span style="font-size: 13px;color: #999;" class="font-sans text-xs font-normal text-gray-500 sharedAlink">@isasmth999 </span>
+                       
+                </div>
+            </div>
+            <div class="flex flex-col mx-4 ">
+                <div class="pt-0 pb-2 text-base font-normal tracking-tight text-gray-900 introtext ml-9" style="font-size: 15px;">
+                    This is an example of a small summary card on Twitter. Enjoy ;-)
+                </div>
+                <style>
+                    /* div.subtxt:hover {background: #F5F8FA;} */
+                </style>
+                <div class="flex flex-row itemTw ml-9" style="width: 438px; ">
+                    <!-- <img src="https://picsum.photos/125/125" width="" height=""> -->
+                    <div class="border-t border-b border-l border-gray-300 image rounded-l-xl " id="preview" style="background:url(${twitterImageR});background-size:cover;width: 125px; height: 125px; min-width: 125px;"></div>
+                    
+                        <div class="w-full px-4 py-2 bg-opacity-75 border border-gray-300 subtxt hover:bg-gray-100 rounded-r-xl bg-gray-50">  
+                            <div class="tracking-tight line-clamp-1" style="font-weight: 600;font-size: 16px;line-height: 20px;margin: 3px 0 0;padding-top: 2px;">
+                                ${twitterTitle}
+                            </div>
+                            <div class="text-gray-800 linkurl line-clamp-2" style="font-size: 15px;line-height: 20px; word-break: break-word;">
+                                ${twitterDescription}
+                            </div>   
+                            <span class="" style="color: #606770;font-size: 12px;">${baseurl}</span><br>
+                        </div>
+                </div>
+
+            </div>
+
+        </div> <!---LINKS RECHTS-->
+               
+    </div>    
+</div>
+    
+    `
+                    }
+
+                    //////////Use the Filter, Element, because those are based on the json source, not changed in the html with all the description.... 
+                    // og:type, og:title and og:description found in the source & no-card.
+                    // ogType  ogTitle ogDescription
+                    // console.log('LENGHT ogType',  ogType.length)
+                    // console.log('LENGHT ogTitle',ogTitle.length)
+                    // console.log('LENGHT ogDescription ', ogDescription.length)
+                    console.log('LENGHT ogTypeFilter ', ogTypeFilter.length)
+                    console.log('LENGHT ogTitleElement ', ogTitleElement.length)
+                    console.log('LENGHT ogTitleElement ', ogDescriptionElement.length)
+
+                    if (ogTypeFilter.length > 0 && ogTitleElement.length > 0 && ogDescriptionElement.length > 0 && twitterCard !== 'summary_large_image' && twitterCard !== 'summary') {
+
+                        console.log('conditions for showing a summary card are met. so.... ')
+                        const prev = document.getElementById('twpreviewimage')
+                        prev.innerHTML = `
+    <!-- twitter without twitter:card -->
+<div class="z-30 flex justify-center bg-blue-50">
+    <div class="flex flex-col lg:flex-row ">
+        <div class="relative m-2 bg-white border border-gray-300 rounded-md " style="width: 506px;height: 435px;"> 
+            <!-- inner -->
+            <div class="flex flex-row mt-4 " >
+                <img class="ml-4 mr-2 rounded-md w-7 h-7" src="/img/isabelle.jpg" alt="">
+                <div class="block p-0 -mt-1 from">
+                       <span class="font-semibold tracking-tight text-black name" style="font-size: 15px;">Isa Smith</span> <span style="font-size: 13px;color: #999;" class="font-sans text-xs font-normal text-gray-500 sharedAlink">@isasmth999 </span>
+                </div>
+            </div>
+            <div class="flex flex-col mx-4 ">
+                <div class="pt-0 pb-2 text-base font-normal tracking-tight text-gray-900 introtext ml-9" style="font-size: 15px;">
+                    This is an example of a small summary card on Twitter. Shown when no twitter:metadata is available, but og:type, og:title and og:description are provided. 
+                    og:image might or might not be used by twitter.  Enjoy ;-)
+                </div>
+                <div class="flex flex-row itemTw ml-9" style="width: 438px; ">
+                    <div class="border-t border-b border-l border-gray-300 image rounded-l-xl " id="preview" style="background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22%238899A6%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%20%20%3Cpath%20id%3D%22bounds%22%20opacity%3D%220%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M14%2011.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h8c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75zM14%207.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h8c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75zM10.75%2015.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h4.75c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M21.5%2011.25h-3.25v-7C18.25%203.01%2017.24%202%2016%202H4C2.76%202%201.75%203.01%201.75%204.25v15.5C1.75%2020.99%202.76%2022%204%2022h15.5c1.517%200%202.75-1.233%202.75-2.75V12c0-.414-.336-.75-.75-.75zm-18.25%208.5V4.25c0-.413.337-.75.75-.75h12c.413%200%20.75.337.75.75v15c0%20.452.12.873.315%201.25H4c-.413%200-.75-.337-.75-.75zm16.25.75c-.69%200-1.25-.56-1.25-1.25v-6.5h2.5v6.5c0%20.69-.56%201.25-1.25%201.25z%22%2F%3E%0A%3C%2Fsvg%3E%0A');background-size:cover;width: 125px; height: 125px; min-width: 125px;"></div>
+                    
+                        <div class="w-full px-4 py-2 bg-opacity-75 border border-gray-300 subtxt hover:bg-gray-100 rounded-r-xl bg-gray-50">  
+                            <div class="tracking-tight line-clamp-1" style="font-weight: 600;font-size: 16px;line-height: 20px;margin: 3px 0 0;padding-top: 2px;">${ogTitle}</div>
+                            <div class="text-gray-800 linkurl line-clamp-2" style="font-size: 15px;line-height: 20px; word-break: break-word;">${ogDescription}</div>   
+                            <span class="" style="color: #606770;font-size: 12px;">${baseurl}</span><br>
+                        </div>
+                </div>
+            </div>
+        </div> <!---LINKS RECHTS-->
+    </div>    
+</div>
+
+    `
+
+
+                    } else {
+                        console.log('No card, no og:fallbacks possible. so show impossible message. ')
+                    }
+
+                    // LINKEDIN
+
+                    // og:author NO fallBack
+                    const linkedInInAuthor = document.getElementById('linkedin-Author')
+                    linkedInInAuthor.innerText = author
+
+
+                    // // og:publishdate NO fallBack
+                    //     const linkedInInPusblishdate = document.getElementById('linkedin-Publishdate')
+                    //     linkedInInPusblishdate = 
+
+
+                    // // og:type NO fallBack
+                    const linkedInInType = document.getElementById('linkedin-Type')
+                    linkedInInType.innerText = ogType
+
+
+
+                    //  og:title Fallback to Headings  
+                    const linkedInInTitle = document.getElementById('linkedin-Title')
+                        // linkedInInTitle.innerText = ogTitle.substring(0, 25);
+                    linkedInInTitle.innerText = ogValueTitleForLinkedin
+
+                    // Fallback og:title for Linkedin
+                    const linkedInInTitleFallback = document.getElementById('linkedin-TitleFallback')
+
+
+                    headingOnesMax.forEach(heading1 => {
+                        const divlistHeadingOne = document.createElement('div')
+                        divlistHeadingOne.innerText = heading1.headingTxt
+                            //  console.log(heading1.headingTxt)
+                        linkedInInTitleFallback.appendChild(divlistHeadingOne)
+                    });
+                    headingTwosMax.forEach(heading2 => {
+                        //  console.log(heading2.headingTxt)
+                        const divlistHeadingTwo = document.createElement('div')
+                        divlistHeadingTwo.innerText = heading2.headingTxt
+                        linkedInInTitleFallback.appendChild(divlistHeadingTwo)
+
+                    });
+
+                    //  og:description + paragraphs as fallback
+                    const linkedInInDescription = document.getElementById('linkedin-Description')
+
+                    /// The normal value from ogDescription is maxed to first 30 charachters, otherwise the fallback title would show.
+                    // linkedInInDescription.innerText = ogDescription.substring(0, 30);
+                    linkedInInDescription.innerText = ogValueDescriptionForLinkedIn
+
+
+                    const linkedInInDescriptionFallback = document.getElementById('linkedin-DescriptionFallback')
+
+                    let paragraphTxtsMax = paragraphTxts.slice(0, 4)
+
+                    paragraphTxtsMax.forEach(para => {
+                        const divlistParagrapfs = document.createElement('div')
+                        divlistParagrapfs.innerText = para.headingTxt
+                            //  console.log(heading1.headingTxt)
+                        linkedInInDescriptionFallback.appendChild(divlistParagrapfs)
+                    });
+
+
+                    // linkedinImages
+                    //og:image
+                    const LinkedInInImage = document.getElementById('linkedin-Image')
+                    LinkedInInImage.innerText = ogImage
+
+                    if (ogImage !== "No 'og:image' in source.") {
+
+                        const ogPreviewimagewidthbasedonactualimageLI = document.getElementById('og-image-width-real-li')
+                        ogPreviewimagewidthbasedonactualimageLI.innerText = ogImageUrlWidth
+                        ogPreviewimagewidthbasedonactualimageLI.prepend('( width: ')
+                        ogPreviewimagewidthbasedonactualimageLI.append('px.  /')
+                        const ogPreviewimageheightbasedonactualimageLI = document.getElementById('og-image-height-real-li')
+                        ogPreviewimageheightbasedonactualimageLI.innerText = ogImageUrlHeight
+                        ogPreviewimageheightbasedonactualimageLI.prepend(` / height: `)
+                        ogPreviewimageheightbasedonactualimageLI.append('px. )')
+                    }
+
+
+
+                    // FallbackImageList
+                    const linkedInImagesList = allImages
+                    console.log('linkedInImagesList ', linkedInImagesList)
+                    console.log('linkedInImagesList', typeof linkedInImagesList)
+
+
+                    var linkedinImageBiggerThan200 = allImages
+                    linkedinImageBiggerThan200 = linkedinImageBiggerThan200.reduce((p, c) => (c.imgDetails.width > 200 && p.push(c), p), []);
+                    console.log('linkedinImageBiggerThan200', linkedinImageBiggerThan200);
+
+
+                    let linkedInImagesListMin = linkedinImageBiggerThan200.slice(0, 4)
+                    console.log('linkedInImagesListMin', linkedInImagesListMin)
+
+
+                    const LinkedInImageList = document.getElementById('linkedin-ImageFallback')
+                    linkedInImagesListMin.forEach(img => {
+
+                        const alistlistImagesForLi = document.createElement('div');
+                        // alistlistImagesForLi.setAttribute('href', img.imgsrc);
+                        // alistlistImagesForLi.setAttribute('target', '_blank');
+                        alistlistImagesForLi.innerText = img.imgsrc;
+                        alistlistImagesForLi.className = 'underline'
+
+                        const liImageWidth = document.createElement('div')
+                        liImageWidth.className = '  inline-block'
+                        liImageWidth.innerText = img.imgDetails.width;
+                        liImageWidth.prepend(' (width:')
+                        liImageWidth.append('px, ')
+                        alistlistImagesForLi.append(liImageWidth)
+
+                        const liImageHeight = document.createElement('div')
+                        liImageHeight.className = '  inline-block'
+                        liImageHeight.innerText = img.imgDetails.height;
+                        liImageHeight.prepend('height: ')
+                        liImageHeight.append('px) ')
+                        alistlistImagesForLi.append(liImageHeight)
+
+
+                        const breakerLi = document.createElement('br')
+                        alistlistImagesForLi.append(breakerLi)
+
+
+
+                        // if no og:image than add Eventhandler. ( if there is an ogimage than click and preview is not needed.)
+                        if (ogImage === "No 'og:image' in source.") {
+                            // Add eventlistener to fallback image urls to show in previews when no og:image is available
+                            alistlistImagesForLi.addEventListener('click', event => {
+                                const bgimageForTest = img.imgsrc;
+
+                                document.getElementById('previewLinkedin').style.backgroundImage = `url("${bgimageForTest}")`;
+                                document.getElementById('previewpreviewLinkedin').style.backgroundImage = `url("${bgimageForTest}")`;
+
+                            });
+                        }
+
+
+
+
+                        console.log('for each linkedin image', alistlistImagesForLi)
+                        LinkedInImageList.appendChild(alistlistImagesForLi)
+
+                    })
+
+                    if (linkedInImagesListMin.length === 0) {
+                        const fallBackImagesLinkedinEmpty = document.getElementById('linkedin-ImageFallback')
+                        fallBackImagesLinkedinEmpty.innerText = 'There are no images on the page. So cannot provide fallback images.'
+                    }
+
+                    //    console.log(' If og:title than H1 or H2 ', ogValueTitleForLinkedin)
+                    //    console.log(' If og:title than H1 or H2 ', firstHeadingTwo)
+                    //    console.log(' If og:title than H1 or H2 ', firstHeadingOne)
+
+                    // If NO og:image fallback to first image of fallbacklist
+
+
+
+
+                    /// Og title - if not show first fallback 
+                    if (ogValueTitleForLinkedin === 'No og:title') {
+                        console.log('There is No Og:title for linkedin so show fallback title')
+
+                        if (headingOnes.length > 0) {
+                            const firstHeadingOne = headingOnes[0].headingTxt
+                            var ogValueTitleForLinkedin = firstHeadingOne
+                            console.log('HEADING ONES[0]', firstHeadingOne)
+                            console.log('HEADING ONES[0]', firstHeadingOne.length)
+                        } else {
+
+                            if (headingTwos.length > 0) {
+                                let firstHeadingTwo = headingTwos[0].headingTxt
+                                var ogValueTitleForLinkedin = firstHeadingTwo
+                                console.log('HEADING TWOS[0]', firstHeadingTwo)
+                            } else {
+                                var ogValueTitleForLinkedin = 'No headings in the html. Scan might be blocked by cookieconsent.'
+                            }
+                        }
+
+                    } else {
+                        var ogValueTitleForLinkedin = ogTitle
+                        console.log('There is an og:title')
+                    }
+
+                    //// og:description - if not than fallback to paragraph
+                    if (ogValueDescriptionForLinkedIn === 'No og:description') {
+                        console.log('there is no og:description for Linkedin, fallback to Paragraph text')
+                        const firstParagraph = paragraphTxtsMax[0].headingTxt
+                        console.log('First paragraph for Linkedin', firstParagraph)
+                        ogValueDescriptionForLinkedIn = firstParagraph
+                    }
+
+
+
+
+                    console.log('linkedInImagesListMin.length:', linkedInImagesListMin.length)
+                    console.log('ogImage: ', ogImage)
+
+
+
+
+
+                    // No OG:image No FallBack : show post with text
+                    if (ogImage === "No 'og:image' in source." && linkedInImagesListMin.length === 0) {
+
+                        console.log('if OG:IMAGE IS EMPTY and imagefallbacklist is empty : show post without images')
+                        const linkedinPreview = document.getElementById('lipreviewimage')
+                        linkedinPreview.innerText = 'No og:image defined. No fallback images available. So only text.'
+
+                        const imageContainerLI = document.getElementById('lipreviewimageContainer')
+                        imageContainerLI.innerHTML = `
+    <div class="z-30 flex justify-center bg-[#f3f2ef] min-h-max">
+    <div class="flex flex-col lg:flex-row ">
+        <div class=" sm:m-2 relative  bg-white border-y sm:border border-gray-300 sm:rounded-md w-full sm:w-[540px]  " > 
+            <!-- inner h-[450px]-->
+            <div class="flex flex-col justify-center mb-2 ">
+                <div class="flex flex-row pt-2 pl-4 ">
+                    <div class="img w-14"> <img class="content-center mx-auto mt-2 rounded-full w-11 h-11" src="/img/isabelle.jpg" alt=""></div>
+                    <div class="who grow">
+                            <div class="flex flex-col pl-2">
+                                <div class="name" style="font-size:14px;line-height:20px;font-weight:600">Isabelle Smith </div>
+                                <div class="function" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">Online marketing specialist</div>
+                                <div class="when" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">1d • <img class="inline -mt-1 " src="/img/li-globe-americas.svg" width="16" height="16" alt=""> </div>
+                            </div>
+
+                    </div>
+                    <div class="pr-4 text-xl font-extrabold text-gray-500 dots">. . .</div>
+                </div>
+
+
+                <div class="pt-1 pb-3 border-gray-300 introtext">
+                            <span class="inline-block text-base font-normal tracking-tight text-gray-500 line-clamp-3 " style="font-size: 14px; padding: 8px 18px; line-height:20px; color: rgba(0, 0, 0, 0.9);">
+                                This is an example of a shared page or post with no og:image and no other images on LinkedIn. This is an example of a shared page or post with no og:image and no other images on LinkedIn.   Enjoy ;-)
+                                  <span class="inline float-right " style="font-size:14px;color:#788fa5;">
+                                    …see more
+                                </span>
+                            </span>
+                           
+                </div>
+                
+                <!-- <div class="flex flex-col mt-4 justify-center  itemTw w-[440px]"> -->
+                    <div class="flex flex-row   mt-4 bg-[#eef3f8]">
+                        <!-- <div class="image w-[138px] h-[72px]  my-3 mx-3" id="preview" style="background:url(https://picsum.photos/520/270);background-size:cover;"></div> -->
+                        <!-- min-width: 520px; -->
+
+                     
+                        <div class="subtxt hover:bg-gray-100 pl-3  pb-3  bg-opacity-95 h-[60]       " >  
+                            <div class="line-clamp-2" style="font-size: 14px; line-height: 1.5;font-weight: 600;color: rgba(0,0,0,.9); padding-top: 16px; padding-right:0px; padding-bottom: 2px;padding-left: 2px;">
+                               ${ogValueTitleForLinkedin}
+                                </div> 
+                            <span class=""  style="color: #606770;font-size: 12px; padding-left: 2px;">
+                                ${baseurl}
+                                 • 1 min read</span><br>
+                            <div class="text-gray-800 linkurl line-clamp-1" style="color: #606770;font-size: 12px; padding-left: 2px; word-break: break-word;">
+                            ${ogValueDescriptionForLinkedIn}    
+                            </div>   
+                        </div>
+                </div>
+
+                <div class="flex flex-row likes">
+                    <div class="totallikes grow" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-left:8px; font-size: 12px;"> 
+                        <div class="inline-block w-4 h-4 bg-[#378fe9] rounded-full border-white border">
+                                <img class="mx-auto" style="margin-top: 2px;" src="/img/li-like-small.svg" width="12" height="12" alt=""></div>
+                        <div class="inline-block w-4 h-4 -ml-2 bg-[#df704d] rounded-full border-white border ">
+                            <img class="mx-auto" style="margin-top: 2px;" src="/img/li-hart-small.svg" width="10" height="10" alt="">
+                        </div> 
+                        <div class="justify-center inline w-4 h-4 text-center align-top line">6 </div> 
+                        </div>
+                    <div class="totalcomments" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-right:8px; font-size: 12px;">16 comments • 5 shares</div>
+                </div>
+
+                <hr class="w-11/12 mx-auto my-2 text-center ">
+
+                <div class="flex flex-row h-13">
+                    <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md place-self-center like hover:bg-gray-200 text-[#666666]">
+                            <img src="/img/li-like.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Like</div></div>
+                    <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center comment text-[#666666]">
+                            <img src="/img/li-bubble-comment-chat.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Comment</div></div>
+                    <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center share text-[#666666]">
+                            <img src="/img/li-share-arrow.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Share</div></div>
+                    <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center send text-[#666666]">
+                        <img src="/img/li-send.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Send</div></div>
+                </div>
+
+
+            </div>
+        </div> <!---LINKS RECHTS-->              
+    </div>    
+</div>
+    `
+                    } else {
+                        //////////////////
+
+                        if (ogImage === "No 'og:image' in source." && linkedInImagesListMin.length > 0) {
+                            console.log('No og:image defined. LinkedIn may use any image(within some ranges) on the page in the feed. ')
+                            console.log('linkedInImagesListMin.length:', linkedInImagesListMin.length)
+                            console.log('ogImage: ', ogImage)
+                            const linkedinPreview = document.getElementById('lipreviewimage')
+                            linkedinPreview.innerText = 'No og:image defined. LinkedIn may use any image(within some ranges) on the page in the feed. If images are partially visable, Linkedin will not show them(and show only text in the shared post). The aspect ratio of the images is wrong. Have to add a filter to create better previews.'
+
+                            const imageContainerLI = document.getElementById('lipreviewimageContainer')
+                            imageContainerLI.innerHTML = ` 
+                        
+
+                        <!-- lINKEDIN Big and Small -->
+<div class="z-30 flex justify-center bg-[#f3f2ef] min-h-max"> <div class="flex flex-col lg:flex-row "> <div class=" sm:m-2 relative  bg-white border-y sm:border border-gray-300 sm:rounded-md w-full sm:w-[540px]  " > <!-- inner h-[450px]--> <div class="flex flex-col justify-center mb-2 "> <div class="flex flex-row pt-2 pl-4 "> <div class="img w-14"> <img class="content-center mx-auto mt-2 rounded-full w-11 h-11" src="/img/isabelle.jpg" alt=""></div> <div class="who grow"> <div class="flex flex-col pl-2"> <div class="name" style="font-size:14px;line-height:20px;font-weight:600">Isabelle Smith </div> <div class="function" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">Online marketing specialist</div> <div class="when" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">1d • <img class="inline -mt-1 " src="/img/li-globe-americas.svg" width="16" height="16" alt=""> </div> </div> </div> <div class="pr-4 text-xl font-extrabold text-gray-500 dots">. . .</div> </div> <div class="pt-1 pb-3 border-gray-300 introtext"> <span class="inline-block text-base font-normal tracking-tight text-gray-500 " style="font-size: 14px; padding: 8px 18px; line-height:20px; color: rgba(0, 0, 0, 0.9);"> This is an example of a shared page or post with a big og:image on LinkedIn. This is an example of a shared page or post with a big og:image on LinkedIn.   Enjoy ;-) <span class="inline float-right " style="font-size:14px;color:#788fa5;"> …see more </span> </span> </div> <div class="flex flex-col mx-auto mt-4 "> <div class="image     sm:w-[538px] h-[303px]  " id="previewLinkedin" style="background:url(https://picsum.photos/520/270);background-size:cover;"></div> <!-- min-width: 520px; --> <div class="subtxt hover:bg-gray-100   pb-3 bg-[#eef3f8] bg-opacity-95 h-[60]     sm:w-[538px]  " > <div class=" sm:line-clamp-2" style="font-size: 16px; line-height: 1.5;font-weight: 600;color: rgba(0,0,0,.9); padding-top: 10px; padding-right: 8px; padding-bottom: 2px;padding-left: 10px;"> ${ogValueTitleForLinkedin} </div> <span class=""  style="color: #606770;font-size: 12px; padding-left: 10px;">${baseurl} • 1 min read</span><br> </div> </div> <div class="flex flex-row likes"> <div class="totallikes grow" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-left:8px; font-size: 12px;"> <div class="inline-block w-4 h-4 bg-[#378fe9] rounded-full border-white border"> <img class="mx-auto" style="margin-top: 2px;" src="/img/li-like-small.svg" width="12" height="12" alt=""></div> <div class="inline-block w-4 h-4 -ml-2 bg-[#df704d] rounded-full border-white border "> <img class="mx-auto" style="margin-top: 2px;" src="/img/li-hart-small.svg" width="10" height="10" alt=""> </div> <div class="justify-center inline w-4 h-4 text-center align-top line">6 </div> </div> <div class="totalcomments" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-right:8px; font-size: 12px;">16 comments • 5 shares</div> </div> <hr class="w-11/12 mx-auto my-2 text-center "> <div class="flex flex-row h-13"> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md place-self-center like hover:bg-gray-200 text-[#666666]"> <img src="/img/li-like.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Like</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center comment text-[#666666]"> <img src="/img/li-bubble-comment-chat.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Comment</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center share text-[#666666]"> <img src="/img/li-share-arrow.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Share</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center send text-[#666666]"> <img src="/img/li-send.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Send</div></div> </div> </div> </div> <!---LINKS RECHTS--> <div class=" sm:m-2 relative h-96  bg-white border-y sm:border border-gray-300 sm:rounded-md w-full sm:w-[540px]  " > <!-- inner h-[450px]--> <div class="flex flex-col justify-center mb-2 "> <div class="flex flex-row pt-2 pl-4 "> <div class="img w-14"> <img class="content-center mx-auto mt-2 rounded-full w-11 h-11" src="/img/isabelle.jpg" alt=""></div> <div class="who grow"> <div class="flex flex-col pl-2"> <div class="name" style="font-size:14px;line-height:20px;font-weight:600">Isabelle Smith </div> <div class="function" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">Online marketing specialist</div> <div class="when" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">1d • <img class="inline -mt-1 " src="/img/li-globe-americas.svg" width="16" height="16" alt=""> </div> </div> </div> <div class="pr-4 text-xl font-extrabold text-gray-500 dots">. . .</div> </div> <div class="pt-1 pb-3 border-gray-300 introtext"> <span class="inline-block text-base font-normal tracking-tight text-gray-500 line-clamp-3 " style="font-size: 14px; padding: 8px 18px; line-height:20px; color: rgba(0, 0, 0, 0.9);"> This is an example of a shared page or post with a small og:image on LinkedIn. This is an example of a shared page or post with a small og:image on LinkedIn. This is an example of a shared page or   Enjoy ;-) <span class="inline float-right " style="font-size:14px;color:#788fa5;"> …see more </span> </span> </div> <!-- <div class="flex flex-col mt-4 justify-center  itemTw w-[440px]"> --> <div class="flex flex-row   mt-4 bg-[#eef3f8]"> <div class="image w-[138px] h-[72px]  my-3 mx-3" id="previewpreviewLinkedin" style="background:url(https://picsum.photos/520/270);background-size:cover;"></div> <!-- min-width: 520px; --> <div class="subtxt hover:bg-gray-100   pb-3  bg-opacity-95 h-[60]     w-[362px]  " > <div class="line-clamp-2" style="font-size: 14px; line-height: 1.5;font-weight: 600;color: rgba(0,0,0,.9); padding-top: 16px; padding-right:0px; padding-bottom: 2px;padding-left: 2px;"> ${ogValueTitleForLinkedin} </div> <span class=""  style="color: #606770;font-size: 12px; padding-left: 2px;">${baseurl} • 1 min read</span><br> </div> </div> <div class="flex flex-row likes"> <div class="totallikes grow" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-left:8px; font-size: 12px;"> <div class="inline-block w-4 h-4 bg-[#378fe9] rounded-full border-white border"> <img class="mx-auto" style="margin-top: 2px;" src="/img/li-like-small.svg" width="12" height="12" alt=""></div> <div class="inline-block w-4 h-4 -ml-2 bg-[#df704d] rounded-full border-white border "> <img class="mx-auto" style="margin-top: 2px;" src="/img/li-hart-small.svg" width="10" height="10" alt=""> </div> <div class="justify-center inline w-4 h-4 text-center align-top line">6 </div> </div> <div class="totalcomments" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-right:8px; font-size: 12px;">16 comments • 5 shares</div> </div> <hr class="w-11/12 mx-auto my-2 text-center "> <div class="flex flex-row h-13"> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md place-self-center like hover:bg-gray-200 text-[#666666]"> <img src="/img/li-like.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Like</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center comment text-[#666666]"> <img src="/img/li-bubble-comment-chat.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Comment</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center share text-[#666666]"> <img src="/img/li-share-arrow.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Share</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center send text-[#666666]"> <img src="/img/li-send.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Send</div></div> </div> </div> </div> <!---LINKS RECHTS--> </div> </div>
+<!-- lINKEDIN Big and Small -->
+
+                    `
+                        } else {
+                            console.log('// there is an og:image for linkedin -OR- there is no fallback images list.. not working:filter for size....')
+                            console.log('linkedInImagesListMin.length:', linkedInImagesListMin.length)
+                            console.log('ogImage: ', ogImage)
+                            const linkedinPreview = document.getElementById('lipreviewimage')
+                                // linkedinPreview.innerText = '// there is an og:image for linkedin... filter for size....'
+
+                            const imageContainerLI = document.getElementById('lipreviewimageContainer')
+                            imageContainerLI.innerHTML = `
+                         
+                        <!-- lINKEDIN Big and Small -->
+<div class="z-30 flex justify-center bg-[#f3f2ef] min-h-max"> <div class="flex flex-col lg:flex-row "> <div class=" sm:m-2 relative  bg-white border-y sm:border border-gray-300 sm:rounded-md w-full sm:w-[540px]  " > <!-- inner h-[450px]--> <div class="flex flex-col justify-center mb-2 "> <div class="flex flex-row pt-2 pl-4 "> <div class="img w-14"> <img class="content-center mx-auto mt-2 rounded-full w-11 h-11" src="/img/isabelle.jpg" alt=""></div> <div class="who grow"> <div class="flex flex-col pl-2"> <div class="name" style="font-size:14px;line-height:20px;font-weight:600">Isabelle Smith </div> <div class="function" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">Online marketing specialist</div> <div class="when" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">1d • <img class="inline -mt-1 " src="/img/li-globe-americas.svg" width="16" height="16" alt=""> </div> </div> </div> <div class="pr-4 text-xl font-extrabold text-gray-500 dots">. . .</div> </div> <div class="pt-1 pb-3 border-gray-300 introtext"> <span class="inline-block text-base font-normal tracking-tight text-gray-500 " style="font-size: 14px; padding: 8px 18px; line-height:20px; color: rgba(0, 0, 0, 0.9);"> This is an example of a shared page or post with a big og:image on LinkedIn. This is an example of a shared page or post with a big og:image on LinkedIn.   Enjoy ;-) <span class="inline float-right " style="font-size:14px;color:#788fa5;"> …see more </span> </span> </div> <div class="flex flex-col mx-auto mt-4 "> <div class="image     sm:w-[538px] h-[303px]  " id="preview" style="background:url(${ogImage});background-size:cover;"></div> <!-- min-width: 520px; h-[{303}px]  height:${ogImageUrlHeight}px;--> <div class="subtxt hover:bg-gray-100   pb-3 bg-[#eef3f8] bg-opacity-95 h-[60]     sm:w-[538px]  " > <div class=" sm:line-clamp-2" style="font-size: 16px; line-height: 1.5;font-weight: 600;color: rgba(0,0,0,.9); padding-top: 10px; padding-right: 8px; padding-bottom: 2px;padding-left: 10px;"> ${ogValueTitleForLinkedin} </div> <span class=""  style="color: #606770;font-size: 12px; padding-left: 10px;">${baseurl} • 1 min read</span><br> </div> </div> <div class="flex flex-row likes"> <div class="totallikes grow" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-left:8px; font-size: 12px;"> <div class="inline-block w-4 h-4 bg-[#378fe9] rounded-full border-white border"> <img class="mx-auto" style="margin-top: 2px;" src="/img/li-like-small.svg" width="12" height="12" alt=""></div> <div class="inline-block w-4 h-4 -ml-2 bg-[#df704d] rounded-full border-white border "> <img class="mx-auto" style="margin-top: 2px;" src="/img/li-hart-small.svg" width="10" height="10" alt=""> </div> <div class="justify-center inline w-4 h-4 text-center align-top line">6 </div> </div> <div class="totalcomments" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-right:8px; font-size: 12px;">16 comments • 5 shares</div> </div> <hr class="w-11/12 mx-auto my-2 text-center "> <div class="flex flex-row h-13"> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md place-self-center like hover:bg-gray-200 text-[#666666]"> <img src="/img/li-like.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Like</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center comment text-[#666666]"> <img src="/img/li-bubble-comment-chat.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Comment</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center share text-[#666666]"> <img src="/img/li-share-arrow.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Share</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center send text-[#666666]"> <img src="/img/li-send.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Send</div></div> </div> </div> </div> <!---LINKS RECHTS--> <div class=" sm:m-2 relative h-96  bg-white border-y sm:border border-gray-300 sm:rounded-md w-full sm:w-[540px]  " > <!-- inner h-[450px]--> <div class="flex flex-col justify-center mb-2 "> <div class="flex flex-row pt-2 pl-4 "> <div class="img w-14"> <img class="content-center mx-auto mt-2 rounded-full w-11 h-11" src="/img/isabelle.jpg" alt=""></div> <div class="who grow"> <div class="flex flex-col pl-2"> <div class="name" style="font-size:14px;line-height:20px;font-weight:600">Isabelle Smith </div> <div class="function" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">Online marketing specialist</div> <div class="when" style="font-size:12px;color:rgba(0, 0, 0, 0.6);">1d • <img class="inline -mt-1 " src="/img/li-globe-americas.svg" width="16" height="16" alt=""> </div> </div> </div> <div class="pr-4 text-xl font-extrabold text-gray-500 dots">. . .</div> </div> <div class="pt-1 pb-3 border-gray-300 introtext"> <span class="inline-block text-base font-normal tracking-tight text-gray-500 line-clamp-3 " style="font-size: 14px; padding: 8px 18px; line-height:20px; color: rgba(0, 0, 0, 0.9);"> This is an example of a shared page or post with a small og:image on LinkedIn. This is an example of a shared page or post with a small og:image on LinkedIn. This is an example of a shared page or   Enjoy ;-) <span class="inline float-right " style="font-size:14px;color:#788fa5;"> …see more </span> </span> </div> <!-- <div class="flex flex-col mt-4 justify-center  itemTw w-[440px]"> --> <div class="flex flex-row   mt-4 bg-[#eef3f8]"> <div class="image w-[138px] h-[72px] bg-white rounded-md  my-3 mx-3" id="preview" style="background  :url(${ogImage}) white;background-size:cover;"></div> <!-- min-width: 520px; --> <div class="subtxt hover:bg-gray-100   pb-3  bg-opacity-95 h-[60]     w-[362px]  " > <div class="line-clamp-2" style="font-size: 14px; line-height: 1.5;font-weight: 600;color: rgba(0,0,0,.9); padding-top: 16px; padding-right:0px; padding-bottom: 2px;padding-left: 2px;"> ${ogValueTitleForLinkedin} </div> <span class=""  style="color: #606770;font-size: 12px; padding-left: 2px;">${baseurl} • 1 min read</span><br> </div> </div> <div class="flex flex-row likes"> <div class="totallikes grow" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-left:8px; font-size: 12px;"> <div class="inline-block w-4 h-4 bg-[#378fe9] rounded-full border-white border"> <img class="mx-auto" style="margin-top: 2px;" src="/img/li-like-small.svg" width="12" height="12" alt=""></div> <div class="inline-block w-4 h-4 -ml-2 bg-[#df704d] rounded-full border-white border "> <img class="mx-auto" style="margin-top: 2px;" src="/img/li-hart-small.svg" width="10" height="10" alt=""> </div> <div class="justify-center inline w-4 h-4 text-center align-top line">6 </div> </div> <div class="totalcomments" style="color:rgba(0, 0, 0, 0.6); margin-top:8px; margin-right:8px; font-size: 12px;">16 comments • 5 shares</div> </div> <hr class="w-11/12 mx-auto my-2 text-center "> <div class="flex flex-row h-13"> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md place-self-center like hover:bg-gray-200 text-[#666666]"> <img src="/img/li-like.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Like</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center comment text-[#666666]"> <img src="/img/li-bubble-comment-chat.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Comment</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center share text-[#666666]"> <img src="/img/li-share-arrow.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Share</div></div> <div class="flex content-center justify-center w-1/4 h-12 pb-2 pt-2 mx-2 text-center rounded-md hover:bg-gray-200 place-self-center send text-[#666666]"> <img src="/img/li-send.svg" width="25" height="36" alt=""><div class="mt-1 ml-1 text-sm font-medium">Send</div></div> </div> </div> </div> <!---LINKS RECHTS--> </div> </div>
+<!-- lINKEDIN Big and Small -->
+                    `
+
+                        }
+
+                        if (ogImage === "No 'og:image' in source.") {
+
+                            console.log('linkedInImagesListMin', linkedInImagesListMin)
+
+                            const lifallbacksmall = document.getElementById('previewLinkedin')
+                            lifallbacksmall.style.backgroundImage = `url(" ${linkedInImagesListMin[0].imgsrc}")`;
+                            // lifallbacksmall.innerText = 'hoi'
+                            const lifallbacklarge = document.getElementById('previewpreviewLinkedin')
+                            lifallbacklarge.style.backgroundImage = `url(" ${linkedInImagesListMin[0].imgsrc}")`;
+
+                            // style.backgroundImage = ``;
+                            // lifallbacklarge.innerText = 'dag'
+
+                        }
+
+
+
+
+
+
+                        //////////////////
+                    } //// end LinkedInnnnnnnnnnnnnnnnnn
+
+
+
+
+                    /// WhatsApp //////////////////////////////////////////////////////////////////////////////////
+                    // Uses og:image if that is squared. and below 300kb.
+                    // uses link-rel=icon if available.
+                    // https://stackoverflow.com/questions/25100917/showing-thumbnail-for-link-in-whatsapp-ogimage-meta-tag-doesnt-work
+
+
+                    var waTitle = document.getElementById('whatsapp-Title')
+                    waTitle.innerText = ogTitle
+
+                    if (ogTitle === "No 'og:title' in source.") {
+                        var waTitlePreview = seoTitleMarker
+                    } else {
+                        var waTitlePreview = ogTitle
+                    }
+
+
+                    const waDescription = document.getElementById('whatsapp-Description')
+                    waDescription.innerText = ogDescription
+
+                    if (ogDescription === "No 'og:description' in source.") {
+                        var waogDescription = metaDescription
+                    } else {
+                        var waogDescription = ogDescription
+                    }
+
+                    const waImageThere = document.getElementById('whatsapp-ImageTxt')
+                    waImageThere.innerText = ogImage
+                    const waPrev = document.getElementById('whatsapp-preview')
+
+
+                    if (ogImage !== "No 'og:image' in source.") {
+                        // THERE IS AN OG:IMAGE - niet gelijk aan niet.
+                        const waImage = document.getElementById('whatsapp-Image')
+                        waImage.setAttribute('src', ogImage)
+                        const waImageWidthReal = document.getElementById('og-image-width-real-wa')
+                        waImageWidthReal.innerText = ogImageUrlWidth
+                        waImageWidthReal.prepend('( width: ')
+                        waImageWidthReal.append('px.  /')
+                        const waImageHeightReal = document.getElementById('og-image-height-real-wa')
+                        waImageHeightReal.innerText = ogImageUrlHeight
+                        waImageHeightReal.prepend(` / height: `)
+                        waImageHeightReal.append('px. )')
+
+
+
+                        const waOgSquare = document.getElementById('og-image-is-sqaure')
+                        if (ogImageUrlWidth / ogImageUrlHeight === 1) {
+                            waOgSquare.innerText = "og:image is square."
+                            waPrev.innerHTML = `
+            
+            <!-- Whatsapp Large og:image -->
+<div class="z-30 flex justify-center select-none bg-blue-50"> <div class="flex flex-col lg:flex-row "> <div class=" m-2 relative  bg-white border-4 border-white  rounded-3xl  w-[350px]  h-[800px]" > <div class="header h-[90px] w-full bg-[#f6f6f6] rounded-t-3xl" > <!-- time + wifi icons --> <div class="flex flex-row "> <div class="mt-4 ml-8 text-sm font-medium time rounded-t-3xl grow">12:25</div> <div class="pr-1 bars place-self-end"><img src="/img/wa-wifi-bars.svg" width="26" height="16" alt=""></div> <div class="pr-1 wifi place-self-end"><img src="/img/wa-wifi.svg" width="20" height="20" alt=""></div> <div class="mr-3 battery place-self-end"><img src="/img/wa-battery.svg" width="26" height="16" alt=""></div> </div> <!-- back icon name videoicon phoneicon --> <div class="flex flex-row pt-2 "> <div class="flex items-center justify-center pl-1 pr-4 back"> <img src="/img/wa-arrow-left.svg" width="20" height="20" alt=""> </div> <div class="icon"><img class="rounded-full w-9" src="/img/isabelle.jpg" alt=""></div> <div class="pl-2 name grow"> <div class="block p-0 m-0 text-sm font-medium "> Isabelle</div> <div class="block p-0 text-xs text-gray-500 -pt-2">online</div> </div> <div class="pr-4 videoicon place-self-end"><img src="/img/wa-video.svg" width="30" height="40" alt=""></div> <div class="pr-4 phoneicon place-self-end"><img src="/img/wa-phone.svg" width="30" height="40" alt=""></div> </div> </div> <div class="innerChat w-full h-[647px] pl-2 py-2" style="background:url('/img/wa-background.png')"> <div class="encrypted bg-[#fff3c1] mx-auto w-10/12 rounded-md text-center font-medium p-1 text-xs drop-shadow-md"> Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.<br>Tap to learn more. </div> <div class="w-full h-4"></div> <div class="flex flex-row float-right mr-0 shared "> <div class="pr-2 left place-self-center "> <div class="flex items-center justify-center w-8 h-8 p-2 text-sm bg-[#c6c3bb] rounded-full "> <img src="/img/wa-arrow-share.svg" width="35" height="35" alt=""> </div> </div> <div class="right"> <!-- right start --> <div class="shareblob w-[240px] bg-[#e2ffd3]  border-[#e2ffd3]  border-3   rounded-md "> <div class="flex flex-col rounded-md "> <div class="mx-auto image rounded-t-md " id="preview" style=" margin-top: 3px; background:url(${ogImage}) white;background-size:cover;width: 234px; height: 234px; min-width:234px;"></div> <div class=" bg-[#d6f1cc]  rounded-b-md p-2 pt-2 pb-2" style="margin-left:3px;margin-right:3px;"> <div class="text-sm subpixel-antialiased font-semibold text-black title line-clamp-2 "> ${waTitlePreview} </div> <div class="text-xs subpixel-antialiased text-gray-800 description line-clamp-1"> ${waogDescription} </div> <div class="text-xs subpixel-antialiased text-gray-800 url line-clamp-1">www.${baseurl}</div> </div> </div> <div class="flex flex-row p-2 message"> <div class="text-base subpixel-antialiased font-normal leading-5 text-gray-800 grow"> Hey Isabelle, take a look at <span class="text-blue-500 break-all"> ${baseurl} </span></div> <div class="self-end mr-1 text-xs text-gray-400 time">12:21</div> <div class="self-end checked"><img src="/img/wa-checks-thin.svg" width="40" height="40" alt=""></div> </div> </div> <!-- right end --> </div> <div class="self-end -mb-1 -ml-1 squig"><img src="/img/wa-chathandle-right.svg" width="20" height="30" alt=""></div> </div> <div class="inline-block pb-4 mt-4"> <div class="flex flex-row "> <div class="self-end w-4 -mb-1 -mr-2 squig"><img class="" src="/img/wa-chathandle-left.svg" width="40" height="40" alt=""></div> <div class=" text-[#0d0d0d] w-10/12   inline-block text-md self-end leading-5 bg-[#f6f6f6] rounded-md px-2 pb-1 pt-2 subpixel-antialiased answer"  style="font-size: 15px;"> Looking good!!! Looking good!!! Looking good!!! Looking good!!! Looking good!!! <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <span class="inline-block text-[#bfbfbf] self-end float-right text-xs time ml-2">12:23</span> </div> </div> </div> </div> <div class="footerSendTxt bg-[#f6f6f6] w-full h-14 rounded-b-3xl"> <div class="flex h-14 "> <div class="flex justify-center w-10 mt-1 text-4xl font-light text-blue-600 plusicon">+</div> <div class="flex items-center justify-center textbox grow"> <div class=" h-9 w-full border border-gray-200 rounded-full bg-[#fffdfd]"> <img class="float-right mt-1 mr-2 " src="/img/wa-sticker.svg" width="30" height="40" alt=""> </div> </div> <div class="flex items-center justify-center w-10 photo"><img src="/img/wa-camera.svg" width="25" height="36" alt=""></div> <div class="flex items-center justify-center w-10 mic"><img src="/img/wa-microphone.svg" width="25" height="36" alt=""></div> </div> </div> </div> <!---LINKS RECHTS--> </div> </div>
+            
+            `
+                        } else {
+                            waOgSquare.innerText = "og:image is not square."
+                        }
+
+
+                        const waogimagefits = document.getElementById('og-image-within-bounderies')
+                        if (ogImageUrlWidth >= 256 && ogImageUrlHeight >= 256 && ogImageUrlWidth <= 400 && ogImageUrlHeight <= 400) {
+                            waogimagefits.innerText = 'it fits'
+                        } else {
+                            waogimagefits.innerText = 'To small or to big og:image. Fallback to other images not possible. So show shared post with only text.'
+                            waPrev.innerHTML = `
+            <!-- Whatsapp without image, .... -->
+<div class="z-30 flex justify-center select-none bg-blue-50"> <div class="flex flex-col lg:flex-row "> <div class=" m-2 relative  bg-white border-4 border-white  rounded-3xl  w-[350px]  h-[700px]" > <div class="header h-[90px] w-full bg-[#f6f6f6] rounded-t-3xl" > <!-- time + wifi icons --> <div class="flex flex-row "> <div class="mt-4 ml-8 text-sm font-medium time rounded-t-3xl grow">12:25</div> <div class="pr-1 bars place-self-end"><img src="/img/wa-wifi-bars.svg" width="26" height="16" alt=""></div> <div class="pr-1 wifi place-self-end"><img src="/img/wa-wifi.svg" width="20" height="20" alt=""></div> <div class="mr-3 battery place-self-end"><img src="/img/wa-battery.svg" width="26" height="16" alt=""></div> </div> <!-- back icon name videoicon phoneicon --> <div class="flex flex-row pt-2 "> <div class="flex items-center justify-center pl-1 pr-4 back"> <img src="/img/wa-arrow-left.svg" width="20" height="20" alt=""> </div> <div class="icon"><img class="rounded-full w-9" src="/img/isabelle.jpg" alt=""></div> <div class="pl-2 name grow"> <div class="block p-0 m-0 text-sm font-medium "> Isabelle</div> <div class="block p-0 text-xs text-gray-500 -pt-2">online</div> </div> <div class="pr-4 videoicon place-self-end"><img src="/img/wa-video.svg" width="30" height="40" alt=""></div> <div class="pr-4 phoneicon place-self-end"><img src="/img/wa-phone.svg" width="30" height="40" alt=""></div> </div> </div> <div class="innerChat w-full h-[547px] pl-2 py-2" style="background:url('/img/wa-background.png')"> <div class="encrypted bg-[#fff3c1] mx-auto w-10/12 rounded-md text-center font-medium p-1 text-xs drop-shadow-md"> Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.<br>Tap to learn more. </div> <div class="w-full h-4"></div> <div class="flex flex-row float-right mr-0 shared "> <div class="pr-2 left place-self-center "> <div class="flex items-center justify-center w-8 h-8 p-2 text-sm bg-[#c6c3bb] rounded-full "> <img src="/img/wa-arrow-share.svg" width="35" height="35" alt=""> </div> </div> <div class="right"> <!--     --> <!-- right start --> <div class="shareblob w-[260px]   bg-[#e2ffd3] rounded-md  pt-1  "> <div class="flex flex-row mx-auto   w-[250px]   bg-[#d6f1cc]  rounded-md"> <!-- <div class="mx-auto image rounded-t-md " id="preview" style=" margin-top: 3px; background:url(${ogImage}) white;background-size:cover;width: 50px; height: 60px; min-width:50px;"></div> --> <!-- <div class="h-full border-l-4 border-white rounded-l-md border-y-4" id="preview" style="background:url(https://static.kpn.com/images/logo/logo.svg) white;background-size:cover;width: 80px;   min-width: 80px;  "> </div> --> <div class="w-full pb-2 pr-2 rounded-r-md" style="padding-top:3px;   padding-left:8px;margin-right:3px; "> <div class="text-sm subpixel-antialiased font-semibold text-black title line-clamp-2 "> ${waTitlePreview} </div> <div class="text-xs subpixel-antialiased text-gray-800 description line-clamp-1"> ${waogDescription} </div> <div class="text-xs subpixel-antialiased text-gray-800 url line-clamp-1">www.${baseurl}</div> </div> </div> <div class="flex flex-row p-2 message"> <div class="text-base subpixel-antialiased font-normal leading-5 text-gray-800 grow"> Hey Isabelle, take a look at <span class="text-blue-500 break-all"> ${baseurl} </span></div> <div class="self-end mr-1 text-xs text-gray-400 time">12:21</div> <div class="self-end checked"><img src="/img/wa-checks-thin.svg" width="40" height="40" alt=""></div> </div> </div> <!-- right end --> </div> <div class="self-end -mb-1 -ml-1 squig"><img src="/img/wa-chathandle-right.svg" width="20" height="30" alt=""></div> </div> <div class="inline-block pb-4 mt-4"> <div class="flex flex-row "> <div class="self-end w-4 -mb-1 -mr-2 squig"><img class="" src="/img/wa-chathandle-left.svg" width="40" height="40" alt=""></div> <div class=" text-[#0d0d0d] w-10/12   inline-block text-md self-end leading-5 bg-[#f6f6f6] rounded-md px-2 pb-1 pt-2 subpixel-antialiased answer"  style="font-size: 15px;"> Looking good!!! Looking good!!! Looking good!!! Looking good!!! Looking good!!! <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <span class="inline-block text-[#bfbfbf] self-end float-right text-xs time ml-2">12:23</span> </div> </div> </div> </div> <div class="footerSendTxt bg-[#f6f6f6] w-full h-14 rounded-b-3xl"> <div class="flex h-14 "> <div class="flex justify-center w-10 mt-1 text-4xl font-light text-blue-600 plusicon">+</div> <div class="flex items-center justify-center textbox grow"> <div class=" h-9 w-full border border-gray-200 rounded-full bg-[#fffdfd]"> <img class="float-right mt-1 mr-2 " src="/img/wa-sticker.svg" width="30" height="40" alt=""> </div> </div> <div class="flex items-center justify-center w-10 photo"><img src="/img/wa-camera.svg" width="25" height="36" alt=""></div> <div class="flex items-center justify-center w-10 mic"><img src="/img/wa-microphone.svg" width="25" height="36" alt=""></div> </div> </div> </div> <!---LINKS RECHTS--> </div> </div>
+
+            `
+                        }
+
+
+                    } //// end if og:image is in source.
+                    else {
+                        // newnewnew THERE IS NOOOO OG:IMAGE  - if fallback images are there show. else text-post
+
+
+
+
+                        var whatsAppImageBiggerThan200 = allImages
+                        whatsAppImageBiggerThan200 = whatsAppImageBiggerThan200.reduce((p, c) => (c.imgDetails.width > 200 && p.push(c), p), []);
+                        console.log('whatsAppImageBiggerThan200', whatsAppImageBiggerThan200);
+
+                        var whatsAppImagesListMin = whatsAppImageBiggerThan200.slice(0, 4)
+                        console.log('whatsAppImagesListMin', whatsAppImagesListMin.length)
+
+                        const whatsAppImagesList = allImages
+
+                        const whatsAppImageList = document.getElementById('whatsapp-ImageFallback')
+
+                        // WA FallbackImageList
+                        // geen og:image en wel fallback images. 
+                        // if (ogImage === "No 'og:image' in source." && whatsAppImagesListMin.length !== 0) {
+
+
+
+                        if (whatsAppImagesListMin.length !== 0) {
+                            // GEEN OG:Image dan fallBack images. check if possible... yes.
+
+                            whatsAppImagesListMin.forEach(img => {
+
+                                    const alistlistImagesForWA = document.createElement('div');
+                                    alistlistImagesForWA.className = 'underline'
+                                    alistlistImagesForWA.innerText = img.imgsrc;
+
+                                    const waImageWidth = document.createElement('div')
+                                    waImageWidth.className = 'inline-block'
+                                    waImageWidth.innerText = img.imgDetails.width;
+                                    waImageWidth.prepend('(width:')
+                                    waImageWidth.append('px,')
+                                    alistlistImagesForWA.append(waImageWidth)
+
+                                    const waImageHeight = document.createElement('div')
+                                    waImageHeight.className = 'inline-block'
+                                    waImageHeight.innerText = img.imgDetails.height;
+                                    waImageHeight.prepend('height:')
+                                    waImageHeight.append('px)')
+                                    alistlistImagesForWA.append(waImageHeight)
+
+                                    const breakerWA = document.createElement('br')
+                                    alistlistImagesForWA.append(breakerWA)
+
+                                    // if no og:image than add Eventhandler. ( if there is an ogimage than click and preview is not needed.)
+                                    // Add eventlistener to fallback image urls to show in previews when no og:image is available
+                                    alistlistImagesForWA.addEventListener('click', event => {
+                                        const bgimageForTest = img.imgsrc;
+
+                                        document.getElementById('previewWhatsAppsmall').style.backgroundImage = `url("${bgimageForTest}")`;
+                                        // document.getElementById('previewpreviewwhatsApp').style.backgroundImage = `url("${bgimageForTest}")`;
+
+                                    }); // end Clickhandler.
+
+                                    console.log('for each whatsapp image', alistlistImagesForWA)
+                                    whatsAppImageList.appendChild(alistlistImagesForWA)
+
+                                }) // End ForEach image for WA
+
+                            // if (whatsAppImagesListMin.length === 0) {
+                            //     const fallBackImagesWhatsAppEmpty = document.getElementById('whatsapp-ImageFallback')
+                            //     fallBackImagesWhatsAppEmpty.innerText = 'There are no images on the page. So cannot provide fallback images.'
+                            // }
+
+
+
+                            waPrev.innerHTML = `
+         
+                            <!-- Whatsapp small image, can be og, but also other..... -->
+    <div class="z-30 flex justify-center select-none bg-blue-50"> <div class="flex flex-col lg:flex-row "> <div class=" m-2 relative  bg-white border-4 border-white  rounded-3xl  w-[350px]  h-[700px]"> <div class="header h-[90px] w-full bg-[#f6f6f6] rounded-t-3xl"> <!-- time + wifi icons --> <div class="flex flex-row "> <div class="mt-4 ml-8 text-sm font-medium time rounded-t-3xl grow">12:25</div> <div class="pr-1 bars place-self-end"><img src="/img/wa-wifi-bars.svg" width="26" height="16" alt=""></div> <div class="pr-1 wifi place-self-end"><img src="/img/wa-wifi.svg" width="20" height="20" alt=""></div> <div class="mr-3 battery place-self-end"><img src="/img/wa-battery.svg" width="26" height="16" alt=""></div> </div> <!-- back icon name videoicon phoneicon --> <div class="flex flex-row pt-2 "> <div class="flex items-center justify-center pl-1 pr-4 back"> <img src="/img/wa-arrow-left.svg" width="20" height="20" alt=""> </div> <div class="icon"><img class="rounded-full w-9" src="/img/isabelle.jpg" alt=""></div> <div class="pl-2 name grow"> <div class="block p-0 m-0 text-sm font-medium "> Isabelle</div> <div class="block p-0 text-xs text-gray-500 -pt-2">online</div> </div> <div class="pr-4 videoicon place-self-end"><img src="/img/wa-video.svg" width="30" height="40" alt=""></div> <div class="pr-4 phoneicon place-self-end"><img src="/img/wa-phone.svg" width="30" height="40" alt=""></div> </div> </div> <div class="innerChat w-full h-[547px] pl-2 py-2" style="background:url('/img/wa-background.png')"> <div class="encrypted bg-[#fff3c1] mx-auto w-10/12 rounded-md text-center font-medium p-1 text-xs drop-shadow-md"> Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.<br>Tap to learn more. </div> <div class="w-full h-4"></div> <div class="flex flex-row float-right mr-0 shared "> <div class="pr-2 left place-self-center "> <div class="flex items-center justify-center w-8 h-8 p-2 text-sm bg-[#c6c3bb] rounded-full "> <img src="/img/wa-arrow-share.svg" width="35" height="35" alt=""> </div> </div> <div class="right"> <!--     --> <!-- right start --> <div class="shareblob w-[260px]   bg-[#e2ffd3] rounded-md  pt-1  "> <div class="flex flex-row mx-auto   w-[250px] h-20 bg-[#d6f1cc]  rounded-md"> <!-- <div class="mx-auto image rounded-t-md " id="" style=" margin-top: 3px; background:url(${ogImage}) white;background-size:cover;width: 50px; height: 60px; min-width:50px;"></div> --> <div class="h-full border-l-4 border-white rounded-l-md border-y-4" id="previewWhatsAppsmall" style="background:url(https://static.kpn.com/images/logo/logo.svg) white;background-size:cover;width: 80px;   min-width: 80px;  "> </div> <div class="w-full pb-2 pr-2 rounded-r-md" style="padding-top:3px;   padding-left:8px;margin-right:3px;height: 68px;"> <div class="text-sm subpixel-antialiased font-semibold text-black title line-clamp-2 "> ${waTitlePreview} </div> <div class="text-xs subpixel-antialiased text-gray-800 description line-clamp-1"> ${waogDescription} </div> <div class="text-xs subpixel-antialiased text-gray-800 url line-clamp-1">www.${baseurl}</div> </div> </div> <div class="flex flex-row p-2 message"> <div class="text-base subpixel-antialiased font-normal leading-5 text-gray-800 grow"> Hey Isabelle, take a look at <span class="text-blue-500 break-all"> ${baseurl} </span></div> <div class="self-end mr-1 text-xs text-gray-400 time">12:21</div> <div class="self-end checked"><img src="/img/wa-checks-thin.svg" width="40" height="40" alt=""></div> </div> </div> <!-- right end --> </div> <div class="self-end -mb-1 -ml-1 squig"><img src="/img/wa-chathandle-right.svg" width="20" height="30" alt=""></div> </div> <div class="inline-block pb-4 mt-4"> <div class="flex flex-row "> <div class="self-end w-4 -mb-1 -mr-2 squig"><img class="" src="/img/wa-chathandle-left.svg" width="40" height="40" alt=""></div> <div class=" text-[#0d0d0d] w-10/12   inline-block text-md self-end leading-5 bg-[#f6f6f6] rounded-md px-2 pb-1 pt-2 subpixel-antialiased answer" style="font-size: 15px;"> Looking good!!! Looking good!!! Looking good!!! Looking good!!! Looking good!!! <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <img class="inline-block mb-1 " src="/img/wa-emoji-love.svg" width="20" height="30" alt=""> <span class="inline-block text-[#bfbfbf] self-end float-right text-xs time ml-2">12:23</span> </div> </div> </div> </div> <div class="footerSendTxt bg-[#f6f6f6] w-full h-14 rounded-b-3xl"> <div class="flex h-14 "> <div class="flex justify-center w-10 mt-1 text-4xl font-light text-blue-600 plusicon">+</div> <div class="flex items-center justify-center textbox grow"> <div class=" h-9 w-full border border-gray-200 rounded-full bg-[#fffdfd]"> <img class="float-right mt-1 mr-2 " src="/img/wa-sticker.svg" width="30" height="40" alt=""> </div> </div> <div class="flex items-center justify-center w-10 photo"><img src="/img/wa-camera.svg" width="25" height="36" alt=""></div> <div class="flex items-center justify-center w-10 mic"><img src="/img/wa-microphone.svg" width="25" height="36" alt=""></div> </div> </div> </div> <!---LINKS RECHTS--> </div> </div>
+         
+                            `
+                            var wafallbacksmall = document.getElementById('previewWhatsAppsmall')
+                                // wafallbacksmall.innerText = 'hoi'
+                            wafallbacksmall.style.backgroundImage = `url(" ${whatsAppImagesListMin[0].imgsrc}")`;
+
+                            // const wafallbacklarge =  document.getElementById('previewpreviewWhatsApp')
+                            // lifallbacklarge.style.backgroundImage = `url(" ${linkedInImagesListMin[0].imgsrc}")`;
+
+
+
+
+
+
+                        } // end there are fallback images. yess possible
+                        else {
+                            // no there are no fallback images..... 
+                            // if (ogImage === "No 'og:image' in source." && whatsAppImagesListMin.length !== 0) {
+
+                            waPrev.innerHTML = `no fallback images.`
+
+
+
+
+                        } // no there are no fallback images..... 
+                        //// end WA image fallback
+
+
+
+                    } // end wa if-else check for og:image and check for fallbacklist
+
+
+
+
+                }) /// end Fetch
+
+
+            // return response.json()  
+            // })
+            return jsonData;
+
+
+
+            //     if (!response.ok) {
+            //                 // get error message from body or default to response status
+            //                 const error = (data && data.message) || response.status;
+            //                 return Promise.reject(error);
+            //             }
+            //             .catch(error => {
+            //     element.parentElement.innerHTML = `Error: ${error}`;
+            //     console.error('There was an error!', error);
+            // });
+
+        }
+    </script>
+
+
+</body>
+
+</html>

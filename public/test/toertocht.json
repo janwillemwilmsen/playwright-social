@@ -3,6 +3,9 @@
 		"paginatitel": "Toertocht.BE, cyclo en toertocht agenda voor Belgie en Nederland"
 	},
 	{
+		"canonurl": "there is no canonical url in the html"
+	},
+	{
 		"metaElement": "robots",
 		"metaElementContent": "index, follow",
 		"metaElementProperty": null
@@ -11,11 +14,6 @@
 		"metaElement": null,
 		"metaElementContent": null,
 		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "https://static.essent.nl/online/img/logo-essent.png",
-		"metaElementProperty": "og:image"
 	},
 	{
 		"metaElement": "viewport",
@@ -48,46 +46,6 @@
 		"metaElementProperty": null
 	},
 	{
-		"metaElement": null,
-		"metaElementContent": "AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==",
-		"metaElementProperty": null
-	},
-	{
 		"ogi": "ogi",
 		"openGraphImageDetails": {
 			"width": 0,
@@ -103,30 +61,12 @@
 	{
 		"type": "image",
 		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
-			"url": "https://via.placeholder.com/1"
-		}
+		"imgDetails": 0
 	},
 	{
 		"type": "image",
 		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
-			"url": "https://via.placeholder.com/1"
-		}
+		"imgDetails": 0
 	},
 	{
 		"type": "image",
@@ -173,71 +113,108 @@
 	{
 		"type": "image",
 		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
-			"url": "https://via.placeholder.com/1"
-		}
+		"imgDetails": 0
 	},
 	{
 		"type": "image",
 		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
-			"url": "https://via.placeholder.com/1"
-		}
+		"imgDetails": 0
 	},
 	{
 		"type": "image",
 		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
-			"url": "https://via.placeholder.com/1"
-		}
+		"imgDetails": 0
 	},
 	{
 		"type": "image",
 		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
-			"url": "https://via.placeholder.com/1"
-		}
+		"imgDetails": 0
 	},
 	{
 		"type": "image",
 		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
-			"url": "https://via.placeholder.com/1"
-		}
+		"imgDetails": 0
+	},
+	{
+		"baseUrl": "toertocht.be",
+		"base2": "https://toertocht.be/",
+		"hostname": "toertocht.be",
+		"hostnameElement": {
+			"domain": "toertocht.be",
+			"domainWithoutSuffix": "toertocht",
+			"hostname": "toertocht.be",
+			"isIcann": true,
+			"isIp": false,
+			"isPrivate": false,
+			"publicSuffix": "be",
+			"subdomain": ""
+		},
+		"originBase": "https://toertocht.be",
+		"realBase": "toertocht.be"
+	},
+	{
+		"headingId": 0,
+		"typeElement": "H1",
+		"headingTxt": "Toertocht.be Jouw agenda voor fietstochten en cyclo's"
+	},
+	{
+		"headingId": 1,
+		"typeElement": "H2",
+		"headingTxt": "Toertocht.be's blog"
+	},
+	{
+		"headingId": 2,
+		"typeElement": "H3",
+		"headingTxt": "Checklist toertocht rijden"
+	},
+	{
+		"headingId": 3,
+		"typeElement": "P",
+		"headingTxt": "Altijd lullig om iets te vergeten. Dubbelcheck de checklist en je weet zeker dat je niets vergeten bent!"
+	},
+	{
+		"headingId": 4,
+		"typeElement": "H3",
+		"headingTxt": "Trainen voor een toertocht"
+	},
+	{
+		"headingId": 5,
+		"typeElement": "P",
+		"headingTxt": "Voorkom terleurstelling en pijn. Een goede voorbereiding op je eerste, of volgende toertocht is het halve werk en essentieel."
+	},
+	{
+		"headingId": 6,
+		"typeElement": "H3",
+		"headingTxt": "Onze blog"
+	},
+	{
+		"headingId": 7,
+		"typeElement": "P",
+		"headingTxt": "We schrijven over alles wat met wielrentoertochten in Belgie en Nederland te maken heeft."
+	},
+	{
+		"headingId": 8,
+		"typeElement": "H3",
+		"headingTxt": "Speciaal voor wielertoeristen en fietsfanaten!"
+	},
+	{
+		"headingId": 9,
+		"typeElement": "P",
+		"headingTxt": "Vanaf maart en april begint het wielrennen in Belgie en Nederland weer te leven. De cross is afgelopen, tijd voor de weg! De profs zijn 'Down under' en in de Emiraten alweer de weg onveilig aan het maken. Binnenkort zijn ze in de lage landen. Ook jij mag weer op pad! De kou en winterse omstandigheden zijn voorbij. Lente en zomer komen er aan. Eindelijk weer Fietsweer weer ;-)"
+	},
+	{
+		"headingId": 10,
+		"typeElement": "H4",
+		"headingTxt": "Toertochten"
+	},
+	{
+		"headingId": 11,
+		"typeElement": "P",
+		"headingTxt": "Toertocht.be is jouw agenda voor kleinere en grotere toertochten. Voornamelijk Belgische, al nemen we de grote Nederlandse tochten ook mee. Enjoy!"
+	},
+	{
+		"headingId": 12,
+		"typeElement": "H4",
+		"headingTxt": "Geluk kan je niet kopen, een fiets wel en dat komt heeeel dichtbij!"
 	}
 ]

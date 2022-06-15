@@ -4,25 +4,40 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/style.css",
+    "buildcss": "npx tailwindcss build public/styles/tailwind.css -o public/styles/style.css",
+    "starter": "npm run tailwind:css && nodemon index.js && buildcss -w tailwind.config.js -w tailwind.css",
+    "start": "index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cliqz/adblocker-playwright": "^1.23.8",
+    "@tailwindcss/typography": "^0.5.2",
+    "aspecter": "^1.0.5",
+    "autoprefixer": "^10.4.7",
     "axios": "^0.27.2",
     "buffer": "^6.0.3",
     "cors": "^2.8.5",
+    "cross-fetch": "^3.1.5",
     "express": "^4.17.3",
     "filereader": "^0.10.3",
     "get-base-url": "^3.0.1",
     "image-to-base64": "^2.2.0",
     "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.16",
     "playwright-chromium": "^1.21.0",
+    "postcss-cli": "^9.1.0",
     "probe-image-size": "^7.2.3",
-    "tldts": "^5.7.77"
+    "tailwindcss": "^3.0.24",
+    "tldts": "^5.7.77",
+    "url-exists": "^1.0.3"
   },
   "devDependencies": {
-    "http-proxy-middleware": "^2.0.6"
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "http-proxy-middleware": "^2.0.6",
+    "postcss-import": "^14.1.0"
   }
 }

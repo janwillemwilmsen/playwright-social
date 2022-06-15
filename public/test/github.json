@@ -1,0 +1,1767 @@
+[
+	{
+		"paginatitel": "GitHub: Where the world builds software · GitHub"
+	},
+	{
+		"canonurl": "https://github.com/"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": null,
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "request-id",
+		"metaElementContent": "C048:EDC4:945857:C5D2CC:6294843F",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "html-safe-nonce",
+		"metaElementContent": "cc76756aa5528dfe1bb74c07902a1bab4c2bf15d55b9ae82c42ce7cdc63b1218",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "visitor-payload",
+		"metaElementContent": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDMDQ4OkVEQzQ6OTQ1ODU3OkM1RDJDQzo2Mjk0ODQzRiIsInZpc2l0b3JfaWQiOiIyNDM4OTk3Nzg2MDAxNDQxODU2IiwicmVnaW9uX2VkZ2UiOiJmcmEiLCJyZWdpb25fcmVuZGVyIjoiZnJhIn0=",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "visitor-hmac",
+		"metaElementContent": "aacca077a88095059ad0ce6c28717c68cc2bebe52ba4ccb8033d6d843b3c904c",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "page-subject",
+		"metaElementContent": "GitHub",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "github-keyboard-shortcuts",
+		"metaElementContent": "dashboards",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "selected-link",
+		"metaElementContent": null,
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "google-site-verification",
+		"metaElementContent": "c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "google-site-verification",
+		"metaElementContent": "KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "google-site-verification",
+		"metaElementContent": "ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "google-site-verification",
+		"metaElementContent": "GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "octolytics-url",
+		"metaElementContent": "https://collector.github.com/github/collect",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "user-login",
+		"metaElementContent": "",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "viewport",
+		"metaElementContent": "width=device-width",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "description",
+		"metaElementContent": "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "1401488693436528",
+		"metaElementProperty": "fb:app_id"
+	},
+	{
+		"metaElement": "apple-itunes-app",
+		"metaElementContent": "app-id=1477376905",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:image:src",
+		"metaElementContent": "https://github.githubassets.com/images/modules/site/social-cards/github-social.png",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:site",
+		"metaElementContent": "@github",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:card",
+		"metaElementContent": "sumdmary",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:title",
+		"metaElementContent": "GitHub: Where the world builds software",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:description",
+		"metaElementContent": "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat...",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://github.githubassets.com/images/modules/site/social-cards/github-social.png",
+		"metaElementProperty": "og:image"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat...",
+		"metaElementProperty": "og:image:alt"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "GitHub",
+		"metaElementProperty": "og:site_name"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "object",
+		"metaElementProperty": "og:type"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "GitHub: Where the world builds software",
+		"metaElementProperty": "og:title"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://github.com/",
+		"metaElementProperty": "og:url"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat...",
+		"metaElementProperty": "og:description"
+	},
+	{
+		"metaElement": "hostname",
+		"metaElementContent": "github.com",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "expected-hostname",
+		"metaElementContent": "github.com",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "ac777fada4191ef19ee274c29acfeb9c6d3fd518cf0cce01786662efef7df05b",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "50522dd0f30c409963cca47c07ce729855590462e92cabf27ae8d095e7d9787a",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "d4dd0149f0a511949e9c3d7a532bb5f7cfced762610073928605698559808d4e",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "73ad195aba4d21ae540d1d7c5ca004e93e55168d920d7f308dcf19f30df8cfd2",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "turbo-cache-control",
+		"metaElementContent": "no-preview",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "homepage-version-ga-dimension",
+		"metaElementContent": "dimension11",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "image/png",
+		"metaElementProperty": "og:image:type"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "1200",
+		"metaElementProperty": "og:image:width"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "620",
+		"metaElementProperty": "og:image:height"
+	},
+	{
+		"metaElement": "browser-stats-url",
+		"metaElementContent": "https://api.github.com/_private/browser/stats",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "browser-errors-url",
+		"metaElementContent": "https://api.github.com/_private/browser/errors",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "browser-optimizely-client-errors-url",
+		"metaElementContent": "https://api.github.com/_private/browser/optimizely_client/errors",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "theme-color",
+		"metaElementContent": "#1e2327",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "GitHub: Where the world builds software",
+		"metaElementProperty": "page-title"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.",
+		"metaElementProperty": "page-description"
+	},
+	 
+	{
+		"type": "image",
+		"imgsrc": "https://github.com/",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.com/",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.com/",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.com/",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/globe.jpg",
+		"imgDetails": {
+			"width": 1238,
+			"height": 1404,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 121231,
+			"url": "https://github.githubassets.com/images/modules/site/home/globe.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/enterprise-city-w-logos.jpg?width=1376",
+		"imgDetails": {
+			"width": 1376,
+			"height": 436,
+			"type": "webp",
+			"mime": "image/webp",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 28640,
+			"url": "https://github.githubassets.com/images/modules/site/home/enterprise-city-w-logos.jpg?width=1376"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1464,
+			"url": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/repo-browser.png",
+		"imgDetails": {
+			"width": 2496,
+			"height": 1480,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 91986,
+			"url": "https://github.githubassets.com/images/modules/site/home/repo-browser.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1464,
+			"url": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1464,
+			"url": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1464,
+			"url": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/nplasterer?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1638,
+			"url": "https://avatars.githubusercontent.com/nplasterer?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/ampinsk?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1748,
+			"url": "https://avatars.githubusercontent.com/ampinsk?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/joshaber?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1919,
+			"url": "https://avatars.githubusercontent.com/joshaber?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/pr-screen.png",
+		"imgDetails": {
+			"width": 1400,
+			"height": 2474,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 34663,
+			"url": "https://github.githubassets.com/images/modules/site/home/pr-screen.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/pr-description.png",
+		"imgDetails": {
+			"width": 980,
+			"height": 434,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 10790,
+			"url": "https://github.githubassets.com/images/modules/site/home/pr-description.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/pr-comment.png",
+		"imgDetails": {
+			"width": 980,
+			"height": 940,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 33854,
+			"url": "https://github.githubassets.com/images/modules/site/home/pr-comment.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/pr-merge.png",
+		"imgDetails": {
+			"width": 980,
+			"height": 888,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 30167,
+			"url": "https://github.githubassets.com/images/modules/site/home/pr-merge.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/gh-desktop.png",
+		"imgDetails": {
+			"width": 1418,
+			"height": 1020,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 125593,
+			"url": "https://github.githubassets.com/images/modules/site/home/gh-desktop.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/codespaces-vscode-1.png",
+		"imgDetails": {
+			"width": 2496,
+			"height": 1480,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 53597,
+			"url": "https://github.githubassets.com/images/modules/site/home/codespaces-vscode-1.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/codespaces-vscode-2.png",
+		"imgDetails": {
+			"width": 2496,
+			"height": 1480,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 59872,
+			"url": "https://github.githubassets.com/images/modules/site/home/codespaces-vscode-2.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/codespaces-vscode-3.png",
+		"imgDetails": {
+			"width": 2496,
+			"height": 1480,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 68183,
+			"url": "https://github.githubassets.com/images/modules/site/home/codespaces-vscode-3.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/actions-autocomplete.png",
+		"imgDetails": {
+			"width": 1412,
+			"height": 86,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3378,
+			"url": "https://github.githubassets.com/images/modules/site/home/actions-autocomplete.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/actions-editor-actions.png",
+		"imgDetails": {
+			"width": 550,
+			"height": 1466,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 46840,
+			"url": "https://github.githubassets.com/images/modules/site/home/actions-editor-actions.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/actions-editor-sidebar.png",
+		"imgDetails": {
+			"width": 550,
+			"height": 904,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1789,
+			"url": "https://github.githubassets.com/images/modules/site/home/actions-editor-sidebar.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/actions-editor.png",
+		"imgDetails": {
+			"width": 1412,
+			"height": 904,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 34504,
+			"url": "https://github.githubassets.com/images/modules/site/home/actions-editor.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-build.png",
+		"imgDetails": {
+			"width": 520,
+			"height": 88,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 991,
+			"url": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-build.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-test-tab.png",
+		"imgDetails": {
+			"width": 116,
+			"height": 42,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 359,
+			"url": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-test-tab.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-test.png",
+		"imgDetails": {
+			"width": 584,
+			"height": 328,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 4609,
+			"url": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-test.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-publish-tab.png",
+		"imgDetails": {
+			"width": 152,
+			"height": 42,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 491,
+			"url": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-publish-tab.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-publish.png",
+		"imgDetails": {
+			"width": 584,
+			"height": 328,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 4145,
+			"url": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-publish.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-canvas.png",
+		"imgDetails": {
+			"width": 1412,
+			"height": 844,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3623,
+			"url": "https://github.githubassets.com/images/modules/site/home/matrix-workflow-canvas.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/dependabot-pr.png",
+		"imgDetails": {
+			"width": 1412,
+			"height": 952,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 39043,
+			"url": "https://github.githubassets.com/images/modules/site/home/dependabot-pr.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/dependabot-merge.png",
+		"imgDetails": {
+			"width": 1328,
+			"height": 888,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 30524,
+			"url": "https://github.githubassets.com/images/modules/site/home/dependabot-merge.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/codeql-step-3.png",
+		"imgDetails": {
+			"width": 858,
+			"height": 404,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 12645,
+			"url": "https://github.githubassets.com/images/modules/site/home/codeql-step-3.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/codeql-step-2.png",
+		"imgDetails": {
+			"width": 918,
+			"height": 433,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 15006,
+			"url": "https://github.githubassets.com/images/modules/site/home/codeql-step-2.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/codeql-step-1.png",
+		"imgDetails": {
+			"width": 982,
+			"height": 463,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 17496,
+			"url": "https://github.githubassets.com/images/modules/site/home/codeql-step-1.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/codeql-description.png",
+		"imgDetails": {
+			"width": 982,
+			"height": 166,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 4945,
+			"url": "https://github.githubassets.com/images/modules/site/home/codeql-description.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1464,
+			"url": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/secret-alert.png",
+		"imgDetails": {
+			"width": 984,
+			"height": 388,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 12117,
+			"url": "https://github.githubassets.com/images/modules/site/home/secret-alert.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/secret-list.png",
+		"imgDetails": {
+			"width": 984,
+			"height": 206,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 10242,
+			"url": "https://github.githubassets.com/images/modules/site/home/secret-list.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1464,
+			"url": "https://avatars.githubusercontent.com/jasonetco?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/community-discussions-1.png",
+		"imgDetails": {
+			"width": 808,
+			"height": 480,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 17020,
+			"url": "https://github.githubassets.com/images/modules/site/home/community-discussions-1.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/community-discussions-2.png",
+		"imgDetails": {
+			"width": 768,
+			"height": 792,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 30556,
+			"url": "https://github.githubassets.com/images/modules/site/home/community-discussions-2.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/community-readme-1.png",
+		"imgDetails": {
+			"width": 766,
+			"height": 748,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 34069,
+			"url": "https://github.githubassets.com/images/modules/site/home/community-readme-1.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/community-readme-2.png",
+		"imgDetails": {
+			"width": 766,
+			"height": 730,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 26322,
+			"url": "https://github.githubassets.com/images/modules/site/home/community-readme-2.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/sophshep?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 8022,
+			"url": "https://avatars.githubusercontent.com/sophshep?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/joshaber?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1919,
+			"url": "https://avatars.githubusercontent.com/joshaber?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/pmarsceill?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 5802,
+			"url": "https://avatars.githubusercontent.com/pmarsceill?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/community-sponsor-1.png",
+		"imgDetails": {
+			"width": 768,
+			"height": 484,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 13784,
+			"url": "https://github.githubassets.com/images/modules/site/home/community-sponsor-1.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://github.githubassets.com/images/modules/site/home/community-sponsor-2.png",
+		"imgDetails": {
+			"width": 768,
+			"height": 524,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 15660,
+			"url": "https://github.githubassets.com/images/modules/site/home/community-sponsor-2.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/tensorflow?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1618,
+			"url": "https://avatars.githubusercontent.com/tensorflow?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/gatsbyjs?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3411,
+			"url": "https://avatars.githubusercontent.com/gatsbyjs?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/home-assistant?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3417,
+			"url": "https://avatars.githubusercontent.com/home-assistant?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/rust-lang?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3797,
+			"url": "https://avatars.githubusercontent.com/rust-lang?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/flutter?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1439,
+			"url": "https://avatars.githubusercontent.com/flutter?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/kubernetes?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3948,
+			"url": "https://avatars.githubusercontent.com/kubernetes?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/apple?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1338,
+			"url": "https://avatars.githubusercontent.com/apple?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/ansible?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1721,
+			"url": "https://avatars.githubusercontent.com/ansible?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/hashicorp?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1134,
+			"url": "https://avatars.githubusercontent.com/hashicorp?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/ohmyzsh?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 3402,
+			"url": "https://avatars.githubusercontent.com/ohmyzsh?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/facebook?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 1918,
+			"url": "https://avatars.githubusercontent.com/facebook?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://avatars.githubusercontent.com/npm?s=64&v=4",
+		"imgDetails": {
+			"width": 64,
+			"height": 64,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 304,
+			"url": "https://avatars.githubusercontent.com/npm?s=64&v=4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"baseUrl": "github.com",
+		"base2": "https://github.com/",
+		"hostname": "github.com",
+		"hostnameElement": {
+			"domain": "github.com",
+			"domainWithoutSuffix": "github",
+			"hostname": "github.com",
+			"isIcann": true,
+			"isIp": false,
+			"isPrivate": false,
+			"publicSuffix": "com",
+			"subdomain": ""
+		},
+		"originBase": "https://github.com",
+		"realBase": "github.com"
+	},
+	{
+		"headingId": 0,
+		"typeElement": "H1",
+		"headingTxt": "Where the world builds software"
+	},
+	{
+		"headingId": 1,
+		"typeElement": "P",
+		"headingTxt": "Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world."
+	},
+	{
+		"headingId": 2,
+		"typeElement": "H2",
+		"headingTxt": "83+ million"
+	},
+	{
+		"headingId": 3,
+		"typeElement": "P",
+		"headingTxt": "Developers"
+	},
+	{
+		"headingId": 4,
+		"typeElement": "H2",
+		"headingTxt": "4+ million"
+	},
+	{
+		"headingId": 5,
+		"typeElement": "P",
+		"headingTxt": "Organizations"
+	},
+	{
+		"headingId": 6,
+		"typeElement": "H2",
+		"headingTxt": "200+ million"
+	},
+	{
+		"headingId": 7,
+		"typeElement": "P",
+		"headingTxt": "Repositories"
+	},
+	{
+		"headingId": 8,
+		"typeElement": "H3",
+		"headingTxt": "90%"
+	},
+	{
+		"headingId": 9,
+		"typeElement": "P",
+		"headingTxt": "Fortune 100"
+	},
+	{
+		"headingId": 10,
+		"typeElement": "H2",
+		"headingTxt": "Build like the best with GitHub Enterprise"
+	},
+	{
+		"headingId": 11,
+		"typeElement": "P",
+		"headingTxt": "Take collaboration to the next level with security and administrative features built for teams."
+	},
+	{
+		"headingId": 12,
+		"typeElement": "H2",
+		"headingTxt": "Give your code a home in the cloud"
+	},
+	{
+		"headingId": 13,
+		"typeElement": "H3",
+		"headingTxt": "Record or rewind any change to your code to keep you and your team in sync. Host it all for free with unlimited public and private repositories."
+	},
+	{
+		"headingId": 14,
+		"typeElement": "H2",
+		"headingTxt": "Build on what's been built"
+	},
+	{
+		"headingId": 15,
+		"typeElement": "H3",
+		"headingTxt": "Write less code thanks to the world's largest software package registry. Find the best community-approved projects to accelerate your work, then share it with the world with npm and GitHub Packages."
+	},
+	{
+		"headingId": 16,
+		"typeElement": "H4",
+		"headingTxt": "+3 collaborators"
+	},
+	{
+		"headingId": 17,
+		"typeElement": "H2",
+		"headingTxt": "Ready player two. Scale your team to any size in the cloud."
+	},
+	{
+		"headingId": 18,
+		"typeElement": "H3",
+		"headingTxt": "Better code starts with pull requests—conversations around your code where you can experiment, squash bugs, and build new features."
+	},
+	{
+		"headingId": 19,
+		"typeElement": "H3",
+		"headingTxt": "Code review is built in. Pull requests cover the entire review flow: propose changes, browse code, ask for input, make a suggestion, and sign off in one place."
+	},
+	{
+		"headingId": 20,
+		"typeElement": "H3",
+		"headingTxt": "Know when your pull request is ready to merge when everything’s green. Reviews approved? Check. Tests passing? Check check. No conflicts? Ship it already."
+	},
+	{
+		"headingId": 21,
+		"typeElement": "H3",
+		"headingTxt": "Keep work moving. Review or merge code, manage notifications, browse repositories, and more with GitHub Mobile."
+	},
+	{
+		"headingId": 22,
+		"typeElement": "H4",
+		"headingTxt": "Available for iOS and Android"
+	},
+	{
+		"headingId": 23,
+		"typeElement": "H3",
+		"headingTxt": "Work however you want. Put a GUI on it with GitHub Desktop or stay in the command line with GitHub CLI."
+	},
+	{
+		"headingId": 24,
+		"typeElement": "H4",
+		"headingTxt": "Available for macOS, Windows, and Linux*"
+	},
+	{
+		"headingId": 25,
+		"typeElement": "P",
+		"headingTxt": "* GitHub CLI is available on macOS, Windows, and Linux* GitHub Desktop is available on macOS and Windows"
+	},
+	{
+		"headingId": 26,
+		"typeElement": "H2",
+		"headingTxt": "Blazing fast cloud developer environments with Codespaces"
+	},
+	{
+		"headingId": 27,
+		"typeElement": "H3",
+		"headingTxt": "The future of code is in the cloud, not your local copy. Codespaces gives you a complete, configurable dev environment on top of a powerful VM in minutes."
+	},
+	{
+		"headingId": 28,
+		"typeElement": "H3",
+		"headingTxt": "Visual Studio Code, in your browser, full stop. Codespaces brings the world’s most popular desktop editor to every repo. Code, build, test, use the terminal, and open pull requests from anywhere."
+	},
+	{
+		"headingId": 29,
+		"typeElement": "H3",
+		"headingTxt": "Customize to your heart’s desire. Add your favorite VS Code extensions, create a devcontainer config file, install new themes, and tweak your settings."
+	},
+	{
+		"headingId": 30,
+		"typeElement": "H2",
+		"headingTxt": "Automate anything with GitHub Actions"
+	},
+	{
+		"headingId": 31,
+		"typeElement": "H4",
+		"headingTxt": "11,000+ Actions"
+	},
+	{
+		"headingId": 32,
+		"typeElement": "H3",
+		"headingTxt": "Write your own, or import Actions from the open source community, all within our world-class editor. Feeling stuck? Browse the Actions developer docs as you code."
+	},
+	{
+		"headingId": 33,
+		"typeElement": "H3",
+		"headingTxt": "You can have it all. Run actions in any language or operating system, on Linux, macOS, Windows, ARM, and containers. Or all at once with matrix builds."
+	},
+	{
+		"headingId": 34,
+		"typeElement": "H3",
+		"headingTxt": "With 70 million jobs run per month you’re in good company with Actions, the number one CI service on the world’s largest developer platform."
+	},
+	{
+		"headingId": 35,
+		"typeElement": "H3",
+		"headingTxt": "Speaking of automation, Dependabot keeps your projects up to date with automated pull requests that update all your dependencies. Just review and merge to keep your software secure."
+	},
+	{
+		"headingId": 36,
+		"typeElement": "H2",
+		"headingTxt": "Find and fix vulnerabilities before you merge"
+	},
+	{
+		"headingId": 37,
+		"typeElement": "H3",
+		"headingTxt": "Secure your code as you write it. CodeQL’s code scanning automatically reviews every change to your codebase and identifies known vulnerabilities before they ever reach production."
+	},
+	{
+		"headingId": 38,
+		"typeElement": "H3",
+		"headingTxt": "Keep your secrets. We automatically scan repositories for OAuth tokens, API keys, personal tokens, and more. If we find one, we’ll notify you and the partner that issued it to invalidate the secret."
+	},
+	{
+		"headingId": 39,
+		"typeElement": "H3",
+		"headingTxt": "Found a vulnerability? Our security advisory remediation tools help developers identify and disclose them responsibly so maintainers can patch them in dedicated, private workspaces."
+	},
+	{
+		"headingId": 40,
+		"typeElement": "H2",
+		"headingTxt": "The home for all developers — including you"
+	},
+	{
+		"headingId": 41,
+		"typeElement": "H3",
+		"headingTxt": "GitHub Discussions is dedicated space for your community to come together, ask and answer questions, and have open-ended conversations."
+	},
+	{
+		"headingId": 42,
+		"typeElement": "H3",
+		"headingTxt": "Amplify your voice in your own personal README on your profile. Tell the story of your work through your repositories, contributions, and technologies of choice."
+	},
+	{
+		"headingId": 43,
+		"typeElement": "H3",
+		"headingTxt": "That open source code you wrote for yourself might just help someone else. Get paid for building what matters to you with GitHub Sponsors."
+	},
+	{
+		"headingId": 44,
+		"typeElement": "H4",
+		"headingTxt": "Support the projects you depend on, too."
+	},
+	{
+		"headingId": 45,
+		"typeElement": "H3",
+		"headingTxt": "100% to developers, zero fees"
+	},
+	{
+		"headingId": 46,
+		"typeElement": "H2",
+		"headingTxt": "Make your contribution"
+	},
+	{
+		"headingId": 47,
+		"typeElement": "P",
+		"headingTxt": "Small experiments, inspired inventions, and the software everyone depends on—the code you write on GitHub can reach one codebase or millions."
+	},
+	{
+		"headingId": 48,
+		"typeElement": "P",
+		"headingTxt": "tensorflow/tensorflow"
+	},
+	{
+		"headingId": 49,
+		"typeElement": "P",
+		"headingTxt": "An Open Source Machine Learning Framework for Everyone"
+	},
+	{
+		"headingId": 50,
+		"typeElement": "P",
+		"headingTxt": "gatsbyjs/gatsby"
+	},
+	{
+		"headingId": 51,
+		"typeElement": "P",
+		"headingTxt": "Build blazing fast, modern apps and websites with React"
+	},
+	{
+		"headingId": 52,
+		"typeElement": "P",
+		"headingTxt": "home-assistant/core"
+	},
+	{
+		"headingId": 53,
+		"typeElement": "P",
+		"headingTxt": "🏡 Open source home automation that puts local control and privacy first"
+	},
+	{
+		"headingId": 54,
+		"typeElement": "P",
+		"headingTxt": "rust-lang/rust"
+	},
+	{
+		"headingId": 55,
+		"typeElement": "P",
+		"headingTxt": "Empowering everyone to build reliable and efficient software."
+	},
+	{
+		"headingId": 56,
+		"typeElement": "P",
+		"headingTxt": "flutter/flutter"
+	},
+	{
+		"headingId": 57,
+		"typeElement": "P",
+		"headingTxt": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond."
+	},
+	{
+		"headingId": 58,
+		"typeElement": "P",
+		"headingTxt": "kubernetes/kubernetes"
+	},
+	{
+		"headingId": 59,
+		"typeElement": "P",
+		"headingTxt": "Production-Grade Container Scheduling and Management"
+	},
+	{
+		"headingId": 60,
+		"typeElement": "P",
+		"headingTxt": "apple/swift"
+	},
+	{
+		"headingId": 61,
+		"typeElement": "P",
+		"headingTxt": "The Swift Programming Language"
+	},
+	{
+		"headingId": 62,
+		"typeElement": "P",
+		"headingTxt": "ansible/ansible"
+	},
+	{
+		"headingId": 63,
+		"typeElement": "P",
+		"headingTxt": "Ansible is a radically simple IT automation platform."
+	},
+	{
+		"headingId": 64,
+		"typeElement": "P",
+		"headingTxt": "hashicorp/terraform"
+	},
+	{
+		"headingId": 65,
+		"typeElement": "P",
+		"headingTxt": "Terraform enables you to safely and predictably create, change, and improve infrastructure."
+	},
+	{
+		"headingId": 66,
+		"typeElement": "P",
+		"headingTxt": "ohmyzsh/ohmyzsh"
+	},
+	{
+		"headingId": 67,
+		"typeElement": "P",
+		"headingTxt": "🙃 A delightful community-driven framework for managing your zsh configuration."
+	},
+	{
+		"headingId": 68,
+		"typeElement": "P",
+		"headingTxt": "facebook/react"
+	},
+	{
+		"headingId": 69,
+		"typeElement": "P",
+		"headingTxt": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
+	},
+	{
+		"headingId": 70,
+		"typeElement": "P",
+		"headingTxt": "npm/cli"
+	},
+	{
+		"headingId": 71,
+		"typeElement": "P",
+		"headingTxt": "The package manager for JavaScript"
+	},
+	{
+		"headingId": 72,
+		"typeElement": "H2",
+		"headingTxt": "Product"
+	},
+	{
+		"headingId": 73,
+		"typeElement": "H2",
+		"headingTxt": "Platform"
+	},
+	{
+		"headingId": 74,
+		"typeElement": "H2",
+		"headingTxt": "Support"
+	},
+	{
+		"headingId": 75,
+		"typeElement": "H2",
+		"headingTxt": "Company"
+	}
+]

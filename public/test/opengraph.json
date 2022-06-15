@@ -1,193 +1,324 @@
-[
-	{
-		"paginatitel": "OpenGraph - Preview Social Media Share and Generate Metatags"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": null,
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "viewport",
-		"metaElementContent": "width=device-width,initial-scale=1",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "msapplication-TileColor",
-		"metaElementContent": "#ffffff",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "msapplication-TileImage",
-		"metaElementContent": "/ms-icon-144x144.png",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "theme-color",
-		"metaElementContent": "#ffffff",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "description",
-		"metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "OpenGraph - Preview Social Media Share and Generate Metatags",
-		"metaElementProperty": "og:title"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
-		"metaElementProperty": "og:description"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "https://www.opengraph.xyz/og-opengraph-v2.png",
-		"metaElementProperty": "og:image"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "website",
-		"metaElementProperty": "og:type"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "OpenGraph",
-		"metaElementProperty": "og:site_name"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "https://www.opengraph.xyz/",
-		"metaElementProperty": "og:url"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "en",
-		"metaElementProperty": "og:locale"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "OpenGraph - Preview Social Media Share and Generate Metatags",
-		"metaElementProperty": "twitter:title"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
-		"metaElementProperty": "twitter:description"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "https://www.opengraph.xyz/og-opengraph-v2.png",
-		"metaElementProperty": "twitter:image"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "summary_large_image",
-		"metaElementProperty": "twitter:card"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "https://www.opengraph.xyz/",
-		"metaElementProperty": "twitter:url"
-	},
-	{
-		"metaElement": "mobile-web-app-capable",
-		"metaElementContent": "yes",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "apple-mobile-web-app-title",
-		"metaElementContent": "social-design",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "author",
-		"metaElementContent": "Yuyu",
-		"metaElementProperty": null
-	},
-	{
-		"ogi": "ogi",
-		"openGraphImageDetails": {
-			"width": 1200,
-			"height": 630,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 240877,
-			"url": "https://www.opengraph.xyz/og-opengraph-v2.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://cdn4.buysellads.net/uu/1/100164/1632765721-logo_250x100_white_-_nativecpc.png",
-		"imgDetails": {
-			"width": 250,
-			"height": 100,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 4113,
-			"url": "https://cdn4.buysellads.net/uu/1/100164/1632765721-logo_250x100_white_-_nativecpc.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://924-img.c3tag.com/v.gif?cid=924&c3=N349404.3227239CARBONADS-333486785-169401709&creative=169401709&redirect=~%7Bhttps://ad.doubleclick.net/ddm/trackimp/N349404.3227239CARBONADS/B10404391.333486785;dc_trk_aid=525809674;dc_trk_cid=169401709;ord=1651517031;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=?%7D~",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "gif",
-			"mime": "image/gif",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 42,
-			"url": "https://ad.doubleclick.net/ddm/trackimp/N349404.3227239CARBONADS/B10404391.333486785;dc_trk_aid=525809674;dc_trk_cid=169401709;ord=1651517031;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=?"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://www.opengraph.xyz//_nuxt/image/c7bef4.png",
-		"imgDetails": {
-			"width": 61,
-			"height": 40,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 1722,
-			"url": "https://www.opengraph.xyz//_nuxt/image/c7bef4.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://www.opengraph.xyz//_nuxt/image/c7bef4.png",
-		"imgDetails": {
-			"width": 61,
-			"height": 40,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 1722,
-			"url": "https://www.opengraph.xyz//_nuxt/image/c7bef4.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://www.opengraph.xyz//_nuxt/image/4a579b.jpg",
-		"imgDetails": {
-			"width": 90,
-			"height": 90,
-			"type": "jpg",
-			"mime": "image/jpeg",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 2435,
-			"url": "https://www.opengraph.xyz//_nuxt/image/4a579b.jpg"
-		}
-	}
+[{
+        "paginatitel": "OpenGraph - Preview Social Media Share and Generate Metatags"
+    },
+    {
+        "canonurl": "there is no canonical url in the html"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": null,
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "viewport",
+        "metaElementContent": "width=device-width,initial-scale=1",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "msapplication-TileColor",
+        "metaElementContent": "#ffffff",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "msapplication-TileImage",
+        "metaElementContent": "/ms-icon-144x144.png",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "theme-color",
+        "metaElementContent": "#ffffff",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "description",
+        "metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "OpenGraph - Preview Social Media Share and Generate Metatags",
+        "metaElementProperty": "og:title"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
+        "metaElementProperty": "og:description"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.opengraph.xyz/og-opengraph-v2.png",
+        "metaElementProperty": "og:image"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "website",
+        "metaElementProperty": "og:type"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "OpenGraph",
+        "metaElementProperty": "og:site_name"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.opengraph.xyz/",
+        "metaElementProperty": "og:url"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "en",
+        "metaElementProperty": "og:locale"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "OpenGraph - Preview Social Media Share and Generate Metatags",
+        "metaElementProperty": "twitter:title"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "OpenGraph is the easiest way to preview and generate open graph meta tags for any website.",
+        "metaElementProperty": "twitter:description"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.opengraph.xyz/og-opengraph-v2.png",
+        "metaElementProperty": "twitter:image"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "summary_large_image",
+        "metaElementProperty": "twitter:card"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.opengraph.xyz/",
+        "metaElementProperty": "twitter:url"
+    },
+    {
+        "metaElement": "mobile-web-app-capable",
+        "metaElementContent": "yes",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "apple-mobile-web-app-title",
+        "metaElementContent": "social-design",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "author",
+        "metaElementContent": "Yuyu",
+        "metaElementProperty": null
+    },
+    {
+        "ogi": "ogi",
+        "openGraphImageDetails": {
+            "width": 1200,
+            "height": 630,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 240877,
+            "url": "https://www.opengraph.xyz/og-opengraph-v2.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://opengraph.xyz/_nuxt/image/c7bef4.png",
+        "imgDetails": {
+            "width": 61,
+            "height": 40,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1722,
+            "url": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://opengraph.xyz/_nuxt/image/c7bef4.png",
+        "imgDetails": {
+            "width": 61,
+            "height": 40,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1722,
+            "url": "https://www.opengraph.xyz/_nuxt/image/c7bef4.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://opengraph.xyz/_nuxt/image/4a579b.jpg",
+        "imgDetails": {
+            "width": 90,
+            "height": 90,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2435,
+            "url": "https://www.opengraph.xyz/_nuxt/image/4a579b.jpg"
+        }
+    },
+    {
+        "baseUrl": "opengraph.xyz",
+        "base2": "https://opengraph.xyz/",
+        "hostname": "opengraph.xyz",
+        "hostnameElement": {
+            "domain": "opengraph.xyz",
+            "domainWithoutSuffix": "opengraph",
+            "hostname": "opengraph.xyz",
+            "isIcann": true,
+            "isIp": false,
+            "isPrivate": false,
+            "publicSuffix": "xyz",
+            "subdomain": ""
+        },
+        "originBase": "https://opengraph.xyz",
+        "realBase": "opengraph.xyz"
+    },
+    {
+        "headingId": 0,
+        "typeElement": "H1",
+        "headingTxt": "The Easiest Way to Preview and Generate Open Graph Meta Tags"
+    },
+    {
+        "headingId": 1,
+        "typeElement": "P",
+        "headingTxt": "Try the Free Meta Tag Generator and preview all Open Graph meta tags in one place."
+    },
+    {
+        "headingId": 2,
+        "typeElement": "P",
+        "headingTxt": "Try: byeindonesia.com"
+    },
+    {
+        "headingId": 3,
+        "typeElement": "H2",
+        "headingTxt": "Discover How Your Website is Perceived by Search Engines and Social Media"
+    },
+    {
+        "headingId": 4,
+        "typeElement": "H3",
+        "headingTxt": "Title Tag"
+    },
+    {
+        "headingId": 5,
+        "typeElement": "P",
+        "headingTxt": "Title tag is an HTML element that specifies the title of a web page. Search engines display the title tag on the search result page."
+    },
+    {
+        "headingId": 6,
+        "typeElement": "P",
+        "headingTxt": "Title tag is important for SEO and social sharing, you should use it to describe the content of the page."
+    },
+    {
+        "headingId": 7,
+        "typeElement": "P",
+        "headingTxt": "Best practices: Keep your title under 60 characters."
+    },
+    {
+        "headingId": 8,
+        "typeElement": "H3",
+        "headingTxt": "Description Tag"
+    },
+    {
+        "headingId": 9,
+        "typeElement": "P",
+        "headingTxt": "Meta description is an HTML element that provides a brief summary of a web page. It is just as important as your title tag for optimizing your search presence."
+    },
+    {
+        "headingId": 10,
+        "typeElement": "P",
+        "headingTxt": "Search engines will read your meta description and display it in the search results."
+    },
+    {
+        "headingId": 11,
+        "typeElement": "P",
+        "headingTxt": "Best practice: Keep your description between 155 - 160 characters."
+    },
+    {
+        "headingId": 12,
+        "typeElement": "H2",
+        "headingTxt": "Wall of Love"
+    },
+    {
+        "headingId": 13,
+        "typeElement": "P",
+        "headingTxt": "Try the Free Meta Tag Generator and preview all Open Graph meta tags in one place."
+    },
+    {
+        "headingId": 14,
+        "typeElement": "H2",
+        "headingTxt": "Frequently asked questions"
+    },
+    {
+        "headingId": 15,
+        "typeElement": "P",
+        "headingTxt": "Can't find the answer you're looking for? Check our FAQs page for more info."
+    },
+    {
+        "headingId": 16,
+        "typeElement": "P",
+        "headingTxt": "Open Graph is a protocol introduced by Facebook in 2010 to allows deeper integration between Facebook and any web page. It allows any web page to have the same functionality as any other object on Facebook. You could control how your website is being displayed on Facebook. Now, other social media sites such as Twitter, LinkedIn are recognizing Open Graph meta tags."
+    },
+    {
+        "headingId": 17,
+        "typeElement": "P",
+        "headingTxt": "Use a free tool such as OpenGraph.xyz to generate meta tags for your website, and copy the meta tags in the <head> element before the closing </html> tag."
+    },
+    {
+        "headingId": 18,
+        "typeElement": "P",
+        "headingTxt": "Meta tags are only allowed in the head element. Adding meta tags in the body will result in invalid markup."
+    },
+    {
+        "headingId": 19,
+        "typeElement": "P",
+        "headingTxt": "Use images that are at least 1080 pixels in width for best display on high resolution devices. Facebook recommends using 1:1 images in your ad creatives for better performance with image link ads."
+    },
+    {
+        "headingId": 20,
+        "typeElement": "P",
+        "headingTxt": "When sharing your website on social media, there're chances that it looks different from the preview here. The main reason is your website has been shared before so any changes you made aren't reflected."
+    },
+    {
+        "headingId": 21,
+        "typeElement": "P",
+        "headingTxt": "Click any of the official Open Graph debugger tool below to re-scrape your website:"
+    },
+    {
+        "headingId": 22,
+        "typeElement": "P",
+        "headingTxt": "Facebook: https://developers.facebook.com/tools/debug/"
+    },
+    {
+        "headingId": 23,
+        "typeElement": "P",
+        "headingTxt": "Twitter: https://cards-dev.twitter.com/validator"
+    },
+    {
+        "headingId": 24,
+        "typeElement": "P",
+        "headingTxt": "LinkedIn: https://www.linkedin.com/post-inspector/"
+    },
+    {
+        "headingId": 25,
+        "typeElement": "P",
+        "headingTxt": "Pinterest: https://developers.pinterest.com/tools/url-debugger/"
+    },
+    {
+        "headingId": 26,
+        "typeElement": "P",
+        "headingTxt": "by @swsalim"
+    },
+    {
+        "headingId": 27,
+        "typeElement": "P",
+        "headingTxt": "We use cookies to improve your experience on our site. Learn more"
+    }
 ]

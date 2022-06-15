@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="li-bubble-comment-chat.svg"
+   id="svg2124"
+   version="1.1"
+   viewBox="0 0 32 32"
+   height="32px"
+   width="32px">
+  <metadata
+     id="metadata2130">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2128" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg2124"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="16"
+     inkscape:cx="16"
+     inkscape:zoom="26.5625"
+     showgrid="false"
+     id="namedview2126"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title2115" />
+  <g
+     transform="translate(-0.15058824,-1.9576471)"
+     style="fill:#666666;fill-opacity:1"
+     id="Layer_2"
+     data-name="Layer 2">
+    <path
+       style="fill:#666666;fill-opacity:1"
+       id="path2117"
+       d="m 27.45,29 a 2.08,2.08 0 0 1 -0.9,-0.21 l -5.79,-2.9 H 10 a 8,8 0 0 1 -8,-8 v -6 a 8,8 0 0 1 8,-8 h 12 a 8,8 0 0 1 8,8 v 6 a 8,8 0 0 1 -1.64,4.85 l 1,3.73 A 2,2 0 0 1 27.45,29 Z M 10,5.89 a 6,6 0 0 0 -6,6 v 6 a 6,6 0 0 0 6,6 H 21 A 1,1 0 0 1 21.45,24 l 6,3 -1.16,-4.24 A 1,1 0 0 1 26.51,21.84 6,6 0 0 0 28,17.89 v -6 a 6,6 0 0 0 -6,-6 z" />
+    <path
+       style="fill:#666666;fill-opacity:1"
+       id="path2119"
+       d="M 24,19 H 8 a 1,1 0 0 1 0,-2 h 16 a 1,1 0 0 1 0,2 z" />
+    <path
+       style="fill:#666666;fill-opacity:1"
+       id="path2121"
+       d="M 24,13 H 8 a 1,1 0 0 1 0,-2 h 16 a 1,1 0 0 1 0,2 z" />
+  </g>
+</svg>

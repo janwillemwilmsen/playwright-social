@@ -1,0 +1,87 @@
+[{
+        "paginatitel": "Google"
+    },
+    {
+        "canonurl": "there is no canonical url in the html"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": null,
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "referrer",
+        "metaElementContent": "origin",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+        "metaElementProperty": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.google.nl/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+        "linksize": null,
+        "linktype": null
+    },
+    {
+        "ogi": "ogi",
+        "openGraphImageDetails": {
+            "width": 0,
+            "height": 0,
+            "type": " Not found",
+            "mime": "",
+            "wUnits": " Not found",
+            "hUnits": " Not found",
+            "length": 0,
+            "url": "https://via.placeholder.com/1"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.google.nl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+        "imgDetails": {
+            "width": 544,
+            "height": 184,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 13504,
+            "url": "https://www.google.nl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://via.placeholder.com/1",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "baseUrl": "google.nl",
+        "base2": "https://google.nl/",
+        "hostname": "google.nl",
+        "hostnameElement": {
+            "domain": "google.nl",
+            "domainWithoutSuffix": "google",
+            "hostname": "google.nl",
+            "isIcann": true,
+            "isIp": false,
+            "isPrivate": false,
+            "publicSuffix": "nl",
+            "subdomain": ""
+        },
+        "originBase": "https://google.nl",
+        "realBase": "google.nl"
+    },
+    {
+        "headingId": 0,
+        "typeElement": "H1",
+        "headingTxt": "Voordat je verdergaat naar Google Zoeken"
+    }
+]

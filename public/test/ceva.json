@@ -1,0 +1,795 @@
+[{
+        "paginatitel": "Ceva Netherlands"
+    },
+    {
+        "canonurl": "https://www.ceva.nl"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": null,
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "viewport",
+        "metaElementContent": "initial-scale=1.0",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "robots",
+        "metaElementContent": "index,follow",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "include_mode",
+        "metaElementContent": "async",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "google-site-verification",
+        "metaElementContent": "-EPdoLACPInnNN2uyzfHGK9UjfKGGBiHEcHW3c7YLUU",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "Ceva Netherlands",
+        "metaElementProperty": "og:site_name"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "Ceva Netherlands",
+        "metaElementProperty": "og:title"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "nl_BE",
+        "metaElementProperty": "og:locale"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "website",
+        "metaElementProperty": "og:type"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.ceva.nl",
+        "metaElementProperty": "og:url"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://country.cdn.cevaws.com/bundles/cevacorecommon/img/ogimage/ogimage.png",
+        "metaElementProperty": "og:image"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/logo-og.jpg",
+        "metaElementProperty": "og:image"
+    },
+    {
+        "metaElement": "msapplication-TileColor",
+        "metaElementContent": "#2b5797",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "msapplication-TileImage",
+        "metaElementContent": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/favicons/mstile-144x144.png",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "msapplication-config",
+        "metaElementContent": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/favicons/ressources/images/favicons/browserconfig.xml",
+        "metaElementProperty": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/favicons/apple-touch-icon-180x180.png",
+        "linksize": "180x180",
+        "linktype": null
+    },
+    {
+        "ogi": "ogi",
+        "openGraphImageDetails": {
+            "width": 368,
+            "height": 365,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 10166,
+            "url": "https://country.cdn.cevaws.com/bundles/cevacorecommon/img/ogimage/ogimage.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/logo.jpg",
+        "imgDetails": {
+            "width": 244,
+            "height": 232,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 4144,
+            "url": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/logo.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/search.png",
+        "imgDetails": {
+            "width": 21,
+            "height": 22,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 316,
+            "url": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/search.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/search.png",
+        "imgDetails": {
+            "width": 21,
+            "height": 22,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 316,
+            "url": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/search.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/search@2x.png",
+        "imgDetails": {
+            "width": 59,
+            "height": 61,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 766,
+            "url": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/search@2x.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/search@2x.png",
+        "imgDetails": {
+            "width": 59,
+            "height": 61,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 766,
+            "url": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/search@2x.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/backgroundimage_home/media/ceva-netherlands/images/kat-met-hand-home-page/1012265-1-dut-BE/Kat-met-hand-home-page.jpg",
+        "imgDetails": {
+            "width": 1060,
+            "height": 732,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 25390,
+            "url": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/backgroundimage_home/media/ceva-netherlands/images/kat-met-hand-home-page/1012265-1-dut-BE/Kat-met-hand-home-page.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage_2/ceva-netherlands/nieuws/benelux-nieuws/nieuw-zelys-pimobendan/2899868-9-dut-BE/NIEUW!-Zelys-R-pimobendan.jpg",
+        "imgDetails": {
+            "width": 120,
+            "height": 110,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1226,
+            "url": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage_2/ceva-netherlands/nieuws/benelux-nieuws/nieuw-zelys-pimobendan/2899868-9-dut-BE/NIEUW!-Zelys-R-pimobendan.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage_2/ceva-netherlands/nieuws/benelux-nieuws/tulaven-100-mg-ml/2811197-1-dut-BE/Tulaven-100mg-ml.jpg",
+        "imgDetails": {
+            "width": 120,
+            "height": 110,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1396,
+            "url": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage_2/ceva-netherlands/nieuws/benelux-nieuws/tulaven-100-mg-ml/2811197-1-dut-BE/Tulaven-100mg-ml.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage_1/ceva-netherlands/nieuws/benelux-nieuws/katten-tijdens-lockdown-feliway-enquete/2648043-12-dut-BE/Katten-tijdens-lockdown-FELIWAY-enquete.jpg",
+        "imgDetails": {
+            "width": 120,
+            "height": 110,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2340,
+            "url": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage_1/ceva-netherlands/nieuws/benelux-nieuws/katten-tijdens-lockdown-feliway-enquete/2648043-12-dut-BE/Katten-tijdens-lockdown-FELIWAY-enquete.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage_2/ceva-netherlands/nieuws/benelux-nieuws/cevolution-verantwoord-innoveren/2025976-6-dut-BE/Cevolution-Verantwoord-innoveren.jpg",
+        "imgDetails": {
+            "width": 120,
+            "height": 110,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1768,
+            "url": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage_2/ceva-netherlands/nieuws/benelux-nieuws/cevolution-verantwoord-innoveren/2025976-6-dut-BE/Cevolution-Verantwoord-innoveren.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage/ceva-netherlands/nieuws/benelux-nieuws/stronger-together/2571773-6-dut-BE/VIDEOBOODSCHAP-CEVA-IS-STRONGER-TOGETHER.png",
+        "imgDetails": {
+            "width": 115,
+            "height": 110,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 3518,
+            "url": "https://country.cdn.cevaws.com/var/ezflow_site/storage/images/_aliases/newshomepage/ceva-netherlands/nieuws/benelux-nieuws/stronger-together/2571773-6-dut-BE/VIDEOBOODSCHAP-CEVA-IS-STRONGER-TOGETHER.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/arrow-right-white-h15@2x.png",
+        "imgDetails": {
+            "width": 16,
+            "height": 29,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 260,
+            "url": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/arrow-right-white-h15@2x.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/arrow-right.png",
+        "imgDetails": {
+            "width": 8,
+            "height": 14,
+            "type": "webp",
+            "mime": "image/webp",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 164,
+            "url": "https://country.cdn.cevaws.com/bundles/cevacountrysitecommon/images/arrow-right.png"
+        }
+    },
+    {
+        "baseUrl": "ceva.nl",
+        "base2": "https://ceva.nl/",
+        "hostname": "ceva.nl",
+        "hostnameElement": {
+            "domain": "ceva.nl",
+            "domainWithoutSuffix": "ceva",
+            "hostname": "ceva.nl",
+            "isIcann": true,
+            "isIp": false,
+            "isPrivate": false,
+            "publicSuffix": "nl",
+            "subdomain": ""
+        },
+        "originBase": "https://ceva.nl",
+        "realBase": "ceva.nl"
+    },
+    {
+        "headingId": 0,
+        "typeElement": "H1",
+        "headingTxt": "Together, beyond animal health"
+    },
+    {
+        "headingId": 1,
+        "typeElement": "P",
+        "headingTxt": "You are leaving the country website to access another site in the group."
+    },
+    {
+        "headingId": 2,
+        "typeElement": "P",
+        "headingTxt": "Regulatory constraints and medical practices vary from country to country. Consequently, the information provided on the site in which you enter may not be suitable for use in your country."
+    },
+    {
+        "headingId": 3,
+        "typeElement": "P",
+        "headingTxt": "You are leaving the country website to access another site in the group."
+    },
+    {
+        "headingId": 4,
+        "typeElement": "P",
+        "headingTxt": "Regulatory constraints and medical practices vary from country to country. Consequently, the information provided on the site in which you enter may not be suitable for use in your country."
+    },
+    {
+        "headingId": 5,
+        "typeElement": "H2",
+        "headingTxt": "Nieuw"
+    },
+    {
+        "headingId": 6,
+        "typeElement": "H2",
+        "headingTxt": "In de kijker"
+    },
+    {
+        "headingId": 7,
+        "typeElement": "H2",
+        "headingTxt": "Contacteer ons"
+    },
+    {
+        "headingId": 8,
+        "typeElement": "P",
+        "headingTxt": "Ceva Santé Animale B.V. Tiendweg 8c 2671 SB Naaldwijk Nederland"
+    },
+    {
+        "headingId": 9,
+        "typeElement": "P",
+        "headingTxt": "Tel +31 (0)174 643 930 Tel +31 (0)174 643 930"
+    },
+    {
+        "headingId": 10,
+        "typeElement": "P",
+        "headingTxt": "info@ceva.nl"
+    },
+    {
+        "headingId": 11,
+        "typeElement": "H2",
+        "headingTxt": "Onze product websites"
+    },
+    {
+        "headingId": 12,
+        "typeElement": "P",
+        "headingTxt": "Al onze websites"
+    },
+    {
+        "headingId": 13,
+        "typeElement": "P",
+        "headingTxt": "Ceva Corporate website"
+    },
+    {
+        "headingId": 14,
+        "typeElement": "P",
+        "headingTxt": "Vind ons op sociale media :"
+    },
+    {
+        "headingId": 15,
+        "typeElement": "P",
+        "headingTxt": "WAARSCHUWING"
+    },
+    {
+        "headingId": 16,
+        "typeElement": "P",
+        "headingTxt": "Deze site is uitsluitend bedoeld voor gebruik door dierenartsen, apothekers, dierenartsassistenten, studenten diergeneeskunde, SQP's of andere beroepsbeoefenaren in de veterinaire gezondheidszorg en professionele dierenverzorgers.Om deel te nemen, vinkt u dit vakje aan om te bevestigen dat de bovenstaande verklaring op u van toepassing is."
+    }
+]

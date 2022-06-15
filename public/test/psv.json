@@ -1,0 +1,93 @@
+[
+ 
+  
+	 
+	  
+	{
+		"ogi": "ogi",
+		"openGraphImageDetails": {
+			"width": 0,
+			"height": 0,
+			"type": " Not found",
+			"mime": "",
+			"wUnits": " Not found",
+			"hUnits": " Not found",
+			"length": 0,
+			"url": "https://via.placeholder.com/1"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://p139.psv.nl/rest/dialogues/files/165aa630-1aab-4cba-8bc6-38c094c62c22/1488+Algemene+PSV+FANstore+uitingen+s1.jpg",
+		"imgDetails": {
+			"width": 980,
+			"height": 480,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 367027,
+			"url": "https://p139.psv.nl/rest/dialogues/files/165aa630-1aab-4cba-8bc6-38c094c62c22/1488+Algemene+PSV+FANstore+uitingen+s1.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://p139.psv.nl/rest/dialogues/files/2b575d51-5f26-4ed6-915b-4eb61a764a19/21280_Banner_Philips+940x480px_v1%5B3%5D.jpg",
+		"imgDetails": {
+			"width": 940,
+			"height": 480,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 226555,
+			"url": "https://p139.psv.nl/rest/dialogues/files/2b575d51-5f26-4ed6-915b-4eb61a764a19/21280_Banner_Philips+940x480px_v1%5B3%5D.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://p139.psv.nl/rest/dialogues/files/165aa630-1aab-4cba-8bc6-38c094c62c22/1488+Algemene+PSV+FANstore+uitingen+s1.jpg",
+		"imgDetails": {
+			"width": 980,
+			"height": 480,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 367027,
+			"url": "https://p139.psv.nl/rest/dialogues/files/165aa630-1aab-4cba-8bc6-38c094c62c22/1488+Algemene+PSV+FANstore+uitingen+s1.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"baseUrl": "www.psv.nl",
+		"base2": "https://www.psv.nl/",
+		"hostname": "www.psv.nl",
+		"hostnameElement": {
+			"domain": "psv.nl",
+			"domainWithoutSuffix": "psv",
+			"hostname": "www.psv.nl",
+			"isIcann": true,
+			"isIp": false,
+			"isPrivate": false,
+			"publicSuffix": "nl",
+			"subdomain": "www"
+		},
+		"originBase": "https://www.psv.nl"
+	 
+	}
+]

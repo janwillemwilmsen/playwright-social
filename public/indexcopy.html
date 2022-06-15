@@ -1,0 +1,1932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- https://developers.facebook.com/docs/sharing/webmasters/images
+    https://ahrefs.com/blog/open-graph-meta-tags/ -->
+    <h1>Social preview</h1>
+    
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://essent.nl">essent.nl</a><br>
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen">essent.nl kennisbank</a><br>
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://jumbo.com">jumbo.com - api</a><br>
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://amazon.com">amazon.com - api</a><br>
+    Localhost : server testurl <a href="http://localhost:8080/api?url=https://www.ing.nl/particulier/index.html">ing.nl - api</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://essent.nl">essent.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://toertocht.be">toertocht.be</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://socialsharepreview.com">socialsharepreview.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.heymeta.com">heymeta.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://psv.nl">psv.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://xs4all.nl">xs4all.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://beslist.nl">beslist.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://omoda.nl">omoda.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://overheid.nl">overheid.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://philips.nl">philips.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://asml.com">asml.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.opengraph.xyz/">opengraph.xyz</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.ing.nl/particulier/index.html">ing.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://google.nl/">google.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://github.com">github.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://amazon.com/">amazon.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://facebook.com/">facebook.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://jumbo.com/">jumbo.com</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.vgz.nl">vgz.nl</a><br>
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://linkedin.com/">https://linkedin.com/</a><br>
+    
+    
+    Localhost : frontend testurl <a href="http://localhost:8080/index.html?url=https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen">https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen</a><br><br>
+
+     <!-- <iframe src="https://www.essent.nl/kennisbank/zonnepanelen/wat-zijn-de-voordelen-van-zonnepanelen/salderingsregeling-zonnepanelen" width="150" height="250"></iframe> -->
+
+    <br><br>
+
+    Url to check:<br>
+    <form  method="get" action="/index.html">
+        <input type="text" name="url" id="url" placeholder="url">
+        <input type="submit" value="Go">
+    </form>
+
+
+    <h2>Linkedin</h2>
+    <div id="linkedinimage"></div>
+    <div id="linkedintitle"></div>
+    <div id="linkedinurl"></div>
+    og:image
+    Title
+    og:url 
+    
+
+
+<h2>Twitter</h2>
+
+<!-- // "metaElement": "twitter:card"
+//  // "metaElementContent": "summary_large_image"
+// "metaElement": "twitter:site"
+// "metaElement": "twitter:creator"
+// "metaElement": "twitter:url"
+// "metaElement": "twitter:title"
+// "metaElement": "twitter:description"
+// "metaElement": "twitter:image" -->
+
+
+<div id="twittercard"></div>
+<div id="twittercardsummary"></div>
+<div id="twitter-site"></div>
+<div id="twitter-creator"></div>
+<div id="twitter-url"></div>
+<div id="twitter-title"></div>
+<div id="twitter-description"></div>
+<div id="twitter-image"></div>
+<div id="twitter-show"></div>
+
+<hr>
+
+    <h2>Meta data</h2>
+    <div class="flex" style="background-color: bisque;"> 
+        <div>Meta description:</div>
+        <div id="metadescription"></div>
+    </div>
+    <div class="flex" style="background-color: aquamarine;">
+        <div>Meta title:</div>
+        <div id="metatitel"></div>
+    </div>
+    <div class="flex" style="background-color: chocolate;">
+        <div>Meta robots: </div>
+        <div id="robots"></div>
+    </div>
+    <h3>Canonical url</h3>
+    <div id="canonurl"></div>
+    <div id="baseurl"></div>
+    <br><br>
+    
+    <h2>Facebook</h2>
+    <h3>OG type</h3>
+    <div id="ogtype"></div>
+    <h3>OG url</h3>
+    <div id="ogurl"></div>
+    <h3>OG title</h3>
+    <div id="ogtitle"></div>
+
+    <h3>OG DESC</h3>
+    <div id="ogdescription"></div>
+    
+ 
+    <br><br>
+
+
+    <div class="flex" style="background-color: darkcyan;">
+        
+        <div>OG img url:</div>
+        <div id="ogimage"></div>
+        
+    </div>
+    <div class="flex" style="background-color: darksalmon;">
+
+        <div id="ogimsrc"></div>
+        Width of the defined og:image = <span id="ogimsrcwidth"></span><span id="ogimsrcwidthunits"></span><br>
+        Height of the defined og:image = <span id="ogimsrcheight"></span><span id="ogimsrcheightunits"></span><br>
+        Aspectratio: <span id="aspectog"></span>
+        Type = <span id="ogimsrctype"></span>
+        <!-- <span id="ogimsrcurl"></span>
+        <span id="ogimsrcxqz"></span>
+        <span id="ogimsrcabc"></span> -->
+        <img id="preview"></img>
+
+    </div>
+
+
+    <h2>Images on the page:</h2>
+    <ul id="imagelist"></ul>
+
+    <br><br>
+    <div id="json"></div>
+ 
+
+
+
+<script>
+
+    let params = (new URL(document.location)).searchParams;
+    let query = params.get('url');
+    console.log(query)
+    // let sitemapapiurl = 'https://urlsitemaptool.vercel.app/?xmlsitemap='
+
+    document.getElementById('url').value = query;
+
+    const jsonData = ''
+
+    searchShow(query)
+
+    async function searchShow(query) {
+        // showSpinner();
+        const domainUrl = `${query}`
+        console.log('DomainUrl', domainUrl)
+        // Trim evt
+        // /sitemap is GET url in Express
+    
+        // const apiUrl = '/api?url=/proxy?url='
+        const apiUrl = '/api?url='
+        // const apiUrl = 'http://localhost:8080/api?url='
+        // const apiUrl = 'https://sitemap-detector-kykti36joa-nw.a.run.app/sitemap?url='
+
+        
+        // API aanpassing bij metaData.push({            'ogi': 'ogi',               openGraphImageDetails
+      // Alleen essent.json lokaal aangepast
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Dynamische url OF test JSON file.
+        // const url = apiUrl + domainUrl;
+        // const url  = '/test/xs4all.json'
+        // const url  = '/test/li.json'
+        // const url  = '/test/psv.json'
+        // const url  = '/test/github.json'
+        const url  = '/test/vgz.json'
+        // const url  = '/test/toertocht.json'
+        // const url  = '/test/socialshare.json'
+        // const url  = '/test/ing.json'
+        // const url  = '/test/essent.json'
+        // const url  = '/test/jumbo.json'
+        // const url  = '/test/opengraph.json'
+        // const url  = '/test/kpn.json'
+
+        console.log(url)
+        const response = await fetch(url)
+        .then(response => response.json() )
+        .then((jsonData) => {
+            // console.log(data)
+            console.log('jsonData = ', jsonData)
+            console.log('we got data');
+            const results = jsonData.map(element => element )
+            // const results = jsonData
+            console.log('Results van api = ', results)
+
+        //     const list = document.getElementById('sitemaps')
+        //     list.innerHTML = ("");
+        //     results.forEach(result => {
+        //     const element = document.createElement('li')
+        //     element.innerText = result.desc + ' ' + result.value;
+        //     list.appendChild(element);
+        // })
+
+
+
+
+
+
+
+
+
+
+
+        /////////////////////////////FACEBOOK
+
+        /////////////////////////////PRESENT JSON
+        document.getElementById("json").textContent = JSON.stringify(results, undefined, 2);
+      
+
+        // { "type": "image", "imgsrc": "https://toertocht.be/icons/whatsapp.svg", "imgDetails": { "width": 2500, "height": 2489, "type": "svg", "mime": "image/svg+xml", "wUnits": "px", "hUnits": "px", "length": 4873, "url": "https://toertocht.be/icons/whatsapp.svg" }
+
+        /////////////////////////////IMAGE LIST
+        const imagelist = document.getElementById('imagelist')
+
+        const allImages = results.filter(function (item){
+            return item.type === 'image' 
+            // return item.type === 'svg'
+        });
+        console.log('All normal images', allImages)
+
+
+  
+
+
+        allImages.forEach(image => {
+            console.log('for Each element', image)
+            const listItem = document.createElement('li')
+
+
+            ///////////////////////////// If image is smaller 200px
+            const minWidth = image.imgDetails.width
+            if(minWidth < 200) {
+                listItem.style.display = 'none'
+            }
+
+
+            
+            const imagePop = document.createElement('img')
+            const imgLink = document.createElement('a')
+
+            // const prxy = 'https://caravaggio-kykti36joa-ey.a.run.app/o:auto?image='
+
+            // const proxiedUrl = '/proxy?url=' + image.imgsrc
+            // const proxiedUrl = prxy + image.imgsrc
+            const proxiedUrl = image.imgsrc
+
+            imagePop.setAttribute('src', proxiedUrl)
+
+
+            const altText = 'Image height: ' + image.imgDetails.height + ' ...and... ' + 'Image width:' + image.imgDetails.width
+            
+
+            imagePop.setAttribute('alt', altText)
+            imagePop.setAttribute('title', altText)
+            imagePop.setAttribute('width', '80')
+            imagePop.style.background = 'gray'
+            // listItem.innerText = image.imgsrc
+
+            // update src og img placeholder
+            // const ogimsrc = document.getElementById('preview')
+
+            imagePop.addEventListener('click', event => {
+                // ogimsrc.src ='image.imgsrc';
+                // ogimsrc.setAttribute('src', image.imgsrc)
+                // document.getElementById('preview').textContent = `Click count: ${event.detail}`;
+                // document.getElementById('preview').style.width = `560px`;
+                
+                
+                // document.getElementById('preview').src = prxy + image.imgsrc;
+                document.getElementById('preview').src = image.imgsrc;
+
+                // Uitgezet omdat als er wel een OG image is dit een error geeft.
+                // document.getElementById('NoOGimageFound').style.display = 'none';
+            });
+
+            // imgLink.setAttribute('href', image.imgsrc)
+            // imgLink.setAttribute('onclick', 'javascript:document.getElementById("ogimsrc").src=' + `${image.imgsrc}`)
+            // imgLink.setAttribute('onclick', updateSrc())
+
+         
+
+            // imgLink.setAttribute('target', 'preview')
+            listItem.append(imgLink)
+            imgLink.append(imagePop)
+            imagelist.appendChild(listItem);
+        });
+
+
+        //////////////////// OG Details //////////////////////////////////////////////////////////////////////////////////
+
+
+
+        // function isOGDetails(value) {
+        //     return value === 'openGraphImageDetails'
+        // }
+
+
+            // const ogDetails11 = results.find(results = 'openGraphImageDetails')
+            
+            // haalt Open Graph Image details op vanuit api/json.
+            const ogDetails12 = results.filter(function (item){
+                return item.ogi === 'ogi';
+            })
+            
+            // console.log('Nieuw poging om details uit los json element op te halen', ogDetails11)
+            console.log('OGI OGI OGI = ', ogDetails12)
+            console.log('OGI.lenght = ', ogDetails12.length)
+    
+
+            // console.log('Item OGI', ogDetails12.openGraphImageDetails.width)
+            // const user = ogDetails12[1]
+            // console.log('usersss', user)
+            // const [ ogi, {  width, height, type, mime, wUnits, hUnits, length, url }] = user;
+            // console.log('Width van OG IMAGE = ', width)
+
+
+            ///// Desctructure Array en Objects.......................... getest waarom het met inline json wel werkte, niet met ingeladen json. In inspector kwamen de console logs terug met melding dat het om een Object ging (wel te desctureren) en om een Array. 
+      
+
+            // const user = { "ogi": "ogi", "openGraphImageDetails": { "width": 135, "height": 72, "type": "png", "mime": "image/png", "wUnits": "px", "hUnits": "px", "length": 3137, "url": "https://static.essent.nl/online/img/logo-essent.png" }}     
+            // console.log('USER USER USER = ', user)  
+            // const {openGraphImageDetails: {wUnits}} = user;
+            // console.log('Waarom wel van inline json object = ', wUnits); //prints: Masters
+
+
+            // const obj = Object.fromEntries(ogDetails12);
+            // console.log('Object from OG details', obj);
+            
+            const [{openGraphImageDetails: {width, height, type, wUnits, hUnits, url}}] = ogDetails12;
+            console.log(typeof width)
+            // console.log('width.lenght', width.length);
+            // console.log('en niet vanaf json array?', hUnits);
+            // console.log('width', width);
+
+if(typeof width === 'undefined'){
+        console.log('OGI OGI OGI image-url is undefined')
+}
+else{
+
+
+
+                        const eleMentogimsrcwidth = document.getElementById('ogimsrcwidth')
+                        eleMentogimsrcwidth.innerText = width
+                        const eleMentogimsrcheight = document.getElementById('ogimsrcheight')
+                        eleMentogimsrcheight.innerText = height
+                        const eleMentogimsrcwidthunits = document.getElementById('ogimsrcwidthunits')
+                        eleMentogimsrcwidthunits.innerText = wUnits
+                        const eleMentogimsrcheightunits = document.getElementById('ogimsrcheightunits')
+                        eleMentogimsrcheightunits.innerText = hUnits
+                        const eleMentogimsrctype = document.getElementById('ogimsrctype')
+                        eleMentogimsrctype.innerText = type
+
+                        function gcd (a, b) {
+                            return (b == 0) ? a : gcd (b, a%b);
+                        }
+                        var w = width;
+                        var h = height;
+                        var r = gcd (w, h);
+                        var left =  w/r
+                        var right = h/r
+                        console.log('widthOGimage', w )
+                        console.log('heightOGimage', h)
+                        console.log('common demonitor', r)
+                        console.log('Left', left )
+                        console.log('Right', right )
+                        
+
+                    const aspectog = document.getElementById('aspectog')
+                    const innerValues = document.createElement('span')
+                    innerValues.innerHTML = left + ':' + right
+                        //    innerValues.innerText = 'heey'
+                    aspectog.appendChild(innerValues)
+
+
+                }
+
+
+      
+        ////////////////////////////////////////PRESENT OGimage /////////////////////////////////////
+
+ 
+        var ogImageElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:image';
+        })
+        console.log('OPEN Graph IMAGE = ', ogImageElement)
+        console.log(typeof ogImageElement)
+        // const ogImageElement = results.filter(function (item){
+        //     return item === 'openGraphImageDetails';
+        // })
+
+        // const ogImageElement = results.openGraphImageDetails
+        // const ogImageElement = results.query
+    { // START  OF OG image block
+
+   
+        // {"metaElement":null,"metaElementContent":"","metaElementProperty":"og:image"}
+        // {"metaElement":null,"metaElementContent":"https://static.essent.nl/online/img/logo-essent.png","metaElementProperty":"og:image"}
+        // {"metaElement":null,"metaElementContent":"https://www.ing.nl/media/android-chrome-512x512_tcm162-26158.png","metaElementProperty":"og:image"}
+
+      
+
+       
+
+        if(ogImageElement.length === 0 ){
+            console.log('Checking If OG image is there .... metaElementContent === ""')
+            const ogimage = document.getElementById('ogimage')
+            ogimage.innerHTML = `
+                <img src="https://via.placeholder.com/1" id="preview" style="background:gray;width:270px;height:200px;">
+                <div id="NoOGimageFound">
+                    No <strong>og:image</strong> found - 
+                    Facebook can use any other image used on your page.  <br>
+                    Click on any of the images below to see how it would look if they were used as the image.
+                    </div>`
+        }
+        else{
+
+            var [{metaElement, metaElementContent, metaElementProperty}] = ogImageElement;
+            console.log('DESTRUCTURED Array OG IMG', metaElementContent )
+            
+            console.log('Checking If OG image is there .... metaElementContent === "some url"')
+            // console.log('OG:image element = ', ogImageElement)
+            // const data = metaElements
+            const ogimage = document.getElementById('ogimage')
+            const src = ogImageElement[0].metaElementContent
+            ogimage.innerText = src
+
+            // const OGwidth = ogImageElement[0].
+
+
+            const ogimsrc = document.getElementById('ogimsrc')
+            const image = document.createElement('img')
+            image.setAttribute('src', src)
+            image.setAttribute('id', 'preview')
+            image.style.background = 'yellow'
+            image.style.width = '350px'
+            image.style.height = '100%'
+            ogimsrc.appendChild(image)
+        }
+
+    } // END OF OG image block
+
+
+
+      
+
+
+
+
+        /////PRESENT OGurl
+        const ogUrlElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:url';
+        })
+
+        if(ogUrlElement.length === 0 ){
+            const ogurl = document.getElementById('ogurl')
+            const noValue = document.createElement('div')
+            noValue.style.background = 'lightblue'
+            // noValue.style.background = 'gray'
+            noValue.innerHTML = `No <strong>og:url</strong> found. <br> 
+                                 Fallback to url: '${query}'`
+            ogurl.appendChild(noValue)
+        }
+        else{
+            console.log('OG:url element =', ogUrlElement)
+            // const data = metaElements
+            const ogurl = document.getElementById('ogurl')
+            const ogUrlMarker = ogUrlElement[0].metaElementContent
+
+            if(ogUrlMarker.length > 0){
+                ogurl.innerText = ogUrlMarker
+            }
+            else{
+                ogurl.innerText = 'OG:url element is found but it has no value. og:url is empty.'
+            }
+
+            
+        }
+
+
+
+
+
+
+        /////PRESENT OGTITLE
+        const ogTitleElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:title';
+        })
+
+        // var [{metaElement, metaElementContent, metaElementProperty}] = ogTitleElement;
+        // console.log('DESTRUCTURED OG titel array', metaElementContent)
+
+        if(ogTitleElement.length === 0 ){
+
+
+            const fallBackTitle = results[0].paginatitel
+            console.log('FALLBACK TITLE TO TITLE',fallBackTitle)
+            // console.log('FALLBACK TITLE TO TITLE lenght',fallBackTitle.length)
+
+
+            // if(results[0].paginatitel === undefined)
+            if(fallBackTitle === undefined){
+                var fallBackTitleValue = 'No title in the html'
+            }
+            else{
+              var fallBackTitleValue = fallBackTitle
+            }
+
+
+
+            const ogtitle = document.getElementById('ogtitle')
+            const noOgTitle = document.createElement('div')
+            noOgTitle.style.background = 'pink'
+            noOgTitle.innerHTML= `No <strong>og:title</strong> found.<br> Falling back to title : ${fallBackTitleValue}`
+            ogtitle.appendChild(noOgTitle);
+        }
+        else{
+            
+                        // if(metaElementContent === ''){
+                        //     const ogtitle = document.getElementById('ogtitle')
+                        //     ogtitle.innerText = 'The og:title is configured but the value is empty'
+
+                        // }
+                        // else{
+
+                    
+                                        console.log('OG:title element =', ogTitleElement)
+                                        // const data = metaElements
+                                        const ogtitlewel = document.getElementById('ogtitle')
+                                        var waarde = ogTitleElement[0].metaElementContent
+
+                                        if(waarde.length > 0){
+                                            // const innerTekst = document.createElement('div')
+                                            ogtitlewel.innerText = waarde
+
+                                            // const innerWaarde = document.createElement('span')
+                                            // innerWaarde.innerText = ogTitleElement[0].metaElementContent
+
+                                            // innerTekst.appendChild(innerWaarde)
+                                            // ogtitlewel.appendChild(innerTekst)
+                                        }
+                                        else{
+                        
+                                            const ogtitle = document.getElementById('ogtitle')
+                                            ogtitle.innerText = 'The og:title is configured but the value is empty'
+
+
+                                        }
+                                       
+                        // }
+        }
+
+
+       
+        
+                /// PRESENT META DESCRIPTION
+
+            const metaDescriptionJson = results.filter(function (item){
+                return item.metaElement === 'description';
+            })
+
+        
+
+            {
+            if(metaDescriptionJson.length === 0) {
+                const metaDescriptionMarker = document.getElementById('metadescription')
+                metaDescriptionMarker.innerText = 'Meta description tag not provided, no meta-description available'
+            }
+            else{
+                               const metaDescriptionMarker = document.getElementById('metadescription')
+                               const metaValue = metaDescriptionJson[0].metaElementContent
+                                
+                                if(metaValue.length > 0){
+                                    metaDescriptionMarker.innerText = metaValue
+                                }
+                                else{
+                                    metaDescriptionMarker.innerText = 'Meta description tag found. But it has no value, its empty.'
+                                }
+
+             }
+        } //END OF META DESC BLOCK
+
+     /////PRESENT og:type
+
+     
+
+         const ogTypeElement = results.filter(function (item){
+             return item.metaElementProperty === 'og:type';
+            })
+            console.log('OG TYPE',ogTypeElement)
+            console.log('OG TYPE typeOf', typeof ogTypeElement)
+            console.log('OG TYPE lenght', ogTypeElement.length)
+            
+            
+            const ogTypeContent = document.getElementById('ogtype')
+
+if(ogTypeElement.length > 0){
+
+            const [{metaElement, metaElementContent, metaElementProperty}] = ogTypeElement
+            console.log('metaElementProperty OG:type',metaElementProperty)
+
+            if(ogTypeElement.length === 1){
+                ogTypeContent.innerText = metaElementContent
+            }
+            else{
+                ogTypeContent.innerText = "No 'og:type' element found. Fallback to 'og:type = website'"
+            }
+
+}
+else{
+            ogTypeContent.innerText = "No 'og:type' element found. Fallback to 'og:type = website'"
+
+
+        }
+
+
+
+
+
+
+
+      
+                /////PRESENT OGDescription
+          var ogDescriptionElement = results.filter(function (item){
+            return item.metaElementProperty === 'og:description';
+        })
+
+        {
+            
+            if(ogDescriptionElement.length === 0 ){
+
+                if(metaDescriptionJson.length === 0){
+                    const mdesc = '...Hmmnn no meta description found...'
+                    const ogdescription = document.getElementById('ogdescription')
+                    ogdescription.innerHTML = `No <strong>og:description</strong> found.<br> 
+                    Fallback to meta-description. 
+                ${mdesc}`
+
+                }
+                else{
+                    const mdesc = metaDescriptionJson[0].metaElementContent
+               
+                
+                const ogdescription = document.getElementById('ogdescription')
+                ogdescription.innerHTML = `No <strong>og:description</strong> found.<br> 
+                    Fallback to meta-description: '${mdesc}'`
+
+
+            }
+
+        }
+        else{
+            console.log('OG:Description element = ', ogDescriptionElement)
+            const ogdescription = document.getElementById('ogdescription')
+            const ogdescriptionMarker = ogDescriptionElement[0].metaElementContent
+            
+            if(ogdescriptionMarker.length > 0){
+                ogdescription.innerText = ogDescriptionElement[0].metaElementContent
+            }
+            else{
+                ogdescription.innerText = 'OG:description element found, but it has no value. Its empty.'
+            }
+
+            // const data = metaElements
+           
+        }
+        
+}
+
+
+
+
+        /////////////////PRESENT 
+        const seotitle = document.getElementById('metatitel')
+
+        if(results[0].paginatitel === undefined){
+            seotitle.innerText = 'There is no title element in the html of the page'
+        }
+        else {
+
+            const seoTitleMarker = results[0].paginatitel
+
+            if(seoTitleMarker.length > 0){
+                seotitle.innerText = seoTitleMarker
+            }
+            else{
+                seotitle.innerText = 'There is an empty title element on the page'
+            }
+
+        }
+
+
+
+
+        ////////////////PRESENT ROBOTS value
+        const metaElements = results.filter(function (item){
+            return item.metaElement === 'robots';
+        })
+
+        if(metaElements.length === 0 ){
+            const rbt = document.getElementById('robots');
+            rbt.innerText = 'No robots text found'
+        }
+        else{
+            console.log('Meta element Filter Robots', metaElements)
+            // const data = metaElements
+            const rbt = document.getElementById('robots');
+            rbt.innerText = metaElements[0].metaElementContent
+        }
+
+
+
+////////////Present canonical url
+
+// const canonicalUrl = results.filter(function (item){
+//     return item.canonurl
+// })
+
+// Bovenstaand is Object. Onderstaand is String.
+
+const canonicalUrl = results[1].canonurl
+
+console.log('canonicalUrl canonicalUrl', canonicalUrl )
+const canonElement = document.getElementById('canonurl')
+ 
+                if(canonicalUrl === undefined ){
+                  
+                                  canonElement.innerText = 'There is no canonical element in the html.'
+                
+                }
+                else{
+                                console.log('IF1  canonicalUrl canonicalUrl', canonicalUrl )
+
+                                if(canonicalUrl.length > 0){
+                                    console.log('If2 canonicalUrl canonicalUrl', canonicalUrl )
+
+                                    canonElement.innerText = canonicalUrl
+                                }
+                                else{
+                                    console.log('Else3 canonicalUrl canonicalUrl', canonicalUrl )
+
+                                    canonElement.innerText = 'There is a canonical element in the html. But is has no value, its empty.'
+
+                                }
+                
+                }
+///////////////////////// BASEURL
+// const baseUrl = results[0].baseUrl
+const homeBaseUrl = results.filter(function(item){
+    // return item.baseUrl === 'baseUrl'
+    return item.realBase
+})
+console.log('homeBaseUrl', homeBaseUrl)
+
+    if(homeBaseUrl.length > 0){
+        const [{realBase}] = homeBaseUrl
+        var baseUrlecht = realBase
+    }
+    else{
+        var baseUrlecht = 'base url not available'
+    }
+
+console.log('B A S E', baseUrlecht)
+const base = document.getElementById('baseurl')
+
+
+base.innerText = baseUrlecht
+
+
+
+
+/////////////Above is OLD. but below dont understand how to get items from second level in json.
+
+
+// const newOrigin = results.filter(function (item){
+//              return item.hostnameElement  
+//             })
+      
+// console.log(' NEW ORIGIN ',newOrigin)
+
+// const { "domain", "domainWithoutSuffix", "hostname", "isIcann", "isIp", "isPrivate", "publicSuffix", "subdomain" } = newOrigin
+
+
+
+
+
+
+
+
+
+/////////////////////////////////TWITTER
+var twitterValueCard = results.filter(function(item){
+    return item.metaElementProperty === 'twitter:card'
+})
+
+if(twitterValueCard.length === 0){
+                var twitterValueCard = results.filter(function(item){
+                return item.metaElement === 'twitter:card' 
+                console.log('@@@', twitterValueCard)
+            })
+}
+
+console.log(typeof twitterValueCard) // Object
+console.log('TwitterValuesCard',twitterValueCard)
+console.log('TwitterValuesCard.lenght',twitterValueCard.length)
+
+// {metaElement: 'twitter:card', metaElementContent: 'summary_large_image', metaElementProperty: null}
+
+////// KAN je 2 keer desctructeren op zelfde variabelen.??????????????????????????????????????????????
+{
+        const twitterElementCard = document.getElementById('twittercard')
+
+
+
+
+
+        if(twitterValueCard.length === 0 ){
+            twitterElementCard.innerText = "No 'twitter:card' in source. If og:type, og:title and og:description are available, a summary card may be rendered."
+
+
+            const summ = document.getElementById('twittercardsummary')
+            // summ.innerText = 'tst'
+            const summContent = document.createElement('div')
+            summContent.style = `width: 506px; height:200px;  
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 12px 12px 8px 54px;
+            margin: 0 auto;
+            text-align: left;
+            border: 1px solid #dbdbdb;
+            border-radius: 12px;`
+            
+            
+        
+             
+
+                if(ogTypeElement.length > 0 && ogTitleElement.length > 0 && ogDescriptionElement.length > 0){
+                            // message : there is type, title and descr
+                                    {
+                                        console.log('Fallb: ogTypeElement', ogTypeElement)
+                                        const [{metaElement, metaElementContent, metaElementProperty}] = ogTypeElement
+                                        const fbTwitType = metaElementContent
+                                        console.log('Fallback Summary Card for Twitter:::::::::', fbTwitType)
+                                        const fbtwcard= document.createElement('div')
+                                        fbtwcard.innerText = 'og:type, og:title and og:description found in the source. (og:image might not be actually shown on Twitter. Twitter documentation isnt clear about that.)'
+                                        summ.prepend(fbtwcard)
+                                    }
+                    
+                const summContainer = document.createElement('div')
+                summContainer.style = `display: flex; flex-direction: row; width:455px; border-radius: 5px; height:125px; padding:0px; border: 1px solid #dbdbdb; background:;`
+                // 
+                const leftImage = document.createElement('div')
+
+
+                if(ogTypeElement < 0){ 
+                    leftImage.style = `
+                    // url('${metaElementContent}');
+                    width:125px;
+                    height:125px;
+                    // border: 1px solid #dbdbdb;
+                    border-right: 1px solid #dbdbdb;
+                    border-radius: 5px 0px 0px 5px; 
+                    background: url('${metaElementContent}');
+                    background-size: cover;
+                    // background-color: pink;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    // padding: 12px 12px 8px 54px;
+                    margin: 0 auto;')`}
+             
+             
+           else{
+                    // Show placeholder for twitter fallback card for the fallback.
+                    console.log('OG image fallback for twitter not available')
+
+                    leftImage.style = `
+                                // url('${metaElementContent}');
+                                width:125px;
+                                height:125px;
+                                // border: 1px solid #dbdbdb;
+                                border-right: 1px solid #dbdbdb;
+                                border-radius: 5px 0px 0px 5px; 
+                                background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22%238899A6%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%20%20%3Cpath%20id%3D%22bounds%22%20opacity%3D%220%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M14%2011.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h8c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75zM14%207.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h8c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75zM10.75%2015.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h4.75c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M21.5%2011.25h-3.25v-7C18.25%203.01%2017.24%202%2016%202H4C2.76%202%201.75%203.01%201.75%204.25v15.5C1.75%2020.99%202.76%2022%204%2022h15.5c1.517%200%202.75-1.233%202.75-2.75V12c0-.414-.336-.75-.75-.75zm-18.25%208.5V4.25c0-.413.337-.75.75-.75h12c.413%200%20.75.337.75.75v15c0%20.452.12.873.315%201.25H4c-.413%200-.75-.337-.75-.75zm16.25.75c-.69%200-1.25-.56-1.25-1.25v-6.5h2.5v6.5c0%20.69-.56%201.25-1.25%201.25z%22%2F%3E%0A%3C%2Fsvg%3E%0A');
+                                // background-size: cover;
+                                background-color: #e1e8ed;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                // padding: 0px 12px 8px 54px;
+                                margin: 0 auto;')`
+                }
+
+
+               
+
+                   
+                                
+                                                
+                                
+                    const rightText = document.createElement('div')
+                    rightText.style = `width:310px; height:105px; background:;border-radius: 0px 5px 5px 0px;padding:10px; `
+                    rightText.style.animation = 'background: #F5F8FA;'
+
+                    const twitSumTitle = document.createElement('h2')
+                    twitSumTitle.style = `  font-size: 0.95em;
+                                            font-weight:700;
+                                            max-height: 1.3em;
+                                            white-space: nowrap;
+                                            overflow: hidden;
+                                            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                            margin: 0 0 0.15em;
+                                            text-overflow: ellipsis;
+                                            `
+                                            {
+
+                                                const [{metaElement, metaElementContent, metaElementProperty}] = ogTitleElement
+                                                const fbTwitTitle = metaElementContent
+                                                twitSumTitle.innerText = fbTwitTitle
+                                            }
+                                            
+                    const twitSumDesc = document.createElement('p')
+                    twitSumDesc.style = `max-height: 3.9em;
+                                        color: #292F33;
+                                        margin-top: 0.32333em;
+                                        font-size: 15px;
+                                        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                        line-height: 1.3em;
+                                        overflow:hidden;
+                                        text-decoration-thickness:auto;
+                                        text-size-adjust: 100%;
+                                        margin-bottom: 0px;
+                                        overflow: hidden;
+                                        display: -webkit-box;
+                                        -webkit-line-clamp: 3;
+                                        -webkit-box-orient: vertical; `
+
+                                        {
+                                            const [{metaElement, metaElementContent, metaElementProperty}] = ogDescriptionElement
+                                            const fbTwitDesc = metaElementContent
+                                            twitSumDesc.innerText = fbTwitDesc
+                                        }
+                                        // twitterDescriptionForTwitterCard OLD reference
+                    const twitSumUrl = document.createElement('span')
+                    twitSumUrl.style = `text-transform: lowercase;
+                                        color: #8899A6;
+                                        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                        font-size: 14px;
+                                        max-height: 1.3em;
+                                        margin-bottom: 0px;
+                                        white-space: nowrap;
+                                        margin-top: 0.32333em;
+                                        overflow: hidden;
+                                        display: block!important;
+                                        text-overflow: ellipsis;`
+                    twitSumUrl.innerText = baseUrlecht
+
+
+
+// sum = ElementID,            summContent = outercontainer               , summContainer is innercontain 
+
+
+summ.appendChild(summContent)
+
+summContent.append(summContainer)
+
+
+// summContainer.appendChild(leftImage)
+rightText.appendChild(twitSumTitle)
+rightText.appendChild(twitSumDesc)
+rightText.appendChild(twitSumUrl)
+
+summContainer.appendChild(leftImage)
+summContainer.appendChild(rightText)
+// summContainer.append(summContainer)      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                
+                                    // {                                      
+                                    //     console.log('Fallb: TwitterTitelFallBackToOGTitle', ogTitleElement)
+                                    //     const [{metaElement, metaElementContent, metaElementProperty}] = ogTitleElement
+                                    //     const fbTwitTitle = metaElementContent
+                                    //     console.log('Fallback Summuray Card for Twitter::::::::::', fbTwitTitle)
+                                    //     const twitsummTitle = document.createElement('h2')
+                                    //     twitsummTitle.style = ` 
+                                    //                                     max-height: 1.3em;
+                                    //                                     white-space: nowrap;
+                                    //                                     overflow: hidden;
+                                    //                                     text-overflow: ellipsis;
+                                    //                                     font-size: 1em;
+                                    //                                     margin: 0 0 0.15em;
+                                    //                                     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                    //                                     `
+                                    //     twitsummTitle.innerText = fbTwitTitle
+                                    //     summContent.append(twitsummTitle)
+                                        
+                                    //     }               
+                                    // {
+                                    //     console.log('Fallb: ogDescriptionElement for Twitter Fallback', ogDescriptionElement)
+                                    //     const [{metaElement, metaElementContent, metaElementProperty}] = ogDescriptionElement
+                                    //     const fbTwitDesc = metaElementContent
+                                    //     console.log('Fallback Summuray Card for Twitter:::::::::', fbTwitDesc)
+                                    //     const twitsummDesc = document.createElement('p')
+                                    //     twitsummDesc.style = `
+                                    //                             margin-top: 0.32333em;
+                                    //                             max-height: 2.6em;
+                                    //                             overflow: hidden;
+                                    //                             font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                    //                             color: #292F33;
+                                    //                             font-size: 14px;
+                                    //                             line-height: 1.3em;
+                                    //                             `
+                                    //     twitsummDesc.innerText = fbTwitDesc
+                                    //     summContent.append(twitsummDesc)
+
+
+                                    // }
+
+
+
+
+                }
+                else{
+                        summ.innerText = 'og:type -and/or- og:title -and/or- og:description not found'
+                }
+          
+
+        }
+        else {
+            const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueCard
+            console.log('twitterValueCardValueHIER',metaElementContent)
+            if(metaElementContent){
+                twitterElementCard.innerText = metaElementContent
+            }
+            else{
+                twitterElementCard.innerText = "No value for 'twitter:card'."
+            }
+        }
+} // End van lege huls voor desctructure twittercard
+
+
+
+/////////// TWITTER SITE
+var twitterValueSite = results.filter(function(item){
+    return item.metaElementProperty === 'twitter:site'
+})
+
+if(twitterValueSite.length === 0){
+                var twitterValueSite = results.filter(function(item){
+                return item.metaElement === 'twitter:site' 
+                console.log('@@@', twitterValueSite)
+            })
+}
+
+
+{
+    const twitterElementSite = document.getElementById('twitter-site')
+
+    if(twitterValueSite.length === 0){
+        twitterElementSite.innerText = "No 'twitter:site' found in the html of the page."
+    }
+    else{
+        const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueSite
+        console.log('metaElementContent SITE',metaElementContent)
+
+        if(metaElementContent){
+            twitterElementSite.innerText = metaElementContent
+        }
+        else{
+            twitterElementSite.innerText = "No value for 'twitter:site'."
+        }
+
+    }
+
+
+}
+
+
+////////////////////// TWITTER CREATOR
+
+var twitterValueCreator = results.filter(function(item){
+    return item.metaElementProperty === 'twitter:creator'
+})
+
+if(twitterValueCreator.length === 0){
+                var twitterValueCreator = results.filter(function(item){
+                return item.metaElement === 'twitter:creator' 
+                console.log('@@@', twitterValueCreator)
+            })
+}
+
+ 
+
+{
+    const twitterElementCreator = document.getElementById('twitter-creator')
+
+    if(twitterValueCreator.length === 0){
+        twitterElementCreator.innerText = "No 'twitter:creator' element found in the html of the page."
+    }
+    else{
+
+        // desctructure twitterCreator node
+        const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueCreator
+
+        if(metaElementContent){
+            twitterElementCreator.innerText = metaElementContent
+        }
+        else{
+            twitterElementCreator.innerText = "'Twitter:creator' element found. But is has no value, the element is empty."
+        }
+
+    }
+
+}
+
+
+///////////////TWITTER URL
+
+var twitterValueUrl = results.filter(function(item){
+    return item.metaElementProperty === 'twitter:url'
+})
+
+if(twitterValueUrl.length === 0){
+                var twitterValueUrl = results.filter(function(item){
+                return item.metaElement === 'twitter:url' 
+                console.log('@@@', twitterValueUrl)
+            })
+}
+
+
+const twitterElementUrl = document.getElementById('twitter-url')
+const twitterUrlFallback = results[1].canonurl 
+
+
+if(twitterValueUrl.length === 0){
+    twitterElementUrl.innerText = `No 'twitter:url' found in the html of the page. Fallback to canonical url: '${twitterUrlFallback}'.`
+
+
+
+}
+else{
+    const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueUrl
+
+    if(metaElementContent){
+        twitterElementUrl.innerText =  metaElementContent
+    }
+    else{
+       
+    //    console.log('twitterUrlFallbacktwitterUrssssssssssssssssssssssssssssssssssssslFallbacktwitterUrlFallback', twitterUrlFallback)
+
+        twitterElementUrl.innerText = `'twitter:url' found in the html of the page. But is has no value. Fallback to canonical url: '${twitterUrlFallback}'.`
+    }
+
+}
+
+
+
+
+// TWITTER TITLE
+
+// Because some results are in metaElement, other in metaElementProperty.................
+var twitterValueTitle = results.filter(function(item){
+    return item.metaElement === 'twitter:title' 
+})
+
+if(twitterValueTitle.length === 0){
+                var twitterValueTitle = results.filter(function(item){
+                return item.metaElementProperty === 'twitter:title' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueTitle)
+            })
+}
+
+ 
+// const twitterValueTitlefilters = {metaElementProperty: 'twitter:title', metaElement: 'twitter:title'};
+// const twitterValueTitle = results.filter(item => Object.keys(twitterValueTitlefilters).every(key => item[key] === twitterValueTitlefilters[key]))
+
+
+console.log('twitterValueTitle.length', twitterValueTitle.length)
+console.log('twitterValueTitle', twitterValueTitle)
+console.log('typeof twitterValueTitle',typeof twitterValueTitle)  // OBJECT voordat het de gefilterderd array werd.
+
+const twitterElementTitle = document.getElementById('twitter-title')
+ 
+            if(twitterValueTitle.length === 0){
+                // No twitter:title in html
+                
+                
+                console.log('TwitterTitelFallBackToOGTitle',ogTitleElement)
+                
+                if(ogTitleElement.length > 0){
+                    const [{metaElement, metaElementContent, metaElementProperty}] = ogTitleElement
+                    
+                    twitterElementTitle.innerText = `No 'twitter:title' in the html of the page. Fallback to 'og:title': '${metaElementContent}'`
+                }
+                else{
+                    
+                    twitterElementTitle.innerText = "No 'twitter:title' in the html of the page. No fallback to 'og:title' possible because there is no og:title."
+                }
+
+
+
+            }
+            else{
+                const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueTitle
+                var twitterTitleForTwitterCard = metaElementContent
+                if(metaElementContent === ''){
+                    // empty
+                    twitterElementTitle.innerText = "'twitter:title' is empty."
+                }
+                else{
+                    twitterElementTitle.innerText = metaElementContent
+                }
+            }
+
+
+
+////////// TWITTER DESCRIPTION
+
+var twitterValueDescription = results.filter(function(item){
+    return item.metaElementProperty === 'twitter:description'
+})
+
+if(twitterValueDescription.length === 0){
+                var twitterValueDescription = results.filter(function(item){
+                return item.metaElement === 'twitter:description' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueDescription)
+            })
+}
+
+
+
+
+console.log('TW DESC',twitterValueDescription)
+
+console.log('ogDescriptionElement for Twitter Fallback',ogDescriptionElement)
+
+const twitterElementDesciption = document.getElementById('twitter-description')
+// const hoii = document.getElementById('hoi')
+// hoii.style.background = 'yellow'
+// const twitterDescLabel = document.createElement('div')
+// hoii.innerText = 'Twitter Description'
+// hoii.append(twitterDescLabel)
+
+if(twitterValueDescription.length === 0 ){
+
+    
+    if(ogDescriptionElement.length > 0){
+        const [{metaElement, metaElementContent, metaElementProperty}] = ogDescriptionElement
+        twitterElementDesciption.innerText = `No 'twitter:description' in the html of the page. Fallback is og:description: '${metaElementContent}'.`
+        
+    }
+    else{
+        
+        twitterElementDesciption.innerText = `No 'twitter:description' in the html of the page. No fallback possible because 'og:description' is empty.`
+    }
+
+   
+
+
+
+
+}
+else{
+
+        const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueDescription
+        var twitterDescriptionForTwitterCard = metaElementContent
+
+        console.log('metaElementContent metaElementContentmetaElementContentmetaElementContentmetaElementContent',metaElementContent)
+        console.log(typeof metaElementContent)
+        console.log(metaElementContent.length)
+
+        if(metaElementContent.length > 0){
+            twitterElementDesciption.innerText = metaElementContent
+        }
+        else{
+            twitterElementDesciption.innerText = "There is a 'twitter:description' in the html, but the value is empty."
+        }
+
+
+}
+
+
+////////////////twitter image
+
+var twitterValueImage = results.filter(function(item){
+    return item.metaElementProperty === 'twitter:image'
+})
+
+
+if(twitterValueImage.length === 0){
+                var twitterValueImage = results.filter(function(item){
+                return item.metaElement === 'twitter:image' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueImage)
+            })
+}
+if(twitterValueImage.length === 0){
+    var twitterValueImage = results.filter(function(item){
+                return item.metaElementContent === 'twitter:image:src' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueImage)
+            })
+}
+if(twitterValueImage.length === 0){
+    var twitterValueImage = results.filter(function(item){
+                return item.metaElement === 'twitter:image:src' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueImage)
+            })
+}
+
+{
+console.log('twitterValueImage',twitterValueImage)
+console.log(typeof twitterValueImage)
+console.log(twitterValueImage.length)
+
+console.log('OPEN Graph IMAGE For Twitter Fallback = ', ogImageElement)
+
+
+
+
+
+const twitterElementImage = document.getElementById('twitter-image')
+
+        if(twitterValueImage.length === 0 ){
+
+
+/////Check for OG image as fallback. If no OGimage than message.
+         
+                
+                if(ogImageElement.length > 0){
+                                                    const [{metaElement, metaElementContent, metaElementProperty}] = ogImageElement
+                                                    console.log('OG image for Twitter', metaElementContent)
+
+                                                    const twitImageSubTxt = document.createElement('div')
+                                                    twitImageSubTxt.innerText = `No 'twitter:image' available. Fallback to OG:Image, if available: (${metaElementContent}).`
+
+                                                    const twShareImg = document.createElement('img')
+                                                    twShareImg.style.width = '150px'
+                                                    twShareImg.setAttribute('src', metaElementContent)
+                                                    twShareImg.setAttribute('alt', 'Fallback og:image - twitter:image is not provided')
+                                                    // twitterElementImage.innerText =  metaElementContent
+                                                    twitterElementImage.appendChild(twShareImg)
+                                                    twitterElementImage.append(twitImageSubTxt)
+                        }
+                        else{
+                            const twitImageSubTxt = document.createElement('div')
+                            twitImageSubTxt.innerText = "No 'twitter:image' in the html of the page. Fallback image cannot be created because there is no 'og:image' defined."
+                            twitterElementImage.appendChild(twitImageSubTxt)                     
+                                        }
+                        
+
+
+        }
+        else{
+            // desctructur to get innervalue
+          
+        {
+
+            const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueImage
+            
+            if(metaElementContent.length > 0){
+                const twShareImg = document.createElement('img')
+                twShareImg.style.width = '150px'
+                twShareImg.setAttribute('src', metaElementContent)
+                // twitterElementImage.innerText =  metaElementContent
+                twitterElementImage.appendChild(twShareImg)
+                
+                
+                
+            }
+            else{
+                twitterElementImage.innerText = "The 'twitter:image' element is in the html. but is has no value, its empty."
+            }
+            
+        }
+
+           
+        }
+
+    } // END OF TWITTER IMAGE BLOCK
+
+////////////// TWITTER SHOW
+{
+
+    if(twitterValueCard.length > 0){
+
+
+    const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueCard
+    
+    const typeCard = metaElementContent
+    
+    if(typeCard === 'summary_large_image'){
+        console.log('summary_large_image summary_large_image summary_large_image summary_large_image')
+
+        const twitterShow = document.getElementById('twitter-show')
+        // twitterShow.style = `width: 506px; height:328px; background:url('${metaElementContent}');   
+        twitterShow.style = `width: 506px; height:440px;  
+                                                                        background-size: cover;
+                                                                        background-position: center;
+                                                                        background-repeat: no-repeat;
+                                                                        padding: 12px 12px 8px 54px;
+                                                                        margin: 0 auto;
+                                                                        text-align: left;
+                                                                        border: 1px solid #dbdbdb;
+                                                                        border-radius: 5px;`
+                                                                        
+                                                                        
+                const twitterContainer = document.createElement('div')  
+                                            twitterContainer.style = `  border: 1px solid #dbdbdb;
+                                                                        border-radius: 5px;
+                                                                        width: 438px; 
+                                                                        // padding:10px;
+                                                                        `                   
+                                                                        
+              
+ 
+//  {
+
+    var twitterValueImage = results.filter(function(item){
+    return item.metaElementProperty === 'twitter:image'
+})
+
+
+if(twitterValueImage.length === 0){
+                var twitterValueImage = results.filter(function(item){
+                return item.metaElement === 'twitter:image' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueImage)
+            })
+}
+if(twitterValueImage.length === 0){
+    var twitterValueImage = results.filter(function(item){
+                return item.metaElementContent === 'twitter:image' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueImage)
+            })
+}
+if(twitterValueImage.length === 0){
+    var twitterValueImage = results.filter(function(item){
+                return item.metaElement === 'twitter:image:src' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueImage)
+            })
+}
+if(twitterValueImage.length === 0){
+    var twitterValueImage = results.filter(function(item){
+                return item.metaElementContent === 'twitter:image:src' 
+                console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueImage)
+            })
+}
+
+if(twitterValueImage.length === 0 ){
+
+
+/////Check for OG image as fallback. If no OGimage than message.
+         
+                
+                if(ogImageElement.length > 0){
+                                                    const [{metaElement, metaElementContent, metaElementProperty}] = ogImageElement
+                                                    console.log('OG image for Twitter', metaElementContent)
+                                                    var twitterValueImage = metaElementContent
+
+                            }
+                else{
+                    var twitterValueImage = 'No twitter:image // no og:image'
+                }
+                                                    const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueImage
+                                                    const twitterPreview = document.createElement('div')  
+                                                    twitterPreview.style = `width: 438px; height:222px;  background:url('${metaElementContent}');  
+                                                    background-size: cover;
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    // padding: 12px 12px 8px 54px;
+                                                    margin: 0 auto;
+                                                    text-align: left;
+                                                    // border: 1px solid #dbdbdb;
+                                                    border-radius: 5px 5px 0 0;`
+                                                    
+                                                    
+                                                    twitterShow.append(twitterContainer)
+                                                    twitterContainer.appendChild(twitterPreview)
+                                                    // twitterContainer.appendChild(twitterPreview)
+               
+            }   
+    // }
+
+
+        // twitter-title
+
+        const twitterShowTitle  = document.createElement('h2')
+        const twitterShowDescription = document.createElement('p')
+        const twitterShowBaseurl = document.createElement('span')
+
+        twitterShowTitle.style =  `max-height: 1.3em;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    padding: 0.5em 1em 0em 1em;
+                                    background:green;
+                                    font-size: 14px;
+                                    // font-size: 1em;
+                                    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                    margin: 0 0 0.15em;
+                                    color: #292F33;
+                                    font-weight: 700;`
+
+        twitterShowDescription.style = `
+                                    // overflow: hidden;
+                                    background:blue;
+                                    // display: block!important;
+                                    // box-sizing: border-box;
+                                    // text-overflow: ellipsis;
+                                    
+                                    padding: 0em 1em 0em 1em;
+                                    max-height: 2.6em;
+                                    color: #292F33;
+                                    margin-top: 0.32333em;
+                                    font-size: 14px;
+                                    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                    line-height: 1.3em;
+                                    overflow:hidden;
+                                    text-decoration-thickness:auto;
+                                    text-size-adjust: 100%;
+                                    margin-bottom: 0px;
+                                    overflow: hidden;
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 2;
+                                    -webkit-box-orient: vertical;
+                                    `
+
+        twitterShowBaseurl.style = `text-transform: lowercase;
+                                    color: #8899A6;
+                                    padding: 0em 1em 0.5em 1em;
+                                    max-height: 1.3em;
+                                    white-space: nowrap;
+                                    display: block!important;
+                                    box-sizing: border-box;
+                                    overflow: hidden;
+                                    margin-top: 0.32333em;
+                                    background:pink;
+                                    // margin-bottom:10px;
+                                    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                    text-overflow: ellipsis;`
+
+        console.log('Twitter Title for SHOW', twitterTitleForTwitterCard)
+        console.log('Twitter Title FallBack for SHOW = og-title', waarde)
+        console.log('twitter:description = ', twitterDescriptionForTwitterCard)
+        console.log('Base url For Twitter = ', baseUrlecht)
+
+        twitterShowTitle.innerText = twitterTitleForTwitterCard
+        twitterShowDescription.innerText = twitterDescriptionForTwitterCard
+        twitterShowBaseurl.innerText = baseUrlecht
+        
+        twitterContainer.appendChild(twitterShowTitle)
+        twitterContainer.appendChild(twitterShowDescription)
+        twitterContainer.appendChild(twitterShowBaseurl)
+
+
+    }
+    else{
+            console.log('summary summary summary summary ')
+
+            const twitterShow = document.getElementById('twitter-show')
+            twitterShow.style = `width: 506px; height:340px;  
+                                                                            background-size: cover;
+                                                                            background-position: center;
+                                                                            background: red;
+                                                                            background-repeat: no-repeat;
+                                                                            padding: 12px 12px 8px 54px;
+                                                                            margin: 0 auto;
+                                                                            text-align: left;
+                                                                            border: 1px solid #dbdbdb;
+                                                                            border-radius: 12px;`
+
+            const summContainer = document.createElement('div')
+            summContainer.style = `display: flex; flex-direction: row; width:455px; border-radius: 5px; height:125px; padding:0px; border: 1px solid #dbdbdb; background:;`
+
+
+
+
+
+            const leftImage = document.createElement('div')
+            
+            console.log('Twitter Image Lenght for summary',twitterValueImage.length)
+            if(twitterValueImage.length === 1){
+                const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueImage
+            console.log('metaElementContent IF IF OF', metaElementContent)
+            // var metaElementContentContent = metaElementContent
+            leftImage.style = `
+                            // url('${metaElementContent}');
+                            width:125px;
+                            height:125px;
+                            // border: 1px solid #dbdbdb;
+                            border-right: 1px solid #dbdbdb;
+                            border-radius: 5px 0px 0px 5px; 
+                            background: url('${metaElementContent}');
+                            background-size: cover;
+                            // background-color: pink;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            // padding: 12px 12px 8px 54px;
+                            margin: 0 auto;')`
+            // leftImage.style = `background-image: url(${metaElementContent});`
+        }
+        else{
+             
+
+                
+                    // dan fallback image
+                    // First Check if there is an og:image
+                    console.log('og-image-fallback for twitter summaru',ogImageElement)
+                    
+                    
+                    if(ogImageElement.length === 1) {
+
+                        {
+                            const [{metaElement, metaElementContent, metaElementProperty}] = ogImageElement;
+                            console.log('DESTRUCTURED Array OG IMG - twitter image fallback to OG', metaElementContent )
+                            console.log('Checking If OG image is there .... metaElementContent === "some url"  - twitter image fallback to OG')
+                            
+                            
+                            leftImage.style = `
+                            width:125px;
+                            height:125px;
+                            // border: 1px solid #dbdbdb;
+                            border-right: 1px solid #dbdbdb;
+                            border-radius: 5px 0px 0px 5px; 
+                            background: url('${metaElementContent}');
+                            background-size: cover;
+                            // background-color: pink;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            // padding: 12px 12px 8px 54px;
+                            margin: 0 auto;')`
+                            
+                            
+                            // console.log('OG:image element = ', ogImageElement)
+                            // const data = metaElements
+                            // const ogimage = document.getElementById('ogimage')
+                            // const src = ogImageElement[0].metaElementContent
+                            // ogimage.innerText = src
+
+                            // // const OGwidth = ogImageElement[0].
+
+
+                            // const ogimsrc = document.getElementById('ogimsrc')
+                            // const image = document.createElement('img')
+                            // image.setAttribute('src', src)
+                            // image.setAttribute('id', 'preview')
+                            // image.style.background = 'yellow'
+                            // image.style.width = '350px'
+                            // image.style.height = '100%'
+                            // ogimsrc.appendChild(image)
+                    }
+            }
+                    else{
+                                console.log('OG image fallback for twitter not available')
+
+                                leftImage.style = `
+                                            // url('${metaElementContent}');
+                                            width:125px;
+                                            height:125px;
+                                            // border: 1px solid #dbdbdb;
+                                            border-right: 1px solid #dbdbdb;
+                                            border-radius: 5px 0px 0px 5px; 
+                                            background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22%238899A6%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%20%20%3Cpath%20id%3D%22bounds%22%20opacity%3D%220%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M14%2011.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h8c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75zM14%207.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h8c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75zM10.75%2015.25H6c-.414%200-.75.336-.75.75s.336.75.75.75h4.75c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M21.5%2011.25h-3.25v-7C18.25%203.01%2017.24%202%2016%202H4C2.76%202%201.75%203.01%201.75%204.25v15.5C1.75%2020.99%202.76%2022%204%2022h15.5c1.517%200%202.75-1.233%202.75-2.75V12c0-.414-.336-.75-.75-.75zm-18.25%208.5V4.25c0-.413.337-.75.75-.75h12c.413%200%20.75.337.75.75v15c0%20.452.12.873.315%201.25H4c-.413%200-.75-.337-.75-.75zm16.25.75c-.69%200-1.25-.56-1.25-1.25v-6.5h2.5v6.5c0%20.69-.56%201.25-1.25%201.25z%22%2F%3E%0A%3C%2Fsvg%3E%0A');
+                                            // background-size: cover;
+                                            background-color: #e1e8ed;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            // padding: 0px 12px 8px 54px;
+                                            margin: 0 auto;')`
+
+                        }
+
+
+ 
+
+        }
+        
+          // leftImage.style = ` `
+
+
+
+                                    const rightText = document.createElement('div')
+                                    rightText.style = `width:310px; height:105px; background:;border-radius: 0px 5px 5px 0px;padding:10px; `
+                                    rightText.style.animation = 'background: #F5F8FA;'
+
+
+                                    console.log('Twitter Title for SHOW', twitterTitleForTwitterCard)
+                                    console.log('Twitter Title FallBack for SHOW = og-title', waarde)
+
+
+                                    console.log('twitter:description = ', twitterDescriptionForTwitterCard)
+                                    console.log('Base url For Twitter = ', baseUrlecht)
+
+                                    const twitSumTitle = document.createElement('h2')
+                                    twitSumTitle.style = `  font-size: 0.95em;
+                                            font-weight:700;
+                                            max-height: 1.3em;
+                                            white-space: nowrap;
+                                            overflow: hidden;
+                                            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                            margin: 0 0 0.15em;
+                                            text-overflow: ellipsis;
+                                            `
+
+                    if(twitterTitleForTwitterCard){ 
+                        // use twitter:title
+                        twitSumTitle.innerText = twitterTitleForTwitterCard
+                    }
+                    else{
+                        // fallback to OG:TITLE  = 
+
+                                    if(waarde === undefined){
+                                        twitSumTitle.innerText = 'no twitter:title / no og:title'
+                                    }
+                                    else{
+                                        twitSumTitle.innerText = waarde
+                                    }
+
+                       
+                    }
+
+      
+       
+       
+
+
+
+
+
+                const twitSumDesc = document.createElement('p')
+                twitSumDesc.style = `max-height: 3.9em;
+                                    color: #292F33;
+                            margin-top: 0.32333em;
+                            font-size: 15px;
+                            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                            line-height: 1.3em;
+                            overflow:hidden;
+                            text-decoration-thickness:auto;
+                            text-size-adjust: 100%;
+                            margin-bottom: 0px;
+                            overflow: hidden;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 3;
+                            -webkit-box-orient: vertical; `
+
+
+        {                      
+                    var twitterValueDescriptionTw = results.filter(function(item){
+                        return item.metaElementProperty === 'twitter:description'
+                    })
+
+                    if(twitterValueDescriptionTw.length === 0){
+                                    var twitterValueDescription = results.filter(function(item){
+                                    return item.metaElement === 'twitter:description' 
+                                    console.log('@@@@@111111111@@@@@@@@twitterValueTitle twitterValueTitle', twitterValueDescription)
+                                })
+                    }
+
+
+                                        console.log('Na dubbele IF TW DESC',twitterValueDescriptionTw)
+                        
+
+                    if(twitterValueDescriptionTw.length === 0){
+                        console.log('xxxxxxxxxxxxxx WE TEST FOR  OG:DESCRIPTOP')
+                               
+                                    const ogDescriptionElementFallBackForTwCard = results.filter(function (item){
+                                    return item.metaElementProperty === 'og:description';
+                                    })
+
+                                    if(ogDescriptionElementFallBackForTwCard.length > 0){
+
+                                 
+                                    const [{metaElement, metaElementContent, metaElementProperty}] = ogDescriptionElementFallBackForTwCard
+
+                                                        // Check og:desc otherwise show NO txt
+                                                        // if(ogDescriptionElementFallBackForTwCard.length > 0){
+                                                            console.log('xxxxxxxxxxxxxx WE GET   OG:DESCRIPTOP')
+                                                            // show og:desc
+                                                            twitSumDesc.innerText = metaElementContent
+                                                        // }
+                                                      
+                                        }  
+                                        else{
+                                                            // noooo
+                                                            console.log('xxxxxxxxxxxxxx WE GET nothing ')
+                                                            twitSumDesc.innerText = 'no twitter:description / no og:description'
+                                                        }
+                 
+                 
+                 
+                 
+                                           }
+                     else{
+                        const [{metaElement, metaElementContent, metaElementProperty}] = twitterValueDescriptionTw
+                                  console.log('xxxxxxxxxxxxxx WE GET TWITTER:DESCRIPTOP')
+                        twitSumDesc.innerText = metaElementContent    
+
+                        }
+
+     }
+                          
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        const twitSumUrl = document.createElement('span')
+        twitSumUrl.style = `text-transform: lowercase;
+                            color: #8899A6;
+                            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                            font-size: 14px;
+                            max-height: 1.3em;
+                            margin-bottom: 0px;
+                            white-space: nowrap;
+                            margin-top: 0.32333em;
+                            overflow: hidden;
+                            display: block!important;
+                            text-overflow: ellipsis;`
+
+
+
+twitSumUrl.innerText = baseUrlecht
+
+
+
+
+
+
+
+        summContainer.appendChild(leftImage)
+        rightText.appendChild(twitSumTitle)
+        rightText.appendChild(twitSumDesc)
+        rightText.appendChild(twitSumUrl)
+
+        summContainer.appendChild(rightText)
+        twitterShow.append(summContainer)
+
+        
+    }
+
+    
+}
+    else{
+        console.log('Nooo preview')
+        const twitterShow = document.getElementById('twitter-show')
+
+
+         twitterShow.style = `width: 506px; height:340px;  
+                                                                        background-size: cover;
+                                                                        background-position: center;
+                                                                        background-repeat: no-repeat;
+                                                                        padding: 12px 12px 8px 54px;
+                                                                        margin: 0 auto;
+                                                                        text-align: left;
+                                                                        border: 1px solid #dbdbdb;
+                                                                        border-radius: 12px;`
+
+        const summContainer = document.createElement('div')
+        summContainer.style = `display: flex; flex-direction: row; width:455px; border-radius: 5px; height:125px; padding:0px; border: 1px solid #dbdbdb; background:;`
+
+        summContainer.innerText = 'Unable to render Card preview'
+
+        twitterShow.appendChild(summContainer)
+
+
+    }
+    
+    
+} /// end block Twitter Show
+
+
+    /////////////////////LINKEDIN
+
+    // document.getElementByID('linkedinimage')
+    // document.getElementByID('linkedintitle')
+    // document.getElementByID('linkedinurl')
+    
+
+    console.log('LINKEDIN VERSION OG IMAGE', ogImageElement)
+
+    console.log('LINKEDIN VERSION OGurl', ogUrlElement)
+    console.log('LINKEDIN VERSION OGTitle', ogTitleElement)
+        }) 
+        // return response.json()
+        return jsonData;
+    }
+
+</script>
+
+    
+</body>
+</html>

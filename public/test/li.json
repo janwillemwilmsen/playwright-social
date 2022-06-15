@@ -1,0 +1,191 @@
+[
+	{
+		"paginatitel": "LinkedIn: Log In or Sign Up"
+	},
+	{
+		"canonurl": "https://www.linkedin.com/"
+	},
+	{
+		"metaElement": "pageKey",
+		"metaElementContent": "d_homepage-guest-home",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "locale",
+		"metaElementContent": "en_US",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": null,
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "LinkedIn",
+		"metaElementProperty": "og:site_name"
+	},
+	{
+		"metaElement": "description",
+		"metaElementContent": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "viewport",
+		"metaElementContent": "width=device-width, initial-scale=1",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "LinkedIn: Log In or Sign Up",
+		"metaElementProperty": "og:title"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+		"metaElementProperty": "og:description"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "website",
+		"metaElementProperty": "og:type"
+	},
+	{
+		"metaElement": "litmsProfileName",
+		"metaElementContent": "homepage-guest-frontend",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://www.linkedin.com/",
+		"metaElementProperty": "og:url"
+	},
+	{
+		"metaElement": "naver-site-verification",
+		"metaElementContent": "6c180087cc8c9aef0b448521383709b955b7dc5b",
+		"metaElementProperty": null
+	},
+	 
+	{
+		"metaElement": "twitter:card",
+		"metaElementContent": "summary",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:site",
+		"metaElementContent": "@linkedin",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:title",
+		"metaElementContent": "LinkedIn: Log In or Sign Up",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:description",
+		"metaElementContent": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "linkedin:pageTag",
+		"metaElementContent": "basic",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "clientSideIngraphs",
+		"metaElementContent": "1",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "robots",
+		"metaElementContent": "noarchive",
+		"metaElementProperty": null
+	},
+	{
+		"ogi": "ogi",
+		"openGraphImageDetails": {
+			"width": 64,
+			"height": 64,
+			"variants": [
+				{
+					"width": 64,
+					"height": 64
+				},
+				{
+					"width": 32,
+					"height": 32
+				},
+				{
+					"width": 24,
+					"height": 24
+				},
+				{
+					"width": 16,
+					"height": 16
+				}
+			],
+			"type": "ico",
+			"mime": "image/x-icon",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 32988,
+			"url": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://static-exp1.licdn.com/sc/h/dxf91zhqd2z6b0bwg85ktm5s4",
+		"imgDetails": {
+			"width": 850,
+			"height": 680,
+			"type": "svg",
+			"mime": "image/svg+xml",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 8724,
+			"url": "https://static-exp1.licdn.com/sc/h/dxf91zhqd2z6b0bwg85ktm5s4"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://via.placeholder.com/1",
+		"imgDetails": 0
+	},
+	{
+		"baseUrl": "linkedin.com",
+		"base2": "https://linkedin.com/",
+		"hostname": "linkedin.com",
+		"hostnameElement": {
+			"domain": "linkedin.com",
+			"domainWithoutSuffix": "linkedin",
+			"hostname": "linkedin.com",
+			"isIcann": true,
+			"isIp": false,
+			"isPrivate": false,
+			"publicSuffix": "com",
+			"subdomain": ""
+		},
+		"originBase": "https://linkedin.com",
+		"realBase": "linkedin.com"
+	}
+]

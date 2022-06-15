@@ -1,0 +1,145 @@
+[
+	{
+		"paginatitel": "Social Share Preview – Check social media link previews"
+	},
+	{
+		"canonurl": "there is no canonical url in the html"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": null,
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "viewport",
+		"metaElementContent": "width=device-width, initial-scale=1",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "description",
+		"metaElementContent": "Check how the link previews of a website look like on Facebook, Twitter, LinkedIn & Pinterest. Use our ► debugger or install our ► free browser plugin!",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "Social Share Preview – Check social media link previews",
+		"metaElementProperty": "og:title"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "Check how the link previews of a website look like on Facebook, Twitter, LinkedIn & Pinterest. Use our ► debugger or ► free browser extensions!",
+		"metaElementProperty": "og:description"
+	},
+	{
+		"metaElement": null,
+		"metaElementContent": "https://socialsharepreview.com/images/social-share-preview-og.jpg",
+		"metaElementProperty": "og:image"
+	},
+	{
+		"metaElement": "twitter:card",
+		"metaElementContent": "summary_large_image",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:title",
+		"metaElementContent": "Social Share Preview – Check social media link previews",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:description",
+		"metaElementContent": "Check how the link previews of a website look like on Facebook, Twitter, LinkedIn & Pinterest. Use our ► debugger or install our ► free browser plugin!",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "twitter:image",
+		"metaElementContent": "https://socialsharepreview.com/images/social-share-preview-og.jpg",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "msapplication-TileColor",
+		"metaElementContent": "#ffffff",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "msapplication-TileImage",
+		"metaElementContent": "/favicon/ms-icon-144x144.png",
+		"metaElementProperty": null
+	},
+	{
+		"metaElement": "theme-color",
+		"metaElementContent": "#ffffff",
+		"metaElementProperty": null
+	},
+	{
+		"ogi": "ogi",
+		"openGraphImageDetails": {
+			"width": 1200,
+			"height": 630,
+			"type": "jpg",
+			"mime": "image/jpeg",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 428769,
+			"url": "https://socialsharepreview.com/images/social-share-preview-og.jpg"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://socialsharepreview.com/images/debugger-home-visual.png",
+		"imgDetails": {
+			"width": 1800,
+			"height": 916,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 808886,
+			"url": "https://socialsharepreview.com/images/debugger-home-visual.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://socialsharepreview.com/images/debugger-home-visual_mobile.png",
+		"imgDetails": {
+			"width": 1054,
+			"height": 860,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 536594,
+			"url": "https://socialsharepreview.com/images/debugger-home-visual_mobile.png"
+		}
+	},
+	{
+		"type": "image",
+		"imgsrc": "https://socialsharepreview.com/images/powered-by.png",
+		"imgDetails": {
+			"width": 296,
+			"height": 102,
+			"type": "png",
+			"mime": "image/png",
+			"wUnits": "px",
+			"hUnits": "px",
+			"length": 18729,
+			"url": "https://socialsharepreview.com/images/powered-by.png"
+		}
+	},
+	{
+		"baseUrl": "socialsharepreview.com",
+		"base2": "https://socialsharepreview.com/",
+		"hostname": "socialsharepreview.com",
+		"hostnameElement": {
+			"domain": "socialsharepreview.com",
+			"domainWithoutSuffix": "socialsharepreview",
+			"hostname": "socialsharepreview.com",
+			"isIcann": true,
+			"isIp": false,
+			"isPrivate": false,
+			"publicSuffix": "com",
+			"subdomain": ""
+		},
+		"originBase": "https://socialsharepreview.com",
+		"realBase": "socialsharepreview.com"
+	}
+]

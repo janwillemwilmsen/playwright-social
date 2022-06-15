@@ -1,0 +1,220 @@
+[{
+        "paginatitel": "Facebook - Meld je aan of registreer je"
+    },
+    {
+        "canonurl": "https://www.facebook.com/"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": null,
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "referrer",
+        "metaElementContent": "origin-when-crossorigin",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "Facebook",
+        "metaElementProperty": "og:site_name"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.facebook.com/",
+        "metaElementProperty": "og:url"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.facebook.com/images/fb_icon_325x325.png",
+        "metaElementProperty": "og:image"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "nl_NL",
+        "metaElementProperty": "og:locale"
+    },
+    {
+        "metaElement": "description",
+        "metaElementContent": "Meld je aan bij Facebook om te delen en contact te maken met je vrienden, familie en mensen die je kent.",
+        "metaElementProperty": null
+    },
+    {
+        "ogi": "ogi",
+        "openGraphImageDetails": {
+            "width": 325,
+            "height": 325,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2613,
+            "url": "https://www.facebook.com/images/fb_icon_325x325.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://facebook.com/security/hsts-pixel.gif",
+        "imgDetails": {
+            "width": 1,
+            "height": 1,
+            "type": "gif",
+            "mime": "image/gif",
+            "wUnits": "px",
+            "hUnits": "px",
+            "url": "https://facebook.com/security/hsts-pixel.gif"
+        }
+    },
+    {
+        "baseUrl": "www.facebook.com",
+        "base2": "https://www.facebook.com/",
+        "hostname": "www.facebook.com",
+        "hostnameElement": {
+            "domain": "facebook.com",
+            "domainWithoutSuffix": "facebook",
+            "hostname": "www.facebook.com",
+            "isIcann": true,
+            "isIp": false,
+            "isPrivate": false,
+            "publicSuffix": "com",
+            "subdomain": "www"
+        },
+        "originBase": "https://www.facebook.com",
+        "realBase": "facebook.com"
+    },
+    {
+        "headingId": 0,
+        "typeElement": "H2",
+        "headingTxt": "Met Facebook ben je verbonden en deel je alles met iedereen in je leven."
+    },
+    {
+        "headingId": 1,
+        "typeElement": "P",
+        "headingTxt": "Optionele cookies"
+    },
+    {
+        "headingId": 2,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 3,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 4,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 5,
+        "typeElement": "P",
+        "headingTxt": "Als je deze cookies toestaat, gebeurt het volgende:"
+    },
+    {
+        "headingId": 6,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 7,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 8,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 9,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 10,
+        "typeElement": "P",
+        "headingTxt": "Als je deze cookies niet toestaat, gebeurt het volgende:"
+    },
+    {
+        "headingId": 11,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 12,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 13,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 14,
+        "typeElement": "P",
+        "headingTxt": "Andere manieren waarop je je gegevens kunt beheren"
+    },
+    {
+        "headingId": 15,
+        "typeElement": "P",
+        "headingTxt": "Als je een Facebook-account hebt, kun je met deze tools beheren hoe verschillende gegevens worden gebruikt om advertenties te personaliseren."
+    },
+    {
+        "headingId": 16,
+        "typeElement": "P",
+        "headingTxt": "Advertentie-instellingen"
+    },
+    {
+        "headingId": 17,
+        "typeElement": "P",
+        "headingTxt": "We gebruiken gegevens die adverteerders en andere partners aan ons verstrekken over je activiteit buiten producten van Facebook-bedrijven, waaronder websites en apps, om betere advertenties aan je weer te geven. Je kunt in je advertentie-instellingen bepalen of we deze gegevens mogen gebruiken om advertenties aan je weer te geven."
+    },
+    {
+        "headingId": 18,
+        "typeElement": "P",
+        "headingTxt": "Het Audience Network van Facebook is een manier voor adverteerders om advertenties aan je weer te geven in apps en op websites van de producten van Facebook-bedrijven. Een van de manieren waarop het Audience Network relevante advertenties weergeeft, is door je advertentievoorkeuren te gebruiken om te bepalen welke advertenties je mogelijk wilt zien. Je kunt ze instellen in je advertentie-instellingen."
+    },
+    {
+        "headingId": 19,
+        "typeElement": "P",
+        "headingTxt": "Advertentievoorkeuren"
+    },
+    {
+        "headingId": 20,
+        "typeElement": "P",
+        "headingTxt": "Je kunt je advertentievoorkeuren gebruiken om erachter te komen waarom je een bepaalde advertentie ziet en om te bepalen hoe we door ons verzamelde gegevens mogen gebruiken om advertenties aan je weer te geven."
+    },
+    {
+        "headingId": 21,
+        "typeElement": "P",
+        "headingTxt": "Activiteit buiten Facebook"
+    },
+    {
+        "headingId": 22,
+        "typeElement": "P",
+        "headingTxt": "Je kunt je activiteiten buiten Facebook bekijken. Dit is een overzicht van activiteiten die bedrijven en organisaties met ons delen over je interacties met hen, zoals het bezoeken van hun apps of websites. Ze gebruiken onze bedrijfstools, zoals Aanmelden via Facebook of de Facebook-pixel, om deze gegevens met ons te delen. Hiermee kunnen wij je bijvoorbeeld een gepersonaliseerdere ervaring bieden op Facebook. Kom meer te weten over activiteit buiten Facebook, de manier waarop we deze gebruiken en hoe je deze kunt beheren."
+    },
+    {
+        "headingId": 23,
+        "typeElement": "P",
+        "headingTxt": "Je kunt je afmelden voor het zien van online op interesse gebaseerde advertenties van Facebook en andere deelnemende bedrijven via de Digital Advertising Alliance in de VS, de Digital Advertising Alliance van Canada in Canada of de European Interactive Digital Advertising Alliance in Europa, of via de instellingen van je mobiele apparaat als je Android, iOS 13 of een eerdere versie van iOS gebruikt. Houd er rekening mee dat adblockers en tools die ons cookiegebruik beperken, deze instellingen kunnen verstoren."
+    },
+    {
+        "headingId": 24,
+        "typeElement": "P",
+        "headingTxt": "De advertentiebedrijven waarmee we werken, gebruiken doorgaans cookies en vergelijkbare technologieën als onderdeel van hun services. Je kunt de volgende informatiebronnen bekijken voor meer informatie over hoe adverteerders doorgaans cookies gebruiken en welke keuzes ze bieden:"
+    },
+    {
+        "headingId": 25,
+        "typeElement": "P",
+        "headingTxt": "Je browser of apparaat kan instellingen bieden waarmee je kunt kiezen of je browsercookies wilt instellen of verwijderen. Deze instellingen variëren per browser en producenten kunnen zowel de instellingen die ze beschikbaar maken als de werking van deze instellingen op elk moment wijzigen. Vanaf 5 oktober 2020 kun je aanvullende informatie vinden over de beheeropties die worden aangeboden door populaire browsers via de links hieronder. Bepaalde onderdelen van Facebook-producten werken mogelijk niet naar behoren als je browsercookies hebt uitgeschakeld. Houd er rekening mee dat deze beheeropties verschillen van de instellingen die Facebook aanbiedt."
+    }
+]

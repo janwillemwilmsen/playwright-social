@@ -1,248 +1,458 @@
-[
-	{
-		"paginatitel": "paginatitel"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "HALLOAIE=edge",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": null,
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "viewport",
-		"metaElementContent": "HALLOAwidth=device-width, initial-scale=1.0, minimum-scale=1.0",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "pageTcm",
-		"metaElementContent": "HALLOAtcm:301-219900-64",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "description",
-		"metaElementContent": "HALLOAboe",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "keywords",
-		"metaElementContent": "HALLOA",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "author",
-		"metaElementContent": "HALLOAEssent Online",
-		"metaElementProperty": null
-	},
-	{
-		"metaElement": "robots",
-		"metaElementContent": "HALLOAINDEX, FOLLOW",
-		"metaElementProperty": null
-	},
-	
-	{
-		"metaElement": null,
-		"metaElementContent": "HALLOAarticle",
-		"metaElementProperty": "og:description"
-	},
+[{
+        "paginatitel": "Energie van je betrouwbare energieleverancier | Essent"
+    },
     {
-		"metaElement": null,
-		"metaElementContent": "HALLOAarticle",
-		"metaElementProperty": "og:title"
-	},
-	 
-	{
-		"metaElement": null,
-		"metaElementContent": "HALLOAhttps://static.essent.nl/online/img/logo-essent.png",
-		"metaElementProperty": "og:image"
-	},
-	{
-		"metaElement": null,
-		"metaElementContent": "HALLOA",
-		"metaElementProperty": "og:url"
-	},
-	{
-		"ogi": "ogi",
-		"openGraphImageDetails": {
-			"width": 135,
-			"height": 72,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 3137,
-			"url": "https://static.essent.nl/online/img/logo-essent.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://static.essent.nl/online/img/logo-essent.png",
-		"imgDetails": {
-			"width": 135,
-			"height": 72,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 3137,
-			"url": "https://static.essent.nl/online/img/logo-essent.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://www.essent.nl/content/Images/230524_energieprijzen-info.png",
-		"imgDetails": {
-			"width": 24,
-			"height": 24,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 737,
-			"url": "https://www.essent.nl/content/Images/230524_energieprijzen-info.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://essent.nl/content/Images/217488_HUB_SenG_Index.jpg",
-		"imgDetails": {
-			"width": 600,
-			"height": 338,
-			"type": "jpg",
-			"mime": "image/jpeg",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 107417,
-			"url": "https://www.essent.nl/content/Images/217488_HUB_SenG_Index.jpg"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://essent.nl/content/Images/217650_HUB_Energieproducten_Index.jpg",
-		"imgDetails": {
-			"width": 600,
-			"height": 338,
-			"type": "jpg",
-			"mime": "image/jpeg",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 108961,
-			"url": "https://www.essent.nl/content/Images/217650_HUB_Energieproducten_Index.jpg"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://essent.nl/content/Images/217651_HUB_Speciaal-voor-Klanten_Index.jpg",
-		"imgDetails": {
-			"width": 600,
-			"height": 338,
-			"type": "jpg",
-			"mime": "image/jpeg",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 86992,
-			"url": "https://www.essent.nl/content/Images/217651_HUB_Speciaal-voor-Klanten_Index.jpg"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://essent.nl/content/Images/217267_KlantenVertellenLogo.png",
-		"imgDetails": {
-			"width": 100,
-			"height": 50,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 1996,
-			"url": "https://www.essent.nl/content/Images/217267_KlantenVertellenLogo.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://essent.nl/content/Images/195608_2.png",
-		"imgDetails": {
-			"width": 56,
-			"height": 56,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 4965,
-			"url": "https://www.essent.nl/content/Images/195608_2.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://essent.nl/content/Images/195607_1.png",
-		"imgDetails": {
-			"width": 56,
-			"height": 56,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 4641,
-			"url": "https://www.essent.nl/content/Images/195607_1.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://essent.nl/content/Images/202624_Verblijsfunctie.png",
-		"imgDetails": {
-			"width": 56,
-			"height": 56,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 1168,
-			"url": "https://www.essent.nl/content/Images/202624_Verblijsfunctie.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://via.placeholder.com/1",
-		"imgDetails": {
-			"width": 1,
-			"height": 1,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 106,
-			"url": "https://via.placeholder.com/1"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://static.essent.nl/online/img/essent-logo-bottom-right-small.png",
-		"imgDetails": {
-			"width": 135,
-			"height": 72,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 3137,
-			"url": "https://static.essent.nl/online/img/essent-logo-bottom-right-small.png"
-		}
-	},
-	{
-		"type": "image",
-		"imgsrc": "https://static.essent.nl/online/img/essent-logo-bottom-right-small.png",
-		"imgDetails": {
-			"width": 135,
-			"height": 72,
-			"type": "png",
-			"mime": "image/png",
-			"wUnits": "px",
-			"hUnits": "px",
-			"length": 3137,
-			"url": "https://static.essent.nl/online/img/essent-logo-bottom-right-small.png"
-		}
-	}
+        "canonurl": "https://www.essent.nl/content/particulier/index.html"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "IE=edge",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": null,
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "viewport",
+        "metaElementContent": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "pageTcm",
+        "metaElementContent": "tcm:301-219900-64",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "description",
+        "metaElementContent": "Essent maakt thuis nog voordeliger, makkelijker en leuker. We leveren al energie aan 2,5 miljoen klanten en helpen je energie besparen.",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "keywords",
+        "metaElementContent": "",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "author",
+        "metaElementContent": "Essent Online",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "robots",
+        "metaElementContent": "INDEX, FOLLOW",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "www.essent.nl",
+        "metaElementProperty": "og:site_name"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "article",
+        "metaElementProperty": "og:type"
+    },
+
+    {
+        "metaElement": null,
+        "metaElementContent": "https://static.essent.nl/online/img/logo-essent.png",
+        "metaElementProperty": "og:image"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.essent.nl/content/particulier/index.html",
+        "metaElementProperty": "og:url"
+    },
+    {
+        "ogi": "ogi",
+        "openGraphImageDetails": {
+            "width": 135,
+            "height": 72,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 3137,
+            "url": "https://static.essent.nl/online/img/logo-essent.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://static.essent.nl/online/img/logo-essent.png",
+        "imgDetails": {
+            "width": 135,
+            "height": 72,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 3137,
+            "url": "https://static.essent.nl/online/img/logo-essent.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.essent.nl/content/Images/217488_HUB_SenG_Index.jpg",
+        "imgDetails": {
+            "width": 600,
+            "height": 338,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 107712,
+            "url": "https://www.essent.nl/content/Images/217488_HUB_SenG_Index.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.essent.nl/content/Images/217650_HUB_Energieproducten_Index.jpg",
+        "imgDetails": {
+            "width": 600,
+            "height": 338,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 109288,
+            "url": "https://www.essent.nl/content/Images/217650_HUB_Energieproducten_Index.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.essent.nl/content/Images/217651_HUB_Speciaal-voor-Klanten_Index.jpg",
+        "imgDetails": {
+            "width": 600,
+            "height": 338,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 87327,
+            "url": "https://www.essent.nl/content/Images/217651_HUB_Speciaal-voor-Klanten_Index.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.essent.nl/content/Images/217267_KlantenVertellenLogo.png",
+        "imgDetails": {
+            "width": 100,
+            "height": 50,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1973,
+            "url": "https://www.essent.nl/content/Images/217267_KlantenVertellenLogo.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.essent.nl/content/Images/195608_2.png",
+        "imgDetails": {
+            "width": 56,
+            "height": 56,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 5196,
+            "url": "https://www.essent.nl/content/Images/195608_2.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.essent.nl/content/Images/195607_1.png",
+        "imgDetails": {
+            "width": 56,
+            "height": 56,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 4878,
+            "url": "https://www.essent.nl/content/Images/195607_1.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.essent.nl/content/Images/202624_Verblijsfunctie.png",
+        "imgDetails": {
+            "width": 56,
+            "height": 56,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1145,
+            "url": "https://www.essent.nl/content/Images/202624_Verblijsfunctie.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://static.essent.nl/online/img/essent-logo-bottom-right-small.png",
+        "imgDetails": {
+            "width": 135,
+            "height": 72,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 3137,
+            "url": "https://static.essent.nl/online/img/essent-logo-bottom-right-small.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://static.essent.nl/online/img/essent-logo-bottom-right-small.png",
+        "imgDetails": {
+            "width": 135,
+            "height": 72,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 3137,
+            "url": "https://static.essent.nl/online/img/essent-logo-bottom-right-small.png"
+        }
+    },
+    {
+        "baseUrl": "www.essent.nl",
+        "base2": "https://www.essent.nl/",
+        "hostname": "www.essent.nl",
+        "hostnameElement": {
+            "domain": "essent.nl",
+            "domainWithoutSuffix": "essent",
+            "hostname": "www.essent.nl",
+            "isIcann": true,
+            "isIp": false,
+            "isPrivate": false,
+            "publicSuffix": "nl",
+            "subdomain": "www"
+        },
+        "originBase": "https://www.essent.nl",
+        "realBase": "essent.nl"
+    },
+    {
+        "headingId": 0,
+        "typeElement": "H3",
+        "headingTxt": "Grip op energie"
+    },
+    {
+        "headingId": 1,
+        "typeElement": "P",
+        "headingTxt": "Waarom zijn de energieprijzen hoog en wat betekent dit voor je contract? We leggen het graag aan je uit. En helpen je graag met besparen en eventuele vragen over betalen. Zo houd je grip op je energierekening."
+    },
+    {
+        "headingId": 2,
+        "typeElement": "P",
+        "headingTxt": "Bekijk het advies"
+    },
+    {
+        "headingId": 3,
+        "typeElement": "P",
+        "headingTxt": "Meer informatie"
+    },
+    {
+        "headingId": 4,
+        "typeElement": "H3",
+        "headingTxt": "Energie besparen met isolatie via Essent"
+    },
+    {
+        "headingId": 5,
+        "typeElement": "P",
+        "headingTxt": "Wil je juist nu besparen op energie? Isoleer dan je woning! Zo verlaag je de energierekening. Extra fijn: tijdens zomerdagen blijft de warmte buiten. Wat bespaar jij?"
+    },
+    {
+        "headingId": 6,
+        "typeElement": "P",
+        "headingTxt": "Bereken mijn besparing"
+    },
+    {
+        "headingId": 7,
+        "typeElement": "P",
+        "headingTxt": "Meer over isolatie"
+    },
+    {
+        "headingId": 8,
+        "typeElement": "H2",
+        "headingTxt": "Dit heeft Essent ook voor jou"
+    },
+    {
+        "headingId": 9,
+        "typeElement": "P",
+        "headingTxt": "Bij Essent zit je goed met een scherp energiecontract en belonen we je als vaste klant met Thuisvoordeel. Maar wist je dat we ook je huis energiezuiniger maken, met zonnepanelen of isolatie bijvoorbeeld? Dat regelen onze servicepartners, en er zit er altijd eentje bij jou in de buurt."
+    },
+    {
+        "headingId": 10,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 11,
+        "typeElement": "H3",
+        "headingTxt": "Stroom & Gas"
+    },
+    {
+        "headingId": 12,
+        "typeElement": "H3",
+        "headingTxt": "Energieproducten"
+    },
+    {
+        "headingId": 13,
+        "typeElement": "H3",
+        "headingTxt": "Speciaal voor klanten"
+    },
+    {
+        "headingId": 14,
+        "typeElement": "P",
+        "headingTxt": "Onze klanten beoordelen ons met een 8,1"
+    },
+    {
+        "headingId": 15,
+        "typeElement": "H2",
+        "headingTxt": "Vandaag geregeld"
+    },
+    {
+        "headingId": 16,
+        "typeElement": "H4",
+        "headingTxt": "Stroom en Gas"
+    },
+    {
+        "headingId": 17,
+        "typeElement": "P",
+        "headingTxt": "Voor stroom en gas ben je bij ons aan het goede adres. Vul je postcode en huisnummer in de postcodecheck in en je ziet direct ons aanbod."
+    },
+    {
+        "headingId": 18,
+        "typeElement": "P",
+        "headingTxt": "Bekijk Stroom en Gas aanbod"
+    },
+    {
+        "headingId": 19,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 20,
+        "typeElement": "H4",
+        "headingTxt": "Energietarieven"
+    },
+    {
+        "headingId": 21,
+        "typeElement": "P",
+        "headingTxt": "Met de postcodecheck zie je snel en eenvoudig hoe onze energietarieven in jouw situatie uitpakken. Natuurlijk krijg je als nieuwe klant groene stroom bij Essent."
+    },
+    {
+        "headingId": 22,
+        "typeElement": "P",
+        "headingTxt": "Lees meer over onze energietarieven"
+    },
+    {
+        "headingId": 23,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 24,
+        "typeElement": "H4",
+        "headingTxt": "Verhuizen"
+    },
+    {
+        "headingId": 25,
+        "typeElement": "P",
+        "headingTxt": "Bij een verhuizing komt een hoop kijken. Ook het regelen van je energiezaken hoort hierbij. Ga je verhuizen en ben je op zoek naar een energieleverancier? Bekijk dan ons aanbod."
+    },
+    {
+        "headingId": 26,
+        "typeElement": "P",
+        "headingTxt": "Lees meer over verhuizen en energie"
+    },
+    {
+        "headingId": 27,
+        "typeElement": "H1",
+        "headingTxt": "Energieleverancier Essent"
+    },
+    {
+        "headingId": 28,
+        "typeElement": "P",
+        "headingTxt": "Als energieleverancier helpen we ruim 2,5 miljoen klanten aan energie in de particuliere en zakelijke markt. We helpen je graag om duurzamer te leven én te besparen. Daar hoort vandaag de dag ook groene stroom bij. Opgewekt met windmolens en zonnepanelen en steeds meer van Nederlandse bodem."
+    },
+    {
+        "headingId": 29,
+        "typeElement": "P",
+        "headingTxt": "Bij Essent kies je uit een aantal standaard stroom- en gasproducten. Welk contract je ook kiest, bij ons zit je goed. Weten wat je bij het huidige tarief per maand gaat betalen? Vul de postcodecheck in en je weet het binnen 1 minuut."
+    },
+    {
+        "headingId": 30,
+        "typeElement": "H3",
+        "headingTxt": "Meer dan alleen een energieleverancier"
+    },
+    {
+        "headingId": 31,
+        "typeElement": "P",
+        "headingTxt": "Essent wil klanten helpen hun huis of zaak comfortabel én energiezuinig te maken. Wij bieden als energiemaatschappij daarom ook andere slimme, energiegerelateerde producten aan. Bijvoorbeeld zonnepanelen om energie te besparen met je eigen dak, verwarming, of isolatie voor een energiezuinige woning. Deze producten worden geleverd door onze servicepartners, van installatie tot en met onderhoud."
+    },
+    {
+        "headingId": 32,
+        "typeElement": "H4",
+        "headingTxt": "Volg Essent hier"
+    },
+    {
+        "headingId": 33,
+        "typeElement": "H4",
+        "headingTxt": "Particulier"
+    },
+    {
+        "headingId": 34,
+        "typeElement": "H4",
+        "headingTxt": "Zakelijk"
+    },
+    {
+        "headingId": 35,
+        "typeElement": "H4",
+        "headingTxt": "Over Essent"
+    },
+    {
+        "headingId": 36,
+        "typeElement": "H3",
+        "headingTxt": "Energie van vandaag"
+    },
+    {
+        "headingId": 37,
+        "typeElement": "P",
+        "headingTxt": "©Essent 2022"
+    },
+    {
+        "headingId": 38,
+        "typeElement": "H2",
+        "headingTxt": "Om je zo goed mogelijk van dienst te zijn, gebruiken wij cookies."
+    },
+    {
+        "headingId": 39,
+        "typeElement": "P",
+        "headingTxt": "We maken onderscheid tussen noodzakelijke, relevante en externe cookies. Onze noodzakelijke cookies zorgen ervoor dat de websites goed werken en gebruiken we voor analytische doeleinden. De relevante en externe cookies helpen ons om onze websites, apps, e-mails en online advertenties voor jou relevanter te maken. Daarnaast zorgen externe cookies ervoor dat je pagina's kunt delen via social media en je relevante advertenties te zien krijgt op andere websites."
+    },
+    {
+        "headingId": 40,
+        "typeElement": "P",
+        "headingTxt": "Door op 'Ja, ik accepteer cookies' te drukken, geef je aan dat je akkoord bent met het gebruik van cookies en de verzameling van informatie op de websites van E.ON groep. Meer weten? In onze privacyverklaring lees je meer over ons privacybeleid. Bij instellingen lees je meer over cookies en past je jouw cookievoorkeuren aan."
+    },
+    {
+        "headingId": 41,
+        "typeElement": "P",
+        "headingTxt": "Deze website maakt gebruik van noodzakelijke cookies, die nodig zijn om deze site zo goed mogelijk te laten werken. Hieronder kunt u aangeven welke cookies u wilt accepteren."
+    },
+    {
+        "headingId": 42,
+        "typeElement": "P",
+        "headingTxt": "Deze instellingen slaan we op in een cookie. Verwijdert u uw cookies uit uw browser, dan kunnen we uw keuze niet meer herkennen en informeren we u opnieuw over het gebruik van cookies en vragen we om uw toestemming."
+    }
 ]

@@ -1,0 +1,1381 @@
+[{
+        "paginatitel": "Voorop in gezondheid en zorg. Voor iedereen."
+    },
+    {
+        "canonurl": "https://www.vgz.nl"
+    },
+    {
+        "metaElement": "VIcurrentDateTime",
+        "metaElementContent": "637903943735331190",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "google-site-verification",
+        "metaElementContent": "npkwHUdrm0Pvb6Sv9xWwP4P4iuq1SHCY1VNPSQsp7sM",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "ahrefs-site-verification",
+        "metaElementContent": "b4cb7a1532bc8287d4d3874d91c778c069aa8a278fcabe007e444cba3c6a3c29",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "facebook-domain-verification",
+        "metaElementContent": "n2f0qb6uhfqt0h0i82ifwux6sk9mtb",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/vgz-logo-transparant/vgz-logo-nieuw.png",
+        "metaElementProperty": "og:image"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "Coöperatie VGZ. Voorop in gezondheid en zorg. Voor iedereen.",
+        "metaElementProperty": "og:title"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.vgz.nl/",
+        "metaElementProperty": "og:url"
+    },
+    {
+        "metaElement": "description",
+        "metaElementContent": "Coöperatie VGZ is er voor uw gezondheid en zorg. We helpen u gezonder leven makkelijker te maken. En samen blijven we de zorg verbeteren. Voor iedereen.",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "Coöperatie VGZ. Voorop in gezondheid en zorg. Voor iedereen.",
+        "metaElementProperty": "twitter:title"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "summary",
+        "metaElementProperty": "twitter:card"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "@vgz",
+        "metaElementProperty": "twitter:site"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "Coöperatie VGZ is er voor uw gezondheid en zorg. We helpen u gezonder leven makkelijker te maken. En samen blijven we de zorg verbeteren. Voor iedereen.",
+        "metaElementProperty": "twitter:description"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/vgz-logo-transparant/vgz-logo-nieuw.png",
+        "metaElementProperty": "twitter:image"
+    },
+    {
+        "metaElement": "viewport",
+        "metaElementContent": "width=device-width, initial-scale=1",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "theme-color",
+        "metaElementContent": "#12a5a0",
+        "metaElementProperty": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.vgz.nl/https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/favicon-32x32.png",
+        "linksize": null,
+        "linktype": null
+    },
+    {
+        "ogi": "ogi",
+        "openGraphImageDetails": {
+            "width": 542,
+            "height": 450,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 30591,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/vgz-logo-transparant/vgz-logo-nieuw.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/header-logo-vgz.png?h=110&w=150&hash=6DB3885EC3CFED0E03C9243F2CCEA444",
+        "imgDetails": {
+            "width": 150,
+            "height": 110,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 10476,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/header-logo-vgz.png?h=110&w=150&hash=6DB3885EC3CFED0E03C9243F2CCEA444"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/wijzigen",
+        "imgDetails": {
+            "width": 44,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 277,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/wijzigen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/zorgpas",
+        "imgDetails": {
+            "width": 46,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 454,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/zorgpas"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/pakketvergelijker",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2482,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/pakketvergelijker"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/help-mij-kiezen",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2410,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/help-mij-kiezen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/VGZ/VGZ website/site-images/iconen-generiek/Gezondleven",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 4537,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/VGZ/VGZ website/site-images/iconen-generiek/Gezondleven"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/campagne-2021-2022/voordelen-vgz-navigatie-2021.jpg?h=149&w=290&hash=2205A4C582183930E22BECDB17BAC9A0",
+        "imgDetails": {
+            "width": 290,
+            "height": 149,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 29880,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/campagne-2021-2022/voordelen-vgz-navigatie-2021.jpg?h=149&w=290&hash=2205A4C582183930E22BECDB17BAC9A0"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/declareren",
+        "imgDetails": {
+            "width": 38,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 507,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/declareren"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/vergoedingen",
+        "imgDetails": {
+            "width": 46,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 757,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/vergoedingen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/eigen-risico",
+        "imgDetails": {
+            "width": 44,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 509,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/eigen-risico"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/machtiging",
+        "imgDetails": {
+            "width": 46,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 376,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/machtiging"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorgzoeker",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2397,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorgzoeker"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorgadvies",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2642,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorgadvies"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_wachtlijstbemiddeling",
+        "imgDetails": {
+            "width": 82,
+            "height": 79,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1423,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_wachtlijstbemiddeling"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_PGB",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2675,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_PGB"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_mantelzorg",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2901,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_mantelzorg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorg-voor-een-ander",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2594,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorg-voor-een-ander"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-appel",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 18146,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-appel"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-mindfulness",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 13669,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-mindfulness"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-leefstijl",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 16946,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-leefstijl"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-medicijnen",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 6043,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-medicijnen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/declareren",
+        "imgDetails": {
+            "width": 38,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 507,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/declareren"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/Betalingsregeling",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 4959,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/Betalingsregeling"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/Betalen",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2646,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/Betalen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/eigen-risico",
+        "imgDetails": {
+            "width": 44,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 509,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/eigen-risico"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/header-logo-vgz.png?h=110&w=150&hash=6DB3885EC3CFED0E03C9243F2CCEA444",
+        "imgDetails": {
+            "width": 150,
+            "height": 110,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 10476,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/header-logo-vgz.png?h=110&w=150&hash=6DB3885EC3CFED0E03C9243F2CCEA444"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/wijzigen",
+        "imgDetails": {
+            "width": 44,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 277,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/wijzigen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/zorgpas",
+        "imgDetails": {
+            "width": 46,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 454,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/zorgpas"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/pakketvergelijker",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2482,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/pakketvergelijker"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/help-mij-kiezen",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2410,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/help-mij-kiezen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/VGZ/VGZ website/site-images/iconen-generiek/Gezondleven",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 4537,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/VGZ/VGZ website/site-images/iconen-generiek/Gezondleven"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/campagne-2021-2022/voordelen-vgz-navigatie-2021.jpg?h=149&w=290&hash=2205A4C582183930E22BECDB17BAC9A0",
+        "imgDetails": {
+            "width": 290,
+            "height": 149,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 29880,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/campagne-2021-2022/voordelen-vgz-navigatie-2021.jpg?h=149&w=290&hash=2205A4C582183930E22BECDB17BAC9A0"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/declareren",
+        "imgDetails": {
+            "width": 38,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 507,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/declareren"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/vergoedingen",
+        "imgDetails": {
+            "width": 46,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 757,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/vergoedingen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/eigen-risico",
+        "imgDetails": {
+            "width": 44,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 509,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/eigen-risico"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/machtiging",
+        "imgDetails": {
+            "width": 46,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 376,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/machtiging"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorgzoeker",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2397,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorgzoeker"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorgadvies",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2642,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorgadvies"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_wachtlijstbemiddeling",
+        "imgDetails": {
+            "width": 82,
+            "height": 79,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1423,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_wachtlijstbemiddeling"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_PGB",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2675,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_PGB"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_mantelzorg",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2901,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_mantelzorg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorg-voor-een-ander",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2594,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon_zorg-voor-een-ander"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-appel",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 18146,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-appel"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-mindfulness",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 13669,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-mindfulness"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-leefstijl",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 16946,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-leefstijl"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-medicijnen",
+        "imgDetails": {
+            "width": 84,
+            "height": 84,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 6043,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/icon-medicijnen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/declareren",
+        "imgDetails": {
+            "width": 38,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 507,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/declareren"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/Betalingsregeling",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 4959,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/Betalingsregeling"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/Betalen",
+        "imgDetails": {
+            "width": 48,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2646,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/Betalen"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/eigen-risico",
+        "imgDetails": {
+            "width": 44,
+            "height": 48,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 509,
+            "url": "https://www.vgz.nl/-/media//Project/Websites/shared/icons/Nucleo/outline/eigen-risico"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/header-logo-vgz.png?h=110&w=150&hash=6DB3885EC3CFED0E03C9243F2CCEA444",
+        "imgDetails": {
+            "width": 150,
+            "height": 110,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 10476,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/header-logo-vgz.png?h=110&w=150&hash=6DB3885EC3CFED0E03C9243F2CCEA444"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/samen-voorop-awards/sva_desktop_hero-kopieren.jpg?h=409&w=1690&hash=848E5ECF276616A463E9F3D0B54F514F",
+        "imgDetails": {
+            "width": 1690,
+            "height": 409,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 107841,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/samen-voorop-awards/sva_desktop_hero-kopieren.jpg?h=409&w=1690&hash=848E5ECF276616A463E9F3D0B54F514F"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/samen-voorop-awards/sva_mobile_hero.jpg?h=323&w=745&hash=F7C0658970FA5EFE754B49D53C8321FC",
+        "imgDetails": {
+            "width": 745,
+            "height": 323,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 54697,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/samen-voorop-awards/sva_mobile_hero.jpg?h=323&w=745&hash=F7C0658970FA5EFE754B49D53C8321FC"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/homepage/pijl-naar-beneden-skygif.gif?h=80&w=1690&hash=F98CF983A34F06BAD7A965423160B4E5",
+        "imgDetails": {
+            "width": 1690,
+            "height": 80,
+            "type": "gif",
+            "mime": "image/gif",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 21483,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/homepage/pijl-naar-beneden-skygif.gif?h=80&w=1690&hash=F98CF983A34F06BAD7A965423160B4E5"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/campagne-2021-2022/vgz-promo_hp_voorop.jpg?h=220&w=400&hash=175FC4D184B47F39F143AE89BE627DF8",
+        "imgDetails": {
+            "width": 400,
+            "height": 220,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 28302,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/campagne-2021-2022/vgz-promo_hp_voorop.jpg?h=220&w=400&hash=175FC4D184B47F39F143AE89BE627DF8"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/kmt-a/homepage/vgz_promo_gl_hp.jpg?h=220&w=400&hash=34D1F7C11375B615C35E9B99CB6C8B66",
+        "imgDetails": {
+            "width": 400,
+            "height": 220,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 52933,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/kmt-a/homepage/vgz_promo_gl_hp.jpg?h=220&w=400&hash=34D1F7C11375B615C35E9B99CB6C8B66"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/zorg-regelen/digitale-zorg/vraag-het-de-huisarts-promo.png?h=200&w=400&hash=D0E936B62639EF03DFE2A57C168A3CCF",
+        "imgDetails": {
+            "width": 400,
+            "height": 200,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 35523,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/zorg-regelen/digitale-zorg/vraag-het-de-huisarts-promo.png?h=200&w=400&hash=D0E936B62639EF03DFE2A57C168A3CCF"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/kmt-a/homepage/vgz_promo_za-b_hp.jpg?h=220&w=400&hash=C71B1E09256043361954E2DED9AE5279",
+        "imgDetails": {
+            "width": 400,
+            "height": 220,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 52270,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/kmt-a/homepage/vgz_promo_za-b_hp.jpg?h=220&w=400&hash=C71B1E09256043361954E2DED9AE5279"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/kmt-a/vgz_promo_hulpmetbetalen400x220.png?h=220&w=400&hash=94009444E6A297D91BD792C5CFC074E8",
+        "imgDetails": {
+            "width": 400,
+            "height": 220,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 173012,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/kmt-a/vgz_promo_hulpmetbetalen400x220.png?h=220&w=400&hash=94009444E6A297D91BD792C5CFC074E8"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/zorg-app/landingspagina-2022/startpagina-app.png?h=933&w=917&hash=D8087BA32C9E0C1D188AFAC049FE5E50",
+        "imgDetails": {
+            "width": 917,
+            "height": 933,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 71494,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/zorg-app/landingspagina-2022/startpagina-app.png?h=933&w=917&hash=D8087BA32C9E0C1D188AFAC049FE5E50"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/zorg-app/google-play-badge.png?h=42&w=135&hash=0805D78842DBA8D5DDCBDD3409355E9B",
+        "imgDetails": {
+            "width": 135,
+            "height": 42,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 3214,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/zorg-app/google-play-badge.png?h=42&w=135&hash=0805D78842DBA8D5DDCBDD3409355E9B"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/zorg-app/app-store-badge.png?h=40&w=135&hash=B567A2BB6CEAB9170A7252635786D2E8",
+        "imgDetails": {
+            "width": 135,
+            "height": 40,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2169,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/zorg-app/app-store-badge.png?h=40&w=135&hash=B567A2BB6CEAB9170A7252635786D2E8"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/shared/mindfulness-coach-app/app-store-badge.png?h=40&w=135&hash=95B31CE0B0BDE1B7F1AB4C06A4ADD166",
+        "imgDetails": {
+            "width": 135,
+            "height": 40,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2169,
+            "url": "https://www.vgz.nl/-/media/project/websites/shared/mindfulness-coach-app/app-store-badge.png?h=40&w=135&hash=95B31CE0B0BDE1B7F1AB4C06A4ADD166"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/shared/mindfulness-coach-app/google-play-badge.png?h=42&w=135&hash=85DB3C426E174FF57885D4CCE2F9E3C2",
+        "imgDetails": {
+            "width": 135,
+            "height": 42,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 3214,
+            "url": "https://www.vgz.nl/-/media/project/websites/shared/mindfulness-coach-app/google-play-badge.png?h=42&w=135&hash=85DB3C426E174FF57885D4CCE2F9E3C2"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/jaarrond-homepage-2020/mindfulnessapp.jpg?h=833&w=1068&hash=28B461EF0183182EF2B751B7F5732FB0",
+        "imgDetails": {
+            "width": 1068,
+            "height": 833,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 83852,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/jaarrond-homepage-2020/mindfulnessapp.jpg?h=833&w=1068&hash=28B461EF0183182EF2B751B7F5732FB0"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/footer/google-play.png",
+        "imgDetails": {
+            "width": 118,
+            "height": 40,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 6256,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/footer/google-play.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/logo-payoff-footer-vgz.png",
+        "imgDetails": {
+            "width": 300,
+            "height": 100,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 12117,
+            "url": "https://www.vgz.nl/-/media/project/websites/vgz/vgz-website/site-images/logos/logo-payoff-footer-vgz.png"
+        }
+    },
+    {
+        "baseUrl": "www.vgz.nl",
+        "base2": "https://www.vgz.nl/",
+        "hostname": "www.vgz.nl",
+        "hostnameElement": {
+            "domain": "vgz.nl",
+            "domainWithoutSuffix": "vgz",
+            "hostname": "www.vgz.nl",
+            "isIcann": true,
+            "isIp": false,
+            "isPrivate": false,
+            "publicSuffix": "nl",
+            "subdomain": "www"
+        },
+        "originBase": "https://www.vgz.nl",
+        "realBase": "vgz.nl"
+    },
+    {
+        "headingId": 0,
+        "typeElement": "H3",
+        "headingTxt": "Op vgz.nl maken wij gebruik van cookies en technieken die hierop lijken"
+    },
+    {
+        "headingId": 1,
+        "typeElement": "P",
+        "headingTxt": "Wij gebruiken functionele cookies en analytische cookies. Deze kleine tekstbestanden maken onze website veilig en betrouwbaar, zorgen ervoor dat onze website goed werkt en stellen ons in staat inzichten te krijgen in onze bezoekers. Daarnaast maken wij gebruik van cookies om uw bezoek aan onze website en onze communicatie met u makkelijker en persoonlijker te maken en om onze dienstverlening te verbeteren. Hiermee kunnen wij, en derde partijen, uw internetgedrag op vgz.nl volgen en verzamelen. Zo kunnen we u op onze website en op die van derden de informatie geven die het beste bij u past."
+    },
+    {
+        "headingId": 2,
+        "typeElement": "P",
+        "headingTxt": "Meer weten? Lees onze cookieverklaring."
+    },
+    {
+        "headingId": 3,
+        "typeElement": "P",
+        "headingTxt": "Door op ‘accepteren’ te klikken gaat u hiermee akkoord. We gaan uiteraard voorzichtig om met de gegevens die we verzamelen. Als u kiest voor ‘weigeren’ plaatsen wij alleen functionele en analytische cookies."
+    },
+    {
+        "headingId": 4,
+        "typeElement": "H3",
+        "headingTxt": "Handig"
+    },
+    {
+        "headingId": 5,
+        "typeElement": "H3",
+        "headingTxt": "Bereken uw premie voor 2022"
+    },
+    {
+        "headingId": 6,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 7,
+        "typeElement": "P",
+        "headingTxt": "Bereken uw premie voor 2022"
+    },
+    {
+        "headingId": 8,
+        "typeElement": "H3",
+        "headingTxt": "Lees meer over"
+    },
+    {
+        "headingId": 9,
+        "typeElement": "H3",
+        "headingTxt": "Meer informatie over"
+    },
+    {
+        "headingId": 10,
+        "typeElement": "H3",
+        "headingTxt": "Zelf regelen"
+    },
+    {
+        "headingId": 11,
+        "typeElement": "H3",
+        "headingTxt": "Gezondheid"
+    },
+    {
+        "headingId": 12,
+        "typeElement": "H3",
+        "headingTxt": "Meer informatie over betalen"
+    },
+    {
+        "headingId": 13,
+        "typeElement": "H3",
+        "headingTxt": "Direct zelf regelen"
+    },
+    {
+        "headingId": 14,
+        "typeElement": "H3",
+        "headingTxt": "Direct naar"
+    },
+    {
+        "headingId": 15,
+        "typeElement": "H3",
+        "headingTxt": "Wijzigen"
+    },
+    {
+        "headingId": 16,
+        "typeElement": "H3",
+        "headingTxt": "Handig"
+    },
+    {
+        "headingId": 17,
+        "typeElement": "H3",
+        "headingTxt": "Bereken uw premie voor 2022"
+    },
+    {
+        "headingId": 18,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 19,
+        "typeElement": "P",
+        "headingTxt": "Bereken uw premie voor 2022"
+    },
+    {
+        "headingId": 20,
+        "typeElement": "H3",
+        "headingTxt": "Lees meer over"
+    },
+    {
+        "headingId": 21,
+        "typeElement": "H3",
+        "headingTxt": "Meer informatie over"
+    },
+    {
+        "headingId": 22,
+        "typeElement": "H3",
+        "headingTxt": "Zelf regelen"
+    },
+    {
+        "headingId": 23,
+        "typeElement": "H3",
+        "headingTxt": "Gezondheid"
+    },
+    {
+        "headingId": 24,
+        "typeElement": "H3",
+        "headingTxt": "Meer informatie over betalen"
+    },
+    {
+        "headingId": 25,
+        "typeElement": "H3",
+        "headingTxt": "Direct zelf regelen"
+    },
+    {
+        "headingId": 26,
+        "typeElement": "H3",
+        "headingTxt": "Direct naar"
+    },
+    {
+        "headingId": 27,
+        "typeElement": "H3",
+        "headingTxt": "Wijzigen"
+    },
+    {
+        "headingId": 28,
+        "typeElement": "H1",
+        "headingTxt": "Samen voorop in gezondheid & zorg en duurzaamheid"
+    },
+    {
+        "headingId": 29,
+        "typeElement": "H2",
+        "headingTxt": "Wie heeft het beste idee?"
+    },
+    {
+        "headingId": 30,
+        "typeElement": "H1",
+        "headingTxt": "Samen voorop in gezondheid, zorg en duurzaamheid"
+    },
+    {
+        "headingId": 31,
+        "typeElement": "H2",
+        "headingTxt": "Wie heeft het beste idee?"
+    },
+    {
+        "headingId": 32,
+        "typeElement": "H2",
+        "headingTxt": "Waar kunnen wij u mee helpen?"
+    },
+    {
+        "headingId": 33,
+        "typeElement": "H3",
+        "headingTxt": "Ik ben klant van VGZ"
+    },
+    {
+        "headingId": 34,
+        "typeElement": "H3",
+        "headingTxt": "Ik ben nog geen klant van VGZ"
+    },
+    {
+        "headingId": 35,
+        "typeElement": "H3",
+        "headingTxt": "Gezondheid en zorg"
+    },
+    {
+        "headingId": 36,
+        "typeElement": "H3",
+        "headingTxt": "Klanten beoordelen VGZ met een:"
+    },
+    {
+        "headingId": 37,
+        "typeElement": "H2",
+        "headingTxt": "Interessant voor u"
+    },
+    {
+        "headingId": 38,
+        "typeElement": "H3",
+        "headingTxt": "Samen voorop in gezondheid en zorg"
+    },
+    {
+        "headingId": 39,
+        "typeElement": "P",
+        "headingTxt": "Gezonder leven. We vinden het belangrijker dan ooit. En soms ook best lastig. Dat snappen we bij VGZ. Als coöperatie zonder winstoogmerk zijn wij er om heel Nederland te helpen. Met gezondheid én zorg."
+    },
+    {
+        "headingId": 40,
+        "typeElement": "H3",
+        "headingTxt": "Gezond Leven: gratis apps en workshops"
+    },
+    {
+        "headingId": 41,
+        "typeElement": "P",
+        "headingTxt": "Gezond leven kan best lastig zijn. Bij VGZ snappen we dat. Daarom staan we voor u klaar. Ga lekker aan de slag met tientallen apps, workshops en andere extra’s."
+    },
+    {
+        "headingId": 42,
+        "typeElement": "H3",
+        "headingTxt": "Probeer nu de app 'Vraag het de Huisarts'"
+    },
+    {
+        "headingId": 43,
+        "typeElement": "H2",
+        "headingTxt": "Wat we ook voor u doen"
+    },
+    {
+        "headingId": 44,
+        "typeElement": "H3",
+        "headingTxt": "Persoonlijk zorgadvies nodig?"
+    },
+    {
+        "headingId": 45,
+        "typeElement": "P",
+        "headingTxt": "Onze zorgadviseurs staan voor u klaar wanneer u bijvoorbeeld op een wachtlijst staat, een second opinion wilt, of te maken krijgt met langdurige zorg."
+    },
+    {
+        "headingId": 46,
+        "typeElement": "H3",
+        "headingTxt": "Hulp met betalen"
+    },
+    {
+        "headingId": 47,
+        "typeElement": "P",
+        "headingTxt": "Zorgt het coronavirus voor onzekerheid in uw financiële situatie? Als u moeite heeft met betalen is dat erg vervelend en stressvol. Dat begrijpen we. Wij nemen die onzekerheid graag voor u weg."
+    },
+    {
+        "headingId": 48,
+        "typeElement": "H2",
+        "headingTxt": "Ontdek onze apps"
+    },
+    {
+        "headingId": 49,
+        "typeElement": "H3",
+        "headingTxt": "De VGZ app"
+    },
+    {
+        "headingId": 50,
+        "typeElement": "P",
+        "headingTxt": "In de VGZ app heeft u ook uw zorgpas en polis altijd bij de hand. En kunt u gemakkelijk en veilig inloggen met een pincode of uw vingerafdruk."
+    },
+    {
+        "headingId": 51,
+        "typeElement": "H3",
+        "headingTxt": "Ontspan met de VGZ Mindfulness coach app"
+    },
+    {
+        "headingId": 52,
+        "typeElement": "P",
+        "headingTxt": "Minder stress en meer leven in het nu? Mindfulness kan u helpen. Maak gratis gebruik van de app. Ook als u niet bij VGZ verzekerd bent."
+    },
+    {
+        "headingId": 53,
+        "typeElement": "H2",
+        "headingTxt": "Footer"
+    },
+    {
+        "headingId": 54,
+        "typeElement": "H3",
+        "headingTxt": "Direct regelen"
+    },
+    {
+        "headingId": 55,
+        "typeElement": "H3",
+        "headingTxt": "Service & contact"
+    },
+    {
+        "headingId": 56,
+        "typeElement": "H3",
+        "headingTxt": "VGZ app"
+    },
+    {
+        "headingId": 57,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 58,
+        "typeElement": "H3",
+        "headingTxt": "Volg ons"
+    },
+    {
+        "headingId": 59,
+        "typeElement": "P",
+        "headingTxt": "Volg VGZ op Facebook Volg VGZ op Twitter Volg VGZ op Instagram Volg VGZ op YouTube"
+    },
+    {
+        "headingId": 60,
+        "typeElement": "H4",
+        "headingTxt": "VGZ Zorgverzekeraar N.V."
+    },
+    {
+        "headingId": 61,
+        "typeElement": "P",
+        "headingTxt": "KvK-nummer: 09156723 | btw-nummer: NL815184232B01"
+    },
+    {
+        "headingId": 62,
+        "typeElement": "P",
+        "headingTxt": "Disclaimer | Privacybeleid | Cookieverklaring | Toegankelijkheid"
+    },
+    {
+        "headingId": 63,
+        "typeElement": "P",
+        "headingTxt": "Responsible Disclosure Statement | Sitemap"
+    }
+]

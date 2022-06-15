@@ -1,0 +1,224 @@
+[{
+        "paginatitel": "Claeren"
+    },
+    {
+        "canonurl": "https://www.claeren.nl/"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": null,
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "viewport",
+        "metaElementContent": "width=device-width, initial-scale=1",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "robots",
+        "metaElementContent": "max-image-preview:large",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "generator",
+        "metaElementContent": "WordPress 6.0",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "Claeren | ",
+        "metaElementProperty": "og:title"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "website",
+        "metaElementProperty": "og:type"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "nl",
+        "metaElementProperty": "og:locale"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.claeren.nl/",
+        "metaElementProperty": "og:url"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.claeren.nl/wp-content/themes/claeren/img/social_share_image_default.jpg",
+        "metaElementProperty": "og:image"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "Wij zijn er voor uw zekerheid, door uw verzekeringen goed te regelen. We maken uw risico’s inzichtelijk en dekken deze voor u af. U krijgt altijd helder advies over de mogelijkheden.\n",
+        "metaElementProperty": "og:description"
+    },
+    {
+        "metaElement": "twitter:card",
+        "metaElementContent": "summary_large_image",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "twitter:title",
+        "metaElementContent": "Claeren | ",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "twitter:description",
+        "metaElementContent": "Wij zijn er voor uw zekerheid, door uw verzekeringen goed te regelen. We maken uw risico’s inzichtelijk en dekken deze voor u af. U krijgt altijd helder advies over de mogelijkheden.\n",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "twitter:image:src",
+        "metaElementContent": "https://www.claeren.nl/wp-content/themes/claeren/img/social_share_image_default.jpg",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "description",
+        "metaElementContent": "Wij zijn er voor uw zekerheid, door uw verzekeringen goed te regelen. We maken uw risico’s inzichtelijk en dekken deze voor u af. U krijgt altijd helder advies over de mogelijkheden.\n",
+        "metaElementProperty": null
+    },
+    {
+        "ogi": "ogi",
+        "openGraphImageDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.claeren.nl/wp-content/themes/claeren/images/adfiz_logo.png",
+        "imgDetails": {
+            "width": 145,
+            "height": 57,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1829,
+            "url": "https://www.claeren.nl/wp-content/themes/claeren/images/adfiz_logo.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.claeren.nl/wp-content/themes/claeren/images/vnab_logo.png",
+        "imgDetails": {
+            "width": 300,
+            "height": 86,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 2472,
+            "url": "https://www.claeren.nl/wp-content/themes/claeren/images/vnab_logo.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.claeren.nl/wp-content/themes/claeren/images/logo_rmia.png",
+        "imgDetails": {
+            "width": 160,
+            "height": 80,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 1621,
+            "url": "https://www.claeren.nl/wp-content/themes/claeren/images/logo_rmia.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://www.claeren.nl/wp-content/themes/claeren/images/logo_rpa.png",
+        "imgDetails": {
+            "width": 233,
+            "height": 141,
+            "type": "png",
+            "mime": "image/png",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 3075,
+            "url": "https://www.claeren.nl/wp-content/themes/claeren/images/logo_rpa.png"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "baseUrl": "claeren.nl",
+        "base2": "https://claeren.nl/",
+        "hostname": "claeren.nl",
+        "hostnameElement": {
+            "domain": "claeren.nl",
+            "domainWithoutSuffix": "claeren",
+            "hostname": "claeren.nl",
+            "isIcann": true,
+            "isIp": false,
+            "isPrivate": false,
+            "publicSuffix": "nl",
+            "subdomain": ""
+        },
+        "originBase": "https://claeren.nl",
+        "realBase": "claeren.nl"
+    },
+    {
+        "headingId": 0,
+        "typeElement": "H1",
+        "headingTxt": "WE’VE GOT YOU COVERED"
+    },
+    {
+        "headingId": 1,
+        "typeElement": "H3",
+        "headingTxt": "Wij zijn Claeren"
+    },
+    {
+        "headingId": 2,
+        "typeElement": "P",
+        "headingTxt": "Wij zijn er voor uw zekerheid, door uw verzekeringen goed te regelen. We maken uw risico’s inzichtelijk en dekken deze voor u af. U krijgt altijd helder advies over de mogelijkheden."
+    },
+    {
+        "headingId": 3,
+        "typeElement": "P",
+        "headingTxt": "Niet alleen voor de standaard verzekeringen, maar juist ook voor de bijzondere zaken. Hoe verzekert u bijvoorbeeld een unieke verzameling? Of uw bedrijfspand? We laten zien wat de kosten en baten zijn van zo’n specifieke verzekering. Zo maakt u zelf de beste keuze voor uw situatie."
+    },
+    {
+        "headingId": 4,
+        "typeElement": "P",
+        "headingTxt": "Kom naar ons voor uw privézaken, maar ook voor zakelijke kwesties. U praat altijd direct met uw contactpersoon, want we houden van persoonlijk contact. Zo snappen we uw situatie direct en kunnen met één telefoontje al voor u aan het werk."
+    },
+    {
+        "headingId": 5,
+        "typeElement": "H3",
+        "headingTxt": "Ons team"
+    },
+    {
+        "headingId": 6,
+        "typeElement": "H3",
+        "headingTxt": "Nieuwsbrief"
+    }
+]

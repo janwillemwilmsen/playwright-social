@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .elementItem {@apply md:py-2 pl-2 break-all hover:bg-slate-300 bg-opacity-50 border-b border-gray-500 border-opacity-30 odd:bg-slate-200 even:bg-slate-100}
+
+}

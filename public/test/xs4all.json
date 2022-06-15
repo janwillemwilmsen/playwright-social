@@ -1,0 +1,394 @@
+[{
+        "paginatitel": "XS4ALL - First Class Internet"
+    },
+    {
+        "canonurl": "https://www.xs4all.nl/"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": null,
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "fb:app_id",
+        "metaElementContent": "49320816941",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "msapplication-TileColor",
+        "metaElementContent": "#2A2A20",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "msapplication-TileImage",
+        "metaElementContent": "https://www.xs4all.nl/apple-touch-icon-144x144.png",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://cdn.xs4all.nl/assets/v2.2/img/logo-xs4all.svg",
+        "metaElementProperty": "og:image"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "XS4ALL Klantenservice",
+        "metaElementProperty": "og:site_name"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "nl_NL",
+        "metaElementProperty": "og:locale"
+    },
+    {
+        "metaElement": "theme-color",
+        "metaElementContent": "#FFC300",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "viewport",
+        "metaElementContent": "width=device-width, initial-scale=1",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "description",
+        "metaElementContent": "XS4ALL First Class Internets, Televisie en Bellen. Voor veilig en betrouwbaar internet. Al jaren bekroond voor de allerbeste service.",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": "keywords",
+        "metaElementContent": "XS4ALL, Internet, Televisie, Bellen, service, veiligheid, privacy",
+        "metaElementProperty": null
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "XS4ALL First Class Internets, Televisie en Bellen. Voor veilig en betrouwbaar internet. Al jaren bekroond voor de allerbeste service.",
+        "metaElementProperty": "og:description"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "XS4ALL - First Class Internet",
+        "metaElementProperty": "og:title"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "website",
+        "metaElementProperty": "og:type"
+    },
+    {
+        "metaElement": null,
+        "metaElementContent": "https://www.xs4all.nl/",
+        "metaElementProperty": "og:url"
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/favicon.ico",
+        "linksize": null,
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/favicon.ico",
+        "linksize": null,
+        "linktype": "image/x-icon"
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/apple-touch-icon-57x57.png",
+        "linksize": "57x57",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/apple-touch-icon-114x114.png",
+        "linksize": "114x114",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/apple-touch-icon-72x72.png",
+        "linksize": "72x72",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/apple-touch-icon-144x144.png",
+        "linksize": "144x144",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/apple-touch-icon-60x60.png",
+        "linksize": "60x60",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/https://www.xs4all.nl/apple-touch-icon-120x120.png",
+        "linksize": "120x120",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/apple-touch-icon-76x76.png",
+        "linksize": "76x76",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/apple-touch-icon-152x152.png",
+        "linksize": "152x152",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/apple-touch-icon-180x180.png",
+        "linksize": "180x180",
+        "linktype": null
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/favicon-192x192.png",
+        "linksize": "192x192",
+        "linktype": "image/png"
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/favicon-160x160.png",
+        "linksize": "160x160",
+        "linktype": "image/png"
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/favicon-96x96.png",
+        "linksize": "96x96",
+        "linktype": "image/png"
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/favicon-16x16.png",
+        "linksize": "16x16",
+        "linktype": "image/png"
+    },
+    {
+        "type": "icon",
+        "linkhref": "https://www.xs4all.nl/favicon-32x32.png",
+        "linksize": "32x32",
+        "linktype": "image/png"
+    },
+    {
+        "ogi": "ogi",
+        "openGraphImageDetails": {
+            "width": 96,
+            "height": 34,
+            "type": "svg",
+            "mime": "image/svg+xml",
+            "wUnits": "px",
+            "hUnits": "px",
+            "length": 695,
+            "url": "https://cdn.xs4all.nl/assets/v2.2/img/logo-xs4all.svg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://cdn.xs4all.nl/cms/image/lbu4p417h088/uIBIJ8VlC5dDtCP4dvpdo/13596653a908808a7c3cb62adf299b4e/header_p53_side-right_karima_w2000.jpg/da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg",
+        "imgDetails": {
+            "width": 2000,
+            "height": 1000,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "url": "https://cdn.xs4all.nl/cms/image/lbu4p417h088/uIBIJ8VlC5dDtCP4dvpdo/13596653a908808a7c3cb62adf299b4e/header_p53_side-right_karima_w2000.jpg/da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://cdn.xs4all.nl/cms/image/lbu4p417h088/7kLY9v3crzhBO6XO8xfNvj/31812832235ff1dbcef6b108ce56e0ca/header-willemijn.jpg/da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg",
+        "imgDetails": {
+            "width": 2000,
+            "height": 1000,
+            "type": "jpg",
+            "mime": "image/jpeg",
+            "wUnits": "px",
+            "hUnits": "px",
+            "url": "https://cdn.xs4all.nl/cms/image/lbu4p417h088/7kLY9v3crzhBO6XO8xfNvj/31812832235ff1dbcef6b108ce56e0ca/header-willemijn.jpg/da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg"
+        }
+    },
+    {
+        "type": "image",
+        "imgsrc": "https://via.placeholder.com/1",
+        "imgDetails": 0
+    },
+    {
+        "type": "image",
+        "imgsrc": "",
+        "imgDetails": 0
+    },
+    {
+        "baseUrl": "xs4all.nl",
+        "base2": "https://xs4all.nl/",
+        "hostname": "xs4all.nl",
+        "hostnameElement": {
+            "domain": "xs4all.nl",
+            "domainWithoutSuffix": "xs4all",
+            "hostname": "xs4all.nl",
+            "isIcann": true,
+            "isIp": false,
+            "isPrivate": false,
+            "publicSuffix": "nl",
+            "subdomain": ""
+        },
+        "originBase": "https://xs4all.nl",
+        "realBase": "xs4all.nl"
+    },
+    {
+        "headingId": 0,
+        "typeElement": "H1",
+        "headingTxt": "XS4ALL en KPN"
+    },
+    {
+        "headingId": 1,
+        "typeElement": "H2",
+        "headingTxt": "Al meer dan 25 jaar de beste service"
+    },
+    {
+        "headingId": 2,
+        "typeElement": "H2",
+        "headingTxt": "Nieuwe abonnementen verkrijgbaar via KPN"
+    },
+    {
+        "headingId": 3,
+        "typeElement": "P",
+        "headingTxt": "Vanaf nu bieden we onze diensten aan via KPN. Bent u klant van XS4ALL? Dan kunt u gebruik blijven maken van onze diensten. Precies zoals u gewend bent."
+    },
+    {
+        "headingId": 4,
+        "typeElement": "H2",
+        "headingTxt": "Al klant van XS4ALL? Wij helpen u graag."
+    },
+    {
+        "headingId": 5,
+        "typeElement": "H5",
+        "headingTxt": "Waarmee kunnen wij u helpen?"
+    },
+    {
+        "headingId": 6,
+        "typeElement": "P",
+        "headingTxt": "E-mail instellen op uw nieuwe telefoon of een probleem met WiFi oplossen? We helpen u verder en zorgen voor een duurzame oplossing."
+    },
+    {
+        "headingId": 7,
+        "typeElement": "H6",
+        "headingTxt": "XS4ALL en KPN"
+    },
+    {
+        "headingId": 8,
+        "typeElement": "P",
+        "headingTxt": "Op de hoogte blijven van alle ontwikkelingen? Bekijk hier het laatste nieuws"
+    },
+    {
+        "headingId": 9,
+        "typeElement": "H3",
+        "headingTxt": "Uw pakket bij KPN"
+    },
+    {
+        "headingId": 10,
+        "typeElement": "P",
+        "headingTxt": "Internet, Mobiel, TV en Entertainment. Precies zoals u wilt. Zo is er een KPN-pakket voor iedereen. En voegt u iets toe? Dan krijgt u meer voordeel."
+    },
+    {
+        "headingId": 11,
+        "typeElement": "P",
+        "headingTxt": "De keuze is aan u. Bepaal zelf wat u nodig heeft"
+    },
+    {
+        "headingId": 12,
+        "typeElement": "P",
+        "headingTxt": "Zelf aanpassen. Eenvoudig met de MijnKPN-app"
+    },
+    {
+        "headingId": 13,
+        "typeElement": "P",
+        "headingTxt": "Alles op één plek. Makkelijk en overzichtelijk"
+    },
+    {
+        "headingId": 14,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 15,
+        "typeElement": "H3",
+        "headingTxt": "Actueel"
+    },
+    {
+        "headingId": 16,
+        "typeElement": "P",
+        "headingTxt": "Meer weten over XS4ALL? Blijf altijd op de hoogte. Volg hier alle updates en ontwikkelingen."
+    },
+    {
+        "headingId": 17,
+        "typeElement": "H3",
+        "headingTxt": "Laatste blogs"
+    },
+    {
+        "headingId": 18,
+        "typeElement": "H3",
+        "headingTxt": "Vragen mag altijd"
+    },
+    {
+        "headingId": 19,
+        "typeElement": "H4",
+        "headingTxt": "Klantenservice"
+    },
+    {
+        "headingId": 20,
+        "typeElement": "P",
+        "headingTxt": "Heeft u vragen? Neem dan contact met op via telefoonnummer 020 398 76 66. We zijn iedere werkdag bereikbaar tussen 08.00 - 20.00 uur en op zaterdag tussen 10.00 - 17.00 uur."
+    },
+    {
+        "headingId": 21,
+        "typeElement": "H4",
+        "headingTxt": "Zakelijk"
+    },
+    {
+        "headingId": 22,
+        "typeElement": "P",
+        "headingTxt": "Een ondernemersvraag? Bel dan naar 020 398 76 56. Dagelijks bereikbaar tussen 08.00 - 22.00 uur."
+    },
+    {
+        "headingId": 23,
+        "typeElement": "H6",
+        "headingTxt": "Vragen?"
+    },
+    {
+        "headingId": 24,
+        "typeElement": "H6",
+        "headingTxt": "Storing en onderhoud"
+    },
+    {
+        "headingId": 25,
+        "typeElement": "H1",
+        "headingTxt": "Cookies op XS4ALL"
+    },
+    {
+        "headingId": 26,
+        "typeElement": "P",
+        "headingTxt": "Op deze site wordt gebruik gemaakt van cookies voor webstatistieken en advertentiecampagnes. Sommige informatie kan gedeeld worden met advertentienetwerken. Als u uw e-mailadres achterlaat in onze webshop, kunnen we u een e-mail sturen indien u uw bestelling niet heeft afgemaakt. Onder het kopje Meer informatie leest u welke cookies geplaatst worden en waarom. Gaat u akkoord met onze cookies?"
+    },
+    {
+        "headingId": 27,
+        "typeElement": "P",
+        "headingTxt": ""
+    },
+    {
+        "headingId": 28,
+        "typeElement": "P",
+        "headingTxt": ""
+    }
+]
